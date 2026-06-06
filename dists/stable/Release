@@ -1,0 +1,14 @@
+Origin: cl-andro
+Label: cl-andro
+Suite: stable
+Codename: stable
+Architectures: aarch64
+Components: main
+Description: Sovereign Custom Package Repository for cl-andro
+Date: Sat, 06 Jun 2026 18:47:06 +0000
+MD5Sum:
+ a851a03524b1fcfb7ff2b2fcdaaba55b 70031 main/binary-aarch64/Packages
+ 0b956dd3855e6701289f6941ebae010b 23422 main/binary-aarch64/Packages.gz
+SHA256:
+ be72b7ceb869e876d1e5e655b7f7fb3e1c2bceae64fa79e97093858648ae3abc 70031 main/binary-aarch64/Packages
+ 5f318fc3b9144c27ee33d102d8d53fcf25cb6eda7bb01edc70ab627a0e99624f 23422 main/binary-aarch64/Packages.gz

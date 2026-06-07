@@ -536,6 +536,20 @@ SHA256: 8a8b93b870d1ae0dd4c7eff6bb8d8bbeb0246c95ec484d6e81273be9536c2eb3
 Homepage: https://git-scm.com/
 Description: Convert between Git and Subversion repositories
 
+Package: gpgv
+Version: 2.5.17
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 508
+Depends: libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib
+Filename: ./gpgv_2.5.17_aarch64.deb
+Size: 188228
+MD5sum: 15e53e5b3109994a959b3a2ff4097677
+SHA1: 08963974aaf53ae042ff26cebec081f3bf4d8d1b
+SHA256: e150f665db26bc8a791ac217b1d62daf71b43558756a44a676836f58e15b75cc
+Homepage: https://www.gnupg.org/
+Description: GNU privacy guard - signature verification tool
+
 Package: grep
 Version: 3.12-3
 Architecture: aarch64
@@ -735,6 +749,22 @@ SHA256: 92975fe632cf034defc3fbe0c6d45c7c5f2251f368a6c036df436f8c6ff5a2a8
 Homepage: https://github.com/termux/libandroid-support
 Description: Static libraries for libandroid-support
 
+Package: libassuan
+Version: 3.0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: libgpg-error
+Breaks: gnupg (<< 2.4.5-3), gpgv (<< 2.4.5-3), gpgme (<< 1.23.2-3), pinentry (<< 1.3.1-1), pinentry-gtk (<< 1.3.1), profanity (<< 0.14.0-3)
+Replaces: libassuan-dev
+Filename: ./libassuan_3.0.2-1_aarch64.deb
+Size: 73896
+MD5sum: 39240d23d0a3b9efdf106ef8ba7185d5
+SHA1: 6c57f89e47bee2a5c34478a77fc2070eabc266c9
+SHA256: 4886a69d2a30a26429ab4c2f7262a5c8fb30449dcda80358e9213c6715398fc3
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
+
 Package: libblkid
 Version: 2.41.3
 Architecture: aarch64
@@ -886,6 +916,21 @@ SHA256: 9bb73a9b132bba02b08a9aafcaba8f44ca0b08c2527289187db118139dd63a80
 Homepage: https://www.oracle.com/database/berkeley-db
 Description: Static libraries for libdb
 
+Package: libevent
+Version: 2.1.12-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1168
+Breaks: libevent-dev
+Replaces: libevent-dev
+Filename: ./libevent_2.1.12-3_aarch64.deb
+Size: 202536
+MD5sum: f8601d6ebf2b399d88e5628459c857ff
+SHA1: b716d88c6f9ea6fca8cc3f0ac543a8bd303d45bd
+SHA256: 9db37dd4a000ae43eff4e87422e5280be9b6348581702f582d2fe8bddc0f4572
+Homepage: https://libevent.org/
+Description: Library that provides asynchronous event notification
+
 Package: libexpat
 Version: 2.8.0
 Architecture: aarch64
@@ -1018,6 +1063,22 @@ SHA256: 4a257a4683aef3abaefc66107a418e01d8cef58a3fef2aa501196b56a51567b7
 Homepage: https://gmplib.org/
 Description: Static libraries for libgmp
 
+Package: libgnutls
+Version: 3.8.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2576
+Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libunbound, libunistring, zlib
+Breaks: libgnutls-dev
+Replaces: libgnutls-dev
+Filename: ./libgnutls_3.8.13_aarch64.deb
+Size: 754432
+MD5sum: 7e529f3c7e5f8a4558938afb8ce92e11
+SHA1: a2dc960aa9f22c3f2d75a510547735a309715e12
+SHA256: 59cf7f94ba343e6a312ce36ee198c908a2da772fe3a230ae6a7aeb643fb7edc2
+Homepage: https://www.gnutls.org/
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+
 Package: libgpg-error
 Version: 1.58
 Architecture: aarch64
@@ -1105,6 +1166,22 @@ SHA1: 91373d550ba529305555ff95d3c71bc5b6d5f862
 SHA256: 8a85df8f14565078d5ee7d4eb088b307fe3a70c81eda1257d6056bf8d105cdbf
 Homepage: http://site.icu-project.org/home
 Description: Static libraries for libicu
+
+Package: libidn2
+Version: 2.3.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 428
+Depends: libandroid-support, libiconv, libunistring
+Breaks: libidn2-dev
+Replaces: libidn2-dev
+Filename: ./libidn2_2.3.8-1_aarch64.deb
+Size: 105308
+MD5sum: cd17d85a34df0844b71707b0d16f8f5e
+SHA1: 52594c05009ce378794b6e17370b177dc303a4e3
+SHA256: a450a1ba25759ebf78738484a3efee316c51a1fe7bafb0b01a68e2c058a91020
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Free software implementation of IDNA2008, Punycode and TR46
 
 Package: liblz4
 Version: 1.10.0-1
@@ -1222,6 +1299,22 @@ SHA256: b7c16d4d0a9f5d9af6b9f1f58d9b4e504a7c7f3d5855b701869b6bfb820afb70
 Homepage: https://www.mpfr.org/
 Description: Static libraries for libmpfr
 
+Package: libnettle
+Version: 4.0+really3.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1416
+Depends: libgmp
+Breaks: libnettle-dev
+Replaces: libnettle-dev
+Filename: ./libnettle_4.0+really3.10.2_aarch64.deb
+Size: 405656
+MD5sum: 72aaa7710df2f79d03b7e4187921c49c
+SHA1: 074fa2bd91349404487ad525f35057437dc88a3a
+SHA256: f2d2a84083e66beab642e88496eb16976ccdb12d1278466e687f01431db8a5fb
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Cryptographic library that is designed to fit easily in more or less any context
+
 Package: libnghttp2
 Version: 1.69.0
 Architecture: aarch64
@@ -1306,6 +1399,21 @@ SHA1: 32da1e1565bdd236a7c9146f7d169931c18be95c
 SHA256: ff6082e6a9f9a70928aea89e394f75c6cdce5682f2f406b845669027c69557e1
 Homepage: https://github.com/ngtcp2/ngtcp2
 Description: Static libraries for libngtcp2
+
+Package: libnpth
+Version: 1.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Breaks: libnpth-dev
+Replaces: libnpth-dev
+Filename: ./libnpth_1.6-3_aarch64.deb
+Size: 11208
+MD5sum: b53a81ec29ee09646a41bc1ff9e29da8
+SHA1: 9b12ac55854c81062d5612ae6b65fdd7d67c0b5f
+SHA256: e134b04b5baaf3edd81bc39483bdb9b93c8e687cb05de5bfce42c4fb70907519
+Homepage: https://www.gnupg.org/related_software/npth/
+Description: New GNU Portable Threads Library
 
 Package: libsmartcols
 Version: 2.41.3
@@ -1426,6 +1534,51 @@ SHA1: b69511ee785dbe8b024fb22e07087d157c86dd71
 SHA256: c7ca676dfc6e57ae1bbd64a5e1fb6e06d719805b5bfb3cfe72e01a5db4673aaf
 Homepage: https://talloc.samba.org/talloc/doc/html/index.html
 Description: Static libraries for libtalloc
+
+Package: libtasn1
+Version: 4.21.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 472
+Filename: ./libtasn1_4.21.0_aarch64.deb
+Size: 101344
+MD5sum: ddbdbf11078a9791a5c63fe682be0873
+SHA1: b38a8e2e6690b4ea528ea25ca4e5140ff4ef00e2
+SHA256: 1d02de3a7e5ef4ff7d893597091176b8ddf135f1ddfacff951f76c18711a7342
+Homepage: https://www.gnu.org/software/libtasn1/
+Description: This is GNU Libtasn1, a small ASN.1 library
+
+Package: libunbound
+Version: 1.25.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1256
+Depends: libevent, libnghttp2, libngtcp2, openssl, resolv-conf
+Breaks: unbound (<< 1.17.1-1)
+Replaces: unbound (<< 1.17.1-1)
+Filename: ./libunbound_1.25.1_aarch64.deb
+Size: 384804
+MD5sum: 1894908b9e107557fbbb60c27d23fa93
+SHA1: fed5225688eedd99865209e4ced71c88abb38f9b
+SHA256: a45c9f79f225a79b7c8dbbb6b385c87dc0e4946b1ea09fbe6186cf075618c0ee
+Homepage: https://unbound.net/
+Description: A validating, recursive, caching DNS resolver
+
+Package: libunistring
+Version: 1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3212
+Depends: libandroid-support, libiconv
+Breaks: libunistring-dev
+Replaces: libunistring-dev
+Filename: ./libunistring_1.3-1_aarch64.deb
+Size: 551476
+MD5sum: e2c0a0e269727993e0065adb0c8a5a8c
+SHA1: 22a9ca7c19068681982158fe3f60b61400a3fa4c
+SHA256: da6cb56c661792bfe42daa3b11849abeaf078ef2934029cb78321f3f303c8c96
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Library providing functions for manipulating Unicode strings
 
 Package: libuuid
 Version: 2.41.3
@@ -1664,6 +1817,20 @@ SHA256: 9812eac0845e85ffea7be0b7bea8afe9009a9bde29904be71e71fcf100be21e4
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
+Package: nettle
+Version: 4.0+really3.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Depends: libnettle (= 4.0+really3.10.2)
+Filename: ./nettle_4.0+really3.10.2_aarch64.deb
+Size: 18180
+MD5sum: 2bb74b456aaa1b73798ca9f4ff7ce3bb
+SHA1: d1bfbd6de0ee2666d7bd9fc3fcd5e4c156c068bb
+SHA256: 5b824c5ab00d8c2744abb3aa9488b5f7f1ee0c9966eef84328f69db31f04c76c
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Low level cryptographic tools
+
 Package: nodejs
 Version: 25.8.2
 Architecture: aarch64
@@ -1739,6 +1906,20 @@ SHA256: 287ef545c99f2d76fe6bd682c97845e7251e30c49116bf81b100cdf9b62a31cf
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
+Package: p11-kit
+Version: 0.26.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3780
+Depends: libffi, libtasn1
+Filename: ./p11-kit_0.26.2_aarch64.deb
+Size: 490192
+MD5sum: 2f28fefa4479e907943f1e67004cda05
+SHA1: 9ac3a08d0afdd8a9f53c29c4103ee7696f4153af
+SHA256: 7cc86465d0a635b47c11dcecb6b2648d8349a865544e37889a8670016eee8115
+Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
+Description: Provides a way to load and enumerate PKCS#11 modules
+
 Package: pcre2
 Version: 10.47
 Architecture: aarch64
@@ -1782,6 +1963,23 @@ SHA256: 17cc53d0f93d99e55aa075718aa705ba2bc1c38438cb38c950f40afd2e490000
 Homepage: https://pcre2project.github.io/pcre2/
 Description: A grep with Perl-compatible regular expressions
 
+Package: procps
+Version: 3.3.17-6
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 684
+Depends: ncurses
+Breaks: procps-dev
+Replaces: procps-dev
+Filename: ./procps_3.3.17-6_aarch64.deb
+Size: 142848
+MD5sum: 940f24410ce546e192e25fffcf2239b9
+SHA1: 6e0e508c8fc3220094ffe83948940419ac906496
+SHA256: a55809b0bf5de6c3462fdff18325ebcf27bce79e6cb49cd5b7ba52a8ff45af11
+Homepage: https://gitlab.com/procps-ng/procps
+Description: Utilities that give information about processes using the /proc filesystem
+
 Package: proot
 Version: 5.1.107-70
 Architecture: aarch64
@@ -1811,6 +2009,21 @@ SHA1: 4bdabc2f127d803183a52a6a379a1ce230423a45
 SHA256: 72c57605fafe14183a199b49e0d8f8a34eed76fe6f2657c677c57bb46e847689
 Homepage: https://github.com/termux/proot-distro
 Description: Termux official utility for managing proot'ed Linux distributions
+
+Package: psmisc
+Version: 23.7-1
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 184
+Depends: ncurses
+Filename: ./psmisc_23.7-1_aarch64.deb
+Size: 41188
+MD5sum: 37d9f39889f1044449b04ce2350b4096
+SHA1: 2a969319d3b0d36212e6d4d292a435cbeea200ed
+SHA256: 99d0db5ba934e7fa38e33bebbda82c78be59b90e4ba85a74a6dabc3d5b5939b0
+Homepage: https://gitlab.com/psmisc/psmisc
+Description: Some small useful utilities that use the proc filesystem
 
 Package: python
 Version: 3.13.13-1
@@ -1903,6 +2116,19 @@ SHA1: dc202b5e9697d94fbdf2e621c18ffa4473197eb5
 SHA256: 647fe809230b149af55c6ee75c6d9f1b83fe726ff4a8d05527cfbf6bae8e6a9e
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Static libraries for readline
+
+Package: resolv-conf
+Version: 1.3
+Architecture: aarch64
+Maintainer: Termux members @termux
+Installed-Size: 48
+Filename: ./resolv-conf_1.3_aarch64.deb
+Size: 976
+MD5sum: d1da7e32dc66d28573aaef660f8b51ab
+SHA1: 4b82700e004d184c38a6bac5b0cbc26a9e161942
+SHA256: ab541abac8e0c81709cd7ca4a02bcfa0d60ba1f4bfe7fd6dce4a694a4a9dfffa
+Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
+Description: Resolver configuration file
 
 Package: sed
 Version: 4.9-2
@@ -2060,6 +2286,20 @@ SHA1: e8953321f91e797588b1d50cd38a4d7c9d464299
 SHA256: 702351738a97287960a69caea079e3aad8030f76ade6ceece35dd2a50011c737
 Homepage: https://github.com/termux
 Description: GPG public keys for the official Termux repositories
+
+Package: termux-licenses
+Version: 2.1
+Architecture: all
+Essential: yes
+Maintainer: @termux
+Installed-Size: 612
+Filename: ./termux-licenses_2.1_all.deb
+Size: 52564
+MD5sum: 9a4cb8db1358aa1ba51bf6b04303c8a0
+SHA1: 611301576520df5eb0341b52583e06743d1cf9a8
+SHA256: ee66487982438cce341cd232c5a9ea5f379cff66e8d2cea296ccef50b05d755b
+Homepage: https://termux.dev
+Description: Contains LICENSE files for common licenses
 
 Package: termux-tools
 Version: 1.46.0+really1.45.0-1

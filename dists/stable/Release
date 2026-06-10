@@ -5,10 +5,10 @@ Codename: stable
 Architectures: aarch64
 Components: main
 Description: Sovereign Custom Package Repository for cl-andro
-Date: Wed, 10 Jun 2026 08:23:25 +0000
+Date: Wed, 10 Jun 2026 10:21:49 +0000
 MD5Sum:
- af2c0dde8ca509e95b1960ee7d51dba5 102984 main/binary-aarch64/Packages
- e9009c05461138ac504f2be921eeb1f6 34199 main/binary-aarch64/Packages.gz
+ 8c49e75907f1e0c2599c22e1d0d5134a 108137 main/binary-aarch64/Packages
+ cbb6f4049f1b0336c94fc492d90520f6 35684 main/binary-aarch64/Packages.gz
 SHA256:
- 37ae5d73f4805f0a18520deb54c05e98ed1c8358a99ca74d75300b5ac0304ee7 102984 main/binary-aarch64/Packages
- b9518f90bab34f8d2290eff1a199a4ff7e8e076de79d585069ae541e47fcb1b0 34199 main/binary-aarch64/Packages.gz
+ 3bc23a1a466c3994fc6528d23d3014672d7091322620509a8f68058618e6d139 108137 main/binary-aarch64/Packages
+ 192f40c23c4355265e92165c402b1930391333dc18484c4710846b3ce061421e 35684 main/binary-aarch64/Packages.gz

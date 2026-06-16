@@ -1,3 +1,32 @@
+Package: abseil-cpp
+Version: 20250814.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8776
+Depends: libc++
+Conflicts: libgrpc (<< 1.52.0-1)
+Filename: ./abseil-cpp_20250814.1_aarch64.deb
+Size: 1116920
+MD5sum: 34e72c9427d3c379021c3e099fc11f42
+SHA1: 56aca2923f097f43f063df9225b7ee502b97a04b
+SHA256: f54f12ba912b35b4ec35f55c643675ff0e501280359c4840ac1210ce9122ac3c
+Homepage: https://abseil.io/
+Description: Abseil C++ Common Libraries
+
+Package: android-tools
+Version: 35.0.2-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12424
+Depends: abseil-cpp, brotli, fmt, libc++, liblz4, libprotobuf, pcre2, zlib, zstd
+Filename: ./android-tools_35.0.2-7_aarch64.deb
+Size: 1978404
+MD5sum: 31c5bca3263ebcaeb8393a7cff1c4dea
+SHA1: a2a58f0a1a63272b3bb3d09a6ec89ecf5202e0c3
+SHA256: e93c0d1fbaeb25e7f0908043a03c42e84e387b003c7640e7ed3fc0f0b77c7c52
+Homepage: https://developer.android.com/
+Description: Android platform tools
+
 Package: apr
 Version: 1.7.6-2
 Architecture: aarch64
@@ -176,10 +205,10 @@ Installed-Size: 1052
 Breaks: brotli-dev
 Replaces: brotli-dev
 Filename: ./brotli_1.2.0_aarch64.deb
-Size: 340552
-MD5sum: 851c6af566b9394b6393e66f3210f4cc
-SHA1: 369bc0d3f34b160d2f467fb4e2a923886dbe84c4
-SHA256: 5c351576fbb926fae6ef70342793016be1a9cc73cc2ba8ca0258077aa8e461b3
+Size: 341444
+MD5sum: 0f35e2dc6688d6164788e39864b50470
+SHA1: 709a8ad21f9723cdef9131cdaf6ce67c73942af4
+SHA256: c17d2106f54e6e45bccd8753d60d2437485374149c143610f000cebb58706325
 Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (command line utility)
 
@@ -520,6 +549,20 @@ SHA256: 4f02310dfbf482c0dced128053fa9b68513ac2b8aed5468c829c8a8600f3a30b
 Homepage: https://www.gnu.org/software/findutils/
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
 
+Package: fmt
+Version: 1:11.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 824
+Depends: libc++
+Filename: ./fmt_1_11.2.0_aarch64.deb
+Size: 168424
+MD5sum: dfac426780fc31c1902dfb0cb97b2b66
+SHA1: a2784b9663acdc777ca5ec5e2beaa07a65dbb620
+SHA256: d1e6687f7a94cb7d3b15052512e38ddc7b64c1610ecc10872f7f99e52a7b2ad1
+Homepage: https://fmt.dev/latest/index.html
+Description: Open-source formatting library for C++
+
 Package: fontconfig
 Version: 2.17.1-1
 Architecture: aarch64
@@ -743,6 +786,22 @@ SHA1: d26eef734e0c389072677a148b4d8e7c85f05577
 SHA256: e581c60b2bef48d445163f6345649dc63848c277176c27c6749fce5d1dc9fc2a
 Homepage: https://www.gnutls.org/
 Description: Commandline utilities for interfacing with the gnutls library
+
+Package: googletest
+Version: 1.17.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1932
+Depends: libc++
+Conflicts: libgtest
+Replaces: libgtest
+Filename: ./googletest_1.17.0-1_aarch64.deb
+Size: 354448
+MD5sum: 8ed6e5eccbeebc86c29c9b69f2d6d14d
+SHA1: 3cd089a1138e3ecfd96790fb0a34a113e8033276
+SHA256: a8e9301abbc6f8c558e8831479a09b8e49fc5a4812081d5ab122cb2d4e3127aa
+Homepage: https://github.com/google/googletest
+Description: Google C++ testing framework
 
 Package: gpgv
 Version: 2.5.17
@@ -1175,10 +1234,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334736
-MD5sum: d446f0bf42ef00b91ff24ddf00cfba71
-SHA1: 75c9a86a3c2b2acbe234bcdb42bcecff94969a4a
-SHA256: e490ac1842366ceddd7d3effd4086585cf0d80e1b9e4e74e05ec53a49f9abb26
+Size: 334620
+MD5sum: 87579379ae77a94fdffcf22dc4f67acc
+SHA1: f0309efa4bd6f06930a76b967d8050b161c3d02b
+SHA256: 93c722a8595fc371ba2f90b44218a5d27434e8610c157bf9844fed2c0fdfac5d
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -1666,10 +1725,10 @@ Installed-Size: 340
 Breaks: liblz4-dev
 Replaces: liblz4-dev
 Filename: ./liblz4_1.10.0-1_aarch64.deb
-Size: 86356
-MD5sum: 26d09b7b436b74253d754ba1420d2126
-SHA1: aa95267db0da650a11e010c9906e0cbc3a4118c9
-SHA256: cc3d9534512fe542a4b7499cf6a6e42d8cfd5733020b1c193da9b25832f5bef6
+Size: 86348
+MD5sum: ca737c7b95cac03290325923599f145e
+SHA1: 49d5a637fd3ca870973fe11fcc3103558aace06c
+SHA256: b93ac932db3ece84b2bc240fc4bbacbbc17ea4959276a3d1e1378b203877f581
 Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm library
 
@@ -1682,10 +1741,10 @@ Installed-Size: 864
 Breaks: liblzma-dev
 Replaces: liblzma-dev
 Filename: ./liblzma_5.8.3_aarch64.deb
-Size: 193068
-MD5sum: b0b3a3a13644c8414eeeb06ee1cd8391
-SHA1: 1f837a21ca7f38611e27cf39a3828d4a0d11e9b4
-SHA256: 8619b883f2154081c253119ca586acee981d89970daf647a502df689ebf56df1
+Size: 193188
+MD5sum: 98796f8c8763f426698c5f7384140dce
+SHA1: 77fa9b53e455a0f1d3bfde7ca034cd893176b657
+SHA256: 7c79f288eedb4117dd5e644c75e7db614e42ed4533bc4a1c26e97c8a19d3e06e
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression library
 
@@ -1696,10 +1755,10 @@ Maintainer: @termux
 Installed-Size: 360
 Depends: liblzma (= 5.8.3)
 Filename: ./liblzma-static_5.8.3_aarch64.deb
-Size: 89604
-MD5sum: 6131a8bbb029f62614b05de1b159c771
-SHA1: 5a5efbc7de5f3382eeecf17e1dd71867ef19c1f4
-SHA256: 54ec50baac039b54dc015be512e51c86717a83459ca6059fce1d5463c231ad38
+Size: 89564
+MD5sum: 0bde4d3941ead0dde4a7e400b6a1e719
+SHA1: 52c2c7f34161b1ee015e7d69f8a0748e07a1235d
+SHA256: c7053da8959f52ef9c27c02d0aa3d12cee5c069d23dfe75cbabbd022326e90d0
 Homepage: https://tukaani.org/xz/
 Description: Static libraries for liblzma
 
@@ -1977,6 +2036,23 @@ SHA1: 664d71e7776c804c364e18cb58889eb61d41df1c
 SHA256: 84533ef011688fdb815dd5cef015d89dc29599a4da6ea8ecf7a5aa684d55757a
 Homepage: https://www.linuxfromscratch.org/blfs/view/svn/general/popt.html
 Description: Static libraries for libpopt
+
+Package: libprotobuf
+Version: 2:33.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8848
+Depends: abseil-cpp, libc++, zlib
+Conflicts: protobuf-static
+Breaks: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
+Replaces: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
+Filename: ./libprotobuf_2_33.1-1_aarch64.deb
+Size: 1339008
+MD5sum: ff8114c1d2f0592c87df9dae487dcd65
+SHA1: 9de76bc9572615a6309bc643ac44e30e67b9efd5
+SHA256: 35b9350a9cc3cb8e04d9031f4e8f839131872db1cb9bdeb8f39eadec29b31581
+Homepage: https://github.com/protocolbuffers/protobuf
+Description: Protocol buffers C++ library
 
 Package: libresolv-wrapper
 Version: 1.1.7-6
@@ -2626,10 +2702,10 @@ Maintainer: @termux
 Installed-Size: 284
 Depends: liblz4 (= 1.10.0-1)
 Filename: ./lz4_1.10.0-1_aarch64.deb
-Size: 92448
-MD5sum: 41bde9b619bb76304b73839257faa128
-SHA1: 4056d328e4e206c085b480d19ef21979df175821
-SHA256: 4b9ae64593626343b7febf0e0f9729721dc19bcd56a1651e30a6050ccbf8578d
+Size: 92452
+MD5sum: 74119dafc5afd4ad5b621645b522abac
+SHA1: 9c31bcb33b93a4e96269a53a0249ffc187c7e03a
+SHA256: 704e8ee5e9c9fbdee20071f955478c070bd5c008f5ba4715f37da8a2a9530a05
 Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm tool
 
@@ -2755,14 +2831,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 31264
+Installed-Size: 31268
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952192
-MD5sum: e2419357212bd57686d45690b27332e6
-SHA1: 869bff601b05e9fdeea44db81122d5089d482238
-SHA256: e0a5e5681713a8fe9868c58429b7ca29e1e25b37fc5838b916bd189e32c3d131
+Size: 1952016
+MD5sum: dd74ed88453aded423f1aff277c7186e
+SHA1: 460130f68cb18d51a8b8563112626afc470076f7
+SHA256: 77ed3ca0ae8c10d58846f261f50fe3e370887164cc893ca45ffb01e2c42f9959
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -2936,10 +3012,10 @@ Installed-Size: 4348
 Breaks: pcre2-dev
 Replaces: pcre2-dev
 Filename: ./pcre2_10.47_aarch64.deb
-Size: 960516
-MD5sum: 6be6cf60c1f489df1a1d3d5d958b4ee1
-SHA1: 71f44617e4d1d7252cf341a162961d98b2e099ea
-SHA256: ccc4c53ae6533075e8e4809a89434eb2e9cbab2bca4ffb8b0b96e0389f2a22b1
+Size: 960376
+MD5sum: 8c7d6c25bf6f959d68e39f03713f2dab
+SHA1: 8f063522237b8c5ef7274237e3ed1c1b457cf68c
+SHA256: 9dc95ff3bb41b22ee776aa28eef3f3df821aced1ae4b36c92549c598799b7f9d
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Perl 5 compatible regular expression library
 
@@ -2950,10 +3026,10 @@ Maintainer: @termux
 Installed-Size: 1836
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2-static_10.47_aarch64.deb
-Size: 376204
-MD5sum: 272f2b99e67ba3941eaf87c11449bd11
-SHA1: 99ddf15f2b1c1fb233b789e29be118637ca77527
-SHA256: 5298ebed498ef5e6fadac1b593e466ee3d7ebafa01b9327d614ffafb45679a1e
+Size: 376112
+MD5sum: 9f435db668d2eeafe84973c269285243
+SHA1: 81fd160ab956183da89b6ad9af52934bea1df248
+SHA256: e63f09daf0c2361b9fd356a5ddfd9d294777a0a618ec17336e59800ad4fc19c1
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Static libraries for pcre2
 
@@ -2965,9 +3041,9 @@ Installed-Size: 104
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2grep_10.47_aarch64.deb
 Size: 34108
-MD5sum: 1d36e5b1cb3398616286363e9099a3bb
-SHA1: cf7ff1668394eff2e44143c7aeadb3bb6d83db03
-SHA256: b17a41756040d7e8ecd557fd85e51989cace8640ff7b82ce8935b070ba0dc190
+MD5sum: f8bdecaaf8f52e6ba8a8a5120304a609
+SHA1: 8b32611027b65bc5570355660652a4536e265f73
+SHA256: 92815e776abcf4b6cb8159833e203c4e99514a2ee185d5695e09601b4ea49101
 Homepage: https://pcre2project.github.io/pcre2/
 Description: A grep with Perl-compatible regular expressions
 
@@ -3059,6 +3135,20 @@ SHA1: 7784249b2b8bd91b694ab812bb83b951ea273858
 SHA256: b9da6daf67f6c92dc5a22dbeefe32cfed12d3aaeca7918859f313ba11249cdd3
 Homepage: https://github.com/termux/proot-distro
 Description: Termux official utility for managing proot'ed Linux distributions
+
+Package: protobuf
+Version: 2:33.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5748
+Depends: libprotobuf (= 2:33.1-1)
+Filename: ./protobuf_2_33.1-1_aarch64.deb
+Size: 1155144
+MD5sum: 94adaa838e6cea93df4d6da572fd262c
+SHA1: 3cc29e32195e8712060ccf1d51925fff016ac223
+SHA256: 6fdb97991134832a3331a5eae49dd6f4507e4573839be1d7396a03bc1de8183e
+Homepage: https://github.com/protocolbuffers/protobuf
+Description: Compiler for protocol buffer definition files
 
 Package: psmisc
 Version: 23.7-1
@@ -3179,10 +3269,10 @@ Maintainer: @termux
 Installed-Size: 152
 Depends: libc++, zstd (= 1.5.7-1)
 Filename: ./pzstd_1.5.7-1_aarch64.deb
-Size: 42040
-MD5sum: 0ddf586cf18e00cd9344f329a158764b
-SHA1: a47b57a2f413c4339a51503e5d4ad4387cb351a7
-SHA256: 26fe77316fbd05c2ba79ee5488bb0e3e32ae1b2caa9786387c742c99e74420fb
+Size: 41804
+MD5sum: 852ae015610a2b9abb2934e962b9dd36
+SHA1: 7e4718b90682479db837efadc25d237e0984b4ec
+SHA256: 022e32497dfd2562088cf0126785d6b6948f0f40746e1316855410a9b71190c6
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
 
@@ -3960,10 +4050,10 @@ Maintainer: @termux
 Installed-Size: 228
 Depends: liblzma (= 5.8.3)
 Filename: ./xz-utils_5.8.3_aarch64.deb
-Size: 71204
-MD5sum: b6d5fa0aa9eb15c9678a49f27f2ee96a
-SHA1: 0c01176aec0113359757f50cf9cd9d771d5f5269
-SHA256: df6e7f14b624811f2c5e1e8c673aae7d47a8fb81aaba079b05a5051c0a356534
+Size: 71212
+MD5sum: 911b1d1bddd17673a79c8049e2d51475
+SHA1: 591fa3582fe3d10372d096d21b0212aaf75d182e
+SHA256: d34083d4e2269f778aa7e945449644c3f42553fdebafb46ae75676ddd0c45a0b
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
 
@@ -3976,9 +4066,9 @@ Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Filename: ./zlib_1.3.2_aarch64.deb
 Size: 62960
-MD5sum: 64a8c2f8014e4e88b6b00e9ad6dd8160
-SHA1: 5dc8be8f7ab4f089697f371e983bb0f32165d493
-SHA256: c22c05e766f5b600a193a052820f9a7031742f0494abe5c5d44537c469faec73
+MD5sum: 55cda711cc97e2284700f6e84c3285e0
+SHA1: 20fcfd1ec260ca2170dd860f180f9d83b932b06b
+SHA256: 71b909baf45be47f9edf4e5c18c0c1a03de1bb8c332ccd3c00958eae9735bdd4
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
@@ -3989,10 +4079,10 @@ Maintainer: @termux
 Installed-Size: 140
 Depends: zlib (= 1.3.2)
 Filename: ./zlib-static_1.3.2_aarch64.deb
-Size: 35520
-MD5sum: 96d765a875a98641ffdedbc05f4aa7bf
-SHA1: fe6accd73ebf6a85706ae1087850c5c9203fc682
-SHA256: f9c8559056c620f3ac45494803ec26c1565918364ccb3a1a0aa068e148e1b087
+Size: 35492
+MD5sum: 7ebbc6d59d836a833fca3d0150b4e601
+SHA1: b2f60dbd39958cd03a301c376475042904b1d72e
+SHA256: cc5301c0eaf145714ca37a4afb150b0268712501930f8ff11438fa915333e91f
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 
@@ -4005,10 +4095,10 @@ Depends: liblzma, zlib
 Breaks: zstd-dev
 Replaces: zstd-dev
 Filename: ./zstd_1.5.7-1_aarch64.deb
-Size: 359936
-MD5sum: 884056aa22eed3fc81bff7c8db7373b4
-SHA1: 7d8b440c12913c2ee5cff9d89da897e5d92eba57
-SHA256: d585abb049e82ff1f510f80bdaaf2c568c8515192361046ee790ccaa77f6dcab
+Size: 359676
+MD5sum: 581bf8022b200a62daaa2d4db659c55d
+SHA1: 735ec63eadb3988e745e22d56cbfbc7ca5fe5730
+SHA256: 6a47ccf533458074046332c7b323bfc30db1da4e016224c80fcddc6d26264c29
 Homepage: https://github.com/facebook/zstd
 Description: Zstandard compression
 

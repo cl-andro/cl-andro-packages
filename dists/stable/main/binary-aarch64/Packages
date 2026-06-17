@@ -205,10 +205,10 @@ Installed-Size: 1052
 Breaks: brotli-dev
 Replaces: brotli-dev
 Filename: ./brotli_1.2.0_aarch64.deb
-Size: 341444
-MD5sum: 0f35e2dc6688d6164788e39864b50470
-SHA1: 709a8ad21f9723cdef9131cdaf6ce67c73942af4
-SHA256: c17d2106f54e6e45bccd8753d60d2437485374149c143610f000cebb58706325
+Size: 340336
+MD5sum: 0c800e94a62063727397f40213bb7e6a
+SHA1: 622c6f7f8929c6d0bb33570e67c5355515e101b0
+SHA256: f9daa20ca900d72bd6b2739d6e489f6287b7c9a49ca34fcfcc9a335a27bcb15f
 Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (command line utility)
 
@@ -250,9 +250,9 @@ Maintainer: @termux
 Installed-Size: 268
 Filename: ./ca-certificates_1_2026.03.19_all.deb
 Size: 124720
-MD5sum: 38253900f9fab552b43453a2193e9dda
-SHA1: 7a5cc2dfa0008d7356c7f2852788d7a3afc3b0ac
-SHA256: 0820ca37917bd77750a8b9968a22f92d0f39f24f3a4264964e294bf274fd8510
+MD5sum: 2e573b56eabd9c296932e444c314ccf3
+SHA1: 1abe77253d38d37e0f79a1032d3006287d87ec63
+SHA256: c067d517c106dd34aae0ac82a7e90cc8e67cbe39b94b5756ad2dfb00a19ccc50
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 
@@ -264,9 +264,9 @@ Installed-Size: 212
 Depends: ca-certificates (= 1:2026.03.19)
 Filename: ./ca-certificates-java_1_2026.03.19_all.deb
 Size: 114192
-MD5sum: dac8cb2309dec6d4225d7137dae23190
-SHA1: 208a3a20d0a9bf1071e3997d961b155b71c51bab
-SHA256: a0955e682470d3133d1d7a4bc15fdb09bd3fee997065a1a688f61f6df5db8a2d
+MD5sum: cc487a8539fd4065eba8f0dd9ed8273f
+SHA1: 492b9a617d44665af37f18362f392864d264d078
+SHA256: 6703114da21e956d41f31abffd417873580c983c105d58f308f176b5073282ab
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
@@ -308,10 +308,10 @@ Maintainer: @termux
 Installed-Size: 416
 Depends: libcurl (= 8.20.0)
 Filename: ./curl_8.20.0_aarch64.deb
-Size: 240044
-MD5sum: 9b913c1b66c140a3505d322c587704db
-SHA1: d6336b76cd19a07708d13c8bb6822e3282cedfd0
-SHA256: aa597b44b592a9f3777d307e7bf9e090ce5322589a24287f0c5159bc91b3f502
+Size: 239916
+MD5sum: bb0d3ba2e2a6f98d793aea70a41797df
+SHA1: f101b90610bafe1113012b7d67319d6bd5893926
+SHA256: cc541159f30618e875a726059b208d8f1918466f6f06baef4ec4994ffee6a151
 Homepage: https://curl.se/
 Description: Command line tool for transferring data with URL syntax
 
@@ -1295,10 +1295,10 @@ Conflicts: apt (<< 1.4.8-8)
 Breaks: libcurl-dev
 Replaces: libcurl-dev
 Filename: ./libcurl_8.20.0_aarch64.deb
-Size: 1004644
-MD5sum: 485f6913bbb2e7ba6a259a466ed3ff99
-SHA1: 46f5838d2c43fe3a4a1cedd590b586ac14b9e22c
-SHA256: daca7ea7e846c9d2ae27dd60cb7d32bf0359efd9a492f455bc711a1dff33912e
+Size: 1004716
+MD5sum: 76fc56419f72818e020fc24bb2f4c433
+SHA1: 3a617ff566d40afb8cdb23d73c3e22936ac2390f
+SHA256: f578d32f955e62e9a18f2f69994bde252f5861048f4219a259e5aeaa196b40a5
 Homepage: https://curl.se/
 Description: Easy-to-use client-side URL transfer library
 
@@ -1309,10 +1309,10 @@ Maintainer: @termux
 Installed-Size: 1940
 Depends: libcurl (= 8.20.0)
 Filename: ./libcurl-static_8.20.0_aarch64.deb
-Size: 402868
-MD5sum: 39f772c747d5be676af96259a9558b16
-SHA1: 8a36ee31039745021336967cbf8e89b924968bb9
-SHA256: c6369ae2838eb9dcfb09b73d2b5afcd35247dd757851929ba6ca02499c5d7de7
+Size: 402976
+MD5sum: fcbf56ab8efeec6c9f235b71f0f24909
+SHA1: d041c8abc16d99f2deee84d33e54c5f54f23aa91
+SHA256: 48b3d753b797f2dff72dfd4e5460e9aa6939477d569b641573b8516492b8d072
 Homepage: https://curl.se/
 Description: Static libraries for libcurl
 
@@ -1871,10 +1871,10 @@ Installed-Size: 520
 Breaks: libnghttp2-dev
 Replaces: libnghttp2-dev
 Filename: ./libnghttp2_1.69.0_aarch64.deb
-Size: 95616
-MD5sum: db3c4c003d8b6c1f34d6109bfe0ae6d9
-SHA1: 29ba1303512b6e7e2e8efa0906827e98b85a368c
-SHA256: 806c3371a8ad699798485242890bf0fa7e0681d60ff5ab495f6585ab49657fd3
+Size: 95544
+MD5sum: 685f22e089118a80f22517f23a7859b3
+SHA1: ef5583758a467e57e3d33c68ff14327ae1c3dd68
+SHA256: 568297dfadc290faa828747eff933820a23443694938603bb2d30a330468b428
 Homepage: https://nghttp2.org/
 Description: nghttp HTTP 2.0 library
 
@@ -1885,10 +1885,10 @@ Maintainer: @termux
 Installed-Size: 320
 Depends: libnghttp2 (= 1.69.0)
 Filename: ./libnghttp2-static_1.69.0_aarch64.deb
-Size: 63908
-MD5sum: 1560c209a06f5d01a81564e0b6537e96
-SHA1: 572e8cd01bdc08bddd03c5cdfeef7b2aac00b51c
-SHA256: 8a13c528c4610784620c73ddba7f7f8299732abe7959a24d3b715553eeaa41d2
+Size: 63920
+MD5sum: 6522f5e524a4b4982291a2e237f37305
+SHA1: 23a1077d79047ba3933b8211ecac25d776a3b3a8
+SHA256: 05c0a76f883c41426d43b9e6d6113264781d758f5476b28aa9bf73db51775f68
 Homepage: https://nghttp2.org/
 Description: Static libraries for libnghttp2
 
@@ -1899,10 +1899,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 332
 Filename: ./libnghttp3_1.15.0_aarch64.deb
-Size: 67884
-MD5sum: 75f57044dfd3e9a6fafdba88a5a5501a
-SHA1: 9a15568a06f90d74f034a79ed4a751f2ab981c0d
-SHA256: 32a1c415c40c9b8c74b910071417a0d54d5a68cd233f106cc08cdbd81c7de6fa
+Size: 67896
+MD5sum: 653fde55f446035b53b5a1888a91746d
+SHA1: eeb07792856ac800698472872419cab06465f09e
+SHA256: cb280db585c46ae3d29de3806b67b6558243bd2d88b53da76fa81f9aee1c3c1e
 Homepage: https://nghttp2.org/nghttp3/
 Description: HTTP/3 library written in C
 
@@ -1913,10 +1913,10 @@ Maintainer: @termux
 Installed-Size: 332
 Depends: libnghttp3 (= 1.15.0)
 Filename: ./libnghttp3-static_1.15.0_aarch64.deb
-Size: 63352
-MD5sum: 94664d32ae353e9371f4c0451e15f170
-SHA1: 5be90806cb44100ccb9200132bb1114750c4706d
-SHA256: 7b3e5d289debb8558f7827631ea42e75825515dad5a368e4c83edef9d82f504a
+Size: 63264
+MD5sum: a3b2901a0514c2c8d22d77a23946fe70
+SHA1: 2df7ea4fb722b9563017546470ac047dd0b14e99
+SHA256: c5808965ee64dd7449c3f23d7f56bcd76ef63d37e3445d93574793b285a6dcca
 Homepage: https://nghttp2.org/nghttp3/
 Description: Static libraries for libnghttp3
 
@@ -1927,10 +1927,10 @@ Maintainer: @termux
 Installed-Size: 744
 Depends: openssl
 Filename: ./libngtcp2_1.22.1_aarch64.deb
-Size: 166884
-MD5sum: 15e44122ef68910e1332cc4387f2679e
-SHA1: 0c90790d9895b17fbbcf026e1b243960f3a0fe80
-SHA256: 67ddc1099ef679559ce735449465d797231d3b73adb312f7a23636a9df71786f
+Size: 166948
+MD5sum: 488839dd147689e6afb6cc88469e7c74
+SHA1: 754aced8239b0609c2e16c6ff3151b01afbdbfff
+SHA256: 9bc6d17627210894d82e976ab1dafc9e36df927e3ebb0ab9829057bea9da0855
 Homepage: https://github.com/ngtcp2/ngtcp2
 Description: Implementation of IETF QUIC protocol
 
@@ -1941,10 +1941,10 @@ Maintainer: @termux
 Installed-Size: 752
 Depends: libngtcp2 (= 1.22.1)
 Filename: ./libngtcp2-static_1.22.1_aarch64.deb
-Size: 147816
-MD5sum: 098e4c9f74f3504ff9598520a70cba4d
-SHA1: 3e8a7c41ab328261c54d926915f7cd3c397e7093
-SHA256: c10834e2d18a976e3c1256cd3e9e62b38face387debd440dc3c427e559bacefd
+Size: 147780
+MD5sum: d70b51bc7ca1e4a094600d5f6c738c31
+SHA1: 063442ba280a5f714f818a1adce6a5ea168a33dd
+SHA256: 996cde7593f983048b2882e7db4dd72cd67365e85553d7daa8fe5a53542c34bd
 Homepage: https://github.com/ngtcp2/ngtcp2
 Description: Static libraries for libngtcp2
 
@@ -2167,10 +2167,10 @@ Depends: openssl, zlib
 Breaks: libssh2-dev
 Replaces: libssh2-dev
 Filename: ./libssh2_1.11.1-1_aarch64.deb
-Size: 219076
-MD5sum: 9b0b969f158420af3911f8f9aeccb178
-SHA1: aeb0b513cc9360c9be4e8489fca67d82e741973c
-SHA256: f797cc15f0c1e8c1b873a2e2fd08ec15d345115789c2444ffd0f740f8fefe4a1
+Size: 219032
+MD5sum: 2aebf38bf0dcd5b7f293f08d60cfb8d3
+SHA1: 81d7f974a258c300a935034ea2824c151c2d231c
+SHA256: b0921831f4a6a442c7a6b563bdac6243650a6fad9cb9d638c4c826910a799aff
 Homepage: https://www.libssh2.org
 Description: Client-side library implementing the SSH2 protocol
 
@@ -2181,10 +2181,10 @@ Maintainer: @termux
 Installed-Size: 488
 Depends: libssh2 (= 1.11.1-1)
 Filename: ./libssh2-static_1.11.1-1_aarch64.deb
-Size: 111484
-MD5sum: 82a5d8aa857bcd20f33b2125eefbf201
-SHA1: 519848bcff72bfd0c73e277956f67136cc1bf99d
-SHA256: d6b46c9d0de08570d172898f49b995ef68a1574154ce810d63b9e7610eb2ebc2
+Size: 111516
+MD5sum: 788f3a9193b4dcf07d1b4ea44e741ecc
+SHA1: 5c8a0742d6f34338b37a963ee77e6f09773263de
+SHA256: a2fc8a9dd41a0f9595d04d908181eec4d9a02319fb0acdd7e0f3d4673c47c8b5
 Homepage: https://www.libssh2.org
 Description: Static libraries for libssh2
 
@@ -2955,10 +2955,10 @@ Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Filename: ./openssl_1_3.6.2_aarch64.deb
-Size: 2476152
-MD5sum: 83b7b19133e64bfb84633901b5f7c09b
-SHA1: 21e5b166f8da725209d0690c6c5b9bf615d13199
-SHA256: 5ca39992d9151aa8e2c0a7b2cbfd37f7cb922bbd1aa6e138dc96a17681ca5b2c
+Size: 2477380
+MD5sum: 642219accf3b50d24f9cd8bfeb2ae189
+SHA1: 5c769af58bc32886a0862a3ffb01340a5bb3d33a
+SHA256: e7d528b60d436ddab10dd99cc2de1bab003dc64417cadd183d19c6005a984825
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
@@ -2969,10 +2969,10 @@ Maintainer: @termux
 Installed-Size: 12072
 Depends: openssl (= 1:3.6.2)
 Filename: ./openssl-static_1_3.6.2_aarch64.deb
-Size: 2634568
-MD5sum: ad5143b9e5a5766acbf98bf8fcfb3a81
-SHA1: 39317003f1a1f64bd8c427116addab793c651270
-SHA256: e7f35a0ae447b3596043158dd59239eb9ab3ef6c7b6a3d050abead9cad9d0c4b
+Size: 2635620
+MD5sum: 7a8cc9c372aaa1d21802e4e24b2ae824
+SHA1: c76f1cca4ad0c35272a21c2b5ba9307e9ba1c6e3
+SHA256: d3f9ef0d91fa2969fdfecb1e2a4a0e1a85864e924c570e942fb963cd44c7ff9d
 Homepage: https://www.openssl.org/
 Description: Static libraries for openssl
 
@@ -2983,10 +2983,10 @@ Maintainer: @termux
 Installed-Size: 972
 Depends: openssl (= 1:3.6.2)
 Filename: ./openssl-tool_1_3.6.2_aarch64.deb
-Size: 276976
-MD5sum: e702413fbc72b8e02600d0628dd9b483
-SHA1: c227b502a9aeccf0926e2f178cda2a2ce30b2edc
-SHA256: 83655e8145f41fcf3cd8db199905bbf729a47beaf9d8dc25a2f35c095dd9caea
+Size: 276760
+MD5sum: e229a4d8114774a353419511a7267580
+SHA1: 32245bfd3bb1cd167b489e5a4879f404bf9da325
+SHA256: 6d1672bc2edd63aa874dccf0b5017565841d062eacb85dea8a9739cc17725a04
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
@@ -4065,10 +4065,10 @@ Installed-Size: 264
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Filename: ./zlib_1.3.2_aarch64.deb
-Size: 62960
-MD5sum: 55cda711cc97e2284700f6e84c3285e0
-SHA1: 20fcfd1ec260ca2170dd860f180f9d83b932b06b
-SHA256: 71b909baf45be47f9edf4e5c18c0c1a03de1bb8c332ccd3c00958eae9735bdd4
+Size: 62916
+MD5sum: fb175390a93717dd2b472c64995b75a8
+SHA1: 7f17fa08cfdac1048b5d17bfda91034aaedfbbe7
+SHA256: cf167fcca06fd60f5048bac7af36f4f2d3931f2b09878850d54aecbc1370a680
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
@@ -4079,10 +4079,10 @@ Maintainer: @termux
 Installed-Size: 140
 Depends: zlib (= 1.3.2)
 Filename: ./zlib-static_1.3.2_aarch64.deb
-Size: 35492
-MD5sum: 7ebbc6d59d836a833fca3d0150b4e601
-SHA1: b2f60dbd39958cd03a301c376475042904b1d72e
-SHA256: cc5301c0eaf145714ca37a4afb150b0268712501930f8ff11438fa915333e91f
+Size: 35468
+MD5sum: 4e32f75ab037469c3c01dfaf9ada286a
+SHA1: 6fb26827a29ebdd25734f943b3634d5330c8f74f
+SHA256: 7bc5cfe4f4479712f1620e52013e8ba2a2e323e32cedd230c069e27603c1f613
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 

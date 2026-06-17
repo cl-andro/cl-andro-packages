@@ -250,9 +250,9 @@ Maintainer: @termux
 Installed-Size: 268
 Filename: ./ca-certificates_1_2026.03.19_all.deb
 Size: 124720
-MD5sum: 2e573b56eabd9c296932e444c314ccf3
-SHA1: 1abe77253d38d37e0f79a1032d3006287d87ec63
-SHA256: c067d517c106dd34aae0ac82a7e90cc8e67cbe39b94b5756ad2dfb00a19ccc50
+MD5sum: 854513f96a07427d962e03ccce71bc70
+SHA1: 8dc14a93b91b91d003c95394334712ec5c4d7337
+SHA256: c7c05b4e01dc3ed974b5e87c14dd98cd279ffca8af83d5624e1cd572a46c9db7
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 
@@ -263,10 +263,10 @@ Maintainer: @termux
 Installed-Size: 212
 Depends: ca-certificates (= 1:2026.03.19)
 Filename: ./ca-certificates-java_1_2026.03.19_all.deb
-Size: 114192
-MD5sum: cc487a8539fd4065eba8f0dd9ed8273f
-SHA1: 492b9a617d44665af37f18362f392864d264d078
-SHA256: 6703114da21e956d41f31abffd417873580c983c105d58f308f176b5073282ab
+Size: 114200
+MD5sum: ee1863f11b6cef90154aec3b193578fa
+SHA1: d3c0f3f35417c4d56f8dcd1151157773608a222a
+SHA256: 15e9787dd11fb8f9a0f8f0bf58c4ee3d344082dfb28ba6819e4fdc7af036a869
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
@@ -293,10 +293,10 @@ Depends: libandroid-selinux, libandroid-support, libgmp, libiconv, openssl (>= 1
 Breaks: chroot, busybox (<< 1.30.1-4)
 Replaces: chroot, busybox (<< 1.30.1-4)
 Filename: ./coreutils_9.11_aarch64.deb
-Size: 814360
-MD5sum: 345ef07d526d42444cab5b56e94f0425
-SHA1: 7743600f7245b7cc48998602d8e3714d9c3b5741
-SHA256: e0674067ac3c5e3024dfbbeb4b201594ae55d23066339dc71423ae8ce1f76af8
+Size: 813856
+MD5sum: 15d3d0a4e558e73e08428bfdd9da4039
+SHA1: 0b8c846e7cb38f39e8c82a07250c770890134a87
+SHA256: d8443ab79a16f1eda003fbe1ab7ad8e1237cd065ad8aa6f594387cb6fe0c5f6f
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Basic file, shell and text manipulation utilities from the GNU project
 
@@ -870,10 +870,10 @@ Maintainer: @termux
 Installed-Size: 56
 Depends: libiconv (= 1.18-1)
 Filename: ./iconv_1.18-1_aarch64.deb
-Size: 10136
-MD5sum: a1c9896eccc4cb70063b12664571408c
-SHA1: cca5034be067c212040568851f3561e653d850fd
-SHA256: d48f64a3a0e05917ab79966f08c59df9248a1f7020896b11c30f8f613c894312
+Size: 10132
+MD5sum: ccf33e72e5db80320f0ec5c3f67abcf5
+SHA1: 49a198c343de43a09119c53d9b407978e6349466
+SHA256: a16373e9dea591b15db61a0b21315dc6a853c17881e858145b5b1541ca6c9c9e
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Utility converting between different character encodings
 
@@ -1049,9 +1049,9 @@ Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
 Filename: ./libandroid-glob_0.6-3_aarch64.deb
 Size: 7004
-MD5sum: 95ecab118b9437757cbc7a131d297cb8
-SHA1: 6080b9b49c07d9eba62a85444db7deed83b6efa9
-SHA256: 54287b0914f80040aa9e4a0d1c5bb6d9ae18c9b126f956f1aaefbdcf3c5851f4
+MD5sum: 8451c46990aedce376f353990bbd1bd7
+SHA1: af3c10c9b00fa7ee154b2bc95a9f09bc2acb0c97
+SHA256: 94781ed6a0b6add045c16902efa76145cb986f6ffa504647b37d07b2d0012524
 Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Description: Shared library for the glob(3) system function
 
@@ -1063,9 +1063,9 @@ Installed-Size: 40
 Depends: libandroid-glob (= 0.6-3)
 Filename: ./libandroid-glob-static_0.6-3_aarch64.deb
 Size: 4616
-MD5sum: 40f985f7186dd89122cfabacb3dea405
-SHA1: 37cb0cafc9ff0b9c2b4b95da7adf8e589fecedb5
-SHA256: 8da23cb1f85c826d384499e60b7b73dec5cf9e4fc628e1107193bf67bf9ce77b
+MD5sum: 0ef89af8b1ba842a4ad2a0825880fdfa
+SHA1: 209896519db871adfa1c406f9d49b26d40f9376b
+SHA256: 695ba51a9c50f5aa9e9d03f80a418755a22e8a6649cb3b305fc4ccd75827799d
 Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Description: Static libraries for libandroid-glob
 
@@ -1103,10 +1103,10 @@ Maintainer: @termux
 Installed-Size: 308
 Depends: pcre2
 Filename: ./libandroid-selinux_14.0.0.11-1_aarch64.deb
-Size: 59184
-MD5sum: f86ee426e79d84874cfbb0ee41372516
-SHA1: cf4afd11152056b54631f668a9cbb28c612843cf
-SHA256: 3c42c39ef0ede174768ca9ab742b92cd5f5efdfb7e47d70355962b432655f4bf
+Size: 59200
+MD5sum: ccf466c6e44a86a328c39b442447ff1c
+SHA1: 4123a37ae0eb758f2206f22a9696f5354a85c9a0
+SHA256: 2595d0b06aca4a9d216ebf3402ac766865b07990a9fcab3ec3b89d45188b99fa
 Homepage: https://selinuxproject.org
 Description: Android fork of libselinux, an SELinux userland library
 
@@ -1118,9 +1118,9 @@ Maintainer: @termux
 Installed-Size: 76
 Filename: ./libandroid-support_29-1_aarch64.deb
 Size: 10932
-MD5sum: a34b9bdc517218f63f90f7af73e04e90
-SHA1: d11956c4ac8990618344f16107df8def8215ba01
-SHA256: 3e0efcb44f87e536c344236d33b80a1f393effc9d23767200ffa0a21d753ba27
+MD5sum: 8713505ff1406866604fd0a3f6b0ef05
+SHA1: 9985aa5a6e6621884fe3fd5ae15f30d19cbfcec5
+SHA256: 3831bfd4750b310b5c1b6bbbbe0d2e171106eeeadfee458a7868a25a0312dde8
 Homepage: https://github.com/termux/libandroid-support
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 
@@ -1132,9 +1132,9 @@ Installed-Size: 72
 Depends: libandroid-support (= 29-1)
 Filename: ./libandroid-support-static_29-1_aarch64.deb
 Size: 8624
-MD5sum: 7f1d256678d1cbca2481601c56220cd7
-SHA1: 46c0c32548232473ca9dcf56efd4a2cf7f41f816
-SHA256: 18b1b4194d5db20b3738bebca81ae6930e8d5f277ab1f388c0aef862f46f6ce8
+MD5sum: 6b3dc992e7659bed810881975b6a70fd
+SHA1: 68eb4935d145a4f099a5a3e7e9f382fd65d195d0
+SHA256: c75466fd197feafb2f8b0e77fd224bd1b661d764b943bb41afe4d2d199291932
 Homepage: https://github.com/termux/libandroid-support
 Description: Static libraries for libandroid-support
 
@@ -1502,10 +1502,10 @@ Depends: libc++
 Breaks: libgmp-dev
 Replaces: libgmp-dev
 Filename: ./libgmp_6.3.0-2_aarch64.deb
-Size: 328432
-MD5sum: bd0651c6a2041fa57f345ed1e50a6100
-SHA1: 1ca252bc429f8b7072c875e7c5013c5e0c15975d
-SHA256: 28352c963bffb4a05ad4d2444ee4259ac51976a22ffbb596c15f7d832b6b6a64
+Size: 328452
+MD5sum: 2c24193de99eb8d89af37467862a98cd
+SHA1: b32a5bc6b7050ae39587abe8908e3124bb3abea7
+SHA256: 2d57ccf4dff8eef7b1bfeb6204faf4afde956debad9d31906c19aca0227f5763
 Homepage: https://gmplib.org/
 Description: Library for arbitrary precision arithmetic
 
@@ -1516,10 +1516,10 @@ Maintainer: @termux
 Installed-Size: 1276
 Depends: libgmp (= 6.3.0-2)
 Filename: ./libgmp-static_6.3.0-2_aarch64.deb
-Size: 226728
-MD5sum: 78d84e6f31e6294fd6e43a8d69d83a08
-SHA1: f06cff8860ab0bfadeaa432425691040a827487c
-SHA256: 62d213548ecf1faa2beace6552dce71de071a132f04e051bf6a150fd09e47852
+Size: 226528
+MD5sum: e74051db2a15c3721663ea70cd82d591
+SHA1: f93760a3162657de2190b93e6ee0334765cac297
+SHA256: 18aa78a2e832840e3c4a416a42782cf841fd32fc60fc195e91af46d9f9184a74
 Homepage: https://gmplib.org/
 Description: Static libraries for libgmp
 
@@ -1606,10 +1606,10 @@ Installed-Size: 1216
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Filename: ./libiconv_1.18-1_aarch64.deb
-Size: 562304
-MD5sum: 2e20de0b160eb639cdbe5aa972dd9f0a
-SHA1: c221b5c4caa518a9821778798bd79e194c718a4c
-SHA256: 3ca8b5e1ed32d1cd1bc7a19efa8e307b06ce6f55a1653786e4bfee62264926c3
+Size: 561736
+MD5sum: 4a56d64816c2a6fc4ed19b97a7653615
+SHA1: 265e6e4a3f3013df4046a1802bab65e040b8b03e
+SHA256: 53d666c15d4f2254fe21a37dd95a94a2b2864aac41ba3bc6a0623a222d98523a
 Homepage: https://www.gnu.org/software/libiconv/
 Description: An implementation of iconv()
 
@@ -1620,10 +1620,10 @@ Maintainer: @termux
 Installed-Size: 1228
 Depends: libiconv (= 1.18-1)
 Filename: ./libiconv-static_1.18-1_aarch64.deb
-Size: 556696
-MD5sum: c9731bd91c6564e58ac120f59654fd08
-SHA1: ef5b96833ea3e71ae101df9038da67d2da749f81
-SHA256: b4fe48b9ce9c0164b8b10e52e3210b9678904f5b6452b16fb09cd3ec3a40af8e
+Size: 555856
+MD5sum: d0ffd49f7bf9c933d20f6021848dbdfc
+SHA1: 105a62c408c93bbcc1a9c17dae5e85dcb745a938
+SHA256: 12689e1d274fdd21dddb294534b2c15ea350cc3215edfaf59c3f60a4f49e2645
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Static libraries for libiconv
 
@@ -2831,14 +2831,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 31268
+Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952016
-MD5sum: dd74ed88453aded423f1aff277c7186e
-SHA1: 460130f68cb18d51a8b8563112626afc470076f7
-SHA256: 77ed3ca0ae8c10d58846f261f50fe3e370887164cc893ca45ffb01e2c42f9959
+Size: 1952280
+MD5sum: 5b0c76bd121c1a5fbaed125af60a9ebe
+SHA1: 500a24a0d5108c3c962022aa62e705ad27eaabec
+SHA256: c23ec0479941edef727d5b363846a12c67e29f2b2b2944ad80aeeb9c22ad1c94
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -2955,10 +2955,10 @@ Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Filename: ./openssl_1_3.6.2_aarch64.deb
-Size: 2477380
-MD5sum: 642219accf3b50d24f9cd8bfeb2ae189
-SHA1: 5c769af58bc32886a0862a3ffb01340a5bb3d33a
-SHA256: e7d528b60d436ddab10dd99cc2de1bab003dc64417cadd183d19c6005a984825
+Size: 2475132
+MD5sum: fe8bdb06a38d52569151fd5316f9c067
+SHA1: ab780870f65a13e5473dad045e11f7d54af2d78c
+SHA256: a0282ef66b7b163ec25d9b2270d7159e574d3c819f2f9ef5b2b3f6fbc2afa12b
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
@@ -2969,10 +2969,10 @@ Maintainer: @termux
 Installed-Size: 12072
 Depends: openssl (= 1:3.6.2)
 Filename: ./openssl-static_1_3.6.2_aarch64.deb
-Size: 2635620
-MD5sum: 7a8cc9c372aaa1d21802e4e24b2ae824
-SHA1: c76f1cca4ad0c35272a21c2b5ba9307e9ba1c6e3
-SHA256: d3f9ef0d91fa2969fdfecb1e2a4a0e1a85864e924c570e942fb963cd44c7ff9d
+Size: 2634744
+MD5sum: ef0f8265d043b90f93b2339badbc1f8b
+SHA1: c2c8aeeefba7bc832180ba8448767007d902db7a
+SHA256: 9317da6526ca7ee0172900cc73cdb474d63af6813f5194f3e92e08a4f8cac247
 Homepage: https://www.openssl.org/
 Description: Static libraries for openssl
 
@@ -2983,10 +2983,10 @@ Maintainer: @termux
 Installed-Size: 972
 Depends: openssl (= 1:3.6.2)
 Filename: ./openssl-tool_1_3.6.2_aarch64.deb
-Size: 276760
-MD5sum: e229a4d8114774a353419511a7267580
-SHA1: 32245bfd3bb1cd167b489e5a4879f404bf9da325
-SHA256: 6d1672bc2edd63aa874dccf0b5017565841d062eacb85dea8a9739cc17725a04
+Size: 276516
+MD5sum: be7f7bed18479c77349c3b175dbe0747
+SHA1: 0ad96bc357cdf06ce9f7719c1cc89cc18f3bd7e8
+SHA256: 5109f77337e40ef6fa22ec56b205c345c21ab30fb67ad5fe661e14b599daedf7
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
@@ -3012,10 +3012,10 @@ Installed-Size: 4348
 Breaks: pcre2-dev
 Replaces: pcre2-dev
 Filename: ./pcre2_10.47_aarch64.deb
-Size: 960376
-MD5sum: 8c7d6c25bf6f959d68e39f03713f2dab
-SHA1: 8f063522237b8c5ef7274237e3ed1c1b457cf68c
-SHA256: 9dc95ff3bb41b22ee776aa28eef3f3df821aced1ae4b36c92549c598799b7f9d
+Size: 960200
+MD5sum: 644e5d93773f61c05e234aaa214b6b83
+SHA1: 2c8ac21b19db8ca1c79cdadb1a19a853976feabc
+SHA256: bb0c0f99d5d8d901a8b5d04d5fa554581de57d4c51af6e49e39030e5bc87865c
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Perl 5 compatible regular expression library
 
@@ -3026,10 +3026,10 @@ Maintainer: @termux
 Installed-Size: 1836
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2-static_10.47_aarch64.deb
-Size: 376112
-MD5sum: 9f435db668d2eeafe84973c269285243
-SHA1: 81fd160ab956183da89b6ad9af52934bea1df248
-SHA256: e63f09daf0c2361b9fd356a5ddfd9d294777a0a618ec17336e59800ad4fc19c1
+Size: 376224
+MD5sum: d36c8870a006b1cc384b441267b95440
+SHA1: 34da5c64d50a1b54e34ffeae22e719ca07260685
+SHA256: 7cf03d3d65cc62ad0df1766e8b1cf7387db5781a053cea1283a2972029174708
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Static libraries for pcre2
 
@@ -3040,10 +3040,10 @@ Maintainer: @termux
 Installed-Size: 104
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2grep_10.47_aarch64.deb
-Size: 34108
-MD5sum: f8bdecaaf8f52e6ba8a8a5120304a609
-SHA1: 8b32611027b65bc5570355660652a4536e265f73
-SHA256: 92815e776abcf4b6cb8159833e203c4e99514a2ee185d5695e09601b4ea49101
+Size: 34096
+MD5sum: bf788962edcfd0ec5b2ab772d5c49b70
+SHA1: 26942ecd3b9c551fac1e66309c248cebff351123
+SHA256: e94d83fa711294582aad7d7ab51916bd4cd06f4693671b1ccca09897c9ed70e4
 Homepage: https://pcre2project.github.io/pcre2/
 Description: A grep with Perl-compatible regular expressions
 
@@ -4065,10 +4065,10 @@ Installed-Size: 264
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Filename: ./zlib_1.3.2_aarch64.deb
-Size: 62916
-MD5sum: fb175390a93717dd2b472c64995b75a8
-SHA1: 7f17fa08cfdac1048b5d17bfda91034aaedfbbe7
-SHA256: cf167fcca06fd60f5048bac7af36f4f2d3931f2b09878850d54aecbc1370a680
+Size: 62908
+MD5sum: ccf3cd586c6a1d19311278bcaf061494
+SHA1: 7277bb4303fbd0605a7f7b2dc2d77b9bd04d2ecb
+SHA256: eed5acb6f12a378097aab1eda9de018916bd6854b653875865ee240520567704
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
@@ -4079,10 +4079,10 @@ Maintainer: @termux
 Installed-Size: 140
 Depends: zlib (= 1.3.2)
 Filename: ./zlib-static_1.3.2_aarch64.deb
-Size: 35468
-MD5sum: 4e32f75ab037469c3c01dfaf9ada286a
-SHA1: 6fb26827a29ebdd25734f943b3634d5330c8f74f
-SHA256: 7bc5cfe4f4479712f1620e52013e8ba2a2e323e32cedd230c069e27603c1f613
+Size: 35456
+MD5sum: a755b2a9c120e9d6b85d687a56d473cb
+SHA1: 8a5b2b23bb24cc0ea56e954eeeada43b8f7155d6
+SHA256: 13b7abd73697a97912415accf38e45e1ddeef069a68205e7bd997ccfd0ca028f
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 

@@ -181,6 +181,20 @@ SHA256: 68f6fce3c71da7b99b8a21c9f8b83cfcf5a48c965c7ca778cb8d1072912533ca
 Homepage: https://www.gnu.org/software/bash/
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 
+Package: bat
+Version: 0.26.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5360
+Depends: less, libgit2
+Filename: ./bat_0.26.1_aarch64.deb
+Size: 2282760
+MD5sum: 915d7fef6ba46bd886d6da9984fec0a9
+SHA1: 9fe2ce542f82b56e81bf0daea87e56b87a6c3200
+SHA256: ee30197013d6fdda676f649bdddcf6bcd7c4bad45e1dce28caf419e432cc8752
+Homepage: https://github.com/sharkdp/bat
+Description: A cat(1) clone with wings
+
 Package: blk-utils
 Version: 2.41.3
 Architecture: aarch64
@@ -249,10 +263,10 @@ Architecture: all
 Maintainer: @termux
 Installed-Size: 268
 Filename: ./ca-certificates_1_2026.03.19_all.deb
-Size: 124732
-MD5sum: 044a2bcda9d111686f2fbce4868b8f86
-SHA1: 5196298811627c54705e2f029c517e55525d4a83
-SHA256: 911998ed42af201c60aebf1c29c67f6a3069a4842289aa6e11cf20c1442cd4c4
+Size: 124720
+MD5sum: 7990844e3f437812eb87d1d75b0282d5
+SHA1: 2094970093d83c9414dcd1827d8ae38869165852
+SHA256: b8a00f4923b925ef2d935fb898c270f744ab25ae50ebf2de83c13a1194fadf2e
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 
@@ -263,10 +277,10 @@ Maintainer: @termux
 Installed-Size: 212
 Depends: ca-certificates (= 1:2026.03.19)
 Filename: ./ca-certificates-java_1_2026.03.19_all.deb
-Size: 114192
-MD5sum: 2fd73caac93299248bb8a234af1c982a
-SHA1: ecfdd28654ce566e8ab1fe4286464ac477f34860
-SHA256: 406b0b3f68c3bc85f1ff71b842a8fb256c82ff3d384fa129308170aa20b26a5e
+Size: 114204
+MD5sum: 1d18c3cde61fcc60afc679c28929ab95
+SHA1: 0d03b25c4b48d14a352f973a7aed370409636e47
+SHA256: ecedc7ab942232a6249ce8bb7d0c3a9206bc39de95c40f488c9c17ba306d4ba7
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
@@ -924,10 +938,10 @@ Maintainer: @termux
 Installed-Size: 56
 Depends: libiconv (= 1.18-1)
 Filename: ./iconv_1.18-1_aarch64.deb
-Size: 10136
-MD5sum: f1e4ffdbd92119485da6b069d6e8571c
-SHA1: 11869fab389de99f6674ae775996f884067dfad7
-SHA256: ba94f7e98bce0edf8dd026574d4b411eeebabc63bafdd62c011ffb5164448aea
+Size: 10128
+MD5sum: 9e279ed7306ae6d55037c05a9d33e8a0
+SHA1: 938c330426c6e116efe4ad7c6ad121c939e7b73c
+SHA256: b7205d067ee0ef171f66865e3f0a4a41ed6bc6d74c2f1920dc6a1f619fc17a36
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Utility converting between different character encodings
 
@@ -1026,14 +1040,14 @@ Version: 692
 Architecture: aarch64
 Essential: yes
 Maintainer: Joshua Kahn <tom@termux.dev>
-Installed-Size: 460
+Installed-Size: 312
 Depends: ncurses, pcre2
 Replaces: lazyread
 Filename: ./less_692_aarch64.deb
-Size: 141540
-MD5sum: 9a3e7496ecca7dc730ba5fad2e19720c
-SHA1: 3b29fa878cdd4b5f0017bdfcd60d5c4763619653
-SHA256: cc080014f8047e053bfbdb65e84bd9f125d9af1d326d6d63b7bca0020f0ea2d8
+Size: 92932
+MD5sum: 5cf83e635b55b1d3dd1c4279e0b62d21
+SHA1: a7ec1314487ce590a6b3cf5b2d2f4b4c6f3f0c53
+SHA256: c2e2e74683a85f7a6967c9cdfccbaa98f79b2976ffffc3c9f821580cb9d88729
 Homepage: https://www.greenwoodsoftware.com/less/
 Description: Terminal pager program used to view the contents of a text file one screen at a time
 
@@ -1288,10 +1302,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334980
-MD5sum: 9eb49274355631afb842cc6188f16e21
-SHA1: 8d6837b80f5463495f2a21a788ccad2832555e46
-SHA256: 498a1167330c765a7338e7c7087d90b7d51cc8ed1296979923a94a46cc40a135
+Size: 334768
+MD5sum: 392fc7c87ece36fce3f16c02b9725f2f
+SHA1: 679ae368862151d662518e1783ed2c7d5f52a7c7
+SHA256: fda7ef6b24e64700d1f629bc95ca20db6443e9358b67986be3aed620626fadb5
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -1577,6 +1591,22 @@ SHA256: bf1486c61b0693c06ea52556bbcb189a7d6a5d698dc5f9a25ddbbc13ddd19821
 Homepage: https://www.gnu.org/software/libgcrypt/
 Description: Static libraries for libgcrypt
 
+Package: libgit2
+Version: 1.9.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3704
+Depends: libssh2, openssl, pcre2, zlib
+Breaks: libgit2-dev
+Replaces: libgit2-dev
+Filename: ./libgit2_1.9.3_aarch64.deb
+Size: 719856
+MD5sum: bdb94183763bc9d1b21bdc86f5cc3fb8
+SHA1: d5b50ae94791db8009719de8c58393e8946a13df
+SHA256: 19b300bc499536a219afac8792fbeb44d060d1413c08c048da1f8f491bce30a1
+Homepage: https://libgit2.github.com/
+Description: C library implementing Git core methods
+
 Package: libgmp
 Version: 6.3.0-2
 Architecture: aarch64
@@ -1690,10 +1720,10 @@ Installed-Size: 1216
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Filename: ./libiconv_1.18-1_aarch64.deb
-Size: 561992
-MD5sum: fa75402b45806609702c080cfbbfa5e2
-SHA1: 35a366d89d04174056202a4772f3e409b15cbbfd
-SHA256: 7fa0b73447fe7d12aa145a62a490a3f97f060ae4f8ce31aa6f802f0722e7524e
+Size: 562448
+MD5sum: 8c9d57bf98d6c128730cfeb9018fadec
+SHA1: 63c00c57e03e26ab88256f9c8c3a253c4d9789af
+SHA256: e50e3995caea17f41259b52676b9bc230ff5df1bafec967bca3c1642ddf5fdbd
 Homepage: https://www.gnu.org/software/libiconv/
 Description: An implementation of iconv()
 
@@ -1704,10 +1734,10 @@ Maintainer: @termux
 Installed-Size: 1228
 Depends: libiconv (= 1.18-1)
 Filename: ./libiconv-static_1.18-1_aarch64.deb
-Size: 558212
-MD5sum: 58bf3269b4960c2280493f4bdba0150b
-SHA1: e98dd5e706cb7f8cadfaedc258bed451dd1d671a
-SHA256: 45a696e02a88751332349fe91d0f6f41a510235751f3d6dc1dc019cff5889f42
+Size: 557128
+MD5sum: 9ee5d4a30e9729c4b8e79856938febe2
+SHA1: 0641f1986a55be53b5404f407b9dd1c96d07890f
+SHA256: 55d23d50e9b8064afdc9de6f0029f8904a03ec8b46379743d4f7efd5a6829ace
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Static libraries for libiconv
 
@@ -2251,10 +2281,10 @@ Depends: openssl, zlib
 Breaks: libssh2-dev
 Replaces: libssh2-dev
 Filename: ./libssh2_1.11.1-1_aarch64.deb
-Size: 219004
-MD5sum: b54cc8c96b21d244fdee3cceb282940c
-SHA1: d2051a1dcb912ca00caba391ed9dea26005314cc
-SHA256: d14617b0bf73dd7ea1de0b2c2e21a24c4504a7e277cf691da6237517c76a6b89
+Size: 219020
+MD5sum: 2578e82e9c51aca7417aa74f5660d410
+SHA1: 881c3b0b3f399330cbc08e705a5f4c5145d4043f
+SHA256: 9bb33ba3741906ad0627e5fccc1b20247a4755c620d9cc984096292a88f38959
 Homepage: https://www.libssh2.org
 Description: Client-side library implementing the SSH2 protocol
 
@@ -2265,10 +2295,10 @@ Maintainer: @termux
 Installed-Size: 488
 Depends: libssh2 (= 1.11.1-1)
 Filename: ./libssh2-static_1.11.1-1_aarch64.deb
-Size: 111496
-MD5sum: 62b6c6c9cbaa2f4091c7c32ec3b7d54e
-SHA1: a50161e536139d2f24155ae38a6a805a1ff65c6e
-SHA256: 710607867156b6341159a5e599e03f771b1f8a3d2c5ba045f15d4617b7100f72
+Size: 111544
+MD5sum: 2642c62e65d9c0133641a56aa65b1c75
+SHA1: 8110a85c9c1663bd89fd5bd3a16a437c3efb33b1
+SHA256: 8dfa1d5a8e2460c88178e57e2d627176ccead7eff2ade0e0de39944e147771f9
 Homepage: https://www.libssh2.org
 Description: Static libraries for libssh2
 
@@ -2846,10 +2876,10 @@ Installed-Size: 1612
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Filename: ./ncurses_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 558060
-MD5sum: 232188ba90f93adf7fcc668b0aa944ec
-SHA1: f3301e54dcf2208f596d9dcb59af5c6fb07f5e6d
-SHA256: 93e74fdb087b3078f180d1f2934fa39204fc6bf0d7d22884f6daec82eb88f960
+Size: 558016
+MD5sum: 709f5241bbf07481edf39a03911fa2bf
+SHA1: 09bbf03b7b5225d2c287c3889ffd0aba8e0c4d7a
+SHA256: de91795b8c4d303ec0bb3f99e5651bad7b4a211844e3862efe3f1198a436d355
 Homepage: https://invisible-island.net/ncurses/
 Description: Library for text-based user interfaces in a terminal-independent manner
 
@@ -2860,10 +2890,10 @@ Maintainer: @termux
 Installed-Size: 784
 Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-static_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 154008
-MD5sum: c9b1398662d04f725c575ff52a6861ae
-SHA1: 6cad666f1de87bc518cb9ca46888035310ae50cd
-SHA256: 5a64cd29d3d2f33f75cce2af8ef5fcfec2b8e056cbc7bf5cabd85db5b3a2e7b1
+Size: 154228
+MD5sum: e18a940dde9e031d1bacc933a5b5ba4a
+SHA1: f6b2275c7241ad863440c9926dfdacc1c057dd28
+SHA256: 97aec903064c1c32a9ca9d7e2506dc9a6c34126926373ff3ced24714d60d7788
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for ncurses
 
@@ -2876,10 +2906,10 @@ Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
 Filename: ./ncurses-ui-libs_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 32960
-MD5sum: 529cb77fd4007a661c92167f3d002936
-SHA1: 3c63625152bb2e2f484e5c991485db9ad874a1c7
-SHA256: ecbeaea83ffc6e6793032c4f1793e3aaad6bbe66d2cbdf5d020547f7e5c74a8c
+Size: 32968
+MD5sum: d84a4d1e91c015c4806e598040214b7e
+SHA1: 092fe3f95d3e2a314d5001ac59bf14e40e80a777
+SHA256: 3b3f27b93f102b7c677ee5ebe2602d7dd979255f1b612dc130c1c6396b83ecf8
 Homepage: https://invisible-island.net/ncurses/
 Description: Libraries for terminal user interfaces based on ncurses
 
@@ -2890,10 +2920,10 @@ Maintainer: @termux
 Installed-Size: 260
 Depends: ncurses-ui-libs, ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-ui-libs-static_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 39532
-MD5sum: 52aaa77a60c80d914bdece9af9dbbc31
-SHA1: d8238c462deb5547527d8bc912fe4632360e9482
-SHA256: fd4969a5b4a92cfc72ce3d7be796d42b12f0597428e3b372887913c1eb6c97d0
+Size: 39544
+MD5sum: 45039e789c26731e6220447220145e83
+SHA1: 195726e228d2750b50b6771364711b2a7aa75c18
+SHA256: c80b2a0e1ac2c3619a06d83067bfad0806a2d8ad62467588e3b9e71c8234f868
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for terminal user interfaces based on ncurses
 
@@ -2904,10 +2934,10 @@ Maintainer: @termux
 Installed-Size: 272
 Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-utils_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 88928
-MD5sum: 094a27edf9170d9a879206db0576902b
-SHA1: 6a376049395b5872f0d333fa473170ca060bde35
-SHA256: e6d2c8ea65fd9d7eb90b02829a03ca636dd6ca32e13ac5962e347b89eaf91a50
+Size: 88976
+MD5sum: 648ca05dee02a9ee28df2ff191ae2968
+SHA1: 2dc6a472bc436d404e9deab3747ccbf365325810
+SHA256: aeb0e8af54ce5996e2fdca13476d6044b5bde9fd0aa9acc1bdbc1e0c6961150f
 Homepage: https://invisible-island.net/ncurses/
 Description: Tools for working with terminals
 
@@ -2919,10 +2949,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952544
-MD5sum: 24310f24f09829b6842752188a233816
-SHA1: bf5f985e315dc2e4c1e42ab3f067fd80befe9421
-SHA256: e1e4e91d7df8d3b997fb87b3b55afd4965fd741836c59bf57ce7418780b85734
+Size: 1952172
+MD5sum: a00dff9b9fb121f4c878a851e1591843
+SHA1: 788a449a4461b19ebe504b7db112dde1a19276c5
+SHA256: dea0a053c90f50357d62671d7217ce36c03dbdf08c67c2f96624b1bb22a37980
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -3039,10 +3069,10 @@ Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Filename: ./openssl_1_3.6.2_aarch64.deb
-Size: 2476960
-MD5sum: 54c5c0d2d9e012968ac0d40cf3729f4b
-SHA1: 134395d2736f8b7ab4daa3b748f29c50c264bf78
-SHA256: 9a78fca5752452c680e2a0b31d64559e8d36c70de3b9083e2a879f1911e50575
+Size: 2475264
+MD5sum: 8be022a3a15d19ac031705fef5bd2cda
+SHA1: f235c60dea8699601bf252a343cb456066d107c3
+SHA256: f9f7a6c886ab89e67aba2d62d7e7a1eefda0d8894d2d80ed9926eb145bf794e4
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
@@ -3053,10 +3083,10 @@ Maintainer: @termux
 Installed-Size: 12072
 Depends: openssl (= 1:3.6.2)
 Filename: ./openssl-static_1_3.6.2_aarch64.deb
-Size: 2634276
-MD5sum: 201c2bdab8ce0628a9c1ea8feabd34e7
-SHA1: da9330b678bfb46ef5e6ba551bf43bbb2276954b
-SHA256: 527f32fc443a50596ef1c7a396baa9b400b2f05784c7333723abb7b93209d98f
+Size: 2634980
+MD5sum: 93ac8d11423561dfc14085c639dc3bc5
+SHA1: 3cceb77686e29c11d1c079915133e055c2800176
+SHA256: 320d5a3e0d0130ac0ba2769fe143420fe850b3c129d40724eea1c6303b1b2b06
 Homepage: https://www.openssl.org/
 Description: Static libraries for openssl
 
@@ -3067,10 +3097,10 @@ Maintainer: @termux
 Installed-Size: 972
 Depends: openssl (= 1:3.6.2)
 Filename: ./openssl-tool_1_3.6.2_aarch64.deb
-Size: 277276
-MD5sum: 0f7087c63ea8678cecea9b2069838633
-SHA1: e2a6409385ee635be040185abaf9559fa61cc446
-SHA256: 57c0a9e6e16813d859d0eec667727cc8f999b617d98a62489707cafcfde6f39e
+Size: 277356
+MD5sum: 1b4463b1fe7914b86fe4e59ad5ea0d6c
+SHA1: 95b48dc46ab249d4d42522f5afcd75b76c39c3c3
+SHA256: a22312e3929b9312ef8c8e4b2b8b81bb5f24aa513a2f44ef250476ae8a888ae1
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
@@ -3096,10 +3126,10 @@ Installed-Size: 4348
 Breaks: pcre2-dev
 Replaces: pcre2-dev
 Filename: ./pcre2_10.47_aarch64.deb
-Size: 960156
-MD5sum: 444f6f8d0144729e7a8e5afb058014ed
-SHA1: d97cb1c7c2de67f4c946c6a6ce71c5200763f0cb
-SHA256: 72ee63d05b7bef67a9a251eb68ed53fb0b12d77491ff30c868715325d6ffb613
+Size: 960248
+MD5sum: 5295fdc361f2a3831e69d6485e3a204a
+SHA1: 06874f7be170bf326f79654a67a78a9b27b50a78
+SHA256: 6ef5a75234c752c58f1b9639e8a8b562b4b9b4b71fe43058ed919cf59d9a7fdf
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Perl 5 compatible regular expression library
 
@@ -3110,10 +3140,10 @@ Maintainer: @termux
 Installed-Size: 1836
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2-static_10.47_aarch64.deb
-Size: 376256
-MD5sum: 5ea08bbe05ffcddd70e5a7c6dd1dc094
-SHA1: 7a5390f01445560752876245bb5ec12194473fe8
-SHA256: 0904ab55fb45913934c1a7266587d0831d3e1b8791484a07ded1253fb8f16b07
+Size: 376092
+MD5sum: 8cbb905a0e6517bf08621072a9407af0
+SHA1: 273294b399d281925eb5acad23dbc5208fa3cedf
+SHA256: e78516d6cf03a6bfe9499929b060711944e0a96e0aadd4ac7e3ccf1b476ce7bf
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Static libraries for pcre2
 
@@ -3124,10 +3154,10 @@ Maintainer: @termux
 Installed-Size: 104
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2grep_10.47_aarch64.deb
-Size: 34096
-MD5sum: e68b01913c2144e61a67d8e0f12425bc
-SHA1: 99403c93a30d1f00755e38c62539822880a0a760
-SHA256: 14c91e7fde3136b68cfc079d4d7d05f63ad62d5a694bfd3f3feed060ee994c77
+Size: 34124
+MD5sum: 8bed98c98caa912b63205f38c146ea79
+SHA1: 218860f455d91569a3c7d539099cebc4e2a5457a
+SHA256: 4d1a5a86809944102041bb623b12c1714f7c85a1c06468a1d784b8cfef06ad63
 Homepage: https://pcre2project.github.io/pcre2/
 Description: A grep with Perl-compatible regular expressions
 
@@ -4164,10 +4194,10 @@ Installed-Size: 264
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Filename: ./zlib_1.3.2_aarch64.deb
-Size: 62916
-MD5sum: 5e48c2e3f7c0e30a8bc55556c9eb3948
-SHA1: 5266ac7764e7c39477046591bd5c86f2d1a08cc7
-SHA256: c2bbaf0de2723310f2f91041a695ea2db458f0fa6b3c29402031a84146ace8ee
+Size: 62880
+MD5sum: cc1da4cf4f096f929e890981a718e056
+SHA1: 5e40c82160cafe0597b61ced7f74f50c02f06867
+SHA256: 674fe7bf4e21db6f93e3f2e1f9f1c4f40677778b42bfb47aad3869d66cd65d63
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
@@ -4178,10 +4208,10 @@ Maintainer: @termux
 Installed-Size: 140
 Depends: zlib (= 1.3.2)
 Filename: ./zlib-static_1.3.2_aarch64.deb
-Size: 35456
-MD5sum: 5fb8dfbc79f875425ff17da4a23d9c85
-SHA1: d2637893982ebb64b487b7121632efce28179351
-SHA256: 7b69e699a5bae0a48f3d0b099c14ac45f5a4f61fdcd105462b4cf40ee9c5d60f
+Size: 35400
+MD5sum: 9b0c7658960053c47276ca0a7c3d3d75
+SHA1: 9071dce7992bd2385c608970ef3cdf3f04bb166e
+SHA256: 144036cde6b3b35f0c2fb4cc92e3a7005573b1fb1ee2b42d3fcdf76d93bc23be
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 

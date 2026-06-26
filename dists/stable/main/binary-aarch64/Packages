@@ -1041,10 +1041,10 @@ Maintainer: @termux
 Installed-Size: 56
 Depends: libiconv (= 1.18-1)
 Filename: ./iconv_1.18-1_aarch64.deb
-Size: 10128
-MD5sum: 13efe2e14491af363380990cc7f80b70
-SHA1: 036c3ab79a12642fae95a14a77bbd2678ba5c311
-SHA256: 77b8edff5d444ad450abffbf07bca4dbf5f3465c5fa310025d28bc28dfd6ffcc
+Size: 10124
+MD5sum: 010be59baa427ae9743dbef815d9cb47
+SHA1: 5f9705baa5c0c767e773911cdca1f5604531e853
+SHA256: 5cea825a2d15fdf3bd1661964103f35aaf0a67d33e97e112c9b93b84f3c88a93
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Utility converting between different character encodings
 
@@ -1316,10 +1316,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 76
 Filename: ./libandroid-support_29-1_aarch64.deb
-Size: 10936
-MD5sum: 3656406df529eb98bb612dc4cf479d65
-SHA1: 1be2a49991c3d4e69bc1fa1925f7eaa26c6b4754
-SHA256: f2bb5703755f95fd7e1f3bd06bc157bb9bd89ed8b686861ef53bca6d66b7394d
+Size: 10932
+MD5sum: e08f4655660557ab3f682c099ba1b7f3
+SHA1: 3d9ae23d327ffccacc2229262fba5d3f68a34d60
+SHA256: 75cf288277bdb9270d4fb989abd0add3603f37b3e51176db1588acdc8c1ec1a4
 Homepage: https://github.com/termux/libandroid-support
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 
@@ -1331,9 +1331,9 @@ Installed-Size: 72
 Depends: libandroid-support (= 29-1)
 Filename: ./libandroid-support-static_29-1_aarch64.deb
 Size: 8624
-MD5sum: f4c48b87576e6a200239c24a245e0cf4
-SHA1: e2d3813b067fe09fc11c36b97340aa1380c193c5
-SHA256: dd9e16f486574bdd1f83c83585b9ed94686d3e27390924a78d20e83bdd5f2b15
+MD5sum: 55f6b9419bae9e78d36a73baf95553d3
+SHA1: a48c34120e98c99af2fa994b3f2539af83e55fac
+SHA256: 2701b7bd7e68e443758423cab78b84d38644c6d24a9cb5153a99558271d490c2
 Homepage: https://github.com/termux/libandroid-support
 Description: Static libraries for libandroid-support
 
@@ -1433,10 +1433,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334548
-MD5sum: bcb78dec89cae05c0e0727e630ca1d29
-SHA1: 4c5f1e166f1a402e2465e2ebceb221cc119b50e2
-SHA256: 4fb676ad3204c2c18e03419c8d6fb481c6a5b08b986eb66113ae580d1ea33397
+Size: 334492
+MD5sum: 1b3b2a1c8e9ec6c906e387df32dbbf46
+SHA1: 3047c9db76251c476db1190a1f8ddd508a5fc519
+SHA256: 8ca43b3b7f24f396189fd784a792dfba9ab3e04e4c3c2fe4979ca88f528d6239
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -1851,10 +1851,10 @@ Installed-Size: 1216
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Filename: ./libiconv_1.18-1_aarch64.deb
-Size: 561984
-MD5sum: 790b12a26b8b0236935678b8b43fd933
-SHA1: 047285574545f1aa1273cc30c4356d8c225207fa
-SHA256: 7c9fbac989aa2acffc7cd1524549b88317fabbe49ae57688150d0503170931a6
+Size: 562416
+MD5sum: 862b06a8f930a41b11caf4b549b65417
+SHA1: 9bf4f0bda7ce12662a23d5002957c2b5d44a702c
+SHA256: 9bca53ea6ce6cf605cff9148c32edf8c1de83297443b7cc43761e2072a87ccd8
 Homepage: https://www.gnu.org/software/libiconv/
 Description: An implementation of iconv()
 
@@ -1865,10 +1865,10 @@ Maintainer: @termux
 Installed-Size: 1228
 Depends: libiconv (= 1.18-1)
 Filename: ./libiconv-static_1.18-1_aarch64.deb
-Size: 558372
-MD5sum: 39b4f54f28b364542ad93ae7de1476dd
-SHA1: d9af508f1fcd38c2f4ac8f7218ca78d9b0989157
-SHA256: 80c90555b4b1217cb8fbfe051009d9cdf9c8cf3cbf18a26508dc5cea2def076f
+Size: 557968
+MD5sum: 3218e02e35f70a325459b2430bd975ac
+SHA1: fff89b6bf2439390b2612b5face73b9c0885b7fe
+SHA256: e641b0ceb6c8d3956cfe923a34000f3d7519728141a037f51655bc369ba1ffca
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Static libraries for libiconv
 
@@ -2077,6 +2077,35 @@ SHA1: ed031b15c653e3c88e8133c50ee0b9efc82596aa
 SHA256: 6285f00e6a04026488266516bf97388f81cbdf4976449f633933307fe987ac57
 Homepage: https://www.mpfr.org/
 Description: Static libraries for libmpfr
+
+Package: libmsgpack
+Version: 6.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Breaks: libmsgpack-dev
+Replaces: libmsgpack-dev
+Filename: ./libmsgpack_6.1.0-1_aarch64.deb
+Size: 26284
+MD5sum: 5b1727d77a64bd726cabc52a07acf6fe
+SHA1: 1440126e945c90ff5fb27ed331d88538c62faa88
+SHA256: e6246e14e2ff76bd4ea5a08b3acbdc0a1ffae8f58bd152539ce65c67a8ae4544
+Homepage: https://github.com/msgpack/msgpack-c/
+Description: MessagePack implementation for C
+
+Package: libmsgpack-static
+Version: 6.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Depends: libmsgpack (= 6.1.0-1)
+Filename: ./libmsgpack-static_6.1.0-1_aarch64.deb
+Size: 10592
+MD5sum: 6a9018b9ff5a8957b41755da9a3fc8e5
+SHA1: c5057e523aa531f14d377972e264ad39db59de20
+SHA256: 933a92580f71f9c1bafe96b8dfcb566b7e90feff7355ae894497f3b9d82c4a1b
+Homepage: https://github.com/msgpack/msgpack-c/
+Description: Static libraries for libmsgpack
 
 Package: libnettle
 Version: 4.0+really3.10.2
@@ -2521,6 +2550,21 @@ SHA256: 049951a5d4bae9e89510720e3c4fd8bec257f4fc8c1eafd3fcd62a67abc220d6
 Homepage: https://unbound.net/
 Description: Static libraries for libunbound
 
+Package: libunibilium
+Version: 2.1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Breaks: libunibilium-dev
+Replaces: libunibilium-dev
+Filename: ./libunibilium_2.1.2-2_aarch64.deb
+Size: 21848
+MD5sum: 1979347208dad9e9197b9e344da3d8da
+SHA1: 3367d7e21282b5ee8be3226dca018fbfe7364bd1
+SHA256: 95157b41d6a7c4148e9db7108e7b5f7b287fe4f82a33fd178d5a072d40d0dda3
+Homepage: https://github.com/neovim/unibilium
+Description: Terminfo parsing library
+
 Package: libunistring
 Version: 1.3-1
 Architecture: aarch64
@@ -2604,10 +2648,10 @@ Installed-Size: 352
 Breaks: libuv-dev
 Replaces: libuv-dev
 Filename: ./libuv_1.52.1_aarch64.deb
-Size: 82124
-MD5sum: bc136cba5e36b0162d02e4d490804611
-SHA1: 9ed8b2eee1a56736d21ee72c2e304d0bf1e3f402
-SHA256: 4cafe380025cfc1f509a2c694d8fb3cbe7e1991ab62e5fdf710034f400ad3446
+Size: 82064
+MD5sum: 0792cfed881de62de5122e1da82171e5
+SHA1: fd08f97337a27e1b0f8a626dffaaa040511c069d
+SHA256: 5be649c120f897bd7a70a4b69cc586d9a41bb9782152fbf99dc5b04a39282123
 Homepage: https://libuv.org
 Description: Support library with a focus on asynchronous I/O
 
@@ -2618,12 +2662,27 @@ Maintainer: @termux
 Installed-Size: 1572
 Depends: libuv (= 1.52.1)
 Filename: ./libuv-static_1.52.1_aarch64.deb
-Size: 287160
-MD5sum: f00b349ff1addd1dbd64bb136590821e
-SHA1: 4c4110d09c462e01fa294957909010b66c7b771c
-SHA256: 2fd15648ec8bd74e2fc8e2d90f3a5923e16d602ef4ca74d809bd0891e08a50c9
+Size: 287228
+MD5sum: 4674b0c9f1c162ce9e662c685e0b7de5
+SHA1: 00166c1cac4071e3d07985a6318f9987e0b031f3
+SHA256: d2573c9ce5547ea5bae53baabe83706f399c8fc0e4c9b8572d4eb6bae32a7bea
 Homepage: https://libuv.org
 Description: Static libraries for libuv
+
+Package: libvterm
+Version: 1:0.3.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Breaks: libvterm-dev
+Replaces: libvterm-dev
+Filename: ./libvterm_1_0.3.3-2_aarch64.deb
+Size: 32988
+MD5sum: 0bcbe7ce2c248f2f178c0f375e32d4e3
+SHA1: 8f7ab18a01c7b00495c55349220122b8bfa13e5d
+SHA256: 9bdcc050f733104254cae862499d7d14b64ec1f18eb0ce459a27c88276f24fd9
+Homepage: https://www.leonerd.org.uk/code/libvterm/
+Description: Terminal emulator library
 
 Package: libx11
 Version: 1.8.13
@@ -2911,6 +2970,221 @@ SHA256: 1f9b433931f3433f343425b2397850271f42e5455e642956dc2596b6dd9884f5
 Homepage: https://pyyaml.org/wiki/LibYAML
 Description: Static libraries for libyaml
 
+Package: lua-lpeg
+Version: 1.1.0-5
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 156
+Depends: lua55
+Filename: ./lua-lpeg_1.1.0-5_aarch64.deb
+Size: 26556
+MD5sum: 2b6832619661c99373f5ab673a7afd4a
+SHA1: 10d406a5a281676ae3d49b1397f5a48172d588d0
+SHA256: 0954200b449d05df196fca74ae985f870a87674b5c79767ae34c339c2695b29d
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.4
+
+Package: lua51
+Version: 5.1.5-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 576
+Breaks: liblua51
+Replaces: liblua51
+Filename: ./lua51_5.1.5-7_aarch64.deb
+Size: 102880
+MD5sum: f18a5c97dc746077b1bb3165325c61fe
+SHA1: 5ff77fe98361ddf942ea841e617ddc57bfc036ab
+SHA256: 1b142386659ef8d92d0a5c8e8ba551798b771c7d740ef8c43a6f13cef4cf64b8
+Homepage: https://www.lua.org
+Description: Shared library for the Lua interpreter (v5.1.x)
+
+Package: lua51-lpeg
+Version: 1.1.0-5
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 104
+Depends: lua51
+Filename: ./lua51-lpeg_1.1.0-5_aarch64.deb
+Size: 21536
+MD5sum: d107fdffc842eeb6dda55de4fe2b8ac1
+SHA1: 646619c68ff45bc088e538fd287136fc1d27fdad
+SHA256: d0a3edbca793ad86fce308ac12e75fc34ca1c8246b19938526ca4a09719a73e9
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.1
+
+Package: lua51-static
+Version: 5.1.5-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 360
+Depends: lua51 (= 5.1.5-7)
+Filename: ./lua51-static_5.1.5-7_aarch64.deb
+Size: 75448
+MD5sum: d94dafacd3f346de98c2eead1d2f3d78
+SHA1: 2a38e968482807f3af55db5f2f0f28b08def123c
+SHA256: 1e76751eb118ce7c4acabcdd9d4b82d5153665fe28945cb5770ba5638875da0f
+Homepage: https://www.lua.org
+Description: Static libraries for lua51
+
+Package: lua52
+Version: 5.2.4-15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 624
+Breaks: liblua52-dev, liblua52
+Replaces: liblua52-dev, liblua52
+Filename: ./lua52_5.2.4-15_aarch64.deb
+Size: 112296
+MD5sum: d708b9ad30fbb48a5a078386c1c98ca2
+SHA1: b0bedc9fbf8390f2a5f7fbc01f9df92ac6f7fdbc
+SHA256: ce8d054b40b92aa55ca4dd71b5aca21c0b55d487a9fc59ed0ac3ba37cd3aaca5
+Homepage: https://www.lua.org
+Description: Shared library for the Lua interpreter (v5.2.x)
+
+Package: lua52-lpeg
+Version: 1.1.0-5
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 104
+Depends: lua52
+Filename: ./lua52-lpeg_1.1.0-5_aarch64.deb
+Size: 21592
+MD5sum: e0f3525f098474ba7213b51407b617be
+SHA1: 05f5eaa031c823278431428d5c4234b7c00571d5
+SHA256: 0458ff4779cdb9dbae4840fdec2fe7fba7941244fce51e2e67cc637ebf9c586a
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.2
+
+Package: lua52-static
+Version: 5.2.4-15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 400
+Depends: lua52 (= 5.2.4-15)
+Filename: ./lua52-static_5.2.4-15_aarch64.deb
+Size: 85060
+MD5sum: 4703d239486b9d0c985c288cdbcfb020
+SHA1: c955e5bd5264b9d0d0a9562ed0fb36352ddac56f
+SHA256: 9c4d6ebe18defb6e67a35d180a3d79b4fb57a04dd225b49c7d3ea97be7774208
+Homepage: https://www.lua.org
+Description: Static libraries for lua52
+
+Package: lua53
+Version: 5.3.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 688
+Breaks: liblua-dev, liblua53
+Replaces: liblua-dev, liblua53
+Filename: ./lua53_5.3.6-6_aarch64.deb
+Size: 124116
+MD5sum: 603f3f701f1029c2077856f620e151e8
+SHA1: c50eb2804929b7c470210e23cd2f5d4b6f1c2b05
+SHA256: 30d444450c24ccbd93a019fe64ec6aeb6032dc86ce1f30b8e1751ff5b8d7d34a
+Homepage: https://www.lua.org/
+Description: Shared library for the Lua interpreter (v5.3.x)
+
+Package: lua53-lpeg
+Version: 1.1.0-5
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 108
+Depends: lua53
+Filename: ./lua53-lpeg_1.1.0-5_aarch64.deb
+Size: 21712
+MD5sum: 46fcb43af9b081fe7e9b6ee4c163a0aa
+SHA1: 720002792621ded63af725a59ee9b1ac67365f8b
+SHA256: 3252a138e362454ef516a84226e691009d67f3f2ddfde416437a26b0444c3b50
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.3
+
+Package: lua53-static
+Version: 5.3.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 444
+Depends: lua53 (= 5.3.6-6)
+Filename: ./lua53-static_5.3.6-6_aarch64.deb
+Size: 95540
+MD5sum: 187971fc660af9200c7ec7bcbe9bb2b9
+SHA1: db16d8569f0eb04a1ee6376cfdc8054adf8237fa
+SHA256: e0019bfca7273e6edfce0523471c3d00150438124eb668a19f63d897a63c8425
+Homepage: https://www.lua.org/
+Description: Static libraries for lua53
+
+Package: lua54
+Version: 5.4.8-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 772
+Breaks: liblua-dev, liblua54
+Replaces: liblua-dev, liblua54
+Filename: ./lua54_5.4.8-6_aarch64.deb
+Size: 140684
+MD5sum: 95d7395a755e6e0663d3cffc39a7ca0d
+SHA1: a3b554f6e3f11e57ae5f96c4aecd64749d6f7718
+SHA256: 79d3e9bdc6fca5afade835c51c16654b3f644c880a7045d68eace7a40a4b3489
+Homepage: https://www.lua.org/
+Description: Shared library for the Lua interpreter (v5.4.x)
+
+Package: lua54-lpeg
+Version: 1.1.0-5
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 108
+Depends: lua54
+Filename: ./lua54-lpeg_1.1.0-5_aarch64.deb
+Size: 21852
+MD5sum: ae4c154d8442db581c92b7c19fbda99d
+SHA1: f27de4711dbb01934cf81d19f28cbc53b363aa43
+SHA256: 78096af8fead841b1ab0df6e687bd33f5225d015d85495a705b123616d35d548
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.4
+
+Package: lua54-static
+Version: 5.4.8-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 488
+Depends: lua54 (= 5.4.8-6)
+Filename: ./lua54-static_5.4.8-6_aarch64.deb
+Size: 108180
+MD5sum: c3363f67a628e46f77c5ac13a8f93965
+SHA1: 3ec9aee947be2e8918066dc75de96c8530372cff
+SHA256: 017617ffbde47b08f80b8fd7df20f244d99a086acd39f28fdc4052c7a82ea648
+Homepage: https://www.lua.org/
+Description: Static libraries for lua54
+
+Package: lua55
+Version: 5.5.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 804
+Breaks: liblua-dev, liblua55
+Replaces: liblua-dev, liblua55
+Filename: ./lua55_5.5.0-2_aarch64.deb
+Size: 144812
+MD5sum: 0917b3cb36b5f4568a708016afc58da9
+SHA1: 907936983d478a2c153005ed5b493f0e9bed3846
+SHA256: 3d471532e6fa3f988ef0833e572f4de0ae9269dfef42d587bceb1081d7fbfe93
+Homepage: https://www.lua.org/
+Description: Shared library for the Lua interpreter (v5.5.x)
+
+Package: lua55-static
+Version: 5.5.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 508
+Depends: lua55 (= 5.5.0-2)
+Filename: ./lua55-static_5.5.0-2_aarch64.deb
+Size: 114176
+MD5sum: ffa52b7d72f7827e1806ecd9fb9e49e3
+SHA1: a6518c99b65571df774a5e8c7a538113a08cee92
+SHA256: 2d80de3548393e2d25c58a221758ac5fd30e5218914571442136a72c01a8e9db
+Homepage: https://www.lua.org/
+Description: Static libraries for lua55
+
 Package: luajit
 Version: 1:2.1.1774896198+g18b087c
 Architecture: aarch64
@@ -2919,10 +3193,10 @@ Installed-Size: 1336
 Breaks: libluajit-dev, libluajit
 Replaces: libluajit-dev, libluajit
 Filename: ./luajit_1_2.1.1774896198+g18b087c_aarch64.deb
-Size: 289384
-MD5sum: 4f3a87e3a6a380884a6a4688faebacf0
-SHA1: 50bc9c8dbed4314022edab43b8d328fda23653f0
-SHA256: 22fc487344186b009c69d5b31b3640c2e26e7b56798e32f49387c9c7cc44a958
+Size: 289416
+MD5sum: df41140b45a8310a8048be48957534b6
+SHA1: f7e84a18c9af316a93ef7ae2b60ff0e86b9b1014
+SHA256: 7757f971395a35ca36a0a8f3704ac8092863e3a6950b5a68f5785b76c70cd837
 Homepage: https://luajit.org/
 Description: Just-In-Time Compiler for Lua
 
@@ -2933,12 +3207,26 @@ Maintainer: @termux
 Installed-Size: 680
 Depends: luajit (= 1:2.1.1774896198+g18b087c)
 Filename: ./luajit-static_1_2.1.1774896198+g18b087c_aarch64.deb
-Size: 220960
-MD5sum: 2bc92d671990a22f2cd2fd83026c1af1
-SHA1: ef67edb7653c57c80830a7890698709b7e01f894
-SHA256: f33db1cd39250a3bb62266ad58c2690c5358c442b2fd869397645ecc0c4cbe44
+Size: 221160
+MD5sum: 9bd44686421dfa122ba73d6578ffb663
+SHA1: 76cab7d4d0a0e4ef4a4ed9670f7a3947b6dc316b
+SHA256: 711cea32cdcd19870a7fd771902528b313b8e5720c0948eaad9cb826099d0916
 Homepage: https://luajit.org/
 Description: Static libraries for luajit
+
+Package: luv
+Version: 1.52.1-0-0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: libuv, luajit
+Filename: ./luv_1.52.1-0-0_aarch64.deb
+Size: 50536
+MD5sum: 70403c93aa0280e697264745ecadeca3
+SHA1: 27992770c1a7385411c5e9f9aa8d81e75f9d8e87
+SHA256: 72c00601ec5a453b4ebdc703a2faeee8272ab9e9b05d8f24e0b6940128a8ab1c
+Homepage: https://github.com/luvit/luv
+Description: Bare libuv bindings for lua
 
 Package: lz4
 Version: 1.10.0-1
@@ -3033,14 +3321,14 @@ Package: ncurses
 Version: 6.6.20260307+really6.5.20250830
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 1612
+Installed-Size: 1608
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Filename: ./ncurses_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 558392
-MD5sum: 4377feea836be624d9521475f19a1768
-SHA1: dda2aab06435a31dc40cf534998d69681a64c091
-SHA256: 8215e659834c31c661e6ecb445ac206e000a94cd7c43c4cf21ce6fb15b2938dd
+Size: 557952
+MD5sum: 539815f6628edff51eb2b93ffe4988a6
+SHA1: 18417742e27c5871b148ea6df7001ddd5df61aec
+SHA256: cab0c3977ad7deb46d20294da64a137a4a4a04b444bfd261d9a1e931c72166ce
 Homepage: https://invisible-island.net/ncurses/
 Description: Library for text-based user interfaces in a terminal-independent manner
 
@@ -3051,10 +3339,10 @@ Maintainer: @termux
 Installed-Size: 784
 Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-static_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 153988
-MD5sum: 0d60310965107175dd8b856419548d75
-SHA1: 1a47a01f5146585d1e7416de5d73d88ae59e136e
-SHA256: f389bc38bc1bd814d0ee39aeb1a45a36bc6e69c016c8c52fea1d337a04b10164
+Size: 153904
+MD5sum: d133df65e8f49ca2bf886f2fadcd69c9
+SHA1: 056444d3b103f73703246e3fc7f1a0a40c2bd13d
+SHA256: 5b593c47758951bf087f4c31c427ec2f4657e346e70911ec10c41960956808d2
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for ncurses
 
@@ -3067,10 +3355,10 @@ Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
 Filename: ./ncurses-ui-libs_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 32956
-MD5sum: 69bc1860b8b7bfdcd4d0dda10c88c5b6
-SHA1: 83a27a673b0826781654a7ad372730368ad51fb0
-SHA256: 1e10ccb424d5a6d94cc8221aa724db9a849953d84d1dda723d2501dde09b55b9
+Size: 32964
+MD5sum: aa651081e664ba70c7d679fb1e771e1a
+SHA1: 3e967d658313d0d490cd0b4724eccaa245269823
+SHA256: 4008e91d48af8eb278b35c89a73c5add296ed405404f7efbdb3eff17b560aa41
 Homepage: https://invisible-island.net/ncurses/
 Description: Libraries for terminal user interfaces based on ncurses
 
@@ -3081,10 +3369,10 @@ Maintainer: @termux
 Installed-Size: 260
 Depends: ncurses-ui-libs, ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-ui-libs-static_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 39552
-MD5sum: 51850135c2a72d49b55c2de6fc0fbde9
-SHA1: 4c536e4d2c2f64395dac7a5f1d805f7fee5bd477
-SHA256: 6d39883ce1d2d4492aa18f8f8627bfac844eab61924a74079fa5449cc787e9c9
+Size: 39508
+MD5sum: 15537f4da700e1e7d66b20a6f0167e4f
+SHA1: 6112a60f131cc87d65b43ff34323e546a7122293
+SHA256: 607d6d2512419caf0ccbd551932d460bd9ed5c10a719e549c1edd29de91ed6ec
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for terminal user interfaces based on ncurses
 
@@ -3095,10 +3383,10 @@ Maintainer: @termux
 Installed-Size: 272
 Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-utils_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 88924
-MD5sum: 7a6289e2b2bc927c62982f19a62d7682
-SHA1: 3ba7b4cbb6ab4907d31f2c0b9de14229466ab67c
-SHA256: 57d01aafb4730ab80a28694bd3f281ae77ccc4bac1ed71572525624b15f3474a
+Size: 89012
+MD5sum: 0b89fc6f2c9393c145837a98925b63d4
+SHA1: ad0dbbbe0694891fb1cc0cc91f45caa0bc482378
+SHA256: 5c382f6593075e8190d3b79ad4e6e0e30cefdd2cc2e1a767402fb9ef374e32d8
 Homepage: https://invisible-island.net/ncurses/
 Description: Tools for working with terminals
 
@@ -3110,12 +3398,28 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952220
-MD5sum: 3f689c42c0342486fdb1f8fce4abd57e
-SHA1: 7a413b89c92617ab2c6e4a29075b5d1e4838d3a3
-SHA256: c849ed78144accac68d67902d636e6ffa591552cf552ee50ad29bc0376129d7a
+Size: 1952348
+MD5sum: 80638b710bedc2da8d66e720745b0b69
+SHA1: 824bdf40574473ef01fa8383835a595b30717f5f
+SHA256: 215a56609aa479f32a928bfa9371cb82d2956f76f68429228bb380c5a97c147c
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
+
+Package: neovim
+Version: 0.12.2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 32384
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim-nightly
+Breaks: neovim-nightly
+Filename: ./neovim_0.12.2_aarch64.deb
+Size: 5901044
+MD5sum: f13bb13bd198e3d6d2f10e56aab412ac
+SHA1: 4fc3f922e9526848c7527616707e972b5d4ae03e
+SHA256: 8a18d7cad731429faba30ce2959704a2b64e36fa5287a33962d2368b05d03687
+Homepage: https://neovim.io/
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim)
 
 Package: nettle
 Version: 4.0+really3.10.2
@@ -3560,10 +3864,10 @@ Depends: libandroid-support, ncurses
 Breaks: bash (<< 5.0), readline-dev
 Replaces: readline-dev
 Filename: ./readline_8.3.3_aarch64.deb
-Size: 294092
-MD5sum: 5482f876d24ac88390eb9516c4b08f8f
-SHA1: 56f78ef792f38069d538c4552ced5da313efccf6
-SHA256: ed7bc65fad8df9ade4277a4e81c85d251b5511d7ef7468945c7a08562b9e318e
+Size: 293620
+MD5sum: 855d5093c3e10448f1566f643d64fa2c
+SHA1: dcc9c773f2b67669ba04fbd07e6c40ae3d6e719f
+SHA256: 939bb67927b78a2e75c6b9ec987321ff64c0df4ab4707297bdaf2b38acf77b29
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Library that allow users to edit command lines as they are typed in
 
@@ -3574,10 +3878,10 @@ Maintainer: @termux
 Installed-Size: 712
 Depends: readline (= 8.3.3)
 Filename: ./readline-static_8.3.3_aarch64.deb
-Size: 124960
-MD5sum: ed32f9877a313086bb3c999620802923
-SHA1: 7f54b11959787c7d6a52963120abbe4e18e93a4f
-SHA256: f1bd8c1d8454f4ac6386bb797bc2863f1274ff64b06ed778561a800d05efc204
+Size: 124952
+MD5sum: 576b0a2885fe5a462a56a5ecc7a066e6
+SHA1: 84b19fa494400cd4889b55f49b99e08643dffe4e
+SHA256: f4a037c2f974543b86e202de2e8a959e4e6fce9386212d9f2c4ec3ce4c3b0e9f
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Static libraries for readline
 
@@ -4072,6 +4376,114 @@ SHA256: ba59d31b628424fe2fc88147d9fd25c8572d7a1db0ea8164985b89a38b845e0b
 Homepage: https://www.torproject.org
 Description: The Onion Router anonymizing overlay network
 
+Package: tree-sitter
+Version: 0.26.8
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 8604
+Breaks: libtreesitter
+Replaces: libtreesitter
+Filename: ./tree-sitter_0.26.8_aarch64.deb
+Size: 2383940
+MD5sum: f5e475b827cd64904db48cc7dbb6a84c
+SHA1: 788afbc700c6711cf18730d26fa71adb45cf3da5
+SHA256: 2affce9127cb35f24098b73a4e845fd2e1c06a556a92902309824ff699bcecc6
+Homepage: https://tree-sitter.github.io/
+Description: An incremental parsing system for programming tools
+
+Package: tree-sitter-c
+Version: 0.24.2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 716
+Filename: ./tree-sitter-c_0.24.2_aarch64.deb
+Size: 49248
+MD5sum: 7d2908d9f14428e6cc6b357ce8911a0d
+SHA1: e333c5a30abeb8bc85bdb90f8c29154870b766a7
+SHA256: 93eafe7200f65787ea868f2a3c2b23165b91038e5b7ff8a13fd151bba9bc0259
+Homepage: https://github.com/tree-sitter/tree-sitter-c
+Description: C grammar for tree-sitter
+
+Package: tree-sitter-lua
+Version: 0.5.0-1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 156
+Filename: ./tree-sitter-lua_0.5.0-1_aarch64.deb
+Size: 13976
+MD5sum: b0d61d308bf9b5725f08bb73368bc621
+SHA1: c247fb03c2897ead2a48eae2b33c61f6f70dec92
+SHA256: 106e7160288136f6b00b9ab74b3cad75d0ceeedf791c57bd173e818085ec4870
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-lua
+Description: Lua grammar for tree-sitter
+
+Package: tree-sitter-markdown
+Version: 0.5.3-1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 812
+Filename: ./tree-sitter-markdown_0.5.3-1_aarch64.deb
+Size: 87704
+MD5sum: 1647ea37acb36ac4af93bb54cc01598b
+SHA1: dc9ea76b0252b9fc1f8a15b8c6dcbe341aa488e9
+SHA256: d350cbac5f95df5a3ee63c7f17e1c54ecdf47672f4ba75e2a2296587d40aca72
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-markdown
+Description: Markdown grammar for tree-sitter
+
+Package: tree-sitter-parsers
+Version: 0.26
+Architecture: all
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 4
+Depends: tree-sitter-c, tree-sitter-lua, tree-sitter-markdown, tree-sitter-query, tree-sitter-vimdoc, tree-sitter-vim
+Recommends: tree-sitter-bash, tree-sitter-css, tree-sitter-go, tree-sitter-html, tree-sitter-latex, tree-sitter-java, tree-sitter-javascript, tree-sitter-json, tree-sitter-python, tree-sitter-regex, tree-sitter-rust, tree-sitter-sql, tree-sitter-toml, tree-sitter-xml, tree-sitter-yaml
+Filename: ./tree-sitter-parsers_0.26_all.deb
+Size: 824
+MD5sum: a1dc52c101428577dc8b09c95cfc289a
+SHA1: b8f0386fdf0059f1a5a67f544b111b27ceaf8a63
+SHA256: 945b2318aad3d0b919b07f7d495c6779b900328ac86af4289886220657f8c582
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that provides commonly used treesitter parsers
+
+Package: tree-sitter-query
+Version: 0.8.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 112
+Filename: ./tree-sitter-query_0.8.0-2_aarch64.deb
+Size: 6384
+MD5sum: 17e87e4a001ac61168fe2e8d4671f9c2
+SHA1: 76d1182d254f7eb234f9175c5b899124e0175d8b
+SHA256: aec136e75662f671d9b689f9691dac40dfddc4ef9e5d28d1f06ea37a79581016
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-query
+Description: TS query grammar for tree-sitter
+
+Package: tree-sitter-vim
+Version: 0.8.1-1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 1320
+Filename: ./tree-sitter-vim_0.8.1-1_aarch64.deb
+Size: 111668
+MD5sum: 8a0bd052b55ac4fc0f548f13761cd226
+SHA1: 4bc034f5e52d110e63172739527928b101cf0b46
+SHA256: 38035d982d8caa340ff99ee26dc143f1e271e1494de220434e2285c1df5723e0
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-vim
+Description: Vimscript grammar for tree-sitter
+
+Package: tree-sitter-vimdoc
+Version: 4.1.0-2
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev>
+Installed-Size: 304
+Filename: ./tree-sitter-vimdoc_4.1.0-2_aarch64.deb
+Size: 21196
+MD5sum: d4ac9120ab4a6722d1e6df9e4c7cded9
+SHA1: 3f051de2e0c5c0b1694cc1067108e46e18449e2e
+SHA256: 8c8cd63d903f3e330e252133736cde3844239678d37e35594f8e4f607b8c6c14
+Homepage: https://github.com/neovim/tree-sitter-vimdoc
+Description: Tree-sitter parser for Vim help files
+
 Package: ttf-dejavu
 Version: 2.37-8
 Architecture: all
@@ -4121,10 +4533,10 @@ Installed-Size: 440
 Breaks: utf8proc-dev
 Replaces: utf8proc-dev
 Filename: ./utf8proc_2.11.3_aarch64.deb
-Size: 59336
-MD5sum: a2f88ff3d51285fca6675574340ede72
-SHA1: 4b9b35ec464ff628acd8ea170d4c3cbe5fc27603
-SHA256: c26862dbc568ebef1febd09cb99673af2ae995ba4c8beeae80214d2e336fb34d
+Size: 59476
+MD5sum: 2f74c3fd4c50e10da6aa25ad18942595
+SHA1: bd33662fda15f38c92e045352989d8e5d309a714
+SHA256: b45bf4ccf3a2912c11c2440624d04c742ef10dbb7f928f05ceafbe59c2bdf53d
 Homepage: https://github.com/JuliaLang/utf8proc
 Description: Library for processing UTF-8 Unicode data
 
@@ -4135,10 +4547,10 @@ Maintainer: @termux
 Installed-Size: 372
 Depends: utf8proc (= 2.11.3)
 Filename: ./utf8proc-static_2.11.3_aarch64.deb
-Size: 48984
-MD5sum: 61c986a33921703c609cc62e142828dd
-SHA1: 4ba5467f0a8d64868752219926e547faf079c4df
-SHA256: 0dcce58751665f89ca9e5b699d2a1aab8ee84e1a2654589c15e6e5939a37f91e
+Size: 48176
+MD5sum: 3d1bf0d4b4d1904dd73db2f3cb2feba4
+SHA1: 4ac3ec00afcaa3dfffd61d53c9690f35b519b2db
+SHA256: c07c77b524cee94c357f6f9b6afaf083aa958e36fbcdfef88a3c9172284d7423
 Homepage: https://github.com/JuliaLang/utf8proc
 Description: Static libraries for utf8proc
 

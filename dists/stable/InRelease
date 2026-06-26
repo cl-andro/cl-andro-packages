@@ -8,26 +8,26 @@ Codename: stable
 Architectures: aarch64
 Components: main
 Description: Sovereign Custom Package Repository for cl-andro
-Date: Fri, 26 Jun 2026 16:02:29 +0000
+Date: Fri, 26 Jun 2026 16:29:28 +0000
 MD5Sum:
- 85b66fae7b85709e504b47a32a32438b 141985 main/binary-aarch64/Packages
- 617449d94c8370550235e5441f6fec24 47347 main/binary-aarch64/Packages.gz
+ cdfe0b8708dba55b390ad33bbde426eb 155599 main/binary-aarch64/Packages
+ eaa18bde8376a634fe66e15ddc373494 51592 main/binary-aarch64/Packages.gz
 SHA256:
- 8f2fcb2832ce8814af5a9becd43bfab79761b56790867ad690e01cb7b801d704 141985 main/binary-aarch64/Packages
- 39d15c81169060988e7a6b8fc33b569941892fde571a16b55bca99f038d0a4e9 47347 main/binary-aarch64/Packages.gz
+ 5201c4613dcd16f5d2619a2514ad82192a779ca76d4038b0c641555eb5940e21 155599 main/binary-aarch64/Packages
+ 52e66475de4198b71c9a2730b6c5d61160504411d2b7f787191ed09dc139a7b9 51592 main/binary-aarch64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEgmiSQx6b7kIomsa2PoocFwhSQFkFAmo+opUACgkQPoocFwhS
-QFnT0BAAjZJjY7RFbTtW9XOabiCLwR9bObH7Dtw1GyF8j9HWFLpwx5K5MiG8hZ6P
-x2m+LQfR3NMUW/4pVlGDG6sCMHjh6tY+mYd2EbvSMReIbxkezDpvJyFa7rINZnvU
-+vmBDf+e/If5X5TkazlBNkhpfZnAcQq5kPyzKjwwB7gEahV62EFXqSAWDMdg+0kt
-tvuepVCsnEohNgvuHy5G7eRjOOZHA1vIGCLZtLenrfoOLUR0LJ8LZGCoAJlk3wJP
-wvsvmmbeVjGmQVphGrKEAH8Z73xn8d4ayFSc0fekv8AQOgqmaU3g+uzq4o1w0PLb
-X68gQR9K44d0HWb49u6Hs9QAYmeShOU1A7CibU+MKdpdcu2ZTzKeNX8nPLtaRJNG
-oz/eEoyOjSPRnCrugVLdc9r/2CBQuxmd4cqWf7GcgmbgUEoIJXVKusiIaXjnJtRA
-15fyLFcLIpaKkYOKO4onU+Wlm9fRQYLtWaaIeaple0vGOFKEM31SjoZpd7l5241O
-yNFOgE2ZqmTFJQy6Y1RaY87k+t3LEvvtOwRGNQzWH15MksIOthziHrRhk3l52u0m
-NaFRSGPA5Usri7IPZ9RklyT2yMhny9BDMCHA6fW3MOz/7GqY48ttcIbXCMWClYMd
-K9YoWmOCSrapcL2825IBSx+opnl23VldaXTXCFCmdmBwnzsV4EA=
-=kP07
+iQIzBAEBCAAdFiEEgmiSQx6b7kIomsa2PoocFwhSQFkFAmo+qOgACgkQPoocFwhS
+QFkUixAAiRQrJSnb7VbZJv7kdYNDgF4Ka1poCX2X/GeYuhaWfh1qM3fh1G+kA/bV
+6wNR4Th9Vj6h8VUP4yhFn06sXgbEz0BIU/AJA3csEGYld/BfiGZZ56QXfNbUjYWy
+L9J75DDuOrHbHjXKr2fig1rFFb90O+MYg1/YvYNl64/Sg6/rfiLmWzfX4AOqf48k
+bljqTJsX0o2BwDkiymqMI4XuWaignibkB9z0jK/ysqPoSWwE9JW2K/m0yHcsUZfm
+IRZFSyn8yadq9N5AAbt2Wz//k/0ndGDXJG2THTHjyY7ZlUAmY4hx1ph1Xv4he3VA
+UmVijwJJqNG6XsglJ3m3Sk6w+dSvqYJ0sih4FeORn1iTstQCyLHvWjvbNY8i2xfc
+WAXArOkjCVEczbb44sEa2k7yClxN8Hw+IKtCYbCrwbyHJgy1NIjRuqdFS7Jp5tCQ
+SUjfdy74d4oTj6xzD/qoK18T6XaPVjV01k1VmxXAGuuMK2fNVj9jIYK4VSJ4P6/G
+07PGjvpf8OL/W/IFstHstdrgbpAQ5SBLzz/mNEC/PFhR1In0l2INPcJBq/no6Dzr
+BLaMdazt3srslV25spXVMo8mIL5elubJm1UWNVlMOLf2PDyKjmwV3lQ6vTXtdpq+
+49fO1jOMu+xNs5zJ6RxVup22INn7b3Cl+GD4HfkU9gIFhNsKxfI=
+=TdrO
 -----END PGP SIGNATURE-----

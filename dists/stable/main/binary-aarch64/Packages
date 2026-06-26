@@ -883,6 +883,20 @@ SHA256: 9112563c0ec398affaff75b5811a3c2af37534eb11cd3cf0cfa83b2dbc467d40
 Homepage: https://www.gnu.org.ua/software/gdbm/
 Description: Static libraries for gdbm
 
+Package: gh
+Version: 2.92.0
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 40848
+Recommends: openssh
+Filename: ./gh_2.92.0_aarch64.deb
+Size: 9314528
+MD5sum: 4685d770138736080f7ae87cbe79fd95
+SHA1: a8a8119b19869ba1a7a51a6804d265a4b19aa888
+SHA256: f310d39b50ca6b57f72c803f9b65526d902c4875bdd9a755ba0e1950310763c9
+Homepage: https://cli.github.com/
+Description: GitHub’s official command line tool
+
 Package: git
 Version: 2.54.0
 Architecture: aarch64
@@ -1181,6 +1195,21 @@ SHA256: 8aea35881c0d9cb61cd56f5fdcb6ce188ced49493bb8d82368fea0613fece239
 Homepage: https://web.mit.edu/kerberos
 Description: The Kerberos network authentication system
 
+Package: lazygit
+Version: 0.61.1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 19228
+Recommends: git
+Suggests: diff-so-fancy
+Filename: ./lazygit_0.61.1_aarch64.deb
+Size: 4414432
+MD5sum: 98ecb213c0361f4faa2a7a751674aa67
+SHA1: 3758877f2d0b49de2ffb334b5fa789f814c1f46e
+SHA256: 073ee2aa12a619f649ae5f2dfe061144b33c536acf6c4c9ee5ac5547e7186fa3
+Homepage: https://github.com/jesseduffield/lazygit
+Description: Simple terminal UI for git commands
+
 Package: ldns
 Version: 1.8.4-1
 Architecture: aarch64
@@ -1389,10 +1418,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 76
 Filename: ./libandroid-support_29-1_aarch64.deb
-Size: 10940
-MD5sum: 0bd9e93a89250b6c35402ee77c12b820
-SHA1: bef5103997229a7a68b8cf56eb3af03b686b71ef
-SHA256: b1d615cd352bad033de05dae397d5c178203c5b326555a5a852c1df93ef40e04
+Size: 10936
+MD5sum: 22514af886caf7d4da6eb71de83e5f48
+SHA1: 541de28cad6ba9f5f6074c48c95571102cfdc978
+SHA256: debd1b8db51bfce11593edb924ac6cfc84d6b6140a2c0017063911022ac13fbb
 Homepage: https://github.com/termux/libandroid-support
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 
@@ -1404,9 +1433,9 @@ Installed-Size: 72
 Depends: libandroid-support (= 29-1)
 Filename: ./libandroid-support-static_29-1_aarch64.deb
 Size: 8628
-MD5sum: 411bb8ee056ef4831f868a8656f88024
-SHA1: 32c61061cbb72d8d4e7ea0eb8cae6aa5d6edf0d9
-SHA256: 2cf6f9b47d73745803024fad388398a3e8a8cce1ff491f82d7b92b616a89ed48
+MD5sum: 2d3bd80ef17bb436949e94808df09e66
+SHA1: 81c54e5f0adb4865f6481640770da6b54fb7f52f
+SHA256: b07738e09ab986249fb882ffa8d59a40334b4ec23b6945aefc52772cc306a721
 Homepage: https://github.com/termux/libandroid-support
 Description: Static libraries for libandroid-support
 
@@ -1536,10 +1565,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334692
-MD5sum: 663c7d761f0671bae35d4c1be0df8f38
-SHA1: f29f5fd3c01cd4cfb2a2f525c4f76d47ac236606
-SHA256: 74f21e9a13a2e91a04d71ddcc38bff4a1eab74af8266e40e51e8b88495616a9e
+Size: 334764
+MD5sum: 2f753e2bd0012a3e78de1a2611fd0a15
+SHA1: c32b0edbbcc70c620e1d0074988b3f247db63aa3
+SHA256: 3480abcdf2c39bbb24e85d7cf217047684374135b5f171b96870061825927e8c
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3497,14 +3526,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 31268
+Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952072
-MD5sum: 3b7e2aef3a0e8eb998528eb15bde2806
-SHA1: 77a25e5997d61c5a713cdc076500e6591e7413b2
-SHA256: fa943209c7cb22c997701db7c4a0fd7c32b0fe119f9298b96a1463777665aa85
+Size: 1952112
+MD5sum: ee97a32c00116d77c6d4ac04e4944535
+SHA1: 39d360954e7065b48661bf8e1424d6f39c726bb8
+SHA256: 2269e8e75cc9f8962c25249ab6f8f90db8b19d5741aa3beca510459060d4a535
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4522,6 +4551,20 @@ SHA1: ee55af41ef487d09b9ca0b8e39b9c84eb6c79329
 SHA256: ba59d31b628424fe2fc88147d9fd25c8572d7a1db0ea8164985b89a38b845e0b
 Homepage: https://www.torproject.org
 Description: The Onion Router anonymizing overlay network
+
+Package: tree
+Version: 2.3.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: libandroid-support
+Filename: ./tree_2.3.2_aarch64.deb
+Size: 35920
+MD5sum: 4e0516fb3bc9b6a8c36dcb3c206042c6
+SHA1: dc9aa5c8eeb4004cb9861bdee44180c20f32034c
+SHA256: 9667abafee19beeef74d7f0e33e4ac174736e8ff68f650c235e3a825c1e7f8c1
+Homepage: http://mama.indstate.edu/users/ice/tree/
+Description: Recursive directory lister producing a depth indented listing of files
 
 Package: tree-sitter
 Version: 0.26.8

@@ -929,6 +929,35 @@ SHA256: e581c60b2bef48d445163f6345649dc63848c277176c27c6749fce5d1dc9fc2a
 Homepage: https://www.gnutls.org/
 Description: Commandline utilities for interfacing with the gnutls library
 
+Package: golang
+Version: 3:1.26.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 213340
+Depends: clang
+Recommends: resolv-conf
+Filename: ./golang_3_1.26.2_aarch64.deb
+Size: 34338168
+MD5sum: 24699f8c9734da106f1e1ac35cd0bc14
+SHA1: b74b1e1a88f002514b7a66373a1cee302fdd5c72
+SHA256: eade50e1505af92081856f1a50bbdb4a9ff4767a8297c9da207732069df40879
+Homepage: https://go.dev/
+Description: Go programming language compiler
+
+Package: golang-doc
+Version: 3:1.26.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 472
+Depends: golang (= 3:1.26.2)
+Filename: ./golang-doc_3_1.26.2_aarch64.deb
+Size: 93676
+MD5sum: 57ef101cee8bde42e3bd830dabad0914
+SHA1: 33d6d83a17d38c8f9ac392f3ec6a6175b5274e32
+SHA256: 9fe46fd589d52742326cc2569026ae54cd3a2c8102d53b455fc58f46f4f99440
+Homepage: https://go.dev/
+Description: Go programming language - documentation
+
 Package: googletest
 Version: 1.17.0-1
 Architecture: aarch64
@@ -1404,10 +1433,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334856
-MD5sum: 91c08479bb961ddeea7fea6f3d89972b
-SHA1: df1a9162d966a42c2d31df2a86d9ff017eaea1da
-SHA256: 5a99f9f3f24ca02cf4b743354d9593b0d2cfacd20a7da9f9a9c76601ba1a209b
+Size: 334548
+MD5sum: bcb78dec89cae05c0e0727e630ca1d29
+SHA1: 4c5f1e166f1a402e2465e2ebceb221cc119b50e2
+SHA256: 4fb676ad3204c2c18e03419c8d6fb481c6a5b08b986eb66113ae580d1ea33397
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3081,10 +3110,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952092
-MD5sum: 2057516ae1e432c4b92862dfc8b89c37
-SHA1: f75f621347835dce3b57eea5cbef26a708b424e1
-SHA256: 3aebeea20caaf6797a3e0e3fb4c1e977c767dc61a674a55e5ace50fa00e1b3b4
+Size: 1952220
+MD5sum: 3f689c42c0342486fdb1f8fce4abd57e
+SHA1: 7a413b89c92617ab2c6e4a29075b5d1e4838d3a3
+SHA256: c849ed78144accac68d67902d636e6ffa591552cf552ee50ad29bc0376129d7a
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 

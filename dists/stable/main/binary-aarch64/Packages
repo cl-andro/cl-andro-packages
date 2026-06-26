@@ -1288,10 +1288,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334776
-MD5sum: 717d0dec2e7e465e7dc68bb372e29aee
-SHA1: a594728d52bdd0d7a7d07edb91d62f74c5fbbd6a
-SHA256: 24ce10594620e49937ef2bb36266bd7e833bd47dc5335e971466b3211be9a774
+Size: 334980
+MD5sum: 9eb49274355631afb842cc6188f16e21
+SHA1: 8d6837b80f5463495f2a21a788ccad2832555e46
+SHA256: 498a1167330c765a7338e7c7087d90b7d51cc8ed1296979923a94a46cc40a135
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2915,14 +2915,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 31268
+Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952208
-MD5sum: 8a89b2c5292fe3cccc2268982f839fc6
-SHA1: 5d6b1df9aef34785012d155c271bab70ad1a6723
-SHA256: f4be7e65e9c95db0d3c535875bed1948fe3c7e776200d1f657d97977587aafdc
+Size: 1952544
+MD5sum: 24310f24f09829b6842752188a233816
+SHA1: bf5f985e315dc2e4c1e42ab3f067fd80befe9421
+SHA256: e1e4e91d7df8d3b997fb87b3b55afd4965fd741836c59bf57ce7418780b85734
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -3096,10 +3096,10 @@ Installed-Size: 4348
 Breaks: pcre2-dev
 Replaces: pcre2-dev
 Filename: ./pcre2_10.47_aarch64.deb
-Size: 960476
-MD5sum: 50eae24610bc6208f450e6a96975cf0e
-SHA1: c7a0324cd77320807ae0733bd7c936e3e1e4e472
-SHA256: fe756f0c7a49c1b9e130a0e6b26b3c3af716878a07a0fa2e5529be4c7fd6c59a
+Size: 960156
+MD5sum: 444f6f8d0144729e7a8e5afb058014ed
+SHA1: d97cb1c7c2de67f4c946c6a6ce71c5200763f0cb
+SHA256: 72ee63d05b7bef67a9a251eb68ed53fb0b12d77491ff30c868715325d6ffb613
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Perl 5 compatible regular expression library
 
@@ -3110,10 +3110,10 @@ Maintainer: @termux
 Installed-Size: 1836
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2-static_10.47_aarch64.deb
-Size: 376244
-MD5sum: 5ff6a1bc28b4db06ba504d0049e63a49
-SHA1: 3e515f9d5a8a9e5be3ec3084e3c9cd67e362414e
-SHA256: e4953724e810119f658736d690f4de559e4dd9e70c146d3684da47fc03177d1f
+Size: 376256
+MD5sum: 5ea08bbe05ffcddd70e5a7c6dd1dc094
+SHA1: 7a5390f01445560752876245bb5ec12194473fe8
+SHA256: 0904ab55fb45913934c1a7266587d0831d3e1b8791484a07ded1253fb8f16b07
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Static libraries for pcre2
 
@@ -3124,10 +3124,10 @@ Maintainer: @termux
 Installed-Size: 104
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2grep_10.47_aarch64.deb
-Size: 34124
-MD5sum: 61a42f96e155188152f421f7c04454fb
-SHA1: cfe40b6a6be88024c96a449fd0e1d9d24f4b10a7
-SHA256: 1096ad5908f17c6f3509db5cbf1219d13eca33970822fbe441c3f5b8655d67c0
+Size: 34096
+MD5sum: e68b01913c2144e61a67d8e0f12425bc
+SHA1: 99403c93a30d1f00755e38c62539822880a0a760
+SHA256: 14c91e7fde3136b68cfc079d4d7d05f63ad62d5a694bfd3f3feed060ee994c77
 Homepage: https://pcre2project.github.io/pcre2/
 Description: A grep with Perl-compatible regular expressions
 
@@ -3402,6 +3402,21 @@ SHA1: c7895eb91f2652ab6048947c1a4c382c956fbc0f
 SHA256: 069b2e986f5f393caa1cf4346d20853df7e0a8640847a313fa1b742546d3ab04
 Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
 Description: Resolver configuration file
+
+Package: ripgrep
+Version: 15.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4796
+Depends: pcre2
+Recommends: brotli, lz4
+Filename: ./ripgrep_15.1.0-1_aarch64.deb
+Size: 1207784
+MD5sum: 1fcab2c14cfcac35620c40a9f6964da7
+SHA1: 71880e38a72e2ae19b225ed394b18c39cfdc3eb9
+SHA256: 408e875ef5c0814f8ff2b97242a8f8c2f727be77297453036554e21cc9bad1fc
+Homepage: https://github.com/BurntSushi/ripgrep
+Description: Search tool like grep and The Silver Searcher
 
 Package: rsync
 Version: 3.4.2

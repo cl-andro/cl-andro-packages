@@ -1579,10 +1579,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334480
-MD5sum: 537295bfd27e4ce899104227b562f311
-SHA1: fba4c76bbe75bab99b7cb77862b77d6727f3d792
-SHA256: 49539399522de5ac19f8f2eb01f16bf167903fc79f4be1653ab81847350c1d0a
+Size: 334884
+MD5sum: 4881ea1620c18f37604b462dc488bf81
+SHA1: 72ba7a776590d0bf6d6aa801f3752669004b7d7a
+SHA256: beb2671369dc99739c6811f6100ddf9c31b9331b053b89c634579b861f8a16f7
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3573,10 +3573,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952268
-MD5sum: 372cea40b27dbe2d8795c5ab97428d91
-SHA1: a955ea8143bce77f7f8c3058ef226be05f682f73
-SHA256: ef9200c3bccc74e9c1dfb5326c4503a01e765d6a9e67f16b441cd614cd3ed3f2
+Size: 1951844
+MD5sum: fcb1b042c976e17c5c93948d06316d86
+SHA1: 7902f8e63266dcdd30d497ad391487203fc0db9b
+SHA256: 6966bb97a3ee9481256924122448cc37f56345d9b993ee47ccb9b884698f81c8
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4060,6 +4060,19 @@ SHA1: 7e4718b90682479db837efadc25d237e0984b4ec
 SHA256: 022e32497dfd2562088cf0126785d6b6948f0f40746e1316855410a9b71190c6
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
+
+Package: rclone
+Version: 1.74.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80676
+Filename: ./rclone_1.74.1_aarch64.deb
+Size: 18051132
+MD5sum: 0232aa5b3901ec226a23af5614ad8728
+SHA1: 35a6220f9ed06d30893787a4dc4563acb4b7a9e8
+SHA256: 3dcfd8e3a4fef0e420d391ce2faf4d701b76e332d6bd611178808b1f728cbb44
+Homepage: https://rclone.org/
+Description: rsync for cloud storage
 
 Package: readline
 Version: 8.3.3

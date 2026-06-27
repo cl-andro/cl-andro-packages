@@ -1292,10 +1292,10 @@ Installed-Size: 88
 Conflicts: libexecinfo
 Provides: libexecinfo
 Filename: ./libandroid-execinfo_0.1-3_aarch64.deb
-Size: 15200
-MD5sum: eb327eb7b6f3b974a237d69ca446c1c4
-SHA1: 1d03992eeb8e34ce053411c800dd513c9b3fb1fd
-SHA256: 6a169aba5d58485a2756a44d1f6eeab4c254cbf1662f185d3f0041829fecd61d
+Size: 15208
+MD5sum: 9dd6a1387ab17d1aa98ada9b3fe44731
+SHA1: 72d563c4990dd31284fa008823b51a8874b735cd
+SHA256: c4b1d74c7651b61a656e68167154176d0f1a200c2ba3722206109fffd7051315
 Homepage: https://man7.org/linux/man-pages/man3/backtrace.3.html
 Description: Shared library for the backtrace system function
 
@@ -1306,10 +1306,10 @@ Maintainer: @termux
 Installed-Size: 36
 Depends: libandroid-execinfo (= 0.1-3)
 Filename: ./libandroid-execinfo-static_0.1-3_aarch64.deb
-Size: 2392
-MD5sum: 898abdb4b8bb4101820f4d5890bdea51
-SHA1: 20c7ca9647e504d9c66de59b969329d06a74fcf8
-SHA256: 3308afc3d14be2845d78d505b75b38c05d843f5bb277e1add38b33075fd65d23
+Size: 2384
+MD5sum: 48d12a1b84ca8037a4e3b8eacdb0a244
+SHA1: 466d37fd91d1c0a01714e3c16dea2c1bcdefb68a
+SHA256: f3d6cfbfc6f79cd582dd04c7bf8e0559cb535c7ea5e98866304e639b4ac0762a
 Homepage: https://man7.org/linux/man-pages/man3/backtrace.3.html
 Description: Static libraries for libandroid-execinfo
 
@@ -1322,9 +1322,9 @@ Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
 Filename: ./libandroid-glob_0.6-3_aarch64.deb
 Size: 7008
-MD5sum: 6228b2f1c5594e333ddac20147da2665
-SHA1: 388123cfe14b33c8fb59e69b8365456ae1811ac3
-SHA256: 6d6e28e93509cadef890bd463ccf96a3215e23783c5de1e812faf1eed40e35b5
+MD5sum: 5c2310110dd1addea665b3aa6063ec3d
+SHA1: 1ffbe84d9eaaad088d00540bb0608f3e86e9fed1
+SHA256: 7f1b9852ca4b967afa57ca4775a008650ab6e5860debdb23d30d853cde0451fc
 Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Description: Shared library for the glob(3) system function
 
@@ -1336,9 +1336,9 @@ Installed-Size: 40
 Depends: libandroid-glob (= 0.6-3)
 Filename: ./libandroid-glob-static_0.6-3_aarch64.deb
 Size: 4616
-MD5sum: bbdd980990b9bb54e5546a1c71c486ef
-SHA1: f985a5cf897247139c022a59e5fd884404d7f24b
-SHA256: 8497ed255cb27d248273f6736d630c93495f0d5c71616111392e2e74bd8aa609
+MD5sum: bba2bfad0cbfed9a72871e8e16614463
+SHA1: 576ac4d09df04dd16bbc25b120122f67c2b785f0
+SHA256: 3311bb7da7dfb3f3c09d5e1096b53c6916ac9d8aaf96d401e516fcdb75ebf1fd
 Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Description: Static libraries for libandroid-glob
 
@@ -1565,10 +1565,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334792
-MD5sum: 26dfe6608745c20b9c4c040091ead032
-SHA1: 06674e7c21011a386f2a42856047585f60aa9960
-SHA256: ba05ac09351910260b89c269a0f9d7087b043bf7a5b0ef2c8d09d4a20a265dbb
+Size: 335184
+MD5sum: 0564e758b170c323f7f950e14f84be49
+SHA1: 28b4c3d41d29fe43af24124c449ddd7a2392888b
+SHA256: 6342a93cfd44dc36153b4acc2a0ea998de53a54f6e017151d480104bb759d6b9
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3559,10 +3559,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952076
-MD5sum: 131be2f8fcf769d65cc0a060cc3222c8
-SHA1: 1635168a187c018e7c4dd060c5288ae05f5626ef
-SHA256: e9748e7da331210f7f345dc0f8fffaec4a31747e1aad927cc982fbe11c47895b
+Size: 1952300
+MD5sum: 3d8af9d35d15f89da4455be7725d73c0
+SHA1: beea6dfcc1a4e3eb791306e94c9ebda11dcd7b30
+SHA256: a906620702380e4da64809ead5fcfc0c126c27a5438210395e7e5145f4631577
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4076,6 +4076,23 @@ SHA1: ec0ab3c7a168c49b566857bc20a28ba35557874a
 SHA256: 6cfce6a09a264bab3f063854ecdbb3e714aa7bb8cbf3a78d5c3bf1ef48dad095
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Static libraries for readline
+
+Package: redis
+Version: 1:8.6.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3472
+Depends: libandroid-execinfo, libandroid-glob
+Conflicts: valkey
+Breaks: valkey
+Replaces: valkey
+Filename: ./redis_1_8.6.1_aarch64.deb
+Size: 1006192
+MD5sum: b5517e56b6d8514cdae05355b617ef70
+SHA1: 213f457f5da5b2441827a571da372e846a909cd7
+SHA256: fee56f433ae5e01f189d38e7c1734709e8b29d453b4c207d06a7ceca9598eddf
+Homepage: https://redis.io/
+Description: In-memory data structure store used as a database, cache and message broker
 
 Package: resolv-conf
 Version: 1.3

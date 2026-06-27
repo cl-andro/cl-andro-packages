@@ -251,6 +251,35 @@ SHA256: ec22a66a1bb1503403a8524c43fba64fd2f40b452a420b1e6f9d69e29294204f
 Homepage: https://www.gnu.org/software/bc/
 Description: Arbitrary precision numeric processing language
 
+Package: binutils
+Version: 2.46.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19728
+Depends: libc++, zlib, zstd
+Breaks: binutils (<< 2.46), binutils-bin, binutils-libs, binutils-dev
+Replaces: binutils (<< 2.46), binutils-bin, binutils-libs, binutils-dev
+Filename: ./binutils_2.46.0-3_aarch64.deb
+Size: 2438312
+MD5sum: df9d74d230a11d16df1b750a9f4405fe
+SHA1: 52d803b013e7bbfbaa261996b263271423bc2c93
+SHA256: c1b4692870f410288cc51618d0222ddbf9300dfda49c933d93e36f408df5fa16
+Homepage: https://www.gnu.org/software/binutils/
+Description: A GNU collection of binary utilities
+
+Package: binutils-cross
+Version: 2.46.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17828
+Filename: ./binutils-cross_2.46.0-3_aarch64.deb
+Size: 2300452
+MD5sum: d4c4040491be3d403a577eb310c0bf5f
+SHA1: 92aa6d0cbcdf2b20255e82eb8172d981b57e5784
+SHA256: 97c82a495f06621cd5e96f3065dffb0b2be77ce769a585e10b031a28b1f21ba8
+Homepage: https://www.gnu.org/software/binutils/
+Description: GNU Binutils for cross build on the host (NOT for Termux)
+
 Package: bison
 Version: 3.8.2-4
 Architecture: aarch64
@@ -381,6 +410,20 @@ SHA1: e739dee6085c7a6ac2b36b234a19abf32600d1e2
 SHA256: 25f3c405a8615c8230996c15237cb8d39dbe10547856f8bc2cf619db901ce924
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
+
+Package: ccache
+Version: 4.13.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2188
+Depends: fmt, libandroid-spawn, libc++, libhiredis, xxhash, zlib, zstd
+Filename: ./ccache_4.13.6_aarch64.deb
+Size: 547860
+MD5sum: f5519dfb2df9cb2482a11876175ea28b
+SHA1: 62888f2e5f7588c67a48802a82718e9062ac57d3
+SHA256: cf252eb62cc35703fcfd9dd1b15ffae3a62f054b67abfb54b2036c42fe2424f3
+Homepage: https://ccache.samba.org
+Description: Compiler cache for fast recompilation of C/C++ code
 
 Package: cloudflared
 Version: 2026.3.0
@@ -796,10 +839,10 @@ Maintainer: @termux
 Installed-Size: 824
 Depends: libc++
 Filename: ./fmt_1_11.2.0_aarch64.deb
-Size: 168424
-MD5sum: dfac426780fc31c1902dfb0cb97b2b66
-SHA1: a2784b9663acdc777ca5ec5e2beaa07a65dbb620
-SHA256: d1e6687f7a94cb7d3b15052512e38ddc7b64c1610ecc10872f7f99e52a7b2ad1
+Size: 168436
+MD5sum: b78069025555dcd48b5d3f4762ed73d9
+SHA1: 3a6a9e9a414c95bae828cc40af6a3ccd3dfd39f5
+SHA256: dca1d94ce47afd1ccf525f658e6ea810089d1fcaf062e483909d4b248a11d7f3
 Homepage: https://fmt.dev/latest/index.html
 Description: Open-source formatting library for C++
 
@@ -1460,10 +1503,10 @@ Maintainer: @termux
 Installed-Size: 96
 Depends: libc++
 Filename: ./libandroid-spawn_0.3_aarch64.deb
-Size: 16088
-MD5sum: f04c619c5b690a85c0daba45bda71764
-SHA1: a3285b0d46adab29bd0dd83f478aac83fb5f86cc
-SHA256: c4e4eebfe4cca05e805bb1fa7a6a0973731aa8ce052c5bfc0cc99f8391eb84cc
+Size: 16096
+MD5sum: 053907448235f82793d6cda8d29a5262
+SHA1: 7ec513d824e5cb48f9ae93dc517d4f460d1fae51
+SHA256: 9e20a3250c7f882c35fbda4777f7687cde6087c2a77bb896ac5b754b041c5c1d
 Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
 Description: Shared library for the posix_spawn system function
 
@@ -1474,10 +1517,10 @@ Maintainer: @termux
 Installed-Size: 44
 Depends: libandroid-spawn (= 0.3)
 Filename: ./libandroid-spawn-static_0.3_aarch64.deb
-Size: 4020
-MD5sum: ad20bc427a6c9d89a18dfdcd7b19615e
-SHA1: 06dad9ed5a9482dd4b01946e78b6ac783e938aa1
-SHA256: fcc40fa2bf40b14916751cb624dacd962d6f80ff9e37126854c3acbd3b5fcc0a
+Size: 4024
+MD5sum: d0efea523596172cc4bac7f868a2bd10
+SHA1: 5ade055fa6e8d28462e7f02d855aad9d6f69ef24
+SHA256: 23e1e9c1f38123025fc897e07d1969403cc0fc1584c51e872f8672de58e59b14
 Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
 Description: Static libraries for libandroid-spawn
 
@@ -1635,10 +1678,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334504
-MD5sum: c41156978c64e9d926c88d75544f7514
-SHA1: 9a75fc285710a9bc4ba2bb8317187d87886994cd
-SHA256: fb15b6ffcde0a5dc981e54e1f6f919556a8898a0a52914afce1f4b1aefdc8ccd
+Size: 334936
+MD5sum: cca15c04e7d0101134e70b094ee0cb21
+SHA1: 5ff18c7a1c4d9dd9c92db15abe8be550d8667e8b
+SHA256: 9080a3cb77d759ca0521ff26e2ac01c011670820cb8bb88a0990c82d637f95a9
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2045,6 +2088,19 @@ SHA256: 3002a09cfc5b4d84d73a851c8018608373c6d3c4f93e814dbf73b7d43609c116
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: Static libraries for libgpg-error
 
+Package: libhiredis
+Version: 1.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Filename: ./libhiredis_1.3.0-1_aarch64.deb
+Size: 46784
+MD5sum: b0c5ffb6ff207019b45e954a2c784e19
+SHA1: 6dce74e3f8d25aa11e1a77e10dc6db0babd506cd
+SHA256: 9cf24fc617baf283597ec8fd2b58a5cb33adaf4a16f93a25253f5b2114712a7a
+Homepage: https://redis.com/lp/hiredis
+Description: Hiredis is a minimalistic C client library for the Redis database
+
 Package: libiconv
 Version: 1.18-1
 Architecture: aarch64
@@ -2188,10 +2244,10 @@ Installed-Size: 864
 Breaks: liblzma-dev
 Replaces: liblzma-dev
 Filename: ./liblzma_5.8.3_aarch64.deb
-Size: 193112
-MD5sum: a77bb3d17d45768209b38f73f5f2dadb
-SHA1: 35be6e7e67b127c7002a9cc98bdf01e6bbdf6e59
-SHA256: 5a6621084397ec56aff00afdad93444c34f7c46ad631455b348a63151b337eca
+Size: 193264
+MD5sum: 4d1c33b0d270241fdddad77ea230d37e
+SHA1: 25c36b37da88bddb50f526cb3545708c787887b9
+SHA256: 402355b85fa618b939163af6b295f5d6a948e07dd86e652d0befe8a99040761a
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression library
 
@@ -2202,10 +2258,10 @@ Maintainer: @termux
 Installed-Size: 360
 Depends: liblzma (= 5.8.3)
 Filename: ./liblzma-static_5.8.3_aarch64.deb
-Size: 89588
-MD5sum: f2dbe9cc63dbaae8bbc3d8d0847bfe0a
-SHA1: 92940219753277fb6c15c05a43f12e13b923e275
-SHA256: 589a628d7fa3142949febab5d45a7ecc2f8cd2c7ab47dd97818e83c44b76370a
+Size: 89600
+MD5sum: 7e2125fd6985f34eaf568873e8517b4e
+SHA1: 560696ceae88afeda26018e8da86436b7d7973a6
+SHA256: 77b50a6bab43282a188b5b01fa7e89e16f8446af65756c8b12e13bb7d6368298
 Homepage: https://tukaani.org/xz/
 Description: Static libraries for liblzma
 
@@ -3629,10 +3685,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952168
-MD5sum: 9f104f499f72507fcd7604742932369d
-SHA1: a6a90e04c7cceab9a41774de0a10013c188e53d4
-SHA256: 4daa1beb183a8f33944db198fb53a4c52262d234d2795c61a1db70e3d2ec7bc1
+Size: 1951948
+MD5sum: f5cf4d2f6ec2c3247034429025a15752
+SHA1: b16357ce32b9a19c57a904c81c933297640a93f1
+SHA256: eef911bc15525ad21340b107b31f6b55ad18e9b611a9da53583714dfab0f8947
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4110,10 +4166,10 @@ Maintainer: @termux
 Installed-Size: 152
 Depends: libc++, zstd (= 1.5.7-1)
 Filename: ./pzstd_1.5.7-1_aarch64.deb
-Size: 41804
-MD5sum: 852ae015610a2b9abb2934e962b9dd36
-SHA1: 7e4718b90682479db837efadc25d237e0984b4ec
-SHA256: 022e32497dfd2562088cf0126785d6b6948f0f40746e1316855410a9b71190c6
+Size: 41796
+MD5sum: 2917cd4db2da629b040fdbab695e1361
+SHA1: 05c1ffc69e26e3631c8dd0c0c8f487610d8fb912
+SHA256: 53ed120167ec1b22659f316ed5dda84943acc4d0f021ed724e71ba71c2cedb7c
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
 
@@ -5100,10 +5156,10 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 408
 Filename: ./xxhash_0.8.3-1_aarch64.deb
-Size: 76596
-MD5sum: 828d607917124fea67718ec54adb74dd
-SHA1: 5558fd2ba2b92f7cc511d4d882537f1ff00e307e
-SHA256: 941268d5f0748422deee4efb28ed0f96a2a158ec0b267dcd6af84b8e3daf4016
+Size: 76600
+MD5sum: ada71864f9b27af36c5f2e34e9ceb17d
+SHA1: 764fe750c9dafa03a96bf13475244b0fcc174122
+SHA256: 0ed944f5bc0467071392eb2a76c2b7cf0e752aa1bb7a7d054fb0c332799ad129
 Homepage: https://cyan4973.github.io/xxHash/
 Description: Extremely fast non-cryptographic hash algorithm
 
@@ -5114,10 +5170,10 @@ Maintainer: @termux
 Installed-Size: 52
 Depends: xxhash (= 0.8.3-1)
 Filename: ./xxhash-static_0.8.3-1_aarch64.deb
-Size: 8528
-MD5sum: 9aa83832a34fd0c65c1213087c4b15af
-SHA1: 97a2551b8fa31d0e0b96bb9c7e44b5b9ba60fe23
-SHA256: a796a91a376630274e0ab87877c5ab9b043a4a6bd0e1bb3e20d8ab45754c75b8
+Size: 8524
+MD5sum: 3d4fecf07107cf4d35a1160ddb90a738
+SHA1: 03a69b3991f433691ceb9c54d085deaebde583c7
+SHA256: 4eb58e09c2b3f5ac0a88f0e3bf05e486d40f59695cd37321e674e48f5bc0a614
 Homepage: https://cyan4973.github.io/xxHash/
 Description: Static libraries for xxhash
 
@@ -5130,9 +5186,9 @@ Installed-Size: 228
 Depends: liblzma (= 5.8.3)
 Filename: ./xz-utils_5.8.3_aarch64.deb
 Size: 71196
-MD5sum: c4b47d7d24f7ed84ac001a4375fa41c7
-SHA1: 6cc8dbb0f713ab30403dedb9b5dafcb2d382d217
-SHA256: 8cf48bef663e276207ce01c1079b0ea6aba5e650e601b4edc38d711905278d08
+MD5sum: 15e932827f44510daca0830b9fa9a665
+SHA1: 3a4594bd999a322c40d60133230345f32df5cbc6
+SHA256: 86214bb8595e75768d17c6c1017b6c7e6eb9801e1709588c1651aba69aab1a90
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
 
@@ -5144,10 +5200,10 @@ Installed-Size: 264
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Filename: ./zlib_1.3.2_aarch64.deb
-Size: 62908
-MD5sum: 4bd9801d1ea4a93f14822ac5071db3de
-SHA1: b19e7e87b3cd7fe9b30ad4cd0169d30c6a882d86
-SHA256: 60e4d90b9f1e1c30e55479825116a260715e5e6fd2554e2cf93be288800d34b2
+Size: 62896
+MD5sum: be09ced52f88a9a5870adf92173c9de7
+SHA1: 3c061f4a3fdb0d3bf3d683a7af6589dd54edc8f1
+SHA256: 3782ebb7780871c0ba4ba7f92c9c40c294d0b091ae8b5d9144c2985e457e73f5
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
@@ -5158,10 +5214,10 @@ Maintainer: @termux
 Installed-Size: 140
 Depends: zlib (= 1.3.2)
 Filename: ./zlib-static_1.3.2_aarch64.deb
-Size: 35452
-MD5sum: ac1bdf8fa2795af35bfe59243d08c4bc
-SHA1: 13fc6af3ed78461c3ba6fce504f8c30dbf5ffeb2
-SHA256: 989678711b07c5a11055b905f49b0008cdb86a90d8ad0fdc8a20e4cc0a3f1028
+Size: 35460
+MD5sum: 40f1c32fb2a7f0103f93e35fec6fd175
+SHA1: c6e522759f03474e7a6e8a68a552bbfcda8f700a
+SHA256: 003d1719a208dc795b8c05f8eb16bddb242ceca552946d089ad6698fa2561473
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 
@@ -5189,10 +5245,10 @@ Depends: liblzma, zlib
 Breaks: zstd-dev
 Replaces: zstd-dev
 Filename: ./zstd_1.5.7-1_aarch64.deb
-Size: 359676
-MD5sum: 581bf8022b200a62daaa2d4db659c55d
-SHA1: 735ec63eadb3988e745e22d56cbfbc7ca5fe5730
-SHA256: 6a47ccf533458074046332c7b323bfc30db1da4e016224c80fcddc6d26264c29
+Size: 359392
+MD5sum: 98906f186fb56946bc896c13a7b29308
+SHA1: 22ae5c9d34f4a7f546ea694cdc0b4d430403e8d9
+SHA256: 9a2842020296f766babc048da29bd17bd9d58884ed2cad2ab954d42d6bf5106c
 Homepage: https://github.com/facebook/zstd
 Description: Zstandard compression
 

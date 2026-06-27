@@ -177,6 +177,34 @@ SHA256: bc6b4030fc1441e31840658ffb6076aeb2231bb34ca01b81b1a9b30e3fae282e
 Homepage: http://savannah.nongnu.org/projects/attr/
 Description: Static libraries for attr
 
+Package: autoconf
+Version: 2.73
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3680
+Depends: m4, make, perl
+Filename: ./autoconf_2.73_all.deb
+Size: 624748
+MD5sum: 48aaf4b204a169934bd977c8d7dc910e
+SHA1: dc12a0eb8565cd9805f563c6409c2bf7035e11b9
+SHA256: 295ec7adf19ad0511a25205d0785a08a43c2085eb094013298441ad5437a5ff5
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+Description: Creator of shell scripts to configure source code packages
+
+Package: automake
+Version: 1.18.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2860
+Depends: autoconf
+Filename: ./automake_1.18.1_all.deb
+Size: 576616
+MD5sum: 036d95d2e2456087e39f73142c989ed0
+SHA1: 0789bbea8ed6c17a47574a9d5b2f0c0e97dde495
+SHA256: 0de6dad6df6b3f3a084d69c177ce04008cb84a7a0fdc6fc73263215bc6b636ef
+Homepage: https://www.gnu.org/software/automake/
+Description: Tool for automatically generating Makefile.in files
+
 Package: bash
 Version: 5.3.9
 Architecture: aarch64
@@ -1404,10 +1432,10 @@ Maintainer: @termux
 Installed-Size: 96
 Depends: libc++
 Filename: ./libandroid-spawn_0.3_aarch64.deb
-Size: 16088
-MD5sum: 14d6e1eceed5d70c4af071128ae55860
-SHA1: 0a1531fe04687bc15ac5ce5a681e2ce90714a69a
-SHA256: 815bd1af20d65cc514f00f93ccb5d1cd5274f642960367fb8402fc5e6e766929
+Size: 16092
+MD5sum: 62348747666b6b275ced84ab50aa3266
+SHA1: 402b0f88e962a3d9e77abde7d02f9b32015b8b92
+SHA256: 33bf5e23dc575b78f9dc2978f91611286a5000e62d0d47d8ec741650df9f3967
 Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
 Description: Shared library for the posix_spawn system function
 
@@ -1418,10 +1446,10 @@ Maintainer: @termux
 Installed-Size: 44
 Depends: libandroid-spawn (= 0.3)
 Filename: ./libandroid-spawn-static_0.3_aarch64.deb
-Size: 4024
-MD5sum: 7573d80c1048a56f38c67fde99cf2cfc
-SHA1: 92a7a74bc5cfbfbac080eb5d69a6efb50039350a
-SHA256: 4de120e608d15989a751a5d81f7d24013c9326332fc18a9a885ee717947c6d83
+Size: 4020
+MD5sum: afcbe1e5647412550860344e2cd6ed08
+SHA1: b6a0e4b09a449480e411fc154f8ab15d58fcda45
+SHA256: b7a6527f520375f532555c927805e0fe0b3c6256908dae7fbd256a4a73182378
 Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
 Description: Static libraries for libandroid-spawn
 
@@ -1459,10 +1487,10 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 52
 Filename: ./libandroid-utimes_0.4_aarch64.deb
-Size: 3108
-MD5sum: a533ebe05cd182d54690b70e318edb5d
-SHA1: 6cf3cc855841bc8c87a3c6a4b8c0c1701c884dec
-SHA256: ea4095d5f452ee13e7693a876fe29e4913c5f5115928f5f52007eee8e6964213
+Size: 3112
+MD5sum: 79a87fd96c507c2f2f7b5b09777953da
+SHA1: 3b04efcd890095cfdfdc666821b37b973a1dc226
+SHA256: d7152246a8708492eb7baa4d762815d3ac7f43c5c8d1ca3ab8a438e8234a94ca
 Homepage: https://github.com/termux/libandroid-utimes
 Description: futimes, futimesat and lutimes from bionic
 
@@ -1473,10 +1501,10 @@ Maintainer: @termux
 Installed-Size: 32
 Depends: libandroid-utimes (= 0.4)
 Filename: ./libandroid-utimes-static_0.4_aarch64.deb
-Size: 1680
-MD5sum: 86a70e9e0307a5ff8dd6b4ce8de41856
-SHA1: 82c2406174f5a377f433678c2a6f3f6122a2dbbb
-SHA256: f5bdb9746dae29173ec9ab49780df96a068568d1d417dfb9f36243c1ca4f9863
+Size: 1688
+MD5sum: d25e0daac116c586f519dbc3861cc414
+SHA1: d523dd3b96a370cb3e5bf633b30a845721c5bf55
+SHA256: 05e05f74418343f8a9935e3a078940aded706079fd532d5ba6d965464f89d83c
 Homepage: https://github.com/termux/libandroid-utimes
 Description: Static libraries for libandroid-utimes
 
@@ -1579,10 +1607,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334884
-MD5sum: 4881ea1620c18f37604b462dc488bf81
-SHA1: 72ba7a776590d0bf6d6aa801f3752669004b7d7a
-SHA256: beb2671369dc99739c6811f6100ddf9c31b9331b053b89c634579b861f8a16f7
+Size: 334656
+MD5sum: 848d5266b64ba08f9baa476fb9b4f0c2
+SHA1: c8e7c0961f3c321981d2cbf07ea0d776a16ff0a9
+SHA256: f267729fc0b83046c1da37df024f805647c48cdda5adc0d995e7b2834ec03426
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3423,10 +3451,10 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 672
 Filename: ./m4_1.4.19-5_aarch64.deb
-Size: 191452
-MD5sum: d32fdf8ec7f848a850fc5057d0ff0353
-SHA1: aaba3aff6266da226e365648671104bbfdb98d95
-SHA256: 55f19e166d3e0437c8e7262fb01f2a829d339ffc0b906b1d2878d1766ffbc8c5
+Size: 191504
+MD5sum: 72756f266a7b6a5cd3f2215b955ecec7
+SHA1: ec4d02f9cb542b24d93d4b4075eb6ac1e2bc6a19
+SHA256: 9f1ae95fefd930dd88847065fd5f456ffb1da82d6bbeeab40d488bcfad3317b3
 Homepage: https://www.gnu.org/software/m4/m4.html
 Description: Traditional Unix macro processor
 
@@ -3439,10 +3467,10 @@ Conflicts: make-guile
 Breaks: make-dev
 Replaces: make-dev
 Filename: ./make_4.4.1-1_aarch64.deb
-Size: 240484
-MD5sum: 1b26deec732954441e271bc552a828ba
-SHA1: 3dfffd63383276b3cf39c72dc317af0d72e5f7eb
-SHA256: fd28d2910c413e9c511e46994306863e4b3ad0e097d509b1f93a2d4894251c52
+Size: 240516
+MD5sum: fa01c4f0a6cb41f93e4891d4328402ed
+SHA1: ed69709e1bb4f0cb3d9a8a36de13474e1e5b6394
+SHA256: 89b4b00fac5470f12652dfcac48ae540663d0c619b5a80aa61f3b831bba056c1
 Homepage: https://www.gnu.org/software/make/
 Description: Tool to control the generation of non-source files from source files
 
@@ -3573,10 +3601,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1951844
-MD5sum: fcb1b042c976e17c5c93948d06316d86
-SHA1: 7902f8e63266dcdd30d497ad391487203fc0db9b
-SHA256: 6966bb97a3ee9481256924122448cc37f56345d9b993ee47ccb9b884698f81c8
+Size: 1951944
+MD5sum: c9625d9c0a1eccc3c213f61eb1fafb19
+SHA1: 92d562f5b2f08d9d64ba6351a1670430637a8040
+SHA256: d06308c23415f12263b4b48982625dfc296968f19dc98cd4bc0ecd3cd97708ec
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -3839,10 +3867,10 @@ Maintainer: @termux
 Installed-Size: 68304
 Depends: libandroid-utimes
 Filename: ./perl_5.42.0_aarch64.deb
-Size: 15112868
-MD5sum: 4d501e3c4c75cbc4616557e5365838e2
-SHA1: d12f453d58c508806ff8a6a7227603d4a831650c
-SHA256: 67f5aeb8517024623d34f15eeddfab27df287e08904327103709059e154bab0e
+Size: 15087216
+MD5sum: 4e34a66f986a1f631b0119b1a2415c72
+SHA1: e8ac402310cc3baae84aa1ac2532ca95c2368805
+SHA256: 565e96346b9cb3f7508df135ab9bc43b1649c1fa68b59b2a43232afcc08c065c
 Homepage: https://www.perl.org/
 Description: Capable, feature-rich programming language
 

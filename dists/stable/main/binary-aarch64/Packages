@@ -1531,10 +1531,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 76
 Filename: ./libandroid-support_29-1_aarch64.deb
-Size: 10940
-MD5sum: 274b8339aff052b84c2a674c6a63573b
-SHA1: 0c82c7db3ad409882ec615650d21e4de3897580e
-SHA256: 69e7c7525ef0f1ad0b476f4b0be27e8a5b842e05beef33167b871e66bf66dc72
+Size: 10936
+MD5sum: 91741a94fba395de069110b85fddb83f
+SHA1: 0b0030e447c2853af4c635d512747584c9313fd2
+SHA256: d21c654a364270c3be704bce565008ccb6647c043777fd4858729adfda647b6f
 Homepage: https://github.com/termux/libandroid-support
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 
@@ -1546,9 +1546,9 @@ Installed-Size: 72
 Depends: libandroid-support (= 29-1)
 Filename: ./libandroid-support-static_29-1_aarch64.deb
 Size: 8628
-MD5sum: be4fd1403ebda8aae211fd8c2dfd588f
-SHA1: 7ca32bf3e650c23528f476ac4348ae0bc58e22a5
-SHA256: 986075411c37f12fee3d41dcc43b97c24653a9582aa657b886798b81b36682cb
+MD5sum: c1adbddddd85281e7c292049132363d2
+SHA1: 980dcf0eb742cc013d2e6acc50ac5b8a9e7b9d40
+SHA256: 5cfccc186563e2c7b54dc07d0d14e3c508f96cc316c5addd4b1810ed9767f148
 Homepage: https://github.com/termux/libandroid-support
 Description: Static libraries for libandroid-support
 
@@ -1678,10 +1678,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334572
-MD5sum: 54d5fa911ae7df6af88fc5b121004f44
-SHA1: 99b8e5f5c30c201fb13f4a7b14e95b138dd1f8da
-SHA256: 98ef473fde98b2200b90297eb3704a81e10bcd6cd1200d73dbb3f46ccd4888b8
+Size: 334664
+MD5sum: 81fe9f8214fa28023660aa0d6504bf36
+SHA1: 9027719ea7618b98cc6ade3d73d0f5d09a659404
+SHA256: b6407a52d827d28ec466137f742cbccc472f67adcc40dc27ed0bcb2932b333ca
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2791,6 +2791,33 @@ SHA256: 1d02de3a7e5ef4ff7d893597091176b8ddf135f1ddfacff951f76c18711a7342
 Homepage: https://www.gnu.org/software/libtasn1/
 Description: This is GNU Libtasn1, a small ASN.1 library
 
+Package: libtirpc
+Version: 1.3.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 548
+Filename: ./libtirpc_1.3.7-1_aarch64.deb
+Size: 123852
+MD5sum: d0fb2e34c9f268f8b45927499d6204b1
+SHA1: ca51f56118044ebe63fd258d3373e0b8631af93f
+SHA256: 0313affd01fb406ff6f71d46afed190894d0bbce852d16682b6381bd7d3a78d9
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+Description: Transport Independent RPC library
+
+Package: libtirpc-static
+Version: 1.3.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: libtirpc (= 1.3.7-1)
+Filename: ./libtirpc-static_1.3.7-1_aarch64.deb
+Size: 69496
+MD5sum: 507103121817e56c2c691f6f6c4a9346
+SHA1: 61d1d881f1a79a88bfad9c366da5a7c8c8e7509c
+SHA256: 68e3e511f55fe83469a75faf8e93943cae84249c2f864bda4e5eb123114afbfd
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+Description: Static libraries for libtirpc
+
 Package: libunbound
 Version: 1.25.0
 Architecture: aarch64
@@ -3257,6 +3284,34 @@ SHA256: 1f9b433931f3433f343425b2397850271f42e5455e642956dc2596b6dd9884f5
 Homepage: https://pyyaml.org/wiki/LibYAML
 Description: Static libraries for libyaml
 
+Package: lsof
+Version: 4.99.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Depends: libandroid-support, libtirpc
+Filename: ./lsof_4.99.6_aarch64.deb
+Size: 122148
+MD5sum: e446cda9b23ef3640c171e43d3f30a54
+SHA1: 67ed89767c8901cb81e2519e5704f53b27a3b014
+SHA256: 7f07ca4b8ed043b2d788349f19350f425cef5107ed33d71121b361c40e0b7693
+Homepage: https://github.com/lsof-org/lsof
+Description: Lists open files for running Unix processes
+
+Package: lsof-static
+Version: 4.99.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Depends: lsof (= 4.99.6)
+Filename: ./lsof-static_4.99.6_aarch64.deb
+Size: 55296
+MD5sum: 71b2018f7ff0f8500130a99d0b2e65d6
+SHA1: 205d8c6909e955812546de18a7b103d539e8eefa
+SHA256: d55e5972874cc105f9661dc861866fa29576f7cf52119c317bc802654a770db5
+Homepage: https://github.com/lsof-org/lsof
+Description: Static libraries for lsof
+
 Package: lua-lpeg
 Version: 1.1.0-5
 Architecture: aarch64
@@ -3681,14 +3736,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 31264
+Installed-Size: 31268
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952172
-MD5sum: 0aad45542c8884104769f397ccbfc2f9
-SHA1: c989f4d656572dc4447af201fe19aa4569b9fa2a
-SHA256: 726f89a6143421870e633e9f4642d027690187d0ac0ff21433e28b30488e065c
+Size: 1951924
+MD5sum: d9f06513ba5b2111a01042c148d8d976
+SHA1: fdd7ca8cecbb022045ca76530233c59c4c4c25dc
+SHA256: 23d6506f74bc25f9748d0095eb26c6aaf5b431f0110bf8b56f48eea53817c178
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 

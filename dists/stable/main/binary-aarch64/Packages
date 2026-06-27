@@ -1635,10 +1635,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334948
-MD5sum: 5c57d710d03d22b409cbb4e7fcf1af8e
-SHA1: efaf1eb8f92d330bbb30887fcd143071feb8c1fa
-SHA256: c794f1fbf79268656afeef1c6b1400374ec63e1213f43c2c6c4aa2e572aaa3a5
+Size: 334504
+MD5sum: c41156978c64e9d926c88d75544f7514
+SHA1: 9a75fc285710a9bc4ba2bb8317187d87886994cd
+SHA256: fb15b6ffcde0a5dc981e54e1f6f919556a8898a0a52914afce1f4b1aefdc8ccd
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3629,10 +3629,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952096
-MD5sum: c007e740bcf037eaa0b8c01f3f19dbef
-SHA1: e9bbd0babb398bc5be9f68fa60295e7882e62754
-SHA256: 0bf7eba30f2e67f20304631b4ad769d6ccd434c71adbbc28927ec29e84534b3b
+Size: 1952168
+MD5sum: 9f104f499f72507fcd7604742932369d
+SHA1: a6a90e04c7cceab9a41774de0a10013c188e53d4
+SHA256: 4daa1beb183a8f33944db198fb53a4c52262d234d2795c61a1db70e3d2ec7bc1
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4453,6 +4453,19 @@ SHA1: cc421f253cae891a5926a5a68ee952375084d28d
 SHA256: fa2289f415dd136adab99f1b83d9e6bf11c948a4b8dc494cad61377206054173
 Homepage: https://swig.org
 Description: Generate scripting interfaces to C/C++ code
+
+Package: syncthing
+Version: 2.0.16
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27160
+Filename: ./syncthing_2.0.16_aarch64.deb
+Size: 8388604
+MD5sum: a84a034cfee86e02b02a6e645ad7b202
+SHA1: c872f522ef10c6315cca72e9c9dd76e8507efe6e
+SHA256: 6a01d76dae015238c6d3d5fd401faf35f7737639de7bf6edb81451606bc58884
+Homepage: https://syncthing.net/
+Description: Decentralized file synchronization
 
 Package: tar
 Version: 1.35-2

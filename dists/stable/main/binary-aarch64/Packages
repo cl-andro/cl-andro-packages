@@ -391,9 +391,9 @@ Maintainer: @termux
 Installed-Size: 268
 Filename: ./ca-certificates_1_2026.03.19_all.deb
 Size: 124736
-MD5sum: 8c7e2b1562fac4b1e287a466df2f9262
-SHA1: b89053f753638cfa239104322495829a17fdf350
-SHA256: d7ad68b2c9dcdd8c370f3903d4a2f3675759aad5d62184d4f11688b7934b5365
+MD5sum: b6e88da6fe466629c9ebee92020f7e7b
+SHA1: c8d82adf732d68e75ef4aa1e51ce50e591ed046a
+SHA256: 0969872120cd5c26c992629084427096c3214794eee4b2b6494572266d4b3012
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 
@@ -404,10 +404,10 @@ Maintainer: @termux
 Installed-Size: 212
 Depends: ca-certificates (= 1:2026.03.19)
 Filename: ./ca-certificates-java_1_2026.03.19_all.deb
-Size: 114200
-MD5sum: a6b83c0dca809986102c8419feccd43d
-SHA1: e739dee6085c7a6ac2b36b234a19abf32600d1e2
-SHA256: 25f3c405a8615c8230996c15237cb8d39dbe10547856f8bc2cf619db901ce924
+Size: 114184
+MD5sum: d39b34c733a759ad3fa7ff16cb06b13c
+SHA1: 93458c2fa943e233d6eb4763d5f5e38ebf700737
+SHA256: 3146642eaf086542e72b15deba9c18d97a6da71e7b1f6f2bc422bb288b2dae31
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
@@ -1211,10 +1211,10 @@ Maintainer: @termux
 Installed-Size: 56
 Depends: libiconv (= 1.18-1)
 Filename: ./iconv_1.18-1_aarch64.deb
-Size: 10128
-MD5sum: ed826112f44aca88f94414c00e0d1c5a
-SHA1: 90cd3caddf112891df1f507f969f7707a26829c3
-SHA256: 8a380714b8bf1044d58a79632697f7ce2d83a9102ac410d687252fc880af637a
+Size: 10132
+MD5sum: eb5e93a4b111d0c95133b3fc119c850d
+SHA1: 5c47aa2eeb3340fc3b16eae72eb738bc69242464
+SHA256: 91867f16337b6a7d0397571f6615ed458e8b69941c6731a72f0a7c82acd8937e
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Utility converting between different character encodings
 
@@ -1531,10 +1531,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 76
 Filename: ./libandroid-support_29-1_aarch64.deb
-Size: 10936
-MD5sum: 2f7bf3728b6d630b6ecc6b3ad8e2f8bb
-SHA1: 2bca0618cf891559f9da8447b18309ee7225c3a3
-SHA256: a6765a37e82260ad834c7a5e7d963b9c1d2fe574a9457944522096a9b0d9a44f
+Size: 10940
+MD5sum: 274b8339aff052b84c2a674c6a63573b
+SHA1: 0c82c7db3ad409882ec615650d21e4de3897580e
+SHA256: 69e7c7525ef0f1ad0b476f4b0be27e8a5b842e05beef33167b871e66bf66dc72
 Homepage: https://github.com/termux/libandroid-support
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 
@@ -1545,10 +1545,10 @@ Maintainer: @termux
 Installed-Size: 72
 Depends: libandroid-support (= 29-1)
 Filename: ./libandroid-support-static_29-1_aarch64.deb
-Size: 8616
-MD5sum: 2fbe058df20ce24bde75db9f3ecbb748
-SHA1: 63919382b17e5ea331025fd7dfc3bcc152ca214d
-SHA256: 01a01592efa06fb74157fb2febd1b78acbc456aacf584cadfe9dab72e737fc4f
+Size: 8628
+MD5sum: be4fd1403ebda8aae211fd8c2dfd588f
+SHA1: 7ca32bf3e650c23528f476ac4348ae0bc58e22a5
+SHA256: 986075411c37f12fee3d41dcc43b97c24653a9582aa657b886798b81b36682cb
 Homepage: https://github.com/termux/libandroid-support
 Description: Static libraries for libandroid-support
 
@@ -1678,10 +1678,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334936
-MD5sum: cca15c04e7d0101134e70b094ee0cb21
-SHA1: 5ff18c7a1c4d9dd9c92db15abe8be550d8667e8b
-SHA256: 9080a3cb77d759ca0521ff26e2ac01c011670820cb8bb88a0990c82d637f95a9
+Size: 334572
+MD5sum: 54d5fa911ae7df6af88fc5b121004f44
+SHA1: 99b8e5f5c30c201fb13f4a7b14e95b138dd1f8da
+SHA256: 98ef473fde98b2200b90297eb3704a81e10bcd6cd1200d73dbb3f46ccd4888b8
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -1751,10 +1751,10 @@ Depends: openssl
 Breaks: libcrypt-dev
 Replaces: libcrypt-dev
 Filename: ./libcrypt_0.2-6_aarch64.deb
-Size: 8832
-MD5sum: e6d0a20cab9af45fe3719b9f2d5bec16
-SHA1: 2af032a5cc8bedd6f2f9d0ed69016eeba83feeea
-SHA256: 51fbbf9016eb58abcf8f30ccbf7996fbca25380c2d6d84ca589b6311d7eb37fd
+Size: 8824
+MD5sum: 2fc32a09f85591e0093119b8b4ecde9b
+SHA1: b1e6c3d79ecb55e16535272235b7781d29ef401c
+SHA256: 4dd7aa3ee41192abcea0b56acad706b06c4a3644100b5faff86c866b08fc35f4
 Homepage: http://michael.dipperstein.com/crypt/
 Description: A crypt(3) implementation
 
@@ -2109,10 +2109,10 @@ Installed-Size: 1216
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Filename: ./libiconv_1.18-1_aarch64.deb
-Size: 561004
-MD5sum: d16e8e1d317ff76e501cebcf3238eb97
-SHA1: 5169952b494d14ffc253f0365cb29c92487d1678
-SHA256: 94a80912a4d67549e2428e137f892001e8554fce1b4dff1d40b217a00835282a
+Size: 561880
+MD5sum: 37256567febf19d8140fcd541f64fcbb
+SHA1: eb7a4efec9b34a0a0b93f8a237a669edc57cbb70
+SHA256: 8803c6df2bdd78942f778882e847e9b401c74d0183dbaaeb0163a61219bbeca0
 Homepage: https://www.gnu.org/software/libiconv/
 Description: An implementation of iconv()
 
@@ -2123,10 +2123,10 @@ Maintainer: @termux
 Installed-Size: 1228
 Depends: libiconv (= 1.18-1)
 Filename: ./libiconv-static_1.18-1_aarch64.deb
-Size: 558052
-MD5sum: 5ddd24355bdb7237a293b4d895aa7eaf
-SHA1: cd1791eba37a74b4546fa0143caf18c238b74004
-SHA256: a9132cef24e1867750f0a6da86b4cd5e3a7b50a4faf32f9107708e24eb0b2da0
+Size: 557296
+MD5sum: 1fc8c9ea1609f74929b96629e9a0e255
+SHA1: e5c6ce4978cd967e2b9b9e7ba1d148f73522f2c2
+SHA256: bbd9706756fbb8562d36eddedb7078fc005a1f7dfbf0176e4460f57eb47d8f60
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Static libraries for libiconv
 
@@ -2169,10 +2169,10 @@ Depends: libandroid-support, libiconv, libunistring
 Breaks: libidn2-dev
 Replaces: libidn2-dev
 Filename: ./libidn2_2.3.8-1_aarch64.deb
-Size: 104816
-MD5sum: e385995dcb1050583e99a59929e77caa
-SHA1: 77c190cddcb1a47bd05ec0002eb3d59fe2081a27
-SHA256: a55b9236efd0cf2335bf88e97301a78c2494f258402ec25ae5002a77527a8ca4
+Size: 104760
+MD5sum: f4d096de6138bbfadf523f44a14dc1c6
+SHA1: 70b55249a4fdac546c52a81af82868c4321a376c
+SHA256: 449c784b00691c53ece660b19131896aa9a4fe729f01250c304073e566bb7091
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Free software implementation of IDNA2008, Punycode and TR46
 
@@ -2183,10 +2183,10 @@ Maintainer: @termux
 Installed-Size: 296
 Depends: libidn2 (= 2.3.8-1)
 Filename: ./libidn2-static_2.3.8-1_aarch64.deb
-Size: 73076
-MD5sum: ac9a6c53392a63fb860d2f8e219942d1
-SHA1: 1dea362ba46ee6e215e8e3c8e3b7bea720b266aa
-SHA256: 1397dc88e7938f41b1994ff085b218d8edded7a2aa564a9fee306e35444e9afa
+Size: 73108
+MD5sum: 10e241200a3e15d5161d1f3a52b2ce23
+SHA1: edfed4996ab61704d8a8f9d2f4acbe886cdc6ced
+SHA256: a7d864edd5cfc8b53ada82eb59a59be29c89bc7a6d830d745177219382fba566
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Static libraries for libidn2
 
@@ -2861,10 +2861,10 @@ Depends: libandroid-support, libiconv
 Breaks: libunistring-dev
 Replaces: libunistring-dev
 Filename: ./libunistring_1.3-1_aarch64.deb
-Size: 544456
-MD5sum: c034239b745fbc1f605fece42276c40c
-SHA1: df72dd216ac3cd62fbaac316d426d273488f4158
-SHA256: 617371f05cd90abf99738bd8c7b13612c20d2696284f7a9e33f944e3fdf1ee16
+Size: 550104
+MD5sum: 8092103be3d1c1f0de4da933859ca97b
+SHA1: 8bdc49d8f9705dcd5943c5022b8ab5b74558f01c
+SHA256: 80481f2ff26ed6a1d3c9f19df5fce2085f62f4663533c28fd9a568a15004a3f8
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Library providing functions for manipulating Unicode strings
 
@@ -2875,10 +2875,10 @@ Maintainer: @termux
 Installed-Size: 2964
 Depends: libunistring (= 1.3-1)
 Filename: ./libunistring-static_1.3-1_aarch64.deb
-Size: 466312
-MD5sum: 436bcda80f7c993e890ec0437912e735
-SHA1: 4f334a1a02a6b3fa6e8fa8e914cbf92e851a93d8
-SHA256: 650855baf1bc26b4c7568a8fc91d71a41fc031376047c2cfa287572e38bb2bec
+Size: 469468
+MD5sum: 303e31ad850b3b9cb058def791c76eb8
+SHA1: 3adbded6d25377f74eca3153d6035cb95e68a5f3
+SHA256: 30e86aa050df12bc641622ae2aadbbe00acd685c1ac477ef00a0e60100ad75dc
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Static libraries for libunistring
 
@@ -3685,10 +3685,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1951948
-MD5sum: f5cf4d2f6ec2c3247034429025a15752
-SHA1: b16357ce32b9a19c57a904c81c933297640a93f1
-SHA256: eef911bc15525ad21340b107b31f6b55ad18e9b611a9da53583714dfab0f8947
+Size: 1952172
+MD5sum: 0aad45542c8884104769f397ccbfc2f9
+SHA1: c989f4d656572dc4447af201fe19aa4569b9fa2a
+SHA256: 726f89a6143421870e633e9f4642d027690187d0ac0ff21433e28b30488e065c
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -3852,10 +3852,10 @@ Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Filename: ./openssl_1_3.6.2_aarch64.deb
-Size: 2476888
-MD5sum: c4bfb755b721211cb6b9676315873ac8
-SHA1: c043fb2cff06b5b53aff2f3fd9d380a539e8b30c
-SHA256: 9487023f0fc9e21b312ace620ec585c86fbc569669cbcbf9865a9a5feb52b841
+Size: 2477352
+MD5sum: 3cfdd6a67ddb57ffb389d9be7775cb4b
+SHA1: 4fdde69ec3ed336a40decb6956bbe5854443d048
+SHA256: 4e1ac8e526fd017945e46f974a5d64a92ab2662d06807adffea494c09bcd4f55
 Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
@@ -3866,10 +3866,10 @@ Maintainer: @termux
 Installed-Size: 12072
 Depends: openssl (= 1:3.6.2)
 Filename: ./openssl-static_1_3.6.2_aarch64.deb
-Size: 2635272
-MD5sum: f821945bac75789355552e93065ee32c
-SHA1: f0be7377c74ad66bee57f4a7ec7720c7b9e8a46d
-SHA256: f38f86519c77b58d53917ddd1abaed30b3d4e1315604e169989c264bb90e6999
+Size: 2634440
+MD5sum: c61f4850303f17a6fee4ec3b13232ad7
+SHA1: 38558c4f0e96caff7a0f40806b0be712d5d29756
+SHA256: 8da4b8162ddcb4d7c52ec58201c2d8b022c12e8ab47de194cf19945201ddfb29
 Homepage: https://www.openssl.org/
 Description: Static libraries for openssl
 
@@ -3880,10 +3880,10 @@ Maintainer: @termux
 Installed-Size: 972
 Depends: openssl (= 1:3.6.2)
 Filename: ./openssl-tool_1_3.6.2_aarch64.deb
-Size: 276032
-MD5sum: 4f5b432f281e4ea2e80a577dece1db06
-SHA1: ac8b0b70eb2966e00bdd13663f42e8f09447078f
-SHA256: d78ed6b1251d0835e715782219df50a5e4f210c8dce4d9908c4ba5293872db4e
+Size: 276844
+MD5sum: f9794892cd907b0b1b3aadefa14e35c4
+SHA1: 238ea863954a4de92ee4075edb80225df81f2e56
+SHA256: b49f72219aaa00e621ae551ed1ad3dae906c51f79a7894588be154cea525c850
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
@@ -5066,6 +5066,21 @@ SHA256: fe9d7c8624c38036bb785a54512d5d79cd31c0616809980db53815b447687fb3
 Homepage: https://www.gnu.org/software/wget/
 Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
 
+Package: whois
+Version: 5.6.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: libcrypt, libiconv, libidn2
+Conflicts: inetutils (<< 1.9.4-13)
+Filename: ./whois_5.6.6_aarch64.deb
+Size: 38968
+MD5sum: 175357020e72b1a372e75ed6ed1e219f
+SHA1: 153aceb3b8621354bad07c4c0e2614d917d28a12
+SHA256: bdeca34c6239ad8df3af741d71c461e41f577122fe63e0ae51054840833984be
+Homepage: https://github.com/rfc1036/whois
+Description: An intelligent Whois client
+
 Package: xcb-proto
 Version: 1.17.0-2
 Architecture: all
@@ -5200,10 +5215,10 @@ Installed-Size: 264
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Filename: ./zlib_1.3.2_aarch64.deb
-Size: 62896
-MD5sum: be09ced52f88a9a5870adf92173c9de7
-SHA1: 3c061f4a3fdb0d3bf3d683a7af6589dd54edc8f1
-SHA256: 3782ebb7780871c0ba4ba7f92c9c40c294d0b091ae8b5d9144c2985e457e73f5
+Size: 62872
+MD5sum: 908e90912df5c72cdd08be6fa851fa14
+SHA1: 28745bc618a276087118a6b7e91b70c4c37dac91
+SHA256: 5c147bd1b3b0af451c1e1d0e6c8a0ac526348b95745a01ca9f4049879ffc6b75
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
@@ -5214,10 +5229,10 @@ Maintainer: @termux
 Installed-Size: 140
 Depends: zlib (= 1.3.2)
 Filename: ./zlib-static_1.3.2_aarch64.deb
-Size: 35460
-MD5sum: 40f1c32fb2a7f0103f93e35fec6fd175
-SHA1: c6e522759f03474e7a6e8a68a552bbfcda8f700a
-SHA256: 003d1719a208dc795b8c05f8eb16bddb242ceca552946d089ad6698fa2561473
+Size: 35476
+MD5sum: 9ddf63e695d19c5ebcb8cded9b807434
+SHA1: fa33d3b1e256373f9c5b96a9d6f426a4a874fc3a
+SHA256: ba9307aa2fde015400580b1be248faacc0df2c974133fa09dbddb98faf23c126
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 

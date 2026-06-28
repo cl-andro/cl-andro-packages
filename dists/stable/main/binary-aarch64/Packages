@@ -1845,6 +1845,20 @@ SHA256: 7c6839a3bf62fb423264e03a264e183398ade0ef1b2250c372802a4997e59358
 Homepage: https://www.netfilter.org/projects/iptables
 Description: Static libraries for iptables
 
+Package: iw
+Version: 6.17
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 324
+Depends: libnl
+Filename: ./iw_6.17_aarch64.deb
+Size: 92344
+MD5sum: 02750b523aea26691f368ee33e62cc56
+SHA1: 772fcf2ebc7e51febc81e4902e96d357f54d158d
+SHA256: 50ffb8ca4604234c475a2897947a260a58a51fe87459746c3b721c72ed59e27c
+Homepage: https://wireless.wiki.kernel.org/en/users/documentation/iw
+Description: CLI configuration utility for wireless devices
+
 Package: jq
 Version: 1.8.1-1
 Architecture: aarch64
@@ -2492,10 +2506,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334528
-MD5sum: 2d485ad3d83b9123e2d9a66f440063aa
-SHA1: fde5d4272a4c17c6663d102a0e7907b3e19e3991
-SHA256: 4cabd0b8c763ef6170c658570b63f289f0e387235b131f541c5604b20348b486
+Size: 334732
+MD5sum: 353f1387d0eb1f121dfd25b69fe6a9ee
+SHA1: 55d83600d9e8b0ffe463385ec1a64a5e90473eb4
+SHA256: 773ebb5f2f361dd50f5d4dcefb6627e36b807b938af89ac3c9463de345f88975
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -5372,6 +5386,19 @@ SHA256: 53e5a13276ec8ec432dc01859c0b2b0d779db102eb8e55a951710eacc92b7033
 Homepage: https://www.gnu.org/software/m4/m4.html
 Description: Traditional Unix macro processor
 
+Package: macchanger
+Version: 1.7.0-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 656
+Filename: ./macchanger_1.7.0-2_aarch64.deb
+Size: 181540
+MD5sum: 3abc4b92aace9debca751133353d9572
+SHA1: d9930c253e624d8aadf81841a87c782ed08719f1
+SHA256: f2550f258bf358e3c5a2665a461ea71b6bd7303bf00fbe543de1020ccf0d2655
+Homepage: https://github.com/alobbs/macchanger
+Description: Utility that makes the maniputation of MAC addresses of network interfaces easier
+
 Package: make
 Version: 4.4.1-1
 Architecture: aarch64
@@ -5529,10 +5556,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952052
-MD5sum: 3671bc8c484ff79f8c4cce23254ef56b
-SHA1: 152ca40762daf27075892b2f651dff93d1fe7fd7
-SHA256: 0b1f2949bd5579ff1c81a3c9f7409be000421c786b7e914b54d87846809c3c33
+Size: 1952224
+MD5sum: 76cbb55bb3150fddf408e4454e7e5af9
+SHA1: be5e2a37e352630720e09266b9b4dff2388ad2bf
+SHA256: cc08076e9b54c375e036e2fe6dd44e8959616c12d63b30586d2573e94fd6c76b
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -5972,6 +5999,19 @@ SHA1: bf26fa6288e5e1aeba7502b9d2f963ac4fe391cf
 SHA256: bcc4e7bb2d27e0a8dbc692b276b9873a06ed27f1182b6b9aa28908a3363b9114
 Homepage: https://www.gnupg.org/related_software/pinentry/index.html
 Description: Dialog allowing secure password entry
+
+Package: pixiewps
+Version: 1.4.2-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 144
+Filename: ./pixiewps_1.4.2-3_aarch64.deb
+Size: 39344
+MD5sum: 436e7dbe93ae75d7fccc97215096d7be
+SHA1: ba31eacfb5171a78f0d161ac01e1e3443d755069
+SHA256: 060b08b75e48c12684f85877edd1baee4ea33b9eab9f4964ba60354f462fccf0
+Homepage: https://github.com/wiire-a/pixiewps
+Description: An offline Wi-Fi Protected Setup brute-force utility
 
 Package: plzip
 Version: 1.13
@@ -7347,6 +7387,49 @@ SHA1: 153aceb3b8621354bad07c4c0e2614d917d28a12
 SHA256: bdeca34c6239ad8df3af741d71c461e41f577122fe63e0ae51054840833984be
 Homepage: https://github.com/rfc1036/whois
 Description: An intelligent Whois client
+
+Package: wireless-tools
+Version: 30pre9-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 436
+Breaks: wireless-tools-dev
+Replaces: wireless-tools-dev
+Filename: ./wireless-tools_30pre9-4_aarch64.deb
+Size: 91032
+MD5sum: 4093354776dededb80953104a5d05fed
+SHA1: 036773240b844b68dcd94ecc31352d9b4fe7e045
+SHA256: 0fbcaad0bbf32b29aeec224a4d8cae760a0330291eb664275febf40007206830
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Description: A set of tools allowing to manipulate the Wireless Extensions
+
+Package: wireless-tools-static
+Version: 30pre9-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 72
+Depends: wireless-tools (= 30pre9-4)
+Filename: ./wireless-tools-static_30pre9-4_aarch64.deb
+Size: 12632
+MD5sum: 4479b996b1932220029c3832bcfee1cf
+SHA1: 7b664ca8eb63151dac002716918f37d428218b48
+SHA256: 8be46c37b085adf2f81dba2f837b6021d18722544e76baf43bb7605674c7d32f
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools
+Description: Static libraries for wireless-tools
+
+Package: wpa-supplicant
+Version: 2.11-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2548
+Depends: openssl, readline, libnl
+Filename: ./wpa-supplicant_2.11-1_aarch64.deb
+Size: 891560
+MD5sum: c58193f9a560dc9ca79a5eb2021e2eb1
+SHA1: 940bf7396c79555eae1ca02626a9937c1ff5e43f
+SHA256: 3eabb3c6cc79da0520cd8e7b6b93c6b4685cf912e301c6179d8f3e995e3e5f9a
+Homepage: https://hostap.epitest.fi/wpa_supplicant
+Description: Utility providing key negotiation for WPA wireless networks
 
 Package: x264
 Version: 1:0.164.3191-1

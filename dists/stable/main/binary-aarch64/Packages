@@ -41,6 +41,20 @@ SHA256: e93c0d1fbaeb25e7f0908043a03c42e84e387b003c7640e7ed3fc0f0b77c7c52
 Homepage: https://developer.android.com/
 Description: Android platform tools
 
+Package: aom-tools
+Version: 3.13.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 860
+Depends: libc++, libaom (= 3.13.3)
+Filename: ./aom-tools_3.13.3_aarch64.deb
+Size: 202728
+MD5sum: 1faf322d0b05d9c4a5b7e0f58e8440b3
+SHA1: f1fd8ce77cd9890734ca6e2ba093bbe585e0fb96
+SHA256: 470f94e4d542ffe6bd763e3c5ecbc905d743581372750b90dd3457b45dba6fd1
+Homepage: https://aomedia.org/
+Description: Command-line tools using AOMedia library
+
 Package: apr
 Version: 1.7.6-2
 Architecture: aarch64
@@ -811,6 +825,20 @@ SHA256: 2fefcd9273829639c75ce5d0282de7ad6fbb0148aa68f46734328cd5e8a7ca5b
 Homepage: https://sourceware.org/elfutils/
 Description: A collection of utilities to read, create and modify ELF binary files
 
+Package: ethtool
+Version: 7.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 956
+Depends: libmnl
+Filename: ./ethtool_7.0_aarch64.deb
+Size: 261728
+MD5sum: f6c1e12851cd1a93c8d1eb771fc3454e
+SHA1: ddb0c3390e3c3a27080d247bb7c79b66777d830b
+SHA256: 9fa8a58fceed93d253bab06694085d7a29289a52172c7c94b00ffc313c7a32ee
+Homepage: https://mirrors.edge.kernel.org/pub/software/network/ethtool/
+Description: standard Linux utility for controlling network drivers and hardware, particularly for wired Ethernet devices
+
 Package: eza
 Version: 0.23.4
 Architecture: aarch64
@@ -1116,6 +1144,22 @@ SHA256: cba5d56dde35224c1d51c32be50861d4a38b79a8863949b855e24622b4ce9c38
 Homepage: https://junegunn.github.io/fzf/
 Description: Command-line fuzzy finder
 
+Package: g-ir-scanner
+Version: 1.86.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1076
+Depends: ldd, python, gobject-introspection (= 1.86.0-1)
+Breaks: gobject-introspection (<< 1.74.0-1)
+Replaces: gobject-introspection (<< 1.74.0-1)
+Filename: ./g-ir-scanner_1.86.0-1_aarch64.deb
+Size: 130460
+MD5sum: d136131e45f7b3a7d8adbece128e3d28
+SHA1: 7de5e23f0838bfd1f1e429372f2e1f0ef2a985af
+SHA256: 388e986aa412aea7fd6ce638b99091899d6ead3935fd70a7dafb4e07dd2076a7
+Homepage: https://gi.readthedocs.io/
+Description: A tool which generates GIR XML files
+
 Package: gawk
 Version: 5.3.2
 Architecture: aarch64
@@ -1176,6 +1220,22 @@ SHA1: e0efb15b50796cc846cece9220a89f68755ebc36
 SHA256: 6635f8db5f72d564775ad4ed1711c802ee8852e8a7083f21f311ea57512ec9b0
 Homepage: https://www.gnu.org.ua/software/gdbm/
 Description: Static libraries for gdbm
+
+Package: gdk-pixbuf
+Version: 2.44.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 960
+Depends: glib, libpng, libtiff, libjpeg-turbo, zstd
+Breaks: gdk-pixbuf-dev
+Replaces: gdk-pixbuf-dev
+Filename: ./gdk-pixbuf_2.44.6_aarch64.deb
+Size: 153504
+MD5sum: 9a9959756aa97df7085e72d6543005a1
+SHA1: 38f2bee41e721e7029affa1061c39c97a31d9610
+SHA256: cfca99c616907e494bb83b4497aea48be9b3635eff17eec566fe69e07767a06c
+Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
+Description: Library for image loading and manipulation
 
 Package: gh
 Version: 2.92.0
@@ -1321,6 +1381,36 @@ SHA256: 1f424140823dcbd4936812fb5fbb1d647bde3ca5f292dcfd3696f5d29e3c2beb
 Homepage: https://gitea.io
 Description: Git with a cup of tea, painless self-hosted git service
 
+Package: glib
+Version: 2.88.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 20880
+Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib, python
+Breaks: glib-dev, glib-bin
+Replaces: glib-dev, glib-bin
+Filename: ./glib_2.88.1_aarch64.deb
+Size: 2556704
+MD5sum: e4745110670ece439c5546c215a6fc2c
+SHA1: 4d8958ba99a2edbac299ada2bfba8f98f47bd796
+SHA256: 3a26299f7c89bbf7b4f820e65f592090c4bd1e49b75efd2daa6bcdad19edff01
+Homepage: https://developer.gnome.org/glib/
+Description: Library providing core building blocks for libraries and applications written in C
+
+Package: glib-cross
+Version: 2.88.1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 82712
+Depends: glib (= 2.88.1)
+Filename: ./glib-cross_2.88.1_all.deb
+Size: 12182000
+MD5sum: c1ab205c47a56c31d4e241702a202c2c
+SHA1: 9142e2e1b0a9a8e55a665aae26f53ff2f3862677
+SHA256: 3b557121909bc7a3b32001286b1a55f27b4cfadc884fa7619ce16e10fede795d
+Homepage: https://developer.gnome.org/glib/
+Description: glib for host (NOT for Termux)
+
 Package: glow
 Version: 2.1.2
 Architecture: aarch64
@@ -1365,6 +1455,21 @@ SHA1: d26eef734e0c389072677a148b4d8e7c85f05577
 SHA256: e581c60b2bef48d445163f6345649dc63848c277176c27c6749fce5d1dc9fc2a
 Homepage: https://www.gnutls.org/
 Description: Commandline utilities for interfacing with the gnutls library
+
+Package: gobject-introspection
+Version: 1.86.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1456
+Depends: glib, libffi
+Suggests: g-ir-scanner
+Filename: ./gobject-introspection_1.86.0-1_aarch64.deb
+Size: 203772
+MD5sum: cf76642785ed79bae272cfa9c5716d6f
+SHA1: 7a4ddee3242d00f663a646b427081d56e3c74f9c
+SHA256: 5145c8e49ca9e100ff578b95814c317f1c00fa6ecaa0644a6c78c52d55c00985
+Homepage: https://gi.readthedocs.io/
+Description: Uniform machine readable API
 
 Package: golang
 Version: 3:1.26.2
@@ -1571,6 +1676,34 @@ SHA256: ded61f5feedba53b75c662e9effac2dfc0223b02e0573b95fb50deff66e99609
 Homepage: https://github.com/esnet/iperf
 Description: Static libraries for iperf3
 
+Package: iptables
+Version: 1.8.13
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1496
+Depends: libmnl, libnftnl, libandroid-spawn
+Filename: ./iptables_1.8.13_aarch64.deb
+Size: 326064
+MD5sum: 5f50886be5ebab50fce8e75faeece4f6
+SHA1: bcbd53acf35b677557b1b1d0027e5f46726e3a2f
+SHA256: 087b5e1264785f9731f4316a30cb7c96ab8d8976a5be3876c4c01dd8004196c4
+Homepage: https://www.netfilter.org/projects/iptables
+Description: Program used to configure the Linux 2.4 and later kernel packet filtering ruleset
+
+Package: iptables-static
+Version: 1.8.13
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 192
+Depends: iptables (= 1.8.13)
+Filename: ./iptables-static_1.8.13_aarch64.deb
+Size: 34320
+MD5sum: 831e6991b1b9a5f902908629a0e8f610
+SHA1: 65c0b6d6696701d392552bb00e102cf274bede28
+SHA256: 7c6839a3bf62fb423264e03a264e183398ade0ef1b2250c372802a4997e59358
+Homepage: https://www.netfilter.org/projects/iptables
+Description: Static libraries for iptables
+
 Package: jq
 Version: 1.8.1-1
 Architecture: aarch64
@@ -1690,6 +1823,21 @@ SHA1: 3758877f2d0b49de2ffb334b5fa789f814c1f46e
 SHA256: 073ee2aa12a619f649ae5f2dfe061144b33c536acf6c4c9ee5ac5547e7186fa3
 Homepage: https://github.com/jesseduffield/lazygit
 Description: Simple terminal UI for git commands
+
+Package: ldd
+Version: 0.3-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 44
+Depends: bash, binutils
+Conflicts: binutils (<< 2.39-1)
+Filename: ./ldd_0.3-2_aarch64.deb
+Size: 1820
+MD5sum: 146cef2b2d9b6ce5a599285670a8bcb2
+SHA1: 835664aabc63d995e10459d76b0d1f32cbd4f267
+SHA256: 20babb968404af0152c9ab39eca495b0b65a8a05b6585c8991d2182c7fe94bdc
+Homepage: https://github.com/termux/termux-packages
+Description: Fake ldd command
 
 Package: ldns
 Version: 1.8.4-1
@@ -1947,6 +2095,33 @@ SHA256: ce4228d6a61908b10dab3ba9ab39b6b09d980ddaae1a5a6eeb69618ce4fafe8c
 Homepage: https://github.com/termux/libandroid-utimes
 Description: Static libraries for libandroid-utimes
 
+Package: libaom
+Version: 3.13.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 6976
+Filename: ./libaom_3.13.3_aarch64.deb
+Size: 2026964
+MD5sum: 747e0ae2b4c816dc1e68d1c670128449
+SHA1: f84751c5954b3112b7d18ea7a531599a8c4af2a9
+SHA256: 2899da46309f6de7b43a704cc80c436f9ab12490a3a37c4807cae892379df52b
+Homepage: https://aomedia.org/
+Description: AV1 Video Codec Library
+
+Package: libaom-static
+Version: 3.13.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8772
+Depends: libaom (= 3.13.3)
+Filename: ./libaom-static_3.13.3_aarch64.deb
+Size: 2171904
+MD5sum: 33f1b6f6321d71f555d77122daa1019c
+SHA1: 61c3b3ceddac2a770ea4f2d8f0f946e2a2a506fb
+SHA256: 0e989a5c64679ff8a161851e3fb3c0240d1202a90b414a89b924c084504033ff
+Homepage: https://aomedia.org/
+Description: Static libraries for libaom
+
 Package: libarchive
 Version: 3.8.7
 Architecture: aarch64
@@ -2035,6 +2210,20 @@ SHA256: c8bfa07d73cf3d9b0dee695903bc7395e2e1dcce80b0eb80d086f4046e32c6e8
 Homepage: https://www.gnupg.org/related_software/libassuan/
 Description: Static libraries for libassuan
 
+Package: libavif
+Version: 1.4.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1468
+Depends: libaom, libc++, libdav1d, libjpeg-turbo, libpng, libwebp, librav1e, svt-av1
+Filename: ./libavif_1.4.1_aarch64.deb
+Size: 380576
+MD5sum: 01ccddfda23b70397b56786a8d77aec5
+SHA1: acd7377eaca8287b3153d5de857f232552e73983
+SHA256: 310f895f4071788b357949acb10562a0f58ab605e24bcfbc486e621221ee0ffc
+Homepage: https://github.com/AOMediaCodec/libavif
+Description: Library for encoding and decoding .avif files
+
 Package: libblkid
 Version: 2.41.3
 Architecture: aarch64
@@ -2101,13 +2290,13 @@ Package: libc++
 Version: 29
 Architecture: aarch64
 Essential: yes
-Maintainer: @termux
+Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334768
-MD5sum: ebd1aca986e0d613752f92528f1de5be
-SHA1: 550725f948a0407c33414cc11b19fb6afc394f6e
-SHA256: 5df179ccff45cde2d6c9dcf94e1725c583909a78754b7b077c231c10bbe4d89d
+Size: 334996
+MD5sum: 884b2c76f62530833716d0e1d1387417
+SHA1: 35ce070290a4d9da51b0f886990d528e2ebac2ca
+SHA256: ac561f7f6497721abbcd3038f7b3c10777374f53129a6cf2cb590918aa7ee8c1
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2216,6 +2405,19 @@ SHA256: 06055c2d88729cf261b2b7bc9fdfef433f552b969f0bbdb197965f1ed797e66d
 Homepage: https://curl.se/
 Description: Static libraries for libcurl
 
+Package: libdav1d
+Version: 1.5.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 884
+Filename: ./libdav1d_1.5.3_aarch64.deb
+Size: 290344
+MD5sum: 4596e66d90406fc7790c8e97e3dccdfd
+SHA1: 100ceaa860743a30aaec07ac390d58a93eef80b4
+SHA256: 9e4cf220a34a7224e10f457f607f75b5ba5a223e2d6d882735cb70241eaee8a8
+Homepage: https://code.videolan.org/videolan/dav1d/
+Description: AV1 cross-platform decoder focused on speed and correctness
+
 Package: libdb
 Version: 18.1.40-5
 Architecture: aarch64
@@ -2245,6 +2447,34 @@ SHA1: c5f1015d456a707ec35755c98d8b27fcd9e08a0b
 SHA256: b4d3f74900c3ebbbb929c16f3cbdc2d669af472d478de29700ae2d8e1f4d695e
 Homepage: https://www.oracle.com/database/berkeley-db
 Description: Static libraries for libdb
+
+Package: libde265
+Version: 1.0.16-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 492
+Depends: libc++
+Filename: ./libde265_1.0.16-1_aarch64.deb
+Size: 149756
+MD5sum: b4c447fee863026ce72a86b9a889183c
+SHA1: 89a8ad7c7fa238ed61e579fec8a97f19533f35a2
+SHA256: 26f5fe4ae00388418be0878427819b343cdf997e6a919949515d88b3f8573ab8
+Homepage: https://github.com/strukturag/libde265
+Description: H.265/HEVC video stream decoder library
+
+Package: libde265-static
+Version: 1.0.16-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1060
+Depends: libde265 (= 1.0.16-1)
+Filename: ./libde265-static_1.0.16-1_aarch64.deb
+Size: 180372
+MD5sum: c4943f3bafdca86deb5eb4dbb95e0a01
+SHA1: 314594fa3ea775acfe182ad6c945be0b90a0c6e6
+SHA256: bceda98e0f28e53db48e80232aa60a05783db6f8e71c1e92c3a260f1974c3623
+Homepage: https://github.com/strukturag/libde265
+Description: Static libraries for libde265
 
 Package: libdebuginfod
 Version: 0.193-1
@@ -2465,6 +2695,36 @@ SHA256: bf1486c61b0693c06ea52556bbcb189a7d6a5d698dc5f9a25ddbbc13ddd19821
 Homepage: https://www.gnu.org/software/libgcrypt/
 Description: Static libraries for libgcrypt
 
+Package: libgd
+Version: 1:2.3.3-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 676
+Depends: fontconfig, freetype, libavif, libheif, libiconv, libjpeg-turbo, libpng, libtiff, libwebp, zlib
+Breaks: libgd-dev
+Replaces: libgd-dev
+Filename: ./libgd_1_2.3.3-7_aarch64.deb
+Size: 125716
+MD5sum: 3f3b1082876adcc793bb86b7a4324912
+SHA1: 780a7c731f061b342bf87fa96f1e4c84af250438
+SHA256: 77265f8fcbb0da9117b956b2566701ab23dee332a91e76b10784c59c085cd181
+Homepage: https://libgd.github.io/
+Description: GD is an open source code library for the dynamic creation of images by programmers
+
+Package: libgd-static
+Version: 1:2.3.3-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 544
+Depends: libgd (= 1:2.3.3-7)
+Filename: ./libgd-static_1_2.3.3-7_aarch64.deb
+Size: 102212
+MD5sum: a25449e350966e0071072636f28c19cb
+SHA1: aa005cf877f7a1f247825a4daea3d3c0ae612b30
+SHA256: b11e04cafeb07898d2a99d81a515a6069300039b329db55def53c3bff07d6f61
+Homepage: https://libgd.github.io/
+Description: Static libraries for libgd
+
 Package: libgit2
 Version: 1.9.3
 Architecture: aarch64
@@ -2585,6 +2845,34 @@ SHA1: 002196dfab6fdf99e4a631ed3b65c6939dbf37de
 SHA256: 3002a09cfc5b4d84d73a851c8018608373c6d3c4f93e814dbf73b7d43609c116
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: Static libraries for libgpg-error
+
+Package: libheif
+Version: 1.21.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2104
+Depends: gdk-pixbuf, glib, libaom, libc++, libdav1d, libde265, librav1e, libx264, libx265
+Filename: ./libheif_1.21.2-2_aarch64.deb
+Size: 496568
+MD5sum: aabb2ce94548e492cea7205f8a3b6213
+SHA1: ae7d08bf4357d3f2f5da8033295e3276d2ab534e
+SHA256: f420febdf76de456b73893db59ad787e92199a95aeff5191624fb306ea309db1
+Homepage: https://github.com/strukturag/libheif
+Description: HEIF (HEIC/AVIF) image encoding and decoding library
+
+Package: libheif-progs
+Version: 1.21.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 564
+Depends: libjpeg-turbo, libpng, libheif (= 1.21.2-2)
+Filename: ./libheif-progs_1.21.2-2_aarch64.deb
+Size: 131720
+MD5sum: 93f7b30503a24c9310e78777fb6903cc
+SHA1: e23b79fd6fc5b7126a45d5c776867482c3d29ed8
+SHA256: 1361b78a170c05d9be363c084ba91fc5491b4eaf7329e600eeba3edca3572f0c
+Homepage: https://github.com/strukturag/libheif
+Description: Programs for manipulating HEIF (HEIC/AVIF) image files
 
 Package: libhiredis
 Version: 1.3.0-1
@@ -2919,6 +3207,63 @@ SHA256: 9a3ffa34383da18b0c060fd3e4a23f7443fe54234e1a9bb9b32f638043303337
 Homepage: http://www.gnu.org/software/libmicrohttpd/
 Description: Static libraries for libmicrohttpd
 
+Package: libminizip
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 160
+Depends: zlib
+Filename: ./libminizip_1.3.2-1_aarch64.deb
+Size: 27184
+MD5sum: 4122743988813641d7df18e565708d76
+SHA1: 84da405f4d92876543cfee0e2a28cb7c61dc44ed
+SHA256: 3b058c3d7298d34e144c7f1a620b048923e6895ce7afe39970484332338d9bfe
+Homepage: https://www.winimage.com/zLibDll/minizip.html
+Description: Mini zip and unzip based on zlib
+
+Package: libminizip-static
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Depends: libminizip (= 1.3.2-1)
+Filename: ./libminizip-static_1.3.2-1_aarch64.deb
+Size: 18528
+MD5sum: 747c3b2f9611d731eea220223b1dabb6
+SHA1: c197bf113ce9e702afd71cb02b53691dad33e538
+SHA256: 352a85f0c0109293347b7005bbd8d0614508cf2ae24c5d2d1724dac90275d46a
+Homepage: https://www.winimage.com/zLibDll/minizip.html
+Description: Static libraries for libminizip
+
+Package: libmnl
+Version: 1.0.5-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 84
+Breaks: libmnl-dev
+Replaces: libmnl-dev
+Filename: ./libmnl_1.0.5-1_aarch64.deb
+Size: 8608
+MD5sum: c541a05377b9ad95bca1390b31bd541d
+SHA1: beb47046f60b77cc4c7ca2793bc2779311efc56b
+SHA256: 0b699f417c6b35dd1fb8159c3a3d5180116a4e79d5add6dfd2b953d8d8222982
+Homepage: https://www.netfilter.org/projects/libmnl/
+Description: a minimalistic user-space library oriented to Netlink developers
+
+Package: libmnl-static
+Version: 1.0.5-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 56
+Depends: libmnl (= 1.0.5-1)
+Filename: ./libmnl-static_1.0.5-1_aarch64.deb
+Size: 6960
+MD5sum: 8360184c91fbafedae4a639db422a12c
+SHA1: 08eea4aa09185c343280359a0c0cb3fd8fb27afb
+SHA256: f52832dcf036349e1c55955983e1e968acfc31be84a4ffce2adb2f59a59a6d14
+Homepage: https://www.netfilter.org/projects/libmnl/
+Description: Static libraries for libmnl
+
 Package: libmount
 Version: 2.41.3
 Architecture: aarch64
@@ -3022,6 +3367,36 @@ SHA256: 99db30c0f713f8425485a02b9d293ecaa7de3c1d64028455098117f8dfda8bb1
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Static libraries for libnettle
 
+Package: libnftnl
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 320
+Depends: libmnl
+Breaks: libnftnl-dev
+Replaces: libnftnl-dev
+Filename: ./libnftnl_1.3.1_aarch64.deb
+Size: 57444
+MD5sum: 567b62ed576e3aaed2f62ff647efb6c8
+SHA1: 3640337557bf7783eda6b172eb01f8ecffffbbc3
+SHA256: 15abc720a233b484a3f3bdd3515e2bd341cfe6b20bebaf00903395dde047d8e8
+Homepage: https://www.netfilter.org/projects/libnftnl/
+Description: Netfilter library providing interface to the nf_tables subsystem
+
+Package: libnftnl-static
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 492
+Depends: libnftnl (= 1.3.1)
+Filename: ./libnftnl-static_1.3.1_aarch64.deb
+Size: 64804
+MD5sum: 2b3b8ce22c126acdf186b1ae6226e779
+SHA1: 65915dd521380c00f342f1b398afc0656a5b0732
+SHA256: 627c0621c9cc950f71155e3b5d6891a640e92e98980f4e594136efd4efeea323
+Homepage: https://www.netfilter.org/projects/libnftnl/
+Description: Static libraries for libnftnl
+
 Package: libnghttp2
 Version: 1.69.0
 Architecture: aarch64
@@ -3107,6 +3482,63 @@ SHA256: 7c6de4e588655a0f09bcbbd252aed053f466e408c9e5be43269a3fef18a34c6d
 Homepage: https://github.com/ngtcp2/ngtcp2
 Description: Static libraries for libngtcp2
 
+Package: libnl
+Version: 3.12.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1704
+Breaks: libnl-dev
+Replaces: libnl-dev
+Filename: ./libnl_3.12.0_aarch64.deb
+Size: 289600
+MD5sum: e04badbb0876433cd68f970822497cca
+SHA1: 5539b9470c541f2ac52ddba9dead26fd109d7136
+SHA256: fe3b315043028f96ca8287bf785ca6110ef14947e39dfbbf06a6289526c56c81
+Homepage: https://github.com/thom311/libnl
+Description: Collection of libraries providing APIs to netlink protocol based Linux kernel interfaces
+
+Package: libnl-cli
+Version: 3.12.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 752
+Depends: libnl (= 3.12.0)
+Filename: ./libnl-cli_3.12.0_aarch64.deb
+Size: 62508
+MD5sum: d78f1866369f4be982c3bd793b653221
+SHA1: 520c3ec7ab384fe61bcc2d7ced86e7cce48b1689
+SHA256: 65fd57405650a75d16310876219d7ee4b6b00b09e3ea31e38d40c271d59dad88
+Homepage: https://github.com/thom311/libnl
+Description: Command-line interface utilities for libnl
+
+Package: libnl-cli-static
+Version: 3.12.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 224
+Depends: libnl-cli, libnl (= 3.12.0)
+Filename: ./libnl-cli-static_3.12.0_aarch64.deb
+Size: 19104
+MD5sum: 9c69fa462c3864bf253583320214c419
+SHA1: a078689eacfa836595e1bbe9800027b20fe3cfd7
+SHA256: 0cdd47241d5251f78f1ca5f40a6193a634a356f7ddfd1d31e361361353489958
+Homepage: https://github.com/thom311/libnl
+Description: Static libraries for libnl-cli
+
+Package: libnl-static
+Version: 3.12.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1828
+Depends: libnl (= 3.12.0)
+Filename: ./libnl-static_3.12.0_aarch64.deb
+Size: 294356
+MD5sum: bd3931c2c050ea94f373577d89d77adb
+SHA1: 2293979e91cbb84165565be67d106982dda9b9b1
+SHA256: b9b9cf62580700565b649a0a3cd35bccaea2a65efd824cf6f7ffdd4c7a43335d
+Homepage: https://github.com/thom311/libnl
+Description: Static libraries for libnl
+
 Package: libnpth
 Version: 1.6-3
 Architecture: aarch64
@@ -3135,6 +3567,35 @@ SHA1: 264a615d215d0aeafb639604f0174d68fb82b1f4
 SHA256: 38075e426f63f732773501049c8414fdb150dd1e9dc64c37f47fed5edbd880c1
 Homepage: https://www.gnupg.org/related_software/npth/
 Description: Static libraries for libnpth
+
+Package: libopus
+Version: 1.6.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 568
+Breaks: libopus-dev
+Replaces: libopus-dev
+Filename: ./libopus_1.6.1_aarch64.deb
+Size: 191484
+MD5sum: 95cc1bd7a66ccea409afbf4592379ce3
+SHA1: 9ff7f0eebd545d88fd5b4ffd101bd921c73fef33
+SHA256: 93fa796af33fadb1e7556ba3f51fa1e874790e9208be7f259dc4c504de4312b7
+Homepage: https://www.opus-codec.org/
+Description: Reference implementation of the Opus codec
+
+Package: libopus-static
+Version: 1.6.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 684
+Depends: libopus (= 1.6.1)
+Filename: ./libopus-static_1.6.1_aarch64.deb
+Size: 201736
+MD5sum: fc791d08a2c7addbd7968c74443b0771
+SHA1: a5a21caa5d8416b53d59ea5f743f20cbceec8f1e
+SHA256: 8da585377a6f9a017c36d7220aa92aa6f420705f08c0fd26d1b2f76d6a20158d
+Homepage: https://www.opus-codec.org/
+Description: Static libraries for libopus
 
 Package: libpcap
 Version: 1.10.5-1
@@ -3242,6 +3703,33 @@ SHA256: 35b9350a9cc3cb8e04d9031f4e8f839131872db1cb9bdeb8f39eadec29b31581
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library
 
+Package: librav1e
+Version: 0.8.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2296
+Filename: ./librav1e_0.8.1_aarch64.deb
+Size: 691260
+MD5sum: 161589641c6c265976a18f3450b99f7d
+SHA1: 2976c9308c5b2523d11582e18401a0d912c8a833
+SHA256: 71ab0a288627d074c62930c8cd2a7538ffec8668e32ca176af8c27830a4d4bfe
+Homepage: https://github.com/xiph/rav1e/
+Description: An AV1 encoder library focused on speed and safety
+
+Package: librav1e-static
+Version: 0.8.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 81592
+Depends: librav1e (= 0.8.1)
+Filename: ./librav1e-static_0.8.1_aarch64.deb
+Size: 8104484
+MD5sum: a56e13f8012aaa823fb673d65c939f5d
+SHA1: 7949f6bb5c1b990f228b873a22256604cd33b237
+SHA256: ca20bf421c5c869ee3e2338b0eb9b39d0dca942f20e7c34246c0632243025a8f
+Homepage: https://github.com/xiph/rav1e/
+Description: Static libraries for librav1e
+
 Package: libresolv-wrapper
 Version: 1.1.7-6
 Architecture: aarch64
@@ -3271,6 +3759,20 @@ SHA1: 1af3c0a56ac4bccf372d81262d92217b14c8133f
 SHA256: d8f6df938fc824c36d4a08262c96091dd04283b1c812195ee681dfd9cdd71cba
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for smart adaptive formatting of tabular data
+
+Package: libsnappy
+Version: 1.2.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 152
+Depends: libc++
+Filename: ./libsnappy_1.2.2-1_aarch64.deb
+Size: 25308
+MD5sum: 2d9ba0942d2550811e9db52006ccfd2e
+SHA1: 054ef76e0ae9b1d32a9286a1dbd979ff6fc217be
+SHA256: ea523455baed69e158f5348df3e2f258eb0405d7db165950a31603ed84d94f55
+Homepage: https://github.com/google/snappy
+Description: A compression/decompression library
 
 Package: libsodium
 Version: 1.0.22-1
@@ -3345,6 +3847,22 @@ SHA1: f00408139dd56d225cbf54d4090503659b66670f
 SHA256: 18b615f7069a5caad73027160ea89fe56bd928dc696a86ce18f94b695fd9f7c6
 Homepage: https://www.sqlite.org
 Description: tcl bindings for SQLite
+
+Package: libssh
+Version: 0.12.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 900
+Depends: openssl, zlib
+Breaks: libssh-dev
+Replaces: libssh-dev
+Filename: ./libssh_0.12.0-1_aarch64.deb
+Size: 233204
+MD5sum: 6f307a97c1c7bbb42e692395e8fc8ada
+SHA1: 6001939093a1521db9cb953d513cde39fcdeb30e
+SHA256: 6e61baab07ca6994942f41fcc84f49fa20e37b8bcadffeb4fb3f2cee79af0a0d
+Homepage: https://www.libssh.org/
+Description: Tiny C SSH library
 
 Package: libssh2
 Version: 1.11.1-1
@@ -3713,6 +4231,65 @@ SHA1: 17406a8c5627242b2472d636f1c3cf546e2b73ef
 SHA256: 5242af03f225e8fa843ce6273a423d1d2f8b8720c15b3090aaa31f5c5b23ea38
 Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libx11
+
+Package: libx264
+Version: 1:0.164.3191-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1256
+Breaks: libx264-dev
+Replaces: libx264-dev
+Filename: ./libx264_1_0.164.3191-1_aarch64.deb
+Size: 398008
+MD5sum: 4ae004a82a7100b440e4a7d28aa8e255
+SHA1: ad00812a5b28d2e9f214ad405831cf73e8ddf57e
+SHA256: 0562aad762ed41f9e2b18940088b54f29f170eee95c42e2205a93a7e4e8d1f4f
+Homepage: https://www.videolan.org/developers/x264.html
+Description: Library for encoding video streams into the H.264/MPEG-4 AVC format
+
+Package: libx264-static
+Version: 1:0.164.3191-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1852
+Depends: libx264 (= 1:0.164.3191-1)
+Filename: ./libx264-static_1_0.164.3191-1_aarch64.deb
+Size: 435760
+MD5sum: 3522623b53505c465dae48d4f50b5727
+SHA1: 6fac5f0a8dd94cabad622d1b6514b111830efbc4
+SHA256: f4477735361421c21e7ef35d7c6d84284b9441fd36b816a6638f88f0cbcafc40
+Homepage: https://www.videolan.org/developers/x264.html
+Description: Static libraries for libx264
+
+Package: libx265
+Version: 4.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 9380
+Depends: libandroid-posix-semaphore, libc++
+Breaks: libx265-dev
+Replaces: libx265-dev
+Filename: ./libx265_4.2_aarch64.deb
+Size: 1587776
+MD5sum: 6d916ffc1ac4545bca28ed4b4e7fd5f4
+SHA1: 95632be4c6b33a6f59682d8d4b55d5401ed2a5db
+SHA256: 82800eaed9a4ed49f541341c683d03073648c9613f9b5893218e26c20ce8e0b8
+Homepage: http://x265.org/
+Description: H.265/HEVC video stream encoder library
+
+Package: libx265-static
+Version: 4.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4744
+Depends: libx265 (= 4.2)
+Filename: ./libx265-static_4.2_aarch64.deb
+Size: 905468
+MD5sum: 6e15597379cdec6f5e8b515f587ad175
+SHA1: da680d818bad3e4d4e521aa3f346a9881963c307
+SHA256: 73d5bd07c133f7efef76c200ca2ad7a0a8d2ec7cf0a051daefb7c249e038a822
+Homepage: http://x265.org/
+Description: Static libraries for libx265
 
 Package: libxau
 Version: 1.0.12-2
@@ -4589,15 +5166,15 @@ Description: Tools for working with terminals
 Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
-Maintainer: @termux
+Maintainer: @clandro
 Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952008
-MD5sum: bcf1391abd05fa777c4ac12312522ad9
-SHA1: baad66562dc8f45b2636689131658ed5ba922e23
-SHA256: c3d67b9cf561030def0037bc0086aed5f087241ae085a104ebc18faff5c83aa0
+Size: 1952076
+MD5sum: 5ba18451a47e5c7fbfca70770caae841
+SHA1: b250de9a0b345dc8ef6c3b930f7e22e290f2133e
+SHA256: a047201c1274761008212b124f0cd511ce3d2173c18263a21dd058c5117f3dce
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4644,6 +5221,20 @@ SHA1: 844b4323c856f6153fd5d233d0cd3efd1ed0626f
 SHA256: 510a1ecf5b0fcc4f9545c3d1b95e01fe2c7a0d7a493b0d701c781984ba71b839
 Homepage: https://packages.debian.org/sid/netcat-openbsd
 Description: TCP/IP swiss army knife. OpenBSD variant.
+
+Package: nethogs
+Version: 0.8.7-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 144
+Depends: libc++, ncurses, libpcap
+Filename: ./nethogs_0.8.7-1_aarch64.deb
+Size: 34116
+MD5sum: 052207b1c25e0ac1d49b90ac4329eda7
+SHA1: 932bdc6a69bb2f85763cf56c5eaec7af1c315169
+SHA256: c2e65662b61780606f1c9a95135ba7a2b3c7bd43d841f5b19bf978e55f667882
+Homepage: https://github.com/raboof/nethogs
+Description: Net top tool grouping bandwidth per process
 
 Package: nettle
 Version: 4.0+really3.10.2
@@ -5166,6 +5757,19 @@ SHA256: 53ed120167ec1b22659f316ed5dda84943acc4d0f021ed724e71ba71c2cedb7c
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
 
+Package: rav1e
+Version: 0.8.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3260
+Filename: ./rav1e_0.8.1_aarch64.deb
+Size: 993724
+MD5sum: 2492cfe4a04f431fed64bfae8a6f36e3
+SHA1: 287d8468625e51236dcdd54298afb05dac2f2473
+SHA256: a7501f008389747438903b32e23d471204013e37197f3762faf156b4139f069d
+Homepage: https://github.com/xiph/rav1e/
+Description: An AV1 encoder program focused on speed and safety
+
 Package: rclone
 Version: 1.74.1
 Architecture: aarch64
@@ -5431,6 +6035,35 @@ SHA256: ca107ee6cf73a7c0d238a2bf615c6ee434eac7a1111b00560c4496302ed788f0
 Homepage: http://www.dest-unreach.org/socat/
 Description: Relay for bidirectional data transfer between two independent data channels
 
+Package: speexdsp
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 168
+Breaks: speexdsp-dev
+Replaces: speexdsp-dev
+Filename: ./speexdsp_1.2.1-1_aarch64.deb
+Size: 37336
+MD5sum: 42ec2081a56f27dd6a9ddbc631238aed
+SHA1: e197c271f4e64b9b4678591dfc4807d458f9b436
+SHA256: 1a2eb7e88d79adce4a45670da36bce07e968ed2b907fe8056a45b5ee84055532
+Homepage: https://speex.org/
+Description: Speex audio processing library
+
+Package: speexdsp-static
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 120
+Depends: speexdsp (= 1.2.1-1)
+Filename: ./speexdsp-static_1.2.1-1_aarch64.deb
+Size: 32832
+MD5sum: dd10aa5afef6cbc4ad830ef4b60c7065
+SHA1: f44bd58708d89edc0afabcfd20ae5af293523cd2
+SHA256: 7d066841b31d3b736d43fd2bf456d0122eb8a0f159224efafdeb2f38aa7add96
+Homepage: https://speex.org/
+Description: Static libraries for speexdsp
+
 Package: sqlite
 Version: 3.53.1
 Architecture: aarch64
@@ -5530,6 +6163,19 @@ SHA256: 69ec29611e66912fb7e1ab99eacf95d2041840c8d23d135eb328fc83e2073ef6
 Homepage: https://subversion.apache.org
 Description: Static libraries for subversion
 
+Package: svt-av1
+Version: 4.1.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4188
+Filename: ./svt-av1_4.1.0_aarch64.deb
+Size: 1383844
+MD5sum: 949eb9854575dc8eb85ad94317c61c68
+SHA1: a9d085e2426484d264b9f449bcf0fa718b501bc6
+SHA256: ef2c0acb4ea9daa1d2f9e8b9481e8d5674b207820775900e5da636878a8407bd
+Homepage: https://gitlab.com/AOMediaCodec/SVT-AV1
+Description: Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)
+
 Package: swig
 Version: 4.4.1
 Architecture: aarch64
@@ -5587,6 +6233,34 @@ SHA1: 73c6d2e05336150259fa8cfc46c13a25d6c2d83d
 SHA256: 8372c46fbd1deb3d4c616e6d90b8eda03e29351bc9dc4a9a084fbec0329867fe
 Homepage: https://www.tcl.tk/
 Description: Powerful but easy to learn dynamic programming language
+
+Package: tcpdump
+Version: 4.99.4-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1148
+Depends: libcap-ng, libpcap, openssl
+Filename: ./tcpdump_4.99.4-1_aarch64.deb
+Size: 345568
+MD5sum: 2a738af4770640499c0fc48ab2440b24
+SHA1: f5e9d124efb8ace906dc66865b878cea97b0ef68
+SHA256: 9098719d697a59009ef939976cacb4dc12982a7df85fed3520c35fdcd9cca6aa
+Homepage: https://www.tcpdump.org/
+Description: A powerful command-line packet analyzer
+
+Package: termshark
+Version: 2.4.0-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 17600
+Depends: tshark
+Filename: ./termshark_2.4.0-5_aarch64.deb
+Size: 4566476
+MD5sum: b95a2b1a54c2a3133fc200a3da5fe264
+SHA1: fdd8a33ed84f6bcc328ed85cdd36b95d58f90f21
+SHA256: 089187fc35de28aaa00f2a7b3d71dbf2fb2a021d6678c9e1470efc87b5cf9497
+Homepage: https://termshark.io
+Description: A terminal UI for tshark, inspired by Wireshark
 
 Package: termux-am
 Version: 0.8.0-2
@@ -5965,6 +6639,22 @@ SHA256: 8c8cd63d903f3e330e252133736cde3844239678d37e35594f8e4f607b8c6c14
 Homepage: https://github.com/neovim/tree-sitter-vimdoc
 Description: Tree-sitter parser for Vim help files
 
+Package: tshark
+Version: 4.6.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 138892
+Depends: brotli, c-ares, glib, libandroid-support, libcap, libgcrypt, libgmp, libgnutls, libgpg-error, libiconv, libidn2, liblz4, liblzma, libminizip, libnettle, libnghttp2, libnl, libopus, libpcap, libsnappy, libssh, libunistring, libxml2, openssl, pcre2, speexdsp, zlib, zstd
+Breaks: tshark-dev
+Replaces: tshark-dev
+Filename: ./tshark_4.6.5_aarch64.deb
+Size: 20822064
+MD5sum: 96dbf16bafbc20acfa877188a87ad858
+SHA1: 9d7c7a9fa9ab80c0a909e8e214fb2e6234e727d5
+SHA256: 4bb54558339e674ba107ac8a6c1e4dec8c48e499981d109a40dce81683f2600c
+Homepage: https://www.wireshark.org/
+Description: Network protocol analyzer and sniffer
+
 Package: ttf-dejavu
 Version: 2.37-8
 Architecture: all
@@ -6114,6 +6804,34 @@ SHA256: 16ba3afb9f0f2c11db3509040450c3ed4a8a2cc2921344a615cef050e492b342
 Homepage: https://www.vim.org
 Description: Vi IMproved - enhanced vi editor
 
+Package: vnstat
+Version: 2.13-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 372
+Depends: libsqlite
+Filename: ./vnstat_2.13-1_aarch64.deb
+Size: 96248
+MD5sum: ef4c0279e72d0540c41fc228e9893a9c
+SHA1: afc75a471b9c7c573ee33689bb3ebb1e4dce4b04
+SHA256: 06b6e83b6696804c304adcec6f4e9d1dfc00a9cdb0efe817f27d4a5369e50c31
+Homepage: https://github.com/vergoh/vnstat
+Description: A console-based network traffic monitor
+
+Package: vnstati
+Version: 2.13-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 140
+Depends: libgd, vnstat (= 2.13-1)
+Filename: ./vnstati_2.13-1_aarch64.deb
+Size: 41304
+MD5sum: 82c4663df2e45debe269398761a0c6a7
+SHA1: 34f0b5b2afc33d84eb9c949d76071615847c868f
+SHA256: 11cbee1d3fcb8996f800807eb060f64856a63059f00752b6a46a3888d00515a5
+Homepage: https://github.com/vergoh/vnstat
+Description: Image output for vnstat
+
 Package: wget
 Version: 1.25.0-1
 Architecture: aarch64
@@ -6142,6 +6860,34 @@ SHA1: 153aceb3b8621354bad07c4c0e2614d917d28a12
 SHA256: bdeca34c6239ad8df3af741d71c461e41f577122fe63e0ae51054840833984be
 Homepage: https://github.com/rfc1036/whois
 Description: An intelligent Whois client
+
+Package: x264
+Version: 1:0.164.3191-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1272
+Depends: libx264 (= 1:0.164.3191-1)
+Filename: ./x264_1_0.164.3191-1_aarch64.deb
+Size: 413472
+MD5sum: 49d4633e7742fdc49e5e3cdeb8121eef
+SHA1: 87b8d61021a3157ac214babcc7ac8d61ea55eb86
+SHA256: 5b383d2737fbec362da78710e59ad4328fe3c4917310d8068614864d1a7329b1
+Homepage: https://www.videolan.org/developers/x264.html
+Description: Commandline video encoder for the H.264/MPEG-4 AVC format
+
+Package: x265
+Version: 4.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Depends: libx265 (= 4.2)
+Filename: ./x265_4.2_aarch64.deb
+Size: 42000
+MD5sum: 79cf965a8712dff2dd29c2038dbdf70b
+SHA1: 6859f8aa19754030d23a46d8ee0629afc31ae520
+SHA256: d2be52ba12334467469ffe734d52523bf396fb80cf89f7ae567660ccbf0c2784
+Homepage: http://x265.org/
+Description: H.265/HEVC video stream encoder tool
 
 Package: xcb-proto
 Version: 1.17.0-2

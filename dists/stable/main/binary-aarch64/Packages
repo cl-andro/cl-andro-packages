@@ -148,6 +148,33 @@ SHA256: ae2ac70c7ebcccb1bbea63e294f9e10b503b16a0563afdca11c46336c5b6d8b3
 Homepage: https://packages.debian.org/apt
 Description: APT transport for anonymous package downloads via Tor
 
+Package: argp
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Filename: ./argp_1.5.0-1_aarch64.deb
+Size: 21296
+MD5sum: e06b1f674376fe3a25abca8c973b56d7
+SHA1: ded2c81b017efc3413393773db48176061bd0010
+SHA256: 375bb6e204b55764321ef17b98ac4ebbedc026ddb5a9445bd4c4617c56b00ec4
+Homepage: https://github.com/argp-standalone/argp-standalone
+Description: Standalone version of arguments parsing functions from GLIBC
+
+Package: argp-static
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: argp (= 1.5.0-1)
+Filename: ./argp-static_1.5.0-1_aarch64.deb
+Size: 42164
+MD5sum: c98b16a2c0681b5f055a1b0664393221
+SHA1: af6e15f57d023174a668260b3f4504eaaa9f6894
+SHA256: 9d92df14b03d454a7c4d775b15afc26c712597204d0eb1f2ff58d0e4f4ef69b3
+Homepage: https://github.com/argp-standalone/argp-standalone
+Description: Static libraries for argp
+
 Package: aria2
 Version: 1.37.0-3
 Architecture: aarch64
@@ -726,6 +753,20 @@ SHA1: 01db11c4b4c5988739e474858f0e86febd97144d
 SHA256: 46a687eda20f43c3e02afc70007ce62bb76b3bb4c5f222b3ee90f4fa4ab40145
 Homepage: https://github.com/muesli/duf
 Description: Disk usage/free utility
+
+Package: elfutils
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2868
+Depends: argp, libarchive, libasm, libc++, libdebuginfod, libdw, libmicrohttpd, libsqlite, libelf (= 0.193-1)
+Filename: ./elfutils_0.193-1_aarch64.deb
+Size: 442528
+MD5sum: 32c2224fe0c028d7d7601390f22c0d8f
+SHA1: e58590193778516ad890c4c92f83fe79ad0b37ab
+SHA256: 2fefcd9273829639c75ce5d0282de7ad6fbb0148aa68f46734328cd5e8a7ca5b
+Homepage: https://sourceware.org/elfutils/
+Description: A collection of utilities to read, create and modify ELF binary files
 
 Package: eza
 Version: 0.23.4
@@ -1317,6 +1358,35 @@ SHA256: e4a55ec719267c8fd5433d942bb673c29bdd8d185987b8d7555cd0ceee3d38f8
 Homepage: https://jqlang.org/
 Description: Static libraries for jq
 
+Package: json-c
+Version: 0.18-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 292
+Breaks: json-c-dev
+Replaces: json-c-dev
+Filename: ./json-c_0.18-2_aarch64.deb
+Size: 50132
+MD5sum: e5a7288e236bd9e85f92128d2c62321c
+SHA1: 9edc178965805d94930920128c9f363a4646fca8
+SHA256: 1894972a1aca6775d818a70aa8280400aea9ff055779b3d9a5658697bf9a2e35
+Homepage: https://github.com/json-c/json-c/wiki
+Description: A JSON implementation in C
+
+Package: json-c-static
+Version: 0.18-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: json-c (= 0.18-2)
+Filename: ./json-c-static_0.18-2_aarch64.deb
+Size: 30220
+MD5sum: 8d1b04b42e72cbaad361be50c763344f
+SHA1: e0fc59c5e724f2cd25cff69098060d410b1edecc
+SHA256: 79526a72ee3e94861144de48af61edf0c654b989173a1863b94e6a63ce1891e8
+Homepage: https://github.com/json-c/json-c/wiki
+Description: Static libraries for json-c
+
 Package: jsoncpp
 Version: 1.9.7
 Architecture: aarch64
@@ -1664,6 +1734,34 @@ SHA256: 74a5d19e54ba7494d98fccede0d7da6c00bad72dd1ebf6741041799ad52c695b
 Homepage: https://www.libarchive.org/
 Description: Static libraries for libarchive
 
+Package: libasm
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Depends: libdw, libelf (= 0.193-1)
+Filename: ./libasm_0.193-1_aarch64.deb
+Size: 13272
+MD5sum: 3934e56cdb951fa0c4154900b2719fa6
+SHA1: ebdd4a97e4bf0b18c96841ec6f0ea8f6322cdb36
+SHA256: 7de9e759038988e7a63d5a9aa2459aed7b67fb91b28ae740285967abfeff5f35
+Homepage: https://sourceware.org/elfutils/
+Description: Library to assemble and disassemble instructions
+
+Package: libasm-static
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libasm, libelf (= 0.193-1)
+Filename: ./libasm-static_0.193-1_aarch64.deb
+Size: 13192
+MD5sum: 126e9acfae4b3a63e835c719ed9a739f
+SHA1: f6945771d6079d60f0be5bc254e55acbe556b672
+SHA256: 8ad27f7f5e87989aa9ca41f21b96bee80af48b335d7ca605d777c84b4fd98d86
+Homepage: https://sourceware.org/elfutils/
+Description: Static library to assemble and disassemble instructions
+
 Package: libassuan
 Version: 3.0.2-1
 Architecture: aarch64
@@ -1733,10 +1831,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334900
-MD5sum: 0e49f874a50c87ca036c03aadca895ce
-SHA1: 9386a1ac998c180e5404a268a0ed47841bc5e3d8
-SHA256: b9db5937a75a089ca3317868c5b26fc377e12e8cd2cf41ffa46bc111b0db13a5
+Size: 334656
+MD5sum: 221c06a161057fb77330cb766ae7fa3f
+SHA1: 22429fdbff921905d27436a3047a2faa37e7df08
+SHA256: 525d3fff1ab7fe8fbcb817c4a49dc72baab9589b2c6faff7f51b2e35196cdfd8
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -1875,6 +1973,48 @@ SHA256: b4d3f74900c3ebbbb929c16f3cbdc2d669af472d478de29700ae2d8e1f4d695e
 Homepage: https://www.oracle.com/database/berkeley-db
 Description: Static libraries for libdb
 
+Package: libdebuginfod
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: libcurl, libelf (= 0.193-1)
+Filename: ./libdebuginfod_0.193-1_aarch64.deb
+Size: 20396
+MD5sum: 1853780ac8e03d256203a9590e1bd6aa
+SHA1: a4489346611972baa317e1765aa09d4da4dde033
+SHA256: 53a3ca309f29b4454a8f34081d29d04b877727fd0fd986dbfb7a728ad45d029e
+Homepage: https://sourceware.org/elfutils/
+Description: Library for debuginfod
+
+Package: libdw
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 816
+Depends: argp, libbz2, liblzma, libelf (= 0.193-1)
+Filename: ./libdw_0.193-1_aarch64.deb
+Size: 211776
+MD5sum: b4d5727c06ba2f8fc2e6c38cf29c6e4e
+SHA1: 40e4d68ed81b07375974bcab9eed48398c2ac5fe
+SHA256: 4980d0e45ddca84b24fc5ded59192a896203cd1c5560cc83eea027699cbd953b
+Homepage: https://sourceware.org/elfutils/
+Description: Library to read DWARF information
+
+Package: libdw-static
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1504
+Depends: libdw, libelf (= 0.193-1)
+Filename: ./libdw-static_0.193-1_aarch64.deb
+Size: 237684
+MD5sum: 98a29ad3756b38f96a406f71715999b5
+SHA1: fe313ac7294772a2501ef47348961033187dbcb0
+SHA256: 479b5dcadc25c59539bd46a8d7ca1b29572cfd4f76be62d65230b9e666007a29
+Homepage: https://sourceware.org/elfutils/
+Description: Static library to read DWARF information
+
 Package: libedit
 Version: 20240517-3.1-1
 Architecture: aarch64
@@ -1904,6 +2044,36 @@ SHA1: 0059597098b34b59517001cc563695968d1c16ef
 SHA256: b8538f43fb541f5182e971326b8bb687ab234a0a2cfe7474fe62b6d4f539e72e
 Homepage: https://thrysoee.dk/editline/
 Description: Static libraries for libedit
+
+Package: libelf
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 372
+Depends: libandroid-support, zlib, zstd, json-c
+Conflicts: libelf-dev
+Replaces: libelf-dev
+Filename: ./libelf_0.193-1_aarch64.deb
+Size: 66204
+MD5sum: 787bb4258eed4e9343c7806244e8b405
+SHA1: 87a626d98f4f5f62b2d3f4ab86f3ed7c2c357888
+SHA256: da8bad30175437da5a6536b4c95d7c2fc25f586954bd3bb495ff52cbc13da2da
+Homepage: https://sourceware.org/elfutils/
+Description: ELF object file access library
+
+Package: libelf-static
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 324
+Depends: libelf (= 0.193-1)
+Filename: ./libelf-static_0.193-1_aarch64.deb
+Size: 45308
+MD5sum: 7331dd8df47ff3270fb230a9017f361c
+SHA1: eae317c72cec3c1cba03363ca505f0fa4a9f5753
+SHA256: 9dae62338f3f181c90fdd98e9317956475c3e90fbd81cf9f193136e9bea30f45
+Homepage: https://sourceware.org/elfutils/
+Description: Static libraries for libelf
 
 Package: libevent
 Version: 2.1.12-3
@@ -2375,6 +2545,36 @@ SHA1: 30ccf85e7c2bf1d1197b414e29aa86fa2b21277e
 SHA256: d88c8ef02368a8e2442137ecafadd530a52d25c4f730aaa5975331c453300917
 Homepage: https://www.hadrons.org/software/libmd/
 Description: Static libraries for libmd
+
+Package: libmicrohttpd
+Version: 1.0.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 992
+Depends: libgnutls
+Breaks: libmicrohttpd-dev
+Replaces: libmicrohttpd-dev
+Filename: ./libmicrohttpd_1.0.5_aarch64.deb
+Size: 205528
+MD5sum: 10e6997270e700e4bfaef85caef05cd1
+SHA1: 41161995a4ec22dc7da7bf6647c214cc0f995365
+SHA256: c0e0c94eefa881973536184189ad3246466ed9aa3bcbb0c1a0839cccaac4caaf
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Description: A small C library that is supposed to make it easy to run an HTTP server as part of another application
+
+Package: libmicrohttpd-static
+Version: 1.0.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 312
+Depends: libmicrohttpd (= 1.0.5)
+Filename: ./libmicrohttpd-static_1.0.5_aarch64.deb
+Size: 75420
+MD5sum: 2e435543c2b0017ca02e52b577498cf6
+SHA1: ca74169753a21c647b2b7883c0cbb02a5721d197
+SHA256: 9a3ffa34383da18b0c060fd3e4a23f7443fe54234e1a9bb9b32f638043303337
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Description: Static libraries for libmicrohttpd
 
 Package: libmount
 Version: 2.41.3
@@ -3410,6 +3610,20 @@ SHA256: d55e5972874cc105f9661dc861866fa29576f7cf52119c317bc802654a770db5
 Homepage: https://github.com/lsof-org/lsof
 Description: Static libraries for lsof
 
+Package: ltrace
+Version: 1:0.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: libc++, libelf, libdw
+Filename: ./ltrace_1_0.8.1_aarch64.deb
+Size: 117080
+MD5sum: bba7c19ce7e2c0c39b6239a3d72fc4f5
+SHA1: 7d9f1057b630071fdab7427e6e06029236edfa1b
+SHA256: 0413dae92d2d740008d8e3c4568ff87c1f6ad69a86d8e4ad8b76f89478fab881
+Homepage: http://www.ltrace.org/
+Description: Tracks runtime library calls in dynamically linked programs
+
 Package: lua-lpeg
 Version: 1.1.0-5
 Architecture: aarch64
@@ -3893,10 +4107,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1951964
-MD5sum: ba35ca1f25eb8cc2b71f19535435885d
-SHA1: bea874bd0e32dbfaa1cf93f6ac9e1273965ddbb3
-SHA256: 49de20737c3d88b92baa568c7cbfefbccd9d89cea90d6d84d868f92da9c5806a
+Size: 1951948
+MD5sum: f09304b1a49f3872ca7e8d30d121a81b
+SHA1: 9bd20fca955b4356e9e9ff9ff5566c593d9f22b7
+SHA256: d1bc6c00721a28a37fb6e5c1d63e03780ece070293f4113b0cecea295ff423ab
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4701,6 +4915,20 @@ SHA1: 8ec2c6c34b559cbcc0c08aeb4ccfdd95ef278249
 SHA256: c508ada60e121ff1a8c69a1f8d0288641eb29fd2d8d810c6a065efcc0a2f3779
 Homepage: https://www.sqlite.org
 Description: Command line shell for SQLite
+
+Package: strace
+Version: 7.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1940
+Depends: libdw
+Filename: ./strace_7.0_aarch64.deb
+Size: 441692
+MD5sum: 9c5a711b77b7b707923122e90e8ff3ef
+SHA1: ddb6470c6d8cee580d51d0946e852a59e75cd3b6
+SHA256: fb04a4749335bb1ec060b2bdd2c2feeee95cf435e52693529a10e7202b6fd970
+Homepage: https://strace.io/
+Description: Debugging utility to monitor system calls and signals received
 
 Package: subversion
 Version: 1.14.5-1

@@ -1011,6 +1011,21 @@ SHA256: 73fee387aa6a99c76538d715aef88b373adfd56909d900ba1a8ff8636f5b26d4
 Homepage: https://www.gnu.org/software/findutils/
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
 
+Package: fio
+Version: 3.42
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1892
+Depends: openssl, libandroid-shmem, libaio
+Suggests: python
+Filename: ./fio_3.42_aarch64.deb
+Size: 380372
+MD5sum: 42d18ff1f0b5bc558a66b88d4dc670cc
+SHA1: fa477b102d416b5126234be9d55c30cf1f053bfe
+SHA256: f26ecfbcc047f153fbf9f9e7ba69b688c764f091d35ad2f50b0e743571b83713
+Homepage: https://github.com/axboe/fio
+Description: Flexible I/O Tester
+
 Package: fish
 Version: 4.7.1
 Architecture: aarch64
@@ -1615,6 +1630,19 @@ SHA256: 260216557f2ff1165770b82a4579addcedc11cc2437eb7a26c07c35f610508bb
 Homepage: https://md5deep.sourceforge.net/
 Description: Programs to compute hashsums of arbitrary number of files recursively
 
+Package: hdparm
+Version: 9.65-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Filename: ./hdparm_9.65-1_aarch64.deb
+Size: 58604
+MD5sum: 6e9282c81c13fa82261161e51bbddb40
+SHA1: 6cd0b5a3d020bf4a0010b4ec2640d01d1a728d5f
+SHA256: ee1fef125431e8cbbb168afe944fac39a57a20afb2f05b63797732edcd8bbce4
+Homepage: https://sourceforge.net/projects/hdparm/
+Description: Utility to get/set SATA/IDE device parameters
+
 Package: htop
 Version: 3.5.1
 Architecture: aarch64
@@ -1645,6 +1673,49 @@ SHA1: 2cd128df29b994574303610944c7ecce1c91b502
 SHA256: fdd670206bb65717ddc445e692cf49f0b560ccd2d0db1b2fa8bf3506bf3156e3
 Homepage: https://github.com/folkertvanheusden/HTTPing
 Description: ping-like program for http-requests
+
+Package: hwinfo
+Version: 22.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3524
+Depends: libandroid-shmem, libuuid, libx86emu
+Breaks: hwinfo-dev
+Replaces: hwinfo-dev
+Filename: ./hwinfo_22.3-1_aarch64.deb
+Size: 762788
+MD5sum: 8f4720c7e13cacc71fd6244d6d62402c
+SHA1: d06713fe69564621ba17c388414534d5b6d0cb07
+SHA256: 7684096a8de2a76c8868f83f0e7bd2d4a768eb3422b1d4104fe94adf14701e0c
+Homepage: https://github.com/openSUSE/hwinfo
+Description: Hardware detection tool from openSUSE
+
+Package: i2c-tools
+Version: 4.4-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 364
+Filename: ./i2c-tools_4.4-1_aarch64.deb
+Size: 72848
+MD5sum: e6b53622c62f8f9692a2cb36a23cec29
+SHA1: 19cab9c3c12426b982464355d8db2faeeeed7920
+SHA256: 992d7214f0cf05e30c125025674cd9545211c190336b469a8b31884802d25980
+Homepage: https://i2c.wiki.kernel.org/index.php/I2C_Tools
+Description: Tools for interacting with I2C devices
+
+Package: i2c-tools-static
+Version: 4.4-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 36
+Depends: i2c-tools (= 4.4-1)
+Filename: ./i2c-tools-static_4.4-1_aarch64.deb
+Size: 2456
+MD5sum: bbcb642fce46332104aa8454192c43a3
+SHA1: 010fce581d2a173d26346dddc6c8767e262f4a58
+SHA256: 81838e1bbdb33ba7bd43cca52dcecc9915b63acde6b4796857f8090aff79d688
+Homepage: https://i2c.wiki.kernel.org/index.php/I2C_Tools
+Description: Static libraries for i2c-tools
 
 Package: icdiff
 Version: 2.0.10
@@ -1955,6 +2026,35 @@ SHA256: c6ec7802654bde16df38fc020e72571d859836314632c368d100843515b19d61
 Homepage: http://savannah.nongnu.org/projects/acl
 Description: Static libraries for libacl
 
+Package: libaio
+Version: 0.3.113-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 64
+Breaks: libaio-dev
+Replaces: libaio-dev
+Filename: ./libaio_0.3.113-1_aarch64.deb
+Size: 5376
+MD5sum: 66478a8634e7ac95e9930ffd325a26f6
+SHA1: b9ee85c4120ff299c373ffebe47aedfe60e890c5
+SHA256: 2d914cede2689634cf3a9e9cd175670f122d65a6a9c75e5c8765e1fcf51c4181
+Homepage: https://pagure.io/libaio
+Description: Linux kernel AIO access library
+
+Package: libaio-static
+Version: 0.3.113-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 48
+Depends: libaio (= 0.3.113-1)
+Filename: ./libaio-static_0.3.113-1_aarch64.deb
+Size: 3256
+MD5sum: e4d52f6046698f32a2c3034039f19283
+SHA1: 720a1ec0f2f94d43c5c888d31a300250f727a3d8
+SHA256: a700eac70f6db0186e1190279d176cd8b88e554c54857578991d205ce091f64b
+Homepage: https://pagure.io/libaio
+Description: Static libraries for libaio
+
 Package: libandroid-execinfo
 Version: 0.1-3
 Architecture: aarch64
@@ -2053,6 +2153,35 @@ SHA1: 3b3ad7d8dbacd7f31cc2ed164cc32338a6dd0963
 SHA256: 4dc7bb70815f6300c9efa79e596474dab67e13616626b1a011d76d5b8bc958d1
 Homepage: https://selinuxproject.org
 Description: Android fork of libselinux, an SELinux userland library
+
+Package: libandroid-shmem
+Version: 0.7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 72
+Breaks: libandroid-shmem-dev
+Replaces: libandroid-shmem-dev
+Filename: ./libandroid-shmem_0.7_aarch64.deb
+Size: 7208
+MD5sum: 19827fa7bef4afd900735e7c715f0e8d
+SHA1: 0bd05a29e4f4f41ec1aedb227f67d4fe6908d1f5
+SHA256: 92430ba3b3f12bac9368d4bae2089844c3dd1cea2c22a02220017abb70b79fa2
+Homepage: https://github.com/termux/libandroid-shmem
+Description: System V shared memory emulation on Android using ashmem
+
+Package: libandroid-shmem-static
+Version: 0.7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 48
+Depends: libandroid-shmem (= 0.7)
+Filename: ./libandroid-shmem-static_0.7_aarch64.deb
+Size: 6024
+MD5sum: 80108f67096690eaa76d10d02daa738b
+SHA1: 3ab2320958f579d8dc513d5cb3ef4c15250038f0
+SHA256: da96ad12d6eee02a796908160a0993c1ecf379cb6064e345d703b63771f5ca3d
+Homepage: https://github.com/termux/libandroid-shmem
+Description: Static libraries for libandroid-shmem
 
 Package: libandroid-spawn
 Version: 0.3
@@ -2335,10 +2464,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334576
-MD5sum: 5cdadec7ea6823139e427f5a86de3f77
-SHA1: 2db0a44c6f83074a0fce271c2e2a8b454f3d31b2
-SHA256: 034f679f6363f4ebf15ddf508ba7cb7afb1fe5ebdd51aad910f6fd18d34d7329
+Size: 334716
+MD5sum: 85cdab241ee4f28a480b49d8c929e70a
+SHA1: 13286fb667f0dca1c50a98c0db1213bb1a585a48
+SHA256: 8c13dbe7b090f22bdc962d67fd5252aaae9e80fafe60fe39f23abb77c38e2850
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2398,6 +2527,36 @@ SHA1: 1997c0751997b0b718c5a287663101988d7dd01f
 SHA256: bacd8126174f169ae08ae6042f310173003e97acf526be3d2d78306c5f268fa2
 Homepage: https://sites.google.com/site/fullycapable/
 Description: Static libraries for libcap
+
+Package: libconfig
+Version: 1.8.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 428
+Depends: libc++
+Breaks: libconfig-dev
+Replaces: libconfig-dev
+Filename: ./libconfig_1.8.2_aarch64.deb
+Size: 76600
+MD5sum: ffbbb51eb76cbad201b07669686de98c
+SHA1: f2e92e0b7faa7f3c4e83196cfe5918e8ddb72a66
+SHA256: b4d427c64ba22b18fa477aa4cf8d1ba70ab3d48300b3447ee58c66d1d00faaf5
+Homepage: https://github.com/hyperrealm/libconfig
+Description: C/C++ Configuration File Library
+
+Package: libconfig-static
+Version: 1.8.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 264
+Depends: libconfig (= 1.8.2)
+Filename: ./libconfig-static_1.8.2_aarch64.deb
+Size: 31552
+MD5sum: 17315c0c1a6a7eef4f2e8c94804322e0
+SHA1: 34d6c4b8acc4eb43933f47feb85001bbf343a9f8
+SHA256: c3f3a186159b2cb161eaecec5af1f516d73b483add9993f02091e97f1298edf5
+Homepage: https://github.com/hyperrealm/libconfig
+Description: Static libraries for libconfig
 
 Package: libcrypt
 Version: 0.2-6
@@ -4388,6 +4547,21 @@ SHA256: 73d5bd07c133f7efef76c200ca2ad7a0a8d2ec7cf0a051daefb7c249e038a822
 Homepage: http://x265.org/
 Description: Static libraries for libx265
 
+Package: libx86emu
+Version: 3.7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 224
+Breaks: libx86emu-dev
+Replaces: libx86emu-dev
+Filename: ./libx86emu_3.7_aarch64.deb
+Size: 45000
+MD5sum: b558fcf296121c7003c32298a2e9f367
+SHA1: dc4171bcf4d5bed19fb84d3ddc4eba8d806283a6
+SHA256: 68f9038b1b940121483f4756426445fc7de131ea2a2c8bca0e68f0760e049f8b
+Homepage: https://github.com/wfeldt/libx86emu
+Description: x86 emulation library
+
 Package: libxau
 Version: 1.0.12-2
 Architecture: aarch64
@@ -5268,10 +5442,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952068
-MD5sum: f4c7b977e2f049a687c6d6d2b746bd63
-SHA1: 7e03a8660a3ee0185a8bb3bcd1386e3c8ee9b626
-SHA256: ddba13f63d8b7db6cbf72e3627fb99eb36694904f96079822227b8f6bdb80de5
+Size: 1952004
+MD5sum: 2748ec43c32e1ef043db7ca1d9c31a2f
+SHA1: a54aa07efbe7cc3ccaa7133c44118f40f3361339
+SHA256: 1fbf6b6c66b9a04188bba09ae799ead6f22c8c8fdb4da5fec220cbbdaf0cd836
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -5450,6 +5624,21 @@ SHA256: 4c9617bdf2741517010eced0b369a77dc928ac57951009642220f287312250ef
 Homepage: https://github.com/tuxera/ntfs-3g
 Description: Static libraries for ntfs-3g
 
+Package: nwipe
+Version: 0.40
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 488
+Depends: ncurses, ncurses-ui-libs, parted, libconfig, hdparm
+Suggests: smartmontools
+Filename: ./nwipe_0.40_aarch64.deb
+Size: 268624
+MD5sum: 38bd5f67730d6b5ca0f8135eb195a798
+SHA1: ac117a9d4163569f459670c7b73633ceaee1de68
+SHA256: 60437decc604cc6d93c5afdbe13edcfd6f29859b04d6fe67c44ba074fed3241f
+Homepage: https://github.com/martijnvanbrummelen/nwipe
+Description: A program that will securely erase the entire contents of disks
+
 Package: oniguruma
 Version: 6.9.10-1
 Architecture: aarch64
@@ -5581,6 +5770,36 @@ SHA1: a5bd9c50c5f10ffd8e0a7fd00c491c6de3a07775
 SHA256: 00463646d1665c49c480bfa9383acb34ec54e8037de62bdad6c2116838b945d1
 Homepage: https://github.com/p7zip-project/p7zip
 Description: Command-line version of the 7zip compressed file archiver
+
+Package: parted
+Version: 3.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 724
+Depends: libblkid, libiconv, libuuid, ncurses, readline
+Breaks: parted-dev
+Replaces: parted-dev
+Filename: ./parted_3.6-1_aarch64.deb
+Size: 201088
+MD5sum: 3621ab3aa587e75303f59eb4eba58188
+SHA1: c10892ffee9cf82ba3f89519562bb8a6f6a7b0ed
+SHA256: b797d828ac19192af26327ec296afb1204cad594b02310596c910472a71f9614
+Homepage: https://www.gnu.org/software/parted/
+Description: Versatile partition editor
+
+Package: parted-static
+Version: 3.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 960
+Depends: parted (= 3.6-1)
+Filename: ./parted-static_3.6-1_aarch64.deb
+Size: 189068
+MD5sum: 6ab15283ee48416a757ba1eeadd6efd4
+SHA1: 3ce8198c483c95bbf09f78b7be094eaa5093cf94
+SHA256: 5e86190fe054f120a34842b11e9353f8224b01390d7a03a197edbc2a0aa0462a
+Homepage: https://www.gnu.org/software/parted/
+Description: Static libraries for parted
 
 Package: pcre2
 Version: 10.47
@@ -6145,6 +6364,20 @@ SHA1: 7703c5940119a94626d5db74e8ce703c717b4b8f
 SHA256: 628ea5a91f9d04c25a6d2bf9ed5480e79e47aeb7d3d2810aa047b15ed82c2416
 Homepage: https://serf.apache.org/
 Description: Static libraries for serf
+
+Package: smartmontools
+Version: 7.5-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2448
+Depends: libandroid-glob, libc++, libcap-ng
+Filename: ./smartmontools_7.5-1_aarch64.deb
+Size: 559148
+MD5sum: 18a06c0da12083f73e4874b1a61e11bb
+SHA1: 02b19c9cbe866ca6da3fd7a1fa97029159275a38
+SHA256: bc0bb4b01cd21054f6c8b60ebeb1ef1cdbc04fb19013ec21f03b62b83db5bb5e
+Homepage: https://www.smartmontools.org/
+Description: Utility programs (smartctl and smartd) to control and monitor storage systems
 
 Package: socat
 Version: 1.8.1.1

@@ -784,6 +784,19 @@ SHA256: 8dc9a14e17fc39dd7e19d715a07d0ef6fbb6ceb8a2e4d209727e465783ada7cc
 Homepage: https://github.com/eza-community/eza
 Description: A modern replacement for ls
 
+Package: fclones
+Version: 0.35.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3968
+Filename: ./fclones_0.35.0-1_aarch64.deb
+Size: 1238156
+MD5sum: a99939568f86b57437010ce57dbada51
+SHA1: a5f0863cd2a6250975991b807fe4e90ed2b19c53
+SHA256: ecc122e620d4fe9a0f30225a9722bb4da7f433aebceeb30e5ffa93efd47dabeb
+Homepage: https://github.com/pkolaczk/fclones
+Description: Efficient Duplicate File Finder
+
 Package: fd
 Version: 10.4.2
 Architecture: aarch64
@@ -811,6 +824,20 @@ SHA256: 0de970fad453e72f78856ed9bf52043c287f65d79b21663b7d359b19962d63c2
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities to manipulate disk partition tables
 
+Package: fdupes
+Version: 2.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: libsqlite, ncurses, pcre2
+Filename: ./fdupes_2.4.0-1_aarch64.deb
+Size: 36492
+MD5sum: 000e80403b20b82068fd3e603b4f4728
+SHA1: 935d77a134dca20cda06df6feb3433eaeb8bd21a
+SHA256: b28a0d33da076b9952f365437c8667bfdd787be6c04d25a69cb1b442d802d948
+Homepage: https://github.com/adrianlopezroche/fdupes
+Description: Duplicates file detector
+
 Package: file
 Version: 5.47
 Architecture: aarch64
@@ -820,10 +847,10 @@ Depends: zlib
 Breaks: file-dev
 Replaces: file-dev
 Filename: ./file_5.47_aarch64.deb
-Size: 406700
-MD5sum: 8de68f68eb195c2e0600a1180ed6ea68
-SHA1: f2d7d36fae2a88128cea6fb9d270ae3140e96997
-SHA256: 07f68b918b82e796477df92ee6ec1ca0ef0a737702e392cc3236ecaf7ca3b282
+Size: 406224
+MD5sum: ca259859cf371eab7703191fd6d372ce
+SHA1: 47912a07aa5e47849232bc8b086ecba678009b7e
+SHA256: 9e2405d93202f50c6c9892796d60ff2f24b2c2ff8ffd6d6879e281654341550e
 Homepage: https://darwinsys.com/file/
 Description: Command-line tool that tells you in words what kind of data a file contains
 
@@ -831,13 +858,13 @@ Package: file-static
 Version: 5.47
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 284
+Installed-Size: 280
 Depends: file (= 5.47)
 Filename: ./file-static_5.47_aarch64.deb
-Size: 68904
-MD5sum: acad89628df4b53b1df464f2453b8f43
-SHA1: b212e48bb8bea965805da2a16647ec42ba459534
-SHA256: 441bc0da10a3f315469079234345956b8931588be4e2891e27adfebc13c84e35
+Size: 68524
+MD5sum: 9f0a25002cacb9ca8ed888d02dd39215
+SHA1: c704d4382f7807dfeb7beabed11df992b8afb370
+SHA256: 518b3f7bc5ff632764def596fe60f30c129278edc13c047e27211a0f42575b87
 Homepage: https://darwinsys.com/file/
 Description: Static libraries for file
 
@@ -1326,6 +1353,20 @@ SHA1: f6dee5ca20828a33bae49683f0a9f0085401ab6b
 SHA256: d89a258bbffa803c371f42fe973aebcc3d2151e24df1c9e79c8a281471f50939
 Homepage: https://www.gnu.org/software/gzip/
 Description: Standard GNU file compression utilities
+
+Package: hashdeep
+Version: 4.4-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1320
+Depends: libc++
+Filename: ./hashdeep_4.4-9_aarch64.deb
+Size: 90508
+MD5sum: 51d065b1440c2fd8bc662a22f21d2fd2
+SHA1: bab6a27769b1e670f085f975797feebb73382e31
+SHA256: 260216557f2ff1165770b82a4579addcedc11cc2437eb7a26c07c35f610508bb
+Homepage: https://md5deep.sourceforge.net/
+Description: Programs to compute hashsums of arbitrary number of files recursively
 
 Package: htop
 Version: 3.5.1
@@ -1875,10 +1916,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334888
-MD5sum: 7d30e9889c3a17bda51acf4228c01097
-SHA1: 117c4e756f9480e742d9ff17577bc8fe7da4f216
-SHA256: 39a87f037fbbd95da83413b6e8e61b0319c7426f8e77485cf4790ed1faa98727
+Size: 334920
+MD5sum: c8a6b6a3a05244046f0d36eac528cbaf
+SHA1: dbab9fda43953907907b71e3b77818f35d335649
+SHA256: 521f316d34fa10c228588ceda316b6926341885417ddb866c8fd598391699ae7
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -4320,14 +4361,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 31268
+Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952092
-MD5sum: 755a2129045064583697cac3aa92c403
-SHA1: fb62fc566dd3730525ea09a9502e7753ec77e4aa
-SHA256: 01767a3db09604b79e3fe8fe140733ce0800f7d748c214bd235a4693f3dcb862
+Size: 1952152
+MD5sum: aa43e7db98724e4e0046a1e3ede6ba9e
+SHA1: 80883f315e2c85cdf8b802025e592ef388a47b2a
+SHA256: f320fdf368b9299f735761306887f6e487bdcf9cc9b590990c62dd00c99a621b
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4880,6 +4921,20 @@ SHA1: 35a6220f9ed06d30893787a4dc4563acb4b7a9e8
 SHA256: 3dcfd8e3a4fef0e420d391ce2faf4d701b76e332d6bd611178808b1f728cbb44
 Homepage: https://rclone.org/
 Description: rsync for cloud storage
+
+Package: rdfind
+Version: 1.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: libc++, libnettle
+Filename: ./rdfind_1.8.0_aarch64.deb
+Size: 41156
+MD5sum: 13e84486026346fd86ee623e5c816730
+SHA1: 21f74529b3f136d18c928710439fb0358f353073
+SHA256: d5319d6d46b698c4f01dc2716c5462dd0c6659d80f70a1cb9da4f1987fce9b44
+Homepage: https://github.com/pauldreik/rdfind
+Description: A tool for finding duplicate files
 
 Package: readline
 Version: 8.3.3

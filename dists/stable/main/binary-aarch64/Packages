@@ -881,6 +881,35 @@ SHA256: b28a0d33da076b9952f365437c8667bfdd787be6c04d25a69cb1b442d802d948
 Homepage: https://github.com/adrianlopezroche/fdupes
 Description: Duplicates file detector
 
+Package: fftw
+Version: 3.3.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3404
+Breaks: fftw-dev
+Replaces: fftw-dev
+Filename: ./fftw_3.3.10-4_aarch64.deb
+Size: 1005836
+MD5sum: 69b4c74f1b76c892181510c07a91cd3a
+SHA1: 062f2168f7a3a3fbf0ee79795d20260a6c6a100b
+SHA256: 0fa1696ba04d30841b7e390ba78d6f09817a7e22451722f8e57f890f9f277284
+Homepage: http://www.fftw.org/
+Description: Library for computing the Discrete Fourier Transform (DFT) in one or more dimensions
+
+Package: fftw-static
+Version: 3.3.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6908
+Depends: fftw (= 3.3.10-4)
+Filename: ./fftw-static_3.3.10-4_aarch64.deb
+Size: 991684
+MD5sum: 1a6f880d69882085f6f12024a493f7bb
+SHA1: a6d32484cd3680015f71befd3bdb5db9ac4681a8
+SHA256: 20177fa438b14e084a0f8627a675856622ac0f5fdc7606aaa9953e35f0bf7262
+Homepage: http://www.fftw.org/
+Description: Static libraries for fftw
+
 Package: file
 Version: 5.47
 Architecture: aarch64
@@ -1456,6 +1485,20 @@ SHA256: d2d566428b241b4b5366c4ce6ea8f3295d127f5782ff9ef8fcd3e151019f83e7
 Homepage: https://htop.dev/
 Description: Interactive process viewer for Linux
 
+Package: httping
+Version: 4.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: fftw, libandroid-support, ncurses, openssl
+Filename: ./httping_4.4.0-1_aarch64.deb
+Size: 40132
+MD5sum: 73dd56a05901460f4911fb5419685268
+SHA1: 2cd128df29b994574303610944c7ecce1c91b502
+SHA256: fdd670206bb65717ddc445e692cf49f0b560ccd2d0db1b2fa8bf3506bf3156e3
+Homepage: https://github.com/folkertvanheusden/HTTPing
+Description: ping-like program for http-requests
+
 Package: icdiff
 Version: 2.0.10
 Architecture: all
@@ -1497,6 +1540,36 @@ SHA1: 39eb3fcf1309a1918b624c317e27c96bbd03726e
 SHA256: c3966a48eff587f0e56a58030fd71f7fb26a86cd15a34661586ef6edd8ca29b2
 Homepage: http://site.icu-project.org/home
 Description: Development utilities for International Components for Unicode
+
+Package: iperf3
+Version: 3.20
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 300
+Depends: openssl
+Breaks: iperf3-dev
+Replaces: iperf3-dev
+Filename: ./iperf3_3.20_aarch64.deb
+Size: 81368
+MD5sum: d4dc1da1bf8bab23cdd65e77886f8eed
+SHA1: 1658aefecd2e838f5dc6edcb69322fb57d11ca09
+SHA256: e9c3c6d851e71328a00f7bdec6dadae25a660aba697bda07fe25f5a698f26b61
+Homepage: https://github.com/esnet/iperf
+Description: TCP, UDP, and SCTP network bandwidth measurement tool
+
+Package: iperf3-static
+Version: 3.20
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 336
+Depends: iperf3 (= 3.20)
+Filename: ./iperf3-static_3.20_aarch64.deb
+Size: 69360
+MD5sum: ca0edbb6009cfd8491da00666de43911
+SHA1: 6107f0a81df5c51658ebcc1ddf055ff7cfa54cbf
+SHA256: ded61f5feedba53b75c662e9effac2dfc0223b02e0573b95fb50deff66e99609
+Homepage: https://github.com/esnet/iperf
+Description: Static libraries for iperf3
 
 Package: jq
 Version: 1.8.1-1
@@ -1978,6 +2051,36 @@ SHA256: 984b34bce6edd8e42a53a633828bb9cc764a1f5af7b236562eb52efc540c8bc0
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Block device identification library
 
+Package: libbsd
+Version: 0.11.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1324
+Depends: libmd
+Breaks: libbsd-dev
+Replaces: libbsd-dev
+Filename: ./libbsd_0.11.7-2_aarch64.deb
+Size: 150928
+MD5sum: e169554e9b4c30a1fa05a69299d24d73
+SHA1: eb53c9f684188f6a712183e70aac17912e27deb3
+SHA256: d2bac319b1e7471b8ef0ba142b30d8468dfa8fa3ac342ed09d22f765b177d95b
+Homepage: https://libbsd.freedesktop.org
+Description: utility functions from BSD systems
+
+Package: libbsd-static
+Version: 0.11.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libbsd (= 0.11.7-2)
+Filename: ./libbsd-static_0.11.7-2_aarch64.deb
+Size: 32736
+MD5sum: 42fd57772a316cc1eb804a37d53b0a1b
+SHA1: 9a5971089a267a780bfc221f074ed93b10c3fd32
+SHA256: 2b1aa7afed585315672a487984c7cda5d89ef39c91006983432ceb372512ca9f
+Homepage: https://libbsd.freedesktop.org
+Description: Static libraries for libbsd
+
 Package: libbz2
 Version: 1.0.8-8
 Architecture: aarch64
@@ -2001,10 +2104,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334484
-MD5sum: c83290fa3c55413c907a792cf7e0aa2b
-SHA1: 743514f1f13d138bb53ad70919f18c8ced89f5d2
-SHA256: ecb9af9af793a35deaa062bc8c7a2f7de0a8aeac4d4587a15b4ff9e8658175d2
+Size: 334768
+MD5sum: ebd1aca986e0d613752f92528f1de5be
+SHA1: 550725f948a0407c33414cc11b19fb6afc394f6e
+SHA256: 5df179ccff45cde2d6c9dcf94e1725c583909a78754b7b077c231c10bbe4d89d
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -4382,6 +4485,20 @@ SHA256: 94ca48c161c1d988ea12e623cdb3533804d0b6b8065ce93a74d3b931207a87c1
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for (un)mounting filesystems
 
+Package: mtr
+Version: 0.96-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Depends: ncurses
+Filename: ./mtr_0.96-1_aarch64.deb
+Size: 50304
+MD5sum: e4159a90ce4e74b1fc7ab054b0137a99
+SHA1: da4c608b22f68db0a2fde60d5f03beb8fa506adb
+SHA256: 478ef5e26112e6b152d45ff069a707aab910ffdf203aa6fe60718518edeab58a
+Homepage: https://github.com/traviscross/mtr
+Description: Network diagnostic tool
+
 Package: nano
 Version: 9.0
 Architecture: aarch64
@@ -4477,10 +4594,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952188
-MD5sum: fc3a9e55d37c19019a9e3afb349d6933
-SHA1: 80b6b4a7eb2d1e9b7bcc5bb598766c984a2f9fda
-SHA256: 4f677fcf72426308f3158c022908ef0f285e2b8b5833d50e46a14eea58b2900e
+Size: 1952008
+MD5sum: bcf1391abd05fa777c4ac12312522ad9
+SHA1: baad66562dc8f45b2636689131658ed5ba922e23
+SHA256: c3d67b9cf561030def0037bc0086aed5f087241ae085a104ebc18faff5c83aa0
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4499,6 +4616,34 @@ SHA1: 4fc3f922e9526848c7527616707e972b5d4ae03e
 SHA256: 8a18d7cad731429faba30ce2959704a2b64e36fa5287a33962d2368b05d03687
 Homepage: https://neovim.io/
 Description: Ambitious Vim-fork focused on extensibility and agility (nvim)
+
+Package: net-tools
+Version: 2.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 564
+Filename: ./net-tools_2.10.0-1_aarch64.deb
+Size: 118684
+MD5sum: dd762e40f366935881475717018011d2
+SHA1: b1d6020026292528bc94e3243e812821a85f552a
+SHA256: 960d5a48e14d64420b37dcbc6f2778439d4ed5e17ae44783e9044b88a9c94e8b
+Homepage: http://net-tools.sourceforge.net/
+Description: Configuration tools for Linux networking
+
+Package: netcat-openbsd
+Version: 1.234-2-0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: libbsd
+Provides: nc, ncat, netcat
+Filename: ./netcat-openbsd_1.234-2-0_aarch64.deb
+Size: 21240
+MD5sum: bf258b6c1747cf5cfaf0a0baa7da6064
+SHA1: 844b4323c856f6153fd5d233d0cd3efd1ed0626f
+SHA256: 510a1ecf5b0fcc4f9545c3d1b95e01fe2c7a0d7a493b0d701c781984ba71b839
+Homepage: https://packages.debian.org/sid/netcat-openbsd
+Description: TCP/IP swiss army knife. OpenBSD variant.
 
 Package: nettle
 Version: 4.0+really3.10.2
@@ -5683,6 +5828,20 @@ SHA1: ee55af41ef487d09b9ca0b8e39b9c84eb6c79329
 SHA256: ba59d31b628424fe2fc88147d9fd25c8572d7a1db0ea8164985b89a38b845e0b
 Homepage: https://www.torproject.org
 Description: The Onion Router anonymizing overlay network
+
+Package: traceroute
+Version: 2.1.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Conflicts: tracepath (<< 20221126-1)
+Filename: ./traceroute_2.1.6-1_aarch64.deb
+Size: 32536
+MD5sum: 87cf78af74eae3ca48ae2eabc79ef1e4
+SHA1: ef9161796179a6951f9de26a98927d8d0e5952fc
+SHA256: 5772d21306d23504a6ba4fd94529268afafe9e4fdb33ee86174dc2a57dbfe3d9
+Homepage: https://traceroute.sourceforge.net/
+Description: A new modern implementation of traceroute(8) utility for Linux systems
 
 Package: tree
 Version: 2.3.2

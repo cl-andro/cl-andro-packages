@@ -292,6 +292,20 @@ SHA256: 68f6fce3c71da7b99b8a21c9f8b83cfcf5a48c965c7ca778cb8d1072912533ca
 Homepage: https://www.gnu.org/software/bash/
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 
+Package: bash-completion
+Version: 2.17.0-2
+Architecture: all
+Maintainer: Joshua Kahn <tom@termux.dev> & @clandro
+Installed-Size: 2640
+Depends: bash
+Filename: ./bash-completion_2.17.0-2_all.deb
+Size: 188312
+MD5sum: afbc1e41d7601ed89ce5f4cf14dde3a7
+SHA1: 59dffb440080a3488a1d83c40e3de97f30a61472
+SHA256: 1b713c3cea67e0f0f2dee1c96c0e492bcc6739cc11bd86bc3fc2a11283fee1e7
+Homepage: https://github.com/scop/bash-completion
+Description: Programmable completion for the bash shell
+
 Package: bat
 Version: 0.26.1
 Architecture: aarch64
@@ -435,6 +449,20 @@ SHA1: 5e6ed97729edaf59a4ca5d771f7cdf60ba8f21b4
 SHA256: af933f475d69d23c22a5c37fc04d77603cffaecc08edca25b06b7db0622d21fd
 Homepage: https://www.libarchive.org/
 Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+
+Package: bubblewrap
+Version: 0.11.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 148
+Depends: libcap, bash-completion
+Filename: ./bubblewrap_0.11.0-1_aarch64.deb
+Size: 32760
+MD5sum: 662a230f5d026d4b75b257b5e17c1348
+SHA1: db3a9a6371a2c38705c2650e36c32157f66073a4
+SHA256: 26e76543f8d64434036d0346c11bab63961800407012e4d975a3f965d92bf378
+Homepage: https://github.com/containers/bubblewrap
+Description: Unprivileged sandboxing tool
 
 Package: bzip2
 Version: 1.0.8-8
@@ -2464,10 +2492,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334716
-MD5sum: 85cdab241ee4f28a480b49d8c929e70a
-SHA1: 13286fb667f0dca1c50a98c0db1213bb1a585a48
-SHA256: 8c13dbe7b090f22bdc962d67fd5252aaae9e80fafe60fe39f23abb77c38e2850
+Size: 334528
+MD5sum: 2d485ad3d83b9123e2d9a66f440063aa
+SHA1: fde5d4272a4c17c6663d102a0e7907b3e19e3991
+SHA256: 4cabd0b8c763ef6170c658570b63f289f0e387235b131f541c5604b20348b486
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3986,6 +4014,35 @@ SHA256: d05bbc3513d57765bea7d411565070ef2442d1441ca3fb01fa37c887b9362c11
 Homepage: https://cwrap.org/resolv_wrapper.html
 Description: A wrapper for DNS name resolving or DNS faking
 
+Package: libseccomp
+Version: 2.6.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 448
+Breaks: libseccomp-dev
+Replaces: libseccomp-dev
+Filename: ./libseccomp_2.6.0_aarch64.deb
+Size: 75688
+MD5sum: fd3c8c81e4ff4bbca4a0b9900377ac5c
+SHA1: b5fee080da4a77681e13b0b3d41ee54508cde808
+SHA256: 584202d0494ab3f7b7276d2cbb6c97001445cb3f527b7c14b97a47dbc730e601
+Homepage: https://github.com/seccomp/libseccomp
+Description: Enhanced seccomp library
+
+Package: libseccomp-static
+Version: 2.6.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 296
+Depends: libseccomp (= 2.6.0)
+Filename: ./libseccomp-static_2.6.0_aarch64.deb
+Size: 45132
+MD5sum: 5401be8a7c228cb41303270f5212ff2f
+SHA1: 698fe4b70bf502678135aa3fcc83d96027c66e97
+SHA256: 25924e7460abb81652e35276e8fb248ed43194de3c339bd5de44a6bdf8625285
+Homepage: https://github.com/seccomp/libseccomp
+Description: Static libraries for libseccomp
+
 Package: libsmartcols
 Version: 2.41.3
 Architecture: aarch64
@@ -5203,6 +5260,36 @@ SHA256: 72c00601ec5a453b4ebdc703a2faeee8272ab9e9b05d8f24e0b6940128a8ab1c
 Homepage: https://github.com/luvit/luv
 Description: Bare libuv bindings for lua
 
+Package: lxc
+Version: 1:3.1.0-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2236
+Depends: gnupg, libcap, libseccomp, rsync, wget
+Breaks: lxc-dev
+Replaces: lxc-dev
+Filename: ./lxc_1_3.1.0-4_aarch64.deb
+Size: 436008
+MD5sum: 9561e0825696b5c9cb9605b942a88bc2
+SHA1: ca15ffc72e5b90583f72f24760b35f71d46ce9ab
+SHA256: 7e0f481038b08864a1fc197b660e2a219a070f3939f1d5d413506bf5ddfac3cb
+Homepage: https://linuxcontainers.org/
+Description: Linux Containers
+
+Package: lxc-static
+Version: 1:3.1.0-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5268
+Depends: lxc (= 1:3.1.0-4)
+Filename: ./lxc-static_1_3.1.0-4_aarch64.deb
+Size: 890272
+MD5sum: a50390730fd1312c76c1d930c269f419
+SHA1: cb13347f4e27bd1a37edcc204a5099db1a5a6ea8
+SHA256: d96afacadbd42b826134f9d41b760e9b97b3e2990c2b2f2294100456e7b54c4f
+Homepage: https://linuxcontainers.org/
+Description: Static libraries for lxc
+
 Package: lz4
 Version: 1.10.0-1
 Architecture: aarch64
@@ -5442,10 +5529,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952004
-MD5sum: 2748ec43c32e1ef043db7ca1d9c31a2f
-SHA1: a54aa07efbe7cc3ccaa7133c44118f40f3361339
-SHA256: 1fbf6b6c66b9a04188bba09ae799ead6f22c8c8fdb4da5fec220cbbdaf0cd836
+Size: 1952052
+MD5sum: 3671bc8c484ff79f8c4cce23254ef56b
+SHA1: 152ca40762daf27075892b2f651dff93d1fe7fd7
+SHA256: 0b1f2949bd5579ff1c81a3c9f7409be000421c786b7e914b54d87846809c3c33
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 

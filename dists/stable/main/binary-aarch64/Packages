@@ -425,6 +425,19 @@ SHA256: b4e1815b99e4f1078cdc62b49cbda20f1e483b095aed6cd9664ebb91e6bbeb93
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
+Package: cabextract
+Version: 1.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Filename: ./cabextract_1.11-1_aarch64.deb
+Size: 27220
+MD5sum: 4148730bd869a658275ceb79f7776e87
+SHA1: a345c57c028606851d5a563e07996f8121cce94c
+SHA256: 481459fbc5389b2e662d58361d53d6ed4082325cb29849b87b55044d7bd9b9dc
+Homepage: https://www.cabextract.org.uk/
+Description: A program to extract Microsoft cabinet (.CAB) files
+
 Package: ccache
 Version: 4.13.6
 Architecture: aarch64
@@ -1720,10 +1733,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 335256
-MD5sum: 0f655736fc301d456bfa3deed56db2c1
-SHA1: 991da8d39f1ecbd6fe239010ae8dfbddfe48c76e
-SHA256: 0f9103819d31415ac409683908ed8dd3ac7f06cee6ee8ed065fc4cb5f131529d
+Size: 334900
+MD5sum: 0e49f874a50c87ca036c03aadca895ce
+SHA1: 9386a1ac998c180e5404a268a0ed47841bc5e3d8
+SHA256: b9db5937a75a089ca3317868c5b26fc377e12e8cd2cf41ffa46bc111b0db13a5
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2306,6 +2319,35 @@ SHA1: 560696ceae88afeda26018e8da86436b7d7973a6
 SHA256: 77b50a6bab43282a188b5b01fa7e89e16f8446af65756c8b12e13bb7d6368298
 Homepage: https://tukaani.org/xz/
 Description: Static libraries for liblzma
+
+Package: liblzo
+Version: 2.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Breaks: liblzo-dev
+Replaces: liblzo-dev
+Filename: ./liblzo_2.10-4_aarch64.deb
+Size: 69496
+MD5sum: 3e5750d6181fa32954b1afb49914783a
+SHA1: be7da515efb8b6b002d5111a011cce5be723e3a4
+SHA256: 402da4e2c7d52246fbb2f81fe96017314605637e78457dae92068598f28e8298
+Homepage: http://www.oberhumer.com/opensource/lzo
+Description: Portable lossless data compression library
+
+Package: liblzo-static
+Version: 2.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: liblzo (= 2.10-4)
+Filename: ./liblzo-static_2.10-4_aarch64.deb
+Size: 34440
+MD5sum: 89792f5d206a2cf7dfd5ae78586c2fb9
+SHA1: 8c19b1b9e24f91a6559721189a78de39b671be71
+SHA256: 4980f1778fe342db752cca53a9b7162f225139f9c3b08252a382935c14de93ae
+Homepage: http://www.oberhumer.com/opensource/lzo
+Description: Static libraries for liblzo
 
 Package: libmd
 Version: 1.1.0-1
@@ -3326,6 +3368,20 @@ SHA256: 1f9b433931f3433f343425b2397850271f42e5455e642956dc2596b6dd9884f5
 Homepage: https://pyyaml.org/wiki/LibYAML
 Description: Static libraries for libyaml
 
+Package: lrzip
+Version: 0.660
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 484
+Depends: bash, libbz2, libc++, liblz4, liblzo, zlib
+Filename: ./lrzip_0.660_aarch64.deb
+Size: 148140
+MD5sum: 13d9bbdae0762008ff52dead9f5adc55
+SHA1: a5d55518a694f9cca6063ae865abe9ca994fcbe9
+SHA256: c0284379b4185c2ac4be8e815dd4c141c6a17a5e7634ee840ff542c4da208ff3
+Homepage: https://github.com/ckolivas/lrzip
+Description: A compression utility that excels at compressing large files
+
 Package: lsof
 Version: 4.99.6
 Architecture: aarch64
@@ -3626,6 +3682,61 @@ SHA256: 7637b458a97617f5ec57b88510a8c75b162447ce541f4c12941653c3f32963b9
 Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm tool
 
+Package: lzip
+Version: 1.26
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: libc++
+Filename: ./lzip_1.26_aarch64.deb
+Size: 66828
+MD5sum: 65aaa9543875a8adc2d595a1807fc1a1
+SHA1: 9def0d42091d0fb6ac6eb2693450ff45a499add9
+SHA256: 5de574112fb1b385da4c8777b808b0da7edd2c77438b8848b1762c9134b696af
+Homepage: https://www.nongnu.org/lzip/
+Description: Lossless data compressor similar to gzip and bzip2
+
+Package: lzlib
+Version: 1.16
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Filename: ./lzlib_1.16_aarch64.deb
+Size: 40600
+MD5sum: fa58fef04cc36999fe045c56de21093e
+SHA1: 0f800254b2741e859fb1bb6e4d3a3b567548461a
+SHA256: 7f925485e26667e008beab92869ee22c2df8e1cba8dd06e6dd568ec7ea2f2951
+Homepage: http://www.nongnu.org/lzip/lzlib.html
+Description: A library providing in-memory LZMA compression and decompression functions
+
+Package: lzlib-static
+Version: 1.16
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: lzlib (= 1.16)
+Filename: ./lzlib-static_1.16_aarch64.deb
+Size: 20260
+MD5sum: 75bb3ed38effe7eb1c58fb1b92be4af6
+SHA1: ea71b0979b36a25d8d8d2c7066bbbbcb5543f27b
+SHA256: 8bb4b398b705efb03347024b128c073bd0631d5f5722a8bcbde7dfb4462e722b
+Homepage: http://www.nongnu.org/lzip/lzlib.html
+Description: Static libraries for lzlib
+
+Package: lzop
+Version: 1.04-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: liblzo
+Filename: ./lzop_1.04-2_aarch64.deb
+Size: 61664
+MD5sum: 1293943649276d6db4a3884af68afc12
+SHA1: 989605e4e0a2415944f1ffb72c6126e0708d5e37
+SHA256: 8679b8579ca17abdbfe4a6fd13ec12cebdabe4ecb83f86f6e71cd3d98799274b
+Homepage: https://www.lzop.org
+Description: File compressor using lzo lib.
+
 Package: m4
 Version: 1.4.19-5
 Architecture: aarch64
@@ -3782,10 +3893,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952224
-MD5sum: 91ef10e23628964cca406182b8c9b467
-SHA1: e547524e670573fb29c87f6c928676ef6cda7da6
-SHA256: 01bb435f1362a9cf7d66819359fb0b8cf49104467811c332ef7edbbcc181a7dc
+Size: 1951964
+MD5sum: ba35ca1f25eb8cc2b71f19535435885d
+SHA1: bea874bd0e32dbfaa1cf93f6ac9e1273965ddbb3
+SHA256: 49de20737c3d88b92baa568c7cbfefbccd9d89cea90d6d84d868f92da9c5806a
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -4012,6 +4123,20 @@ SHA256: 7cc86465d0a635b47c11dcecb6b2648d8349a865544e37889a8670016eee8115
 Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
 Description: Provides a way to load and enumerate PKCS#11 modules
 
+Package: p7zip
+Version: 17.06-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8644
+Depends: libc++, libiconv
+Filename: ./p7zip_17.06-1_aarch64.deb
+Size: 1780668
+MD5sum: ba91fb196ac354de2c2ee7aa503ea864
+SHA1: a5bd9c50c5f10ffd8e0a7fd00c491c6de3a07775
+SHA256: 00463646d1665c49c480bfa9383acb34ec54e8037de62bdad6c2116838b945d1
+Homepage: https://github.com/p7zip-project/p7zip
+Description: Command-line version of the 7zip compressed file archiver
+
 Package: pcre2
 Version: 10.47
 Architecture: aarch64
@@ -4069,6 +4194,20 @@ SHA256: b10f4d647498fce525175aa63ef902702d42c4f9e02415e3286f9e43c2940717
 Homepage: https://www.perl.org/
 Description: Capable, feature-rich programming language
 
+Package: pigz
+Version: 2.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: zlib
+Filename: ./pigz_2.8-1_aarch64.deb
+Size: 46804
+MD5sum: bf181652797b9fba985ba3cd06ade712
+SHA1: b5b0fceefcf9dffaa410f023a666158efd945cbd
+SHA256: 0f8391393df89fe75f8e2711d558decd5b043f0a9218556f130fd2fa08d883f9
+Homepage: https://www.zlib.net/pigz
+Description: Parallel implementation of the gzip file compressor
+
 Package: pinentry
 Version: 1.3.2-2
 Architecture: aarch64
@@ -4082,6 +4221,20 @@ SHA1: bf26fa6288e5e1aeba7502b9d2f963ac4fe391cf
 SHA256: bcc4e7bb2d27e0a8dbc692b276b9873a06ed27f1182b6b9aa28908a3363b9114
 Homepage: https://www.gnupg.org/related_software/pinentry/index.html
 Description: Dialog allowing secure password entry
+
+Package: plzip
+Version: 1.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: libc++, lzlib
+Filename: ./plzip_1.13_aarch64.deb
+Size: 54200
+MD5sum: ba155c08e8bd3de5ef684a7204bb9e2a
+SHA1: 3f18211529848793dbc6af70a04e5dee150f5852
+SHA256: 2c7f56284c7f475a3bd79efe2191ff5eeb00e0ad923f7cd7a7764b2a434e9f44
+Homepage: https://www.nongnu.org/lzip/plzip.html
+Description: A massively parallel lossless data compressor based on the lzlib compression library
 
 Package: procps
 Version: 3.3.17-6
@@ -5055,6 +5208,20 @@ SHA256: f6ec2c030a67c3a41cf15db7ff0acd926dd2cb5b353d57d93953bff476064945
 Homepage: https://unbound.net/
 Description: Unbound command-line tools
 
+Package: unrar
+Version: 7.2.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 476
+Depends: libandroid-support, libc++
+Filename: ./unrar_7.2.6_aarch64.deb
+Size: 165492
+MD5sum: 58ab69a275b6362bf129ac66a12d1f11
+SHA1: 2c722ba9fb25b0fa5d122bbe8fc560b7fbe85290
+SHA256: 4a3bc5587954f8913042526495ce7161bfcb144e8a82ffccc42f74d3bc4a9261
+Homepage: https://www.rarlab.com/
+Description: Tool for extracting files from .rar archives
+
 Package: unzip
 Version: 6.0-10
 Architecture: aarch64
@@ -5062,10 +5229,10 @@ Maintainer: @termux
 Installed-Size: 324
 Depends: libbz2
 Filename: ./unzip_6.0-10_aarch64.deb
-Size: 116832
-MD5sum: 0fab449ed54bb0cece8d408532018916
-SHA1: 23cc3ba3264579dcbca1c95f514bbbbb4b5f3486
-SHA256: f20980cc43749b5481741558ed5f40a62bacd997cbade380f141e2662867c01b
+Size: 116400
+MD5sum: bf88155b5041a485593a51c11eca0075
+SHA1: a12ea089e3d6a512d2b62b074959f451b00e49b7
+SHA256: d1ab4e09dde3edb98e11e16fc819ea7f90b27ad757af0bb4a4fda84db818dbe5
 Homepage: https://sourceforge.net/projects/infozip/
 Description: Tools for working with zip files
 
@@ -5318,6 +5485,20 @@ SHA256: 86214bb8595e75768d17c6c1017b6c7e6eb9801e1709588c1651aba69aab1a90
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
 
+Package: zip
+Version: 3.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 548
+Depends: libandroid-support, libbz2
+Filename: ./zip_3.0-7_aarch64.deb
+Size: 142308
+MD5sum: 5d6f6f95563e4f54e1907e804aec9ba6
+SHA1: 0272ebf8b24d8b44a1e8dfb691c6de87364f69ab
+SHA256: 9337745d794d7c115aaa1aa5dc809d3d93af074609d7f0ac5c4c80e293d39687
+Homepage: https://sourceforge.net/projects/infozip/
+Description: Tools for working with zip files
+
 Package: zlib
 Version: 1.3.2
 Architecture: aarch64
@@ -5346,6 +5527,20 @@ SHA1: 09def3001f432efdc6a6eb3d1b17ce0709989605
 SHA256: 59c2336317460ecfcec85f7c63a3cff5e6c0f34da0684d79c5ba15cb18d95227
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
+
+Package: zpaq
+Version: 7.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Depends: libc++
+Filename: ./zpaq_7.15-1_aarch64.deb
+Size: 150064
+MD5sum: 361a616059043f4c2e59325e3ee683b0
+SHA1: 908dd68670d25e3f1175b526d10b2b7948c301a2
+SHA256: d3444025930408e135f74895805f4b0400b1619d6d56735a54b519d4ba149e11
+Homepage: http://mattmahoney.net/dc/zpaq.html
+Description: Programmable file compressor, library and utilities. Based on the PAQ compression algorithm
 
 Package: zsh
 Version: 5.9-9

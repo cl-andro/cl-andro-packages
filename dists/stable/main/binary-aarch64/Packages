@@ -320,6 +320,20 @@ SHA256: ec22a66a1bb1503403a8524c43fba64fd2f40b452a420b1e6f9d69e29294204f
 Homepage: https://www.gnu.org/software/bc/
 Description: Arbitrary precision numeric processing language
 
+Package: bindfs
+Version: 1.18.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 108
+Depends: libfuse3
+Filename: ./bindfs_1.18.4_aarch64.deb
+Size: 25080
+MD5sum: a83d8626447af367ac18856211450799
+SHA1: f000153cfa619ffdb237ab2453fc79c777c8c05d
+SHA256: ea1794d8675dd50dd47552def992c5f71ece4b8e603e946e04ddf8294b21f4ef
+Homepage: https://bindfs.org/
+Description: A FUSE filesystem for mirroring a directory to another directory.
+
 Package: binutils
 Version: 2.46.0-3
 Architecture: aarch64
@@ -824,6 +838,20 @@ SHA1: e58590193778516ad890c4c92f83fe79ad0b37ab
 SHA256: 2fefcd9273829639c75ce5d0282de7ad6fbb0148aa68f46734328cd5e8a7ca5b
 Homepage: https://sourceware.org/elfutils/
 Description: A collection of utilities to read, create and modify ELF binary files
+
+Package: encfs
+Version: 2020.05.09-c444f9b9-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1272
+Depends: libc++, libfuse2, libtinyxml2, openssl
+Filename: ./encfs_2020.05.09-c444f9b9-4_aarch64.deb
+Size: 247492
+MD5sum: d75be63aa4c6acb1c98bca5af5a704b6
+SHA1: 07f280d26d708594e5c6f73277594ee1c5b3b7c4
+SHA256: a56c0bc671ba33bdb9c5701dcdbdb2ccc3b0a6e093fdd52b98c1cd840a332676
+Homepage: https://vgough.github.io/encfs/
+Description: An encrypted filesystem for FUSE
 
 Package: ethtool
 Version: 7.0
@@ -1470,6 +1498,20 @@ SHA1: 7a4ddee3242d00f663a646b427081d56e3c74f9c
 SHA256: 5145c8e49ca9e100ff578b95814c317f1c00fa6ecaa0644a6c78c52d55c00985
 Homepage: https://gi.readthedocs.io/
 Description: Uniform machine readable API
+
+Package: gocryptfs
+Version: 2.6.1+really2.5.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 8748
+Depends: openssl, libfuse2
+Filename: ./gocryptfs_2.6.1+really2.5.4_aarch64.deb
+Size: 1811248
+MD5sum: 6fb0824ca846b153a14ac7b677e07368
+SHA1: e02b4f9366e34799d0fd76e1fc4f08428cf6a496
+SHA256: 9a70c781a0399b59059fd15e6f0e90cb899c717ecb87d360a4f057137afcf8a9
+Homepage: https://nuetzlich.net/gocryptfs/
+Description: An encrypted overlay filesystem written in Go
 
 Package: golang
 Version: 3:1.26.2
@@ -2293,10 +2335,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334996
-MD5sum: 884b2c76f62530833716d0e1d1387417
-SHA1: 35ce070290a4d9da51b0f886990d528e2ebac2ca
-SHA256: ac561f7f6497721abbcd3038f7b3c10777374f53129a6cf2cb590918aa7ee8c1
+Size: 334576
+MD5sum: 5cdadec7ea6823139e427f5a86de3f77
+SHA1: 2db0a44c6f83074a0fce271c2e2a8b454f3d31b2
+SHA256: 034f679f6363f4ebf15ddf508ba7cb7afb1fe5ebdd51aad910f6fd18d34d7329
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2664,6 +2706,47 @@ SHA1: 07c8e3bd6a06a34a4f7054508035958e24fdb807
 SHA256: 221bda68511e64cacd3deac49b61e19f0eb42a0bc48932c997463c7d484a1cd0
 Homepage: https://sourceware.org/libffi/
 Description: Static libraries for libffi
+
+Package: libfuse2
+Version: 2.9.9-2
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 520
+Depends: libiconv
+Filename: ./libfuse2_2.9.9-2_aarch64.deb
+Size: 96632
+MD5sum: e1404d85d1e30764cfd3447e4ca99967
+SHA1: 82a53fa1c85cb3347cfcb1a139b1a308a64270f2
+SHA256: 7ede27744d81f9bbad32a8cccce1c95d3aab70727faeb30db4256fd8bd70c360
+Homepage: https://github.com/libfuse/libfuse
+Description: FUSE (Filesystem in Userspace) is an interface for userspace programs to export a filesystem to the Linux kernel
+
+Package: libfuse2-static
+Version: 2.9.9-2
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 404
+Depends: libfuse2 (= 2.9.9-2)
+Filename: ./libfuse2-static_2.9.9-2_aarch64.deb
+Size: 67792
+MD5sum: 9a4396be4fee3e6f20f1b274c42cb309
+SHA1: c1f081efa3f6f5888b271d72982ba5aac623f6c6
+SHA256: c50df242bd87a93043b22dedf4d8da4e559f7035bcbd17836d81361e935f85af
+Homepage: https://github.com/libfuse/libfuse
+Description: Static libraries for libfuse2
+
+Package: libfuse3
+Version: 3.16.2-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 520
+Filename: ./libfuse3_3.16.2-1_aarch64.deb
+Size: 102868
+MD5sum: 09cf6d39d847e92d301ee27ebc037c7d
+SHA1: 26580dde10998ffced40d9443f6ee93fc7eacb6a
+SHA256: b696c6f6b0b7a261ea789810e1b78d20032885b6a746424d5b044c55e041f78b
+Homepage: https://github.com/libfuse/libfuse
+Description: FUSE (Filesystem in Userspace) is an interface for userspace programs to export a filesystem to the Linux kernel
 
 Package: libgcrypt
 Version: 1.11.2-1
@@ -3980,6 +4063,20 @@ SHA256: 28d6afc18c9b4d6e50928437b43b5ceec3b739daa1bb35bb404b495da34024d7
 Homepage: http://www.simplesystems.org/libtiff/
 Description: Tools for working with tiff files
 
+Package: libtinyxml2
+Version: 11.0.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 280
+Depends: libc++
+Filename: ./libtinyxml2_11.0.0-1_aarch64.deb
+Size: 53700
+MD5sum: c439ac0ac47a5d667151f0514bcd976e
+SHA1: eab46ba9c5f9ff46bd12c8bc584987e40cf0675a
+SHA256: 1d61ef6ddd45fc0269ed79b0a7ff19574df5b198e82bf8cffb2e2db77a7de35d
+Homepage: http://www.grinninglizard.com/tinyxml2/
+Description: A simple, small, efficient, C++ XML parser
+
 Package: libtirpc
 Version: 1.3.7-1
 Architecture: aarch64
@@ -5171,10 +5268,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952076
-MD5sum: 5ba18451a47e5c7fbfca70770caae841
-SHA1: b250de9a0b345dc8ef6c3b930f7e22e290f2133e
-SHA256: a047201c1274761008212b124f0cd511ce3d2173c18263a21dd058c5117f3dce
+Size: 1952068
+MD5sum: f4c7b977e2f049a687c6d6d2b746bd63
+SHA1: 7e03a8660a3ee0185a8bb3bcd1386e3c8ee9b626
+SHA256: ddba13f63d8b7db6cbf72e3627fb99eb36694904f96079822227b8f6bdb80de5
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -5324,6 +5421,34 @@ MD5sum: be7f5af17a57e0113cadcec6626d1ac7
 SHA1: 1d96301d430589be6d41cefc02141ac71fef4da7
 SHA256: 22b763b414059624d05dce80842dcb04005df33eebbb439faef446d6ac5149f1
 Description: NPM JavaScript Payload for Cl-Andro
+
+Package: ntfs-3g
+Version: 2026.2.25
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1440
+Depends: libfuse2
+Filename: ./ntfs-3g_2026.2.25_aarch64.deb
+Size: 362560
+MD5sum: b27dcab8625ccbca79012d70fed3aa9d
+SHA1: 1212f598cbc9240080ae2fcc66eb5b4d54fc044b
+SHA256: 9f0b4528fc4750fc9e17e9be5c9e1d95ba1127093f0d299775cac8b137cf07fd
+Homepage: https://github.com/tuxera/ntfs-3g
+Description: NTFS-3G Safe Read/Write NTFS Driver
+
+Package: ntfs-3g-static
+Version: 2026.2.25
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 524
+Depends: ntfs-3g (= 2026.2.25)
+Filename: ./ntfs-3g-static_2026.2.25_aarch64.deb
+Size: 125852
+MD5sum: f53d9e2cd7d17ca697c41d5296c2ae63
+SHA1: 2ee62cee489e4398b63058b29325728ff723fc62
+SHA256: 4c9617bdf2741517010eced0b369a77dc928ac57951009642220f287312250ef
+Homepage: https://github.com/tuxera/ntfs-3g
+Description: Static libraries for ntfs-3g
 
 Package: oniguruma
 Version: 6.9.10-1
@@ -6077,6 +6202,48 @@ SHA1: 8ec2c6c34b559cbcc0c08aeb4ccfdd95ef278249
 SHA256: c508ada60e121ff1a8c69a1f8d0288641eb29fd2d8d810c6a065efcc0a2f3779
 Homepage: https://www.sqlite.org
 Description: Command line shell for SQLite
+
+Package: squashfuse
+Version: 0.6.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 356
+Depends: libfuse2, liblz4, liblzma, liblzo, zlib, zstd
+Filename: ./squashfuse_0.6.1-1_aarch64.deb
+Size: 47780
+MD5sum: 767239f40cae8d013b02075b2ddbecf7
+SHA1: 2fe231835ecfd2bf69e598873505c5892e20d649
+SHA256: 2ab10e8327b7d266144d994740cfa6408feff0ac35858e3212f516f97e5d820a
+Homepage: https://github.com/vasi/squashfuse
+Description: FUSE filesystem to mount squashfs archives
+
+Package: squashfuse-static
+Version: 0.6.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 196
+Depends: squashfuse (= 0.6.1-1)
+Filename: ./squashfuse-static_0.6.1-1_aarch64.deb
+Size: 22164
+MD5sum: e4df73741eb78b8d42b1e535b735f723
+SHA1: c761063a0b45dd1b9213d70847f36d152fbeccf6
+SHA256: c56e6fde596872b33dc885a49dac7436ea7d16415c3224043fae5352deb0332e
+Homepage: https://github.com/vasi/squashfuse
+Description: Static libraries for squashfuse
+
+Package: sshfs
+Version: 3.7.5-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 124
+Depends: libfuse3, glib, openssh | dropbear
+Filename: ./sshfs_3.7.5-1_aarch64.deb
+Size: 30164
+MD5sum: 44db3fb26ae4c0b6db58ea2562932133
+SHA1: 3f9bf00d2db244b606a3cc7f101e87fb9b66bad4
+SHA256: 3318142871d327fa77ff6c3d185dc3452bce4a5d525e3ffba0c79e6e2bd30d8b
+Homepage: https://github.com/libfuse/sshfs
+Description: FUSE client based on the SSH File Transfer Protocol
 
 Package: sshpass
 Version: 1.10-1

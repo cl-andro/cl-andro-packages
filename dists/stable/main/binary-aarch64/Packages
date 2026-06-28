@@ -1092,6 +1092,50 @@ SHA256: f310d39b50ca6b57f72c803f9b65526d902c4875bdd9a755ba0e1950310763c9
 Homepage: https://cli.github.com/
 Description: GitHub’s official command line tool
 
+Package: giflib
+Version: 5.2.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Breaks: giflib-dev
+Replaces: giflib-dev
+Filename: ./giflib_5.2.2-2_aarch64.deb
+Size: 18232
+MD5sum: 57c48c3ba97986861d8f46de0fc340c0
+SHA1: 60bb23c62b57f2d52eb7fc2d23f3a0a778eb004b
+SHA256: 41a9b9b89d2641a31307e0ef4d91a3bd9c5bc551377b00644cd452f21f3ec867
+Homepage: https://giflib.sourceforge.net/
+Description: A library for reading and writing gif images
+
+Package: giflib-static
+Version: 5.2.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: giflib (= 5.2.2-2)
+Filename: ./giflib-static_5.2.2-2_aarch64.deb
+Size: 14980
+MD5sum: dc543ce8d69b5f04c2b2487b7f868a08
+SHA1: 5a87360bd150dd2dbcf7d6d368faf2bd07f9ce54
+SHA256: bed34a38b43df47c4297399910fcfeb61709516535d907260b4877513aad4c51
+Homepage: https://giflib.sourceforge.net/
+Description: Static libraries for giflib
+
+Package: giflib-utils
+Version: 5.2.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 296
+Depends: giflib (= 5.2.2-2)
+Conflicts: giflib (<< 5.1.4-4)
+Filename: ./giflib-utils_5.2.2-2_aarch64.deb
+Size: 50544
+MD5sum: abbc1b60eb4f911d7d2c5d80b7ebe073
+SHA1: 60f75dfce2472e22971b70445d84f92a7237e2fe
+SHA256: 01dcacb62fb3212b34f0730c04e8501ad8b2da6dcc9121d714980f03bfd7b2b7
+Homepage: https://giflib.sourceforge.net/
+Description: A set of utilities that comes with giflib package
+
 Package: git
 Version: 2.54.0
 Architecture: aarch64
@@ -1831,10 +1875,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334656
-MD5sum: 221c06a161057fb77330cb766ae7fa3f
-SHA1: 22429fdbff921905d27436a3047a2faa37e7df08
-SHA256: 525d3fff1ab7fe8fbcb817c4a49dc72baab9589b2c6faff7f51b2e35196cdfd8
+Size: 334888
+MD5sum: 7d30e9889c3a17bda51acf4228c01097
+SHA1: 117c4e756f9480e742d9ff17577bc8fe7da4f216
+SHA256: 39a87f037fbbd95da83413b6e8e61b0319c7426f8e77485cf4790ed1faa98727
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2415,6 +2459,76 @@ SHA256: a7d864edd5cfc8b53ada82eb59a59be29c89bc7a6d830d745177219382fba566
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Static libraries for libidn2
 
+Package: libimagequant
+Version: 4.4.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 620
+Filename: ./libimagequant_4.4.1_aarch64.deb
+Size: 221936
+MD5sum: e5811969f76d06c12f812ded07640ae1
+SHA1: d537d96208eda1c0182842fa9bfebc154c853d07
+SHA256: 62d25cabce5f3e248ec14f66e4536fdcd44a4c16f96a46e661a6ddd6c88442fa
+Homepage: https://pngquant.org/lib/
+Description: Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images
+
+Package: libimagequant-static
+Version: 4.4.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 23204
+Depends: libimagequant (= 4.4.1)
+Filename: ./libimagequant-static_4.4.1_aarch64.deb
+Size: 3988692
+MD5sum: dcafd53dda0bf13976b22a7e119b64a2
+SHA1: 50596117f951b7b8d2b80ac27c36b1488149c6a2
+SHA256: 0240c2c60960acd747acc426eef114d038d2e4e7b37817e0733162bf9c0b1beb
+Homepage: https://pngquant.org/lib/
+Description: Static libraries for libimagequant
+
+Package: libjpeg-turbo
+Version: 3.1.4.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2108
+Breaks: libjpeg-turbo-dev
+Replaces: libjpeg-turbo-dev
+Filename: ./libjpeg-turbo_3.1.4.1_aarch64.deb
+Size: 385136
+MD5sum: 9ca50b58b3b7c6be24ec259069e41586
+SHA1: 1670b5780e9ab591fc154818df0986bb9888bd3c
+SHA256: d79580afa16ea2d5194a539c868f6caaba5c5f129ac1f1a19e23fe89d7f03076
+Homepage: https://libjpeg-turbo.virtualgl.org
+Description: Library for reading and writing JPEG image files
+
+Package: libjpeg-turbo-progs
+Version: 3.1.4.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 348
+Depends: libjpeg-turbo (= 3.1.4.1)
+Filename: ./libjpeg-turbo-progs_3.1.4.1_aarch64.deb
+Size: 98024
+MD5sum: f3e571df85c50d50a8745dfc38d3bce2
+SHA1: 100fefb8058640f1317b9c4a3c84b8f483c40c3b
+SHA256: 2266d0e3e12097760a9f23778bb993f53f07ca17c9934cd73ac552bd246a7070
+Homepage: https://libjpeg-turbo.virtualgl.org
+Description: Programs for manipulating JPEG files
+
+Package: libjpeg-turbo-static
+Version: 3.1.4.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2108
+Depends: libjpeg-turbo (= 3.1.4.1)
+Filename: ./libjpeg-turbo-static_3.1.4.1_aarch64.deb
+Size: 264376
+MD5sum: db28922a2f361322aeef978e030ebb60
+SHA1: 97f3fe4a8aefdae461b38a6cc35aebeea3e7bbc3
+SHA256: 7076ae51c34c0d2e983436732bf13b8c42a0f3c592863c0e6ea488b8caa47cd5
+Homepage: https://libjpeg-turbo.virtualgl.org
+Description: Static libraries for libjpeg-turbo
+
 Package: libksba
 Version: 1.7.0
 Architecture: aarch64
@@ -2831,10 +2945,10 @@ Depends: zlib
 Breaks: libpng-dev
 Replaces: libpng-dev
 Filename: ./libpng_1.6.58_aarch64.deb
-Size: 195832
-MD5sum: 8d28de888f054e834b13b852c1066640
-SHA1: 651b8d004f0522c9643c453c4a1576c93bb7e828
-SHA256: 57722d0837f47f421101433cf81158a5f828ec242846f85c1da0bab0378f7b09
+Size: 195864
+MD5sum: 104e76f06dc1fe18da31907e57cf6340
+SHA1: e14b53802d6c7d8010046c7ad3733b38bd011799
+SHA256: be490db340ab6bc4afd473647276ad579c1f431a801b904f1b4ef8b0fdd11aa4
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Description: Official PNG reference library
 
@@ -2845,10 +2959,10 @@ Maintainer: @termux
 Installed-Size: 336
 Depends: libpng (= 1.6.58)
 Filename: ./libpng-static_1.6.58_aarch64.deb
-Size: 86932
-MD5sum: cb8b4a28a17ec8135893131aec5ec266
-SHA1: 4c809df2670fe25c9070385937ab6fdc01e3be66
-SHA256: 036d90a273fd12f75ac7d89b37ce67a68ee205286959fb3a48183d5db0d507b2
+Size: 86892
+MD5sum: d693668cd318dabe4799c88aa837690a
+SHA1: f05c2140e0cd0050082d35a78c288d3390a5793f
+SHA256: 7a8ecb64eb50b181da2a5f9b6b1ef02947aa0dd16666ebe8073db700a1fc1a60
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Description: Static libraries for libpng
 
@@ -3075,6 +3189,50 @@ SHA256: 1d02de3a7e5ef4ff7d893597091176b8ddf135f1ddfacff951f76c18711a7342
 Homepage: https://www.gnu.org/software/libtasn1/
 Description: This is GNU Libtasn1, a small ASN.1 library
 
+Package: libtiff
+Version: 4.7.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6524
+Depends: libc++, libjpeg-turbo, liblzma, zlib, zstd
+Breaks: libtiff-dev
+Replaces: libtiff-dev
+Filename: ./libtiff_4.7.1_aarch64.deb
+Size: 849552
+MD5sum: 23f1215242281d11e65e288d19861fb4
+SHA1: 5e09ee8ffc3f64f289e8192ba76b1ed7d5882787
+SHA256: 9a5edec4c1cfdae6077171bf91dac63bf8bd3b37dadbba102dd25d5ff6a7f5fe
+Homepage: http://www.simplesystems.org/libtiff/
+Description: Support for the Tag Image File Format (TIFF) for storing image data
+
+Package: libtiff-static
+Version: 4.7.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 864
+Depends: libtiff (= 4.7.1)
+Filename: ./libtiff-static_4.7.1_aarch64.deb
+Size: 170764
+MD5sum: 8bb4c26e40d4546f72da8b3d09dec091
+SHA1: a63c6f53e08f5ceb42e6fdb010448e272f391d22
+SHA256: f100dcc7029fb0e791527b1c4a8c50e5d0a9d922237973a770584d42c03279ed
+Homepage: http://www.simplesystems.org/libtiff/
+Description: Static libraries for libtiff
+
+Package: libtiff-utils
+Version: 4.7.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 812
+Depends: libtiff (= 4.7.1)
+Filename: ./libtiff-utils_4.7.1_aarch64.deb
+Size: 257452
+MD5sum: d5c21e482b93dca0cf94f1d710d0ee3d
+SHA1: 620b0876a8dc9483f7da557bb2ad1445ca73de75
+SHA256: 28d6afc18c9b4d6e50928437b43b5ceec3b739daa1bb35bb404b495da34024d7
+Homepage: http://www.simplesystems.org/libtiff/
+Description: Tools for working with tiff files
+
 Package: libtirpc
 Version: 1.3.7-1
 Architecture: aarch64
@@ -3281,6 +3439,22 @@ SHA1: 8f7ab18a01c7b00495c55349220122b8bfa13e5d
 SHA256: 9bdcc050f733104254cae862499d7d14b64ec1f18eb0ce459a27c88276f24fd9
 Homepage: https://www.leonerd.org.uk/code/libvterm/
 Description: Terminal emulator library
+
+Package: libwebp
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1256
+Depends: giflib, libjpeg-turbo, libpng, libtiff, zlib
+Breaks: libwebp-dev
+Replaces: libwebp-dev
+Filename: ./libwebp_1.6.0-1_aarch64.deb
+Size: 328624
+MD5sum: 8ec54fd5194378c83761f8e182c54d64
+SHA1: 354c3ee0dfcc2c83c7b165370e1d40c1bfc6eea5
+SHA256: 231576902b848eaf1fab3295c154f8b83f1566a69ab8ef756bd30a0568bc16d4
+Homepage: https://github.com/webmproject/libwebp
+Description: Library to encode and decode images in WebP format
 
 Package: libx11
 Version: 1.8.13
@@ -3567,6 +3741,49 @@ SHA1: 267b83bd7725bbd165f65da9d457188330101dd6
 SHA256: 1f9b433931f3433f343425b2397850271f42e5455e642956dc2596b6dd9884f5
 Homepage: https://pyyaml.org/wiki/LibYAML
 Description: Static libraries for libyaml
+
+Package: littlecms
+Version: 2.19.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 540
+Breaks: littlecms-dev
+Replaces: littlecms-dev
+Filename: ./littlecms_2.19.1_aarch64.deb
+Size: 144420
+MD5sum: b2b9cdf18fe2d933ad77806e7722ba7f
+SHA1: 1bc2887261f9629f2004309f793b0e62de11a865
+SHA256: 6427aafd9a3de8b06ee616f1ba1ebf5591bffc4b3632a6274b88ff41dbca5f2f
+Homepage: http://www.littlecms.com/
+Description: Color management library
+
+Package: littlecms-static
+Version: 2.19.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 652
+Depends: littlecms (= 2.19.1)
+Filename: ./littlecms-static_2.19.1_aarch64.deb
+Size: 146396
+MD5sum: 6db2df3cf46801674f1f3d87d38038eb
+SHA1: 0b58e28055d7134b957815a2f38addd2ef75f946
+SHA256: f3360a4dcb525969eaf6853d1ece1a3f20699bc5e6d4fb4e7ea5e20518e1c523
+Homepage: http://www.littlecms.com/
+Description: Static libraries for littlecms
+
+Package: littlecms-utils
+Version: 2.19.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libjpeg-turbo, libtiff, littlecms (= 2.19.1)
+Filename: ./littlecms-utils_2.19.1_aarch64.deb
+Size: 35156
+MD5sum: 425a1cf3bbe85870ca47a12507d8b322
+SHA1: e25ec17003ca08702b40a94abd90ced46f726596
+SHA256: 21ea2ac774b8e33670633378dcd35c3e170f63315a28885acd698b0ee098118b
+Homepage: http://www.littlecms.com/
+Description: Color management utilities
 
 Package: lrzip
 Version: 0.660
@@ -4103,14 +4320,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 31264
+Installed-Size: 31268
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1951948
-MD5sum: f09304b1a49f3872ca7e8d30d121a81b
-SHA1: 9bd20fca955b4356e9e9ff9ff5566c593d9f22b7
-SHA256: d1bc6c00721a28a37fb6e5c1d63e03780ece070293f4113b0cecea295ff423ab
+Size: 1952092
+MD5sum: 755a2129045064583697cac3aa92c403
+SHA1: fb62fc566dd3730525ea09a9502e7753ec77e4aa
+SHA256: 01767a3db09604b79e3fe8fe140733ce0800f7d748c214bd235a4693f3dcb862
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 

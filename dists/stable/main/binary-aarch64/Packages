@@ -1787,6 +1787,20 @@ SHA256: c3966a48eff587f0e56a58030fd71f7fb26a86cd15a34661586ef6edd8ca29b2
 Homepage: http://site.icu-project.org/home
 Description: Development utilities for International Components for Unicode
 
+Package: iodine
+Version: 0.8.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 200
+Depends: net-tools, zlib
+Filename: ./iodine_0.8.0-1_aarch64.deb
+Size: 52296
+MD5sum: c6999c5d6759921db943097e382fc025
+SHA1: 0df95e672d97b45ddc574e5fe29ae9f7195987d5
+SHA256: 341a874ea81f3cae73bbe81f9a7847dd8d5c05d08dc76e38084c8d6f3d3b2106
+Homepage: http://code.kryo.se/iodine
+Description: Tunnel IPv4 data through a DNS server
+
 Package: iperf3
 Version: 3.20
 Architecture: aarch64
@@ -2506,10 +2520,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334732
-MD5sum: 353f1387d0eb1f121dfd25b69fe6a9ee
-SHA1: 55d83600d9e8b0ffe463385ec1a64a5e90473eb4
-SHA256: 773ebb5f2f361dd50f5d4dcefb6627e36b807b938af89ac3c9463de345f88975
+Size: 335148
+MD5sum: 1e96f27371a8afbaa692563e9f4d96f1
+SHA1: 26322486b4c2702740ef1ea0136010da591e4524
+SHA256: 749a4ea7d02b96eef006dade9e25fc93fc5ab056b87b87f0b3700af6e19065ff
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -5552,14 +5566,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 31264
+Installed-Size: 31268
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952224
-MD5sum: 76cbb55bb3150fddf408e4454e7e5af9
-SHA1: be5e2a37e352630720e09266b9b4dff2388ad2bf
-SHA256: cc08076e9b54c375e036e2fe6dd44e8959616c12d63b30586d2573e94fd6c76b
+Size: 1952164
+MD5sum: fd04ce051c9c8726efe6599273a933c1
+SHA1: ca57f9135685bf9fc340e9eef80af9440634b93b
+SHA256: 443217b9935d97eb45f64533c77b2ac28075e085743dd4d4c2b316020b4645d7
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -5856,6 +5870,20 @@ SHA1: dabbe9b39425fcd9dfd499bb7586e3b9eb7e47b8
 SHA256: 27cbbc22b4e254680bea2839d00d4ac843a8f410001248bad5ab5d258959d385
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
+
+Package: openvpn
+Version: 2.7.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1524
+Depends: libcap-ng, liblz4, liblzo, net-tools, openssl
+Filename: ./openvpn_2.7.4_aarch64.deb
+Size: 479228
+MD5sum: 1af78134863c09c2e9d4d313257744ac
+SHA1: 706e5bdd6b80686dce18b31c1e8a5c8d73e5d864
+SHA256: d301dab0258577a5174ebd7cfc5ab36a0fa1315e7e69c5c5243ffad954289d36
+Homepage: https://openvpn.net
+Description: An easy-to-use, robust, and highly configurable VPN (Virtual Private Network)
 
 Package: p11-kit
 Version: 0.26.2
@@ -6987,6 +7015,20 @@ SHA1: 9247f223479296a477379a8a6ac55e3c9015bde4
 SHA256: 19c3ab2f67d5d930c96fdfe043520910f8436c39c3213017348aebcdc6b1c00b
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
+
+Package: tinc
+Version: 1.0.36-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 328
+Depends: liblzo, openssl, zlib
+Filename: ./tinc_1.0.36-5_aarch64.deb
+Size: 93008
+MD5sum: ccee8b19ddb80011e90546f4f8400ba4
+SHA1: e94b2cfa5cbe7540251ec59fb5c9559d30ffaf6e
+SHA256: 010c50f0898cf5f51ee38d33ab3891b5198ddb824956b04f43c6067cc945b31f
+Homepage: https://www.tinc-vpn.org/
+Description: VPN daemon
 
 Package: tk
 Version: 8.6.14-1

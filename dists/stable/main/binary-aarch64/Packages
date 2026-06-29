@@ -1075,6 +1075,33 @@ SHA256: e514c331b505f211f87f51c89de319ad4ced4601a0d132dd19acb21548c6d631
 Homepage: https://github.com/knik0/faad2
 Description: Freeware Advanced Audio (AAC) Decoder
 
+Package: fakeroot
+Version: 1.38.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 140
+Filename: ./fakeroot_1.38.1_aarch64.deb
+Size: 26792
+MD5sum: de5e869944b5fd88380d5123bdaf7d44
+SHA1: a4faf24dd20ce88b64b3a1478b88437ed825afc5
+SHA256: 663de94c6813e03dfbc30cdbc11ccf49974b5d100958f2d7306f1b4579cf20c1
+Homepage: https://packages.qa.debian.org/f/fakeroot.html
+Description: Tool for simulating superuser privileges (with tcp ipc)
+
+Package: fakeroot-static
+Version: 1.38.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 104
+Depends: fakeroot (= 1.38.1)
+Filename: ./fakeroot-static_1.38.1_aarch64.deb
+Size: 13656
+MD5sum: 315ebbf6594a4655c9f4cf9e600bb319
+SHA1: 08e998b1630a6fe254cef5be6fcfcca2a1d9c923
+SHA256: b68cb52cbdeb0b33fe410262efc796d3d7133a9ffa5bf79f4433dd007682b113
+Homepage: https://packages.qa.debian.org/f/fakeroot.html
+Description: Static libraries for fakeroot
+
 Package: fclones
 Version: 0.35.0-1
 Architecture: aarch64
@@ -1893,6 +1920,20 @@ SHA256: ee1fef125431e8cbbb168afe944fac39a57a20afb2f05b63797732edcd8bbce4
 Homepage: https://sourceforge.net/projects/hdparm/
 Description: Utility to get/set SATA/IDE device parameters
 
+Package: hfsutils
+Version: 3.2.6-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 216
+Depends: libandroid-support
+Filename: ./hfsutils_3.2.6-2_aarch64.deb
+Size: 54060
+MD5sum: 88efe3ae97b0d122b9b5205c152e45fd
+SHA1: d14591111096c86c6932cf01d56997fbd38f22f6
+SHA256: 3c8ca05d6352e1c810a41a8368b4179d7d2d12f5429b2a400d7aee08ac5d0b14
+Homepage: https://www.mars.org/home/rob/proj/hfs/
+Description: Tool for manipulating HFS images
+
 Package: hping3
 Version: 3.0.0-4
 Architecture: aarch64
@@ -2686,6 +2727,33 @@ SHA256: ce4228d6a61908b10dab3ba9ab39b6b09d980ddaae1a5a6eeb69618ce4fafe8c
 Homepage: https://github.com/termux/libandroid-utimes
 Description: Static libraries for libandroid-utimes
 
+Package: libandroid-wordexp
+Version: 0.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 56
+Filename: ./libandroid-wordexp_0.1-1_aarch64.deb
+Size: 3656
+MD5sum: 50e2665b2c45e85677df5a281007afab
+SHA1: e6e553b4945eaa0476a9176bd6a83aa9e2c3d235
+SHA256: b68413edba645cc63085cffd06a386664e9926bad9062902b18b1bc8565a2696
+Homepage: https://man7.org/linux/man-pages/man3/wordexp.3.html
+Description: Shared library for the wordexp(3) system function
+
+Package: libandroid-wordexp-static
+Version: 0.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 36
+Depends: libandroid-wordexp (= 0.1-1)
+Filename: ./libandroid-wordexp-static_0.1-1_aarch64.deb
+Size: 2652
+MD5sum: ff9c5d82bcf753ff33693f151f95fbac
+SHA1: 08f6f2b59ff3b89cb4e7a90197b96b0a698ced4c
+SHA256: f6b09c1aa1f1f1758d1babb67a6f1be6838947444f85444e18788c336ca80aea
+Homepage: https://man7.org/linux/man-pages/man3/wordexp.3.html
+Description: Static libraries for libandroid-wordexp
+
 Package: libaom
 Version: 3.13.3
 Architecture: aarch64
@@ -2884,10 +2952,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334760
-MD5sum: cffffa3b4c3cec82253b0c7c7cd8ec98
-SHA1: 00881914176b7ecccc5cebab8053e931c5a9d557
-SHA256: 63bb59f6c31d0cf123e4d090bdc2121dd9f51b6b1c0db058019f8942a6c2dad6
+Size: 334564
+MD5sum: 2c143550e9b964c2299182d8a2e19296
+SHA1: 55ee8965423c30df73c4d86b3debd3573fe86ba3
+SHA256: 270c1505144252c5f45bfe9ecc01c60808dc4520b82011ddd15557d49ae3dfae
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -6185,6 +6253,20 @@ SHA256: 6f2332980555661181078f750fe20ba7be72cb647535641aa57d6a76337e028e
 Homepage: https://mdocml.bsd.lv/
 Description: Man page viewer from the mandoc toolset
 
+Package: moreutils
+Version: 0.70-1
+Architecture: aarch64
+Maintainer: Joshua Kahn <tom@termux.dev> & @clandro
+Installed-Size: 220
+Depends: perl
+Filename: ./moreutils_0.70-1_aarch64.deb
+Size: 39896
+MD5sum: 1bef926c15547a9b4791a6275cdca8cc
+SHA1: 6fe49cc408dd8855b7c5e01acdd0921485ceb9ab
+SHA256: 4d6e78b7d5926a754c060be565178acf9f461e35a7358986fdb78cba67062baa
+Homepage: https://joeyh.name/code/moreutils/
+Description: A growing collection of the unix tools that nobody thought to write thirty years ago
+
 Package: mount-utils
 Version: 2.41.3
 Architecture: aarch64
@@ -6309,12 +6391,26 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952164
-MD5sum: c330bd718fdcbb65ec1c1a9441b59733
-SHA1: 2d6173a41686aba17ea5f9cff9db1e5650a5fd11
-SHA256: 531d51c5a1909e20300b34483321d050398fc1c28794c1e252a443aaae472eff
+Size: 1952412
+MD5sum: ca58d1b87cff44492c2161cdf106ae0e
+SHA1: 5689e3140c66e0623299af09aec18d1379f6360b
+SHA256: c9b3e5d4c028c6e321b9154bb16823d60d35cf5a42d13d4b015af63ee970b082
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
+
+Package: neofetch
+Version: 7.1.0-1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 396
+Depends: bash
+Filename: ./neofetch_7.1.0-1_all.deb
+Size: 80144
+MD5sum: 4c48f3d14e6be948a45dfbca6d4b06a6
+SHA1: 2b3f67822122d7ab127216337f4d95d5c1df3730
+SHA256: 580310d6e8861b219b3f9975707510bd87bdefc2d857cf8baa1cf73847bc3a2e
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Simple system information script
 
 Package: neovim
 Version: 0.12.2
@@ -6854,6 +6950,20 @@ SHA256: 1de28b35d7e7d86e01af39ecf19d7cba519225d97f9b9170104f234d262affc1
 Homepage: https://gitlab.com/procps-ng/procps
 Description: Static libraries for procps
 
+Package: progress
+Version: 0.17-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Depends: libandroid-wordexp, ncurses
+Filename: ./progress_0.17-1_aarch64.deb
+Size: 11248
+MD5sum: e6d151e743a212137df0c06573f3bf08
+SHA1: 9434fef9300fcf11c5271da5644db9961b9bd51d
+SHA256: 4fddd199131742823abef55ee4be1bc4709fede64079ffe6f4cb3bb2acbdd8b9
+Homepage: https://github.com/Xfennec/progress
+Description: Linux tool to show progress for cp, mv, dd and more
+
 Package: proot
 Version: 5.1.107-70
 Architecture: aarch64
@@ -6912,6 +7022,19 @@ SHA1: fb447334634d3d0d6d4f8c576bea9c021ac500ae
 SHA256: e437548b230428908edaa5ff682fceabd78ac8cac6605a20070ff411c3e87bbe
 Homepage: https://gitlab.com/psmisc/psmisc
 Description: Some small useful utilities that use the proc filesystem
+
+Package: pv
+Version: 1.10.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 712
+Filename: ./pv_1.10.5_aarch64.deb
+Size: 245132
+MD5sum: 34f3c38330a96c417a86d3ae2b4b8912
+SHA1: 34813862f8535efe8fc1296ceb54ae4580ba14c6
+SHA256: 5865d2fe2b2309c9514ec3e29ec526251fe15bc19c87059cff9b8e8ee93b7b7e
+Homepage: https://www.ivarch.com/programs/pv.shtml
+Description: Terminal-based tool for monitoring the progress of data through a pipeline
 
 Package: python
 Version: 3.13.13-1
@@ -7499,6 +7622,22 @@ SHA1: 270a1dbcc6fc2603cdf973a1281c1d24af7355c1
 SHA256: 69ec29611e66912fb7e1ab99eacf95d2041840c8d23d135eb328fc83e2073ef6
 Homepage: https://subversion.apache.org
 Description: Static libraries for subversion
+
+Package: sudo
+Version: 1.2.0
+Architecture: all
+Maintainer: @agnostic-apollo
+Installed-Size: 464
+Depends: bash
+Conflicts: tsu
+Replaces: tsu
+Filename: ./sudo_1.2.0_all.deb
+Size: 53396
+MD5sum: adbeb9f57de7f28cb103117ca57b3410
+SHA1: fdc6eccecd036cabd38262ba16f75987140ecd1d
+SHA256: a9ddaa99cf8d726bd64c8554e0dc94dd8d8e7b38e2bf21cfad12bd8521647282
+Homepage: https://github.com/agnostic-apollo/sudo
+Description: A wrapper script to drop to the supported shells or execute shell script files or their text passed as an argument as the root (superuser) user in the Termux app
 
 Package: svt-av1
 Version: 4.1.0

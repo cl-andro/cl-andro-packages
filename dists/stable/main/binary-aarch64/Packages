@@ -2829,10 +2829,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334704
-MD5sum: ef32299601ea4d807f2b8fc8c3239ab2
-SHA1: 9977e2f6ba35b306553d3fbb70447029be5ec5ec
-SHA256: 83f2a92ea9f56cda6a01fe20f6fc82b08692c6b524c07d9800e2174d5fd52f1c
+Size: 334680
+MD5sum: 3537108e5c8c2a9a957c55ef725b415d
+SHA1: 11eef2cab1c8d0a014928a365249210b3f660b6b
+SHA256: 5431d7220fcfeaf153108a8027941a963938a91a0740cc28f6e6ed64276bc2f5
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -5597,15 +5597,15 @@ Description: Pattern-matching library for Lua 5.4
 Package: lua51
 Version: 5.1.5-7
 Architecture: aarch64
-Maintainer: @termux
+Maintainer: @clandro
 Installed-Size: 576
 Breaks: liblua51
 Replaces: liblua51
 Filename: ./lua51_5.1.5-7_aarch64.deb
-Size: 102880
-MD5sum: f18a5c97dc746077b1bb3165325c61fe
-SHA1: 5ff77fe98361ddf942ea841e617ddc57bfc036ab
-SHA256: 1b142386659ef8d92d0a5c8e8ba551798b771c7d740ef8c43a6f13cef4cf64b8
+Size: 103540
+MD5sum: 53897b247e1d68828591a85b643daddf
+SHA1: 2f232f96c8c57a47a5f6b10a92e3b17a0d43cad4
+SHA256: 1fb10afdfad959206f04845053cbbce7924470314ef4766bc4fd007eb94b71f8
 Homepage: https://www.lua.org
 Description: Shared library for the Lua interpreter (v5.1.x)
 
@@ -5626,14 +5626,14 @@ Description: Pattern-matching library for Lua 5.1
 Package: lua51-static
 Version: 5.1.5-7
 Architecture: aarch64
-Maintainer: @termux
+Maintainer: @clandro
 Installed-Size: 360
 Depends: lua51 (= 5.1.5-7)
 Filename: ./lua51-static_5.1.5-7_aarch64.deb
-Size: 75448
-MD5sum: d94dafacd3f346de98c2eead1d2f3d78
-SHA1: 2a38e968482807f3af55db5f2f0f28b08def123c
-SHA256: 1e76751eb118ce7c4acabcdd9d4b82d5153665fe28945cb5770ba5638875da0f
+Size: 75412
+MD5sum: f3d6f28acbe8c80c64fb762d50fd665c
+SHA1: 4ea677295ecbef3c5a8630dfc360a85748cadf22
+SHA256: 740d4c5718ca7192fffda8a972752e832682d14875aab15f291e98c7ef41b6ee
 Homepage: https://www.lua.org
 Description: Static libraries for lua51
 
@@ -5683,15 +5683,15 @@ Description: Static libraries for lua52
 Package: lua53
 Version: 5.3.6-6
 Architecture: aarch64
-Maintainer: @termux
+Maintainer: @clandro
 Installed-Size: 688
 Breaks: liblua-dev, liblua53
 Replaces: liblua-dev, liblua53
 Filename: ./lua53_5.3.6-6_aarch64.deb
-Size: 124116
-MD5sum: 603f3f701f1029c2077856f620e151e8
-SHA1: c50eb2804929b7c470210e23cd2f5d4b6f1c2b05
-SHA256: 30d444450c24ccbd93a019fe64ec6aeb6032dc86ce1f30b8e1751ff5b8d7d34a
+Size: 124232
+MD5sum: 434dd3c73b38ab4e252cf37742661025
+SHA1: 64620b0fe9ecf1c97a2cf590a2af9ba641946a6a
+SHA256: f756e1d84ffb7e8595462cba53413a5a19d74b0a1e12fc7e3be13e96bed0021b
 Homepage: https://www.lua.org/
 Description: Shared library for the Lua interpreter (v5.3.x)
 
@@ -5712,14 +5712,14 @@ Description: Pattern-matching library for Lua 5.3
 Package: lua53-static
 Version: 5.3.6-6
 Architecture: aarch64
-Maintainer: @termux
+Maintainer: @clandro
 Installed-Size: 444
 Depends: lua53 (= 5.3.6-6)
 Filename: ./lua53-static_5.3.6-6_aarch64.deb
-Size: 95540
-MD5sum: 187971fc660af9200c7ec7bcbe9bb2b9
-SHA1: db16d8569f0eb04a1ee6376cfdc8054adf8237fa
-SHA256: e0019bfca7273e6edfce0523471c3d00150438124eb668a19f63d897a63c8425
+Size: 95472
+MD5sum: 5433b1e179de9f84170380f9b0e0c467
+SHA1: 32e9381c662136b4703f01e56cd6c2f6cd722a61
+SHA256: ee498624f153f92dd3d5f5ebc9ba5b2f393525e6347425d37288133f6d29b94d
 Homepage: https://www.lua.org/
 Description: Static libraries for lua53
 
@@ -5798,29 +5798,29 @@ Description: Static libraries for lua55
 Package: luajit
 Version: 1:2.1.1774896198+g18b087c
 Architecture: aarch64
-Maintainer: @termux
+Maintainer: @clandro
 Installed-Size: 1336
 Breaks: libluajit-dev, libluajit
 Replaces: libluajit-dev, libluajit
 Filename: ./luajit_1_2.1.1774896198+g18b087c_aarch64.deb
-Size: 289416
-MD5sum: df41140b45a8310a8048be48957534b6
-SHA1: f7e84a18c9af316a93ef7ae2b60ff0e86b9b1014
-SHA256: 7757f971395a35ca36a0a8f3704ac8092863e3a6950b5a68f5785b76c70cd837
+Size: 288756
+MD5sum: c9c5d886f1384a1e2dbfaa0d9089ecba
+SHA1: 046b9df60806e2742ddc668b97f85d4d1b1112a3
+SHA256: 234a33a4f9ddb6ee32aa1847854da3b3910d799913a6a30c5f742e950f8ea20f
 Homepage: https://luajit.org/
 Description: Just-In-Time Compiler for Lua
 
 Package: luajit-static
 Version: 1:2.1.1774896198+g18b087c
 Architecture: aarch64
-Maintainer: @termux
+Maintainer: @clandro
 Installed-Size: 680
 Depends: luajit (= 1:2.1.1774896198+g18b087c)
 Filename: ./luajit-static_1_2.1.1774896198+g18b087c_aarch64.deb
-Size: 221160
-MD5sum: 9bd44686421dfa122ba73d6578ffb663
-SHA1: 76cab7d4d0a0e4ef4a4ed9670f7a3947b6dc316b
-SHA256: 711cea32cdcd19870a7fd771902528b313b8e5720c0948eaad9cb826099d0916
+Size: 221084
+MD5sum: 693a7d623e264eb3aba86875ac9bd7b5
+SHA1: 317544b4f604a0ee9536f0259844fa7d9c10a83b
+SHA256: 85ef6671583eb5c8ed73540a73ccbdb8c5df3c92563200dca2bf4d917edea9c6
 Homepage: https://luajit.org/
 Description: Static libraries for luajit
 
@@ -6136,10 +6136,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952004
-MD5sum: 9ed926ffc7ffb78c7de0f816b10f36e3
-SHA1: 04c86935d1ef622bebc569cb4d03f964eb8c4c53
-SHA256: e33f51c17e2c2a5d0c620c41be02322fceeb426139c7e1f28b600f46f1d4b6ba
+Size: 1951980
+MD5sum: 1a966c6b0cc7a7d791276b757676b762
+SHA1: fe4dd1880b020d1295b50208f57b1d9fb658cc2e
+SHA256: 2cd7b3322a68ae40487ba00a31fc3bb0de86ec9d5b507684601ac0cebd674194
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -8346,6 +8346,20 @@ SHA1: 3a4594bd999a322c40d60133230345f32df5cbc6
 SHA256: 86214bb8595e75768d17c6c1017b6c7e6eb9801e1709588c1651aba69aab1a90
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
+
+Package: zig
+Version: 0.16.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 392100
+Depends: resolv-conf
+Filename: ./zig_0.16.0_aarch64.deb
+Size: 52952768
+MD5sum: a3a03275cc9fedbce034151918544bc2
+SHA1: baa8ba22242538d5f4827853d3fa0c3228795904
+SHA256: 7777864db3e7b36e0ba0401f15412664d0efb007330df33606fc6bbeaebf4b98
+Homepage: https://ziglang.org
+Description: General-purpose programming language and toolchain
 
 Package: zip
 Version: 3.0-7

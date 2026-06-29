@@ -2870,10 +2870,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 335000
-MD5sum: 18f6aa59e2c375379ec8eb6191a9bb7c
-SHA1: cf7f6b6e117830d062248203774da3eca75debd0
-SHA256: 1852a2acddf4569ef6cd314336f0edc79613d286a6f48d42dd4bd139a8d5bf6b
+Size: 335240
+MD5sum: 7b2a19bc110cc93c2bc998473e62f662
+SHA1: 9d0f2fbace925bb00aebf72cc3a117ee46778d8b
+SHA256: 8b22df43dac5eed960ff8ce7d81ecb9ca88278e9d5c6461d7aae815339d73647
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -6291,14 +6291,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 31264
+Installed-Size: 31268
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952324
-MD5sum: b659b70e401f800dedc743b37e1c4a5c
-SHA1: f00c17a88dd4211b149dbff9f6a7c4c8a2942814
-SHA256: 1246be2885c6202aed9baf2c0281c49758f9e412a128e70552776d220cb1b3ce
+Size: 1952188
+MD5sum: 2120a8723a7ce293da0914e04d0ca402
+SHA1: d45f6776f473763340a5635016ce292ae1a21f7c
+SHA256: cf85bd2ec51de1c92c63222236dc86762cadf3a9af00848bb0d4c6b32fc56b4a
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -7812,6 +7812,34 @@ SHA256: e1999ed6c8a2d66f0c946bc20dff7a64c07c6f2f62d4231de339ae25628a6c06
 Homepage: https://www.cgsecurity.org/wiki/TestDisk
 Description: Partition Recovery and File Undelete
 
+Package: texinfo
+Version: 7.3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 10868
+Depends: gawk, libiconv, ncurses, perl
+Recommends: update-info-dir
+Filename: ./texinfo_7.3_aarch64.deb
+Size: 1161268
+MD5sum: 55bcb036c2065182013b593c5e78a40b
+SHA1: 48222dec1cf62ad497eb16ba67afa65e5e7c634d
+SHA256: e7b0a2cf1bf25e6473a0dc3e7f4c42665144f3c72fcc956ab62d47e5a036fded
+Homepage: https://www.gnu.org/software/texinfo/
+Description: Documentation system for on-line information and printed output
+
+Package: texlab
+Version: 5.25.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 13620
+Filename: ./texlab_5.25.1_aarch64.deb
+Size: 8794420
+MD5sum: f21316e56ed7545394c5b9653ade6bb3
+SHA1: 7cc159c92e424c04f7ab1036f7a04a4e597a450c
+SHA256: e5842197105cf9e87c08464c54f2a2f728f8c886862c6a9fc4b155d6642ada40
+Homepage: https://texlab.netlify.app/
+Description: A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system
+
 Package: tinc
 Version: 1.0.36-5
 Architecture: aarch64
@@ -8074,6 +8102,20 @@ SHA1: a12ea089e3d6a512d2b62b074959f451b00e49b7
 SHA256: d1ab4e09dde3edb98e11e16fc819ea7f90b27ad757af0bb4a4fda84db818dbe5
 Homepage: https://sourceforge.net/projects/infozip/
 Description: Tools for working with zip files
+
+Package: update-info-dir
+Version: 7.3
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 48
+Depends: texinfo (= 7.3)
+Filename: ./update-info-dir_7.3_all.deb
+Size: 2468
+MD5sum: 32d03278fee175c4a1209a78e6adb97b
+SHA1: f5e474d0a9b3fdbb5bdb2fc9eaac27528be98f3b
+SHA256: 7871e6716c51f830f2deac5d2760c122c5782e039093b862205db27e980ecc19
+Homepage: https://www.gnu.org/software/texinfo/
+Description: Update or create index file from all installed info files in directory
 
 Package: usbutils
 Version: 019

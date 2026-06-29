@@ -895,6 +895,20 @@ SHA256: a56c0bc671ba33bdb9c5701dcdbdb2ccc3b0a6e093fdd52b98c1cd840a332676
 Homepage: https://vgough.github.io/encfs/
 Description: An encrypted filesystem for FUSE
 
+Package: erofs-utils
+Version: 1.9.1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 860
+Depends: liblz4, liblzma, libfuse2, libuuid, zlib
+Filename: ./erofs-utils_1.9.1_aarch64.deb
+Size: 157404
+MD5sum: 389ff5fe98dd482551c05c3513afc7d6
+SHA1: 8ef06b7e0ec57ee789cd5ea6031833599078ed37
+SHA256: 3884abdb42756ff657d2bc18f1bc840d7c6ea98d9df0f2b1a249532bec0fa9d4
+Homepage: https://github.com/erofs/erofs-utils
+Description: A github erofs-utils fork for community development
+
 Package: ethtool
 Version: 7.0
 Architecture: aarch64
@@ -1628,6 +1642,20 @@ SHA1: f430f2b3dd8bc0951cacffe9b5598791a2fc2ac7
 SHA256: 2ca72ace0a013bc9a55bd3aa394d583b9344f3cdd33c90641dfb4e0a4d799326
 Homepage: https://www.gnupg.org/
 Description: GNU privacy guard - signature verification tool
+
+Package: gptfdisk
+Version: 1.0.10-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1004
+Depends: libc++, libpopt, libuuid, ncurses
+Filename: ./gptfdisk_1.0.10-2_aarch64.deb
+Size: 179188
+MD5sum: 7047ba56be5123262ffe7bf92be823ed
+SHA1: e52e4b66b307a92631807a07d78de4d5a1630661
+SHA256: 070d68a81ab17810ddf8fe3ee12c6187405712134ff5b5c42887eb5890bd3cb5
+Homepage: https://www.rodsbooks.com/gdisk/
+Description: A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 
 Package: grep
 Version: 3.12-3
@@ -2578,10 +2606,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334620
-MD5sum: ebefd92f004153182d0d3138a741b65e
-SHA1: bf096c20d4db246ed367d3f4907563002d0f5e5c
-SHA256: a874d74569838672177731376014c081377e87fdf02c2e27c3779bbc5feda70f
+Size: 334732
+MD5sum: 6a05f7bd2b776103c227062eabacc6bb
+SHA1: c13550a1c1e72ea83569abf2cdfa04152ea5f463
+SHA256: 182144865be316ff6f65fa0f56a727fc302962b2afb0204912cf28af72ac41b0
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -5659,10 +5687,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952528
-MD5sum: ecbce501762f4c7d9564c711d7eeaf71
-SHA1: 5803befc55c6bc109ef5a78cb960eba40f113a14
-SHA256: 2478a1c5ef9c6789e7facd37e36d9d9c232dd5ef512564b1a2c63889e73d1269
+Size: 1952144
+MD5sum: f028dfa43cdf06fc74eb47708679b4fc
+SHA1: d1914e44a9f2f8999d16104c6d8e6d22ff873000
+SHA256: 431c57a7940ceb106d8862ede44bef73f9508d9b24a8a7f35396b21d19f7f105
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -7105,6 +7133,20 @@ SHA256: 19c3ab2f67d5d930c96fdfe043520910f8436c39c3213017348aebcdc6b1c00b
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 
+Package: testdisk
+Version: 7.1-6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1472
+Depends: libuuid, zlib, libjpeg-turbo, libiconv, ncurses, libandroid-glob
+Filename: ./testdisk_7.1-6_aarch64.deb
+Size: 331548
+MD5sum: 658f239feac2ac1e5c3a9b447037312f
+SHA1: 94c6c53f91058a7a773c6826d0fa493fe330b9d8
+SHA256: e1999ed6c8a2d66f0c946bc20dff7a64c07c6f2f62d4231de339ae25628a6c06
+Homepage: https://www.cgsecurity.org/wiki/TestDisk
+Description: Partition Recovery and File Undelete
+
 Package: tinc
 Version: 1.0.36-5
 Architecture: aarch64
@@ -7518,6 +7560,20 @@ SHA1: 153aceb3b8621354bad07c4c0e2614d917d28a12
 SHA256: bdeca34c6239ad8df3af741d71c461e41f577122fe63e0ae51054840833984be
 Homepage: https://github.com/rfc1036/whois
 Description: An intelligent Whois client
+
+Package: wimlib
+Version: 1.14.4
+Architecture: aarch64
+Maintainer: @xingguangcuican6666
+Installed-Size: 760
+Depends: libandroid-glob, libandroid-utimes, libfuse3, liblzma, libxml2, ntfs-3g, openssl, zlib
+Filename: ./wimlib_1.14.4_aarch64.deb
+Size: 253912
+MD5sum: c2a958038cdea27f84a04054ac0ee828
+SHA1: 1b162808c1eb72b00d822c389d5d734dd4ece609
+SHA256: 87e5c2ecaf40a73cfe3c7cbde6d50f107fa18c32c3c2de2149e6df3073f774d1
+Homepage: https://wimlib.net/
+Description: A library and command-line tools to create, extract, and modify Windows Imaging (WIM ) files
 
 Package: wireless-tools
 Version: 30pre9-4

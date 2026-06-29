@@ -162,6 +162,33 @@ SHA256: ae2ac70c7ebcccb1bbea63e294f9e10b503b16a0563afdca11c46336c5b6d8b3
 Homepage: https://packages.debian.org/apt
 Description: APT transport for anonymous package downloads via Tor
 
+Package: argon2
+Version: 20190702-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 144
+Filename: ./argon2_20190702-2_aarch64.deb
+Size: 22440
+MD5sum: 49a89ac21952eab281bbcf38adb82945
+SHA1: ce4ce9117b8285c47322d430ae518a08d9deb883
+SHA256: 13becccbb10922a8f9013ab475b63463d9d2d85a0941a4c652fad0fde23ff790
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description: A password-hashing function (reference C implementation)
+
+Package: argon2-static
+Version: 20190702-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 224
+Depends: argon2 (= 20190702-2)
+Filename: ./argon2-static_20190702-2_aarch64.deb
+Size: 44784
+MD5sum: 1296787991176afc220b8a3120d5ee80
+SHA1: 92f201ab76248b919bfc4edf529ebda3fa0ab12e
+SHA256: 4c04fd6abe5debe04651098e9d4cff9c6483443ff9effbd6b2481a408f63513b
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description: Static libraries for argon2
+
 Package: argp
 Version: 1.5.0-1
 Architecture: aarch64
@@ -648,6 +675,20 @@ SHA1: 3dc73b0c0f5556f47b51b64185ad9067df22b7a2
 SHA256: 4287f82112aa5b591f72ef28a294f20da3808267fa5869ce40aa37e3053aeabf
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Basic file, shell and text manipulation utilities from the GNU project
+
+Package: cryptsetup
+Version: 2.8.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 588
+Depends: libpopt, libblkid, libuuid, libcryptsetup (= 2.8.6)
+Filename: ./cryptsetup_2.8.6_aarch64.deb
+Size: 201976
+MD5sum: cdabd52003fec52e46ee6fee7a97b0d9
+SHA1: 4e113f34f1dd971ffcf859ef5a100c7f2fe57c65
+SHA256: 31d69b9b1c459fa98ed8b1dd7f6292844eda25feaddbc271dec7e639a3a118fe
+Homepage: https://gitlab.com/cryptsetup/cryptsetup/
+Description: Userspace setup tool for transparent encryption of block devices using dm-crypt
 
 Package: curl
 Version: 8.20.0
@@ -2088,6 +2129,33 @@ SHA256: a7352fea3b302385905cc638831096a6d1c28a672891848b35f1e5381986f838
 Homepage: https://github.com/open-source-parsers/jsoncpp
 Description: Static libraries for jsoncpp
 
+Package: keyutils
+Version: 1.6.3-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 372
+Filename: ./keyutils_1.6.3-3_aarch64.deb
+Size: 92448
+MD5sum: 729dc282b22af0cace45ef78226fe7a7
+SHA1: 9caa59b7bc6700971205a5a70e1a8a1335b04eba
+SHA256: 14052050b9dc0bd56e47c1c59c85508cb70dc2f3ff1850838da8ddf7e3cebf94
+Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git
+Description: Utilities to control the kernel key management facility
+
+Package: keyutils-static
+Version: 1.6.3-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 44
+Depends: keyutils (= 1.6.3-3)
+Filename: ./keyutils-static_1.6.3-3_aarch64.deb
+Size: 4904
+MD5sum: e26f540aefbf83c2073e5e10a254b8f9
+SHA1: 7e90c97fe179766e218362676d9dc34d86f8f7e6
+SHA256: a05e5533cd4f36dcc03500fd1b06c3c1ae5857eeff91b090dcb2497083bcdabf
+Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git
+Description: Static libraries for keyutils
+
 Package: krb5
 Version: 1.22.2
 Architecture: aarch64
@@ -2647,9 +2715,9 @@ Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
 Size: 334500
-MD5sum: bafd02ecf3b4f5ff238450a67a483687
-SHA1: fb9132358dbeb4b099d0ce4b4bf96949834a9b19
-SHA256: 99adc31ccbcf49e30fe0a7ae4a93c34646247dbfd3efdc90533fd756b83faaf8
+MD5sum: 3e1d454f8b8d5f2b4cdabb3ff0c0d2c4
+SHA1: 13f6b5bbacbb31270fa005fa4c935fb1537670eb
+SHA256: 9471e6a09ac72f990ffd65f43ff16dfd09d07e53f9c353c9f5652be92f2eff56
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -2755,6 +2823,36 @@ SHA1: 7fe0bcd220dc10086bb0172a3c52540dd16e389b
 SHA256: 20f250d8d234c343bf09312cbced95497c372af1dd7da5f94323eef39707161f
 Homepage: http://michael.dipperstein.com/crypt/
 Description: A crypt(3) implementation
+
+Package: libcryptsetup
+Version: 2.8.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 680
+Depends: json-c, libblkid, libdevmapper, libgcrypt, libuuid, openssl, libiconv, argon2
+Breaks: cryptsetup-dev, cryptsetup (<< 2.4.3-1)
+Replaces: cryptsetup-dev, cryptsetup (<< 2.4.3-1)
+Filename: ./libcryptsetup_2.8.6_aarch64.deb
+Size: 207264
+MD5sum: bad04af3326c7316ff5b81172ea92eca
+SHA1: eb5767521264c5300b3f8d8692d31a2e73ccb53f
+SHA256: c1d7a489d5bdf5cce408a150aa3b213a4f047270eafbc1d0fd939e4f64de6bd1
+Homepage: https://gitlab.com/cryptsetup/cryptsetup/
+Description: Userspace setup tool for transparent encryption of block devices using dm-crypt
+
+Package: libcryptsetup-static
+Version: 2.8.6
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1176
+Depends: libcryptsetup (= 2.8.6)
+Filename: ./libcryptsetup-static_2.8.6_aarch64.deb
+Size: 242252
+MD5sum: 5c57cf3d6af9208636d99957f99bb363
+SHA1: 0f77258e6d5ab2b5bb8dfb022073889717ecf8d9
+SHA256: 3dc5cf7ebf6d44b3d43e1ac22dff0f8783a091171acc7e5d30b70ef6ec2ca961
+Homepage: https://gitlab.com/cryptsetup/cryptsetup/
+Description: Static libraries for libcryptsetup
 
 Package: libcurl
 Version: 8.20.0
@@ -2872,6 +2970,20 @@ SHA1: a4489346611972baa317e1765aa09d4da4dde033
 SHA256: 53a3ca309f29b4454a8f34081d29d04b877727fd0fd986dbfb7a728ad45d029e
 Homepage: https://sourceware.org/elfutils/
 Description: Library for debuginfod
+
+Package: libdevmapper
+Version: 2.03.40
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 624
+Depends: libandroid-support
+Filename: ./libdevmapper_2.03.40_aarch64.deb
+Size: 182532
+MD5sum: 956aa22bb17f86b6ae49b423d7d36870
+SHA1: 1b4bc6356c45dcdb909dde5352d35acdabc4d97d
+SHA256: d12494d16fafedcb3e5b0c892f9ce64658f2933eef639822f3e494b1a29e7264
+Homepage: https://sourceware.org/lvm2/
+Description: A device-mapper library
 
 Package: libdw
 Version: 0.193-1
@@ -5473,6 +5585,22 @@ SHA256: 72c00601ec5a453b4ebdc703a2faeee8272ab9e9b05d8f24e0b6940128a8ab1c
 Homepage: https://github.com/luvit/luv
 Description: Bare libuv bindings for lua
 
+Package: lvm2
+Version: 2.03.40
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2728
+Depends: libaio, libandroid-support, libblkid, readline
+Breaks: libdevmapper-dev
+Replaces: libdevmapper-dev
+Filename: ./lvm2_2.03.40_aarch64.deb
+Size: 1043116
+MD5sum: 95335f3f330f7c041978a6fb5c95be68
+SHA1: a69876a26c8edb4a06f1f32243b7d0c6eca776ef
+SHA256: dce6bd5d31b1e654666caa53d3db7bb8909c6fd1e3bdce03d264499a11731a29
+Homepage: https://sourceware.org/lvm2/
+Description: A device-mapper library from LVM2 package
+
 Package: lxc
 Version: 1:3.1.0-4
 Architecture: aarch64
@@ -5751,14 +5879,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 31264
+Installed-Size: 31268
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952288
-MD5sum: 29fd4f793914c487560f085e7796caf0
-SHA1: e90594f381fcc81fe5cba72861557c84addcff8b
-SHA256: 7cd4182a2e0651ba5caba24c5da05083b93b6c5241844985d3b06ff2945a2c54
+Size: 1952084
+MD5sum: 22068b7787d0ced589a5be613ddfd49e
+SHA1: 2e58b5858bba5a86aabbec61a163bc3dd4b953cd
+SHA256: ae198154022ad1ba497ac4c9c2517b1d7e51117f5a5c6814c83dece0fa18abd1
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -7016,6 +7144,34 @@ SHA1: f5e9d124efb8ace906dc66865b878cea97b0ef68
 SHA256: 9098719d697a59009ef939976cacb4dc12982a7df85fed3520c35fdcd9cca6aa
 Homepage: https://www.tcpdump.org/
 Description: A powerful command-line packet analyzer
+
+Package: tcplay-veracrypt
+Version: 3.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 228
+Depends: libdevmapper, libuuid, libgcrypt
+Filename: ./tcplay-veracrypt_3.3-1_aarch64.deb
+Size: 43828
+MD5sum: d3d753d3ebd8aa5adb23c991d6115b1c
+SHA1: 87dc9dfe6537f24ec8c3cd2beab71b039068b4ec
+SHA256: 7715c97a34014714ebbbcfdcbd332cdfde830281f4084cc092259f64858a6da5
+Homepage: https://github.com/bwalex/tc-play
+Description: Free and simple TrueCrypt implementation based on dm-crypt.
+
+Package: tcplay-veracrypt-static
+Version: 3.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 156
+Depends: tcplay-veracrypt (= 3.3-1)
+Filename: ./tcplay-veracrypt-static_3.3-1_aarch64.deb
+Size: 28360
+MD5sum: ac1da14c93f6967c6ae98850d7aa69b6
+SHA1: a1453429a6c21ce5d78d9b4f9bd54ac4584f0f1f
+SHA256: 72d97b844c2ea82ae19b7646fed23dd8216517635554c84c2c85920e6f0c36a8
+Homepage: https://github.com/bwalex/tc-play
+Description: Static libraries for tcplay-veracrypt
 
 Package: termshark
 Version: 2.4.0-5

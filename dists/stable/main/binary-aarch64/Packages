@@ -203,6 +203,20 @@ SHA256: 2356a4a09556b31b8cfc0337096f04be0f749ff317f4705e2037801d0407e8ad
 Homepage: https://aria2.github.io
 Description: Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink
 
+Package: arp-scan
+Version: 1.10.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1588
+Depends: libpcap
+Filename: ./arp-scan_1.10.0-1_aarch64.deb
+Size: 460668
+MD5sum: 85c48b6e9f0b074b8472b1f0189bb0f4
+SHA1: ac2aed4621494411133255d5ca97a8d1db5717ec
+SHA256: ccc808bea80bdaf7752e6e285e954da81c0331afe9d4b347c1a128197c0bad97
+Homepage: https://github.com/royhills/arp-scan
+Description: arp-scan is a command-line tool for system discovery and fingerprinting. It constructs and sends ARP requests to the specified IP addresses, and displays any responses that are received.
+
 Package: attr
 Version: 2.5.2-1
 Architecture: aarch64
@@ -1671,6 +1685,20 @@ SHA256: ee1fef125431e8cbbb168afe944fac39a57a20afb2f05b63797732edcd8bbce4
 Homepage: https://sourceforge.net/projects/hdparm/
 Description: Utility to get/set SATA/IDE device parameters
 
+Package: hping3
+Version: 3.0.0-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 208
+Depends: libandroid-shmem, libpcap, tcl
+Filename: ./hping3_3.0.0-4_aarch64.deb
+Size: 62964
+MD5sum: c3fd8c4c9015cac74ea20157322d88a9
+SHA1: 2f10d3efaf25742d923df35af729c80bf9bad9c9
+SHA256: f809d7b8a7ed608fb4512c2e675d1f54e3ae862fc6297f6f8a92ed4da5132a1d
+Homepage: http://www.hping.org/
+Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
+
 Package: htop
 Version: 3.5.1
 Architecture: aarch64
@@ -1830,6 +1858,36 @@ SHA1: 6107f0a81df5c51658ebcc1ddf055ff7cfa54cbf
 SHA256: ded61f5feedba53b75c662e9effac2dfc0223b02e0573b95fb50deff66e99609
 Homepage: https://github.com/esnet/iperf
 Description: Static libraries for iperf3
+
+Package: ipset
+Version: 7.24-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 568
+Depends: libmnl
+Breaks: ipset-dev
+Replaces: ipset-dev
+Filename: ./ipset_7.24-1_aarch64.deb
+Size: 78712
+MD5sum: d7b339ed069f2dd8a2db3a1a741c81f0
+SHA1: a07c41eef40e0efaf13a12fca00b228b7400fb74
+SHA256: 648fe4212b0a2755e3e6082678628d4b429ba0354a085d53a8e34b1729d9f6be
+Homepage: https://ipset.netfilter.org
+Description: Administration tool for kernel IP sets
+
+Package: ipset-static
+Version: 7.24-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 340
+Depends: ipset (= 7.24-1)
+Filename: ./ipset-static_7.24-1_aarch64.deb
+Size: 48744
+MD5sum: cf2c0c426c8952775d75b9955a808b91
+SHA1: 723c217ec64465d6e7b6cb0e8afa2bb5927c7cd5
+SHA256: d1a77771d179fa00a6d2ea6e24c3cf06f7a24736272144a2d733768170a2871f
+Homepage: https://ipset.netfilter.org
+Description: Static libraries for ipset
 
 Package: iptables
 Version: 1.8.13
@@ -2520,10 +2578,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 335148
-MD5sum: 1e96f27371a8afbaa692563e9f4d96f1
-SHA1: 26322486b4c2702740ef1ea0136010da591e4524
-SHA256: 749a4ea7d02b96eef006dade9e25fc93fc5ab056b87b87f0b3700af6e19065ff
+Size: 334620
+MD5sum: ebefd92f004153182d0d3138a741b65e
+SHA1: bf096c20d4db246ed367d3f4907563002d0f5e5c
+SHA256: a874d74569838672177731376014c081377e87fdf02c2e27c3779bbc5feda70f
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3373,6 +3431,21 @@ SHA1: 19ab8a4d6bc1690fee3abcde5f6e5fce3ebdb92b
 SHA256: 7d0fa9c0c12375b0908090261d1d732d5976c4b23903b74546d7eb500763a146
 Homepage: https://gnupg.org/related_software/libksba/
 Description: Static libraries for libksba
+
+Package: libltdl
+Version: 2.5.4-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 96
+Breaks: libtool (<< 2.4.7-2)
+Replaces: libtool (<< 2.4.7-2)
+Filename: ./libltdl_2.5.4-2_aarch64.deb
+Size: 17996
+MD5sum: 8b5b3203d16e310a33f84bb147df8501
+SHA1: 2a97f7e2a6cd0e28b0ba340762ed6e517e099b9d
+SHA256: b7a60287523b5bcc8d9d2ccc84f7544c944eef16d9e5996fd64a6090ec51022e
+Homepage: https://www.gnu.org/software/libtool/
+Description: Library for dlopening libraries
 
 Package: liblz4
 Version: 1.10.0-1
@@ -4347,6 +4420,22 @@ SHA1: 61d1d881f1a79a88bfad9c366da5a7c8c8e7509c
 SHA256: 68e3e511f55fe83469a75faf8e93943cae84249c2f864bda4e5eb123114afbfd
 Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
 Description: Static libraries for libtirpc
+
+Package: libtool
+Version: 2.5.4-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2788
+Depends: bash, grep, sed, libltdl
+Conflicts: libtool-dev, libtool-static
+Replaces: libtool-dev, libtool-static
+Filename: ./libtool_2.5.4-2_aarch64.deb
+Size: 391964
+MD5sum: 52bd03981ce45c1f7fabbd702a8967b3
+SHA1: 4066632ccdf2d974dcaead2407dcd0824ed96137
+SHA256: f6e67fba81526a48ebbe738a00997af7e62d3b6d7cf20ef141939ca1890ef164
+Homepage: https://www.gnu.org/software/libtool/
+Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
 
 Package: libunbound
 Version: 1.25.0
@@ -5566,14 +5655,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 31268
+Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952164
-MD5sum: fd04ce051c9c8726efe6599273a933c1
-SHA1: ca57f9135685bf9fc340e9eef80af9440634b93b
-SHA256: 443217b9935d97eb45f64533c77b2ac28075e085743dd4d4c2b316020b4645d7
+Size: 1952528
+MD5sum: ecbce501762f4c7d9564c711d7eeaf71
+SHA1: 5803befc55c6bc109ef5a78cb960eba40f113a14
+SHA256: 2478a1c5ef9c6789e7facd37e36d9d9c232dd5ef512564b1a2c63889e73d1269
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -7669,6 +7758,34 @@ SHA1: 09def3001f432efdc6a6eb3d1b17ce0709989605
 SHA256: 59c2336317460ecfcec85f7c63a3cff5e6c0f34da0684d79c5ba15cb18d95227
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
+
+Package: zmap
+Version: 1:4.3.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 592
+Depends: json-c, libgmp, libpcap, libunistring
+Filename: ./zmap_1_4.3.2-1_aarch64.deb
+Size: 145744
+MD5sum: 8045387a12b15e8281681a8ed54e9fca
+SHA1: 9a689dc74cb6e7c01475fd22dd20a7df470bc7e2
+SHA256: 9613f2b70707856d2b10548ca9bfb25a5a217395bba6b6faede360c25fafec1d
+Homepage: https://zmap.io/
+Description: A fast single packet network scanner designed for Internet-wide network surveys
+
+Package: zmap-static
+Version: 1:4.3.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 392
+Depends: zmap (= 1:4.3.2-1)
+Filename: ./zmap-static_1_4.3.2-1_aarch64.deb
+Size: 81644
+MD5sum: c3c561f3a5e60e0a511591ab4084d259
+SHA1: 6873ceae8fd9c41e404606541112d56c2b791888
+SHA256: d38f1c095f68ea9e8bf3e75426d5a59a3f5fe4ce605743af9d1d6938f493ff33
+Homepage: https://zmap.io/
+Description: Static libraries for zmap
 
 Package: zpaq
 Version: 7.15-1

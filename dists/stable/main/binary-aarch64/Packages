@@ -1968,6 +1968,20 @@ SHA256: ded61f5feedba53b75c662e9effac2dfc0223b02e0573b95fb50deff66e99609
 Homepage: https://github.com/esnet/iperf
 Description: Static libraries for iperf3
 
+Package: iproute2
+Version: 7.0.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2980
+Depends: libandroid-glob, libandroid-support
+Filename: ./iproute2_7.0.0_aarch64.deb
+Size: 846936
+MD5sum: f6efc09f0a9d338b7de4defe00181170
+SHA1: 224d68fada706c248b9c07df524dcf5596280d30
+SHA256: 523259a42e08ba9c57149a0863a84a82bd2dd8b3150ac23214c070f9c046025a
+Homepage: https://wiki.linuxfoundation.org/networking/iproute2
+Description: Utilities for controlling networking
+
 Package: ipset
 Version: 7.24-1
 Architecture: aarch64
@@ -2714,10 +2728,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334500
-MD5sum: 3e1d454f8b8d5f2b4cdabb3ff0c0d2c4
-SHA1: 13f6b5bbacbb31270fa005fa4c935fb1537670eb
-SHA256: 9471e6a09ac72f990ffd65f43ff16dfd09d07e53f9c353c9f5652be92f2eff56
+Size: 334640
+MD5sum: 971729f4af25d857eff7369fe491c34c
+SHA1: 26a157abfd6a117c8b05b29bc0776a9ae027c91e
+SHA256: d3aa5b847b12afdf4771067f585415931b6e099060e48be954809f3fe204d1f2
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3888,6 +3902,34 @@ SHA256: 933a92580f71f9c1bafe96b8dfcb566b7e90feff7355ae894497f3b9d82c4a1b
 Homepage: https://github.com/msgpack/msgpack-c/
 Description: Static libraries for libmsgpack
 
+Package: libnetfilter-queue
+Version: 1.0.5-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 112
+Depends: libnfnetlink, libmnl
+Filename: ./libnetfilter-queue_1.0.5-4_aarch64.deb
+Size: 12156
+MD5sum: 2058fa7fbe3c33ff054b0639db5bf167
+SHA1: d2e3ffa610633b48530271c4802abe0504364b32
+SHA256: 9316ba4227851b48838737abbeac189446697e9b7deaa25071f9dfa37296d98b
+Homepage: https://www.netfilter.org/projects/libnetfilter_queue/index.html
+Description: libnetfilter_queue is a userspace library providing an API to packets that have been queued by the kernel packet filter.
+
+Package: libnetfilter-queue-static
+Version: 1.0.5-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 72
+Depends: libnetfilter-queue (= 1.0.5-4)
+Filename: ./libnetfilter-queue-static_1.0.5-4_aarch64.deb
+Size: 9976
+MD5sum: ea1ef1a8f4e5102625010214f2ce4008
+SHA1: fe30b9370b65287d86a72fbab08d37aa28ed9c63
+SHA256: 9ea7790a4686e648bc1f7d3b44ab092856ca0cdfcd1c2ae362282046114788f6
+Homepage: https://www.netfilter.org/projects/libnetfilter_queue/index.html
+Description: Static libraries for libnetfilter-queue
+
 Package: libnettle
 Version: 4.0+really3.10.2
 Architecture: aarch64
@@ -3917,6 +3959,33 @@ SHA1: 72bc3d4b382d467403c3e87d7febe8b04ec10bab
 SHA256: 99db30c0f713f8425485a02b9d293ecaa7de3c1d64028455098117f8dfda8bb1
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Static libraries for libnettle
+
+Package: libnfnetlink
+Version: 1.0.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 104
+Filename: ./libnfnetlink_1.0.2-1_aarch64.deb
+Size: 13848
+MD5sum: 68a324119c7fffb7f03c4554cf03e6c6
+SHA1: 1578857b55166d496b5ddcb24dc49d736e7813a8
+SHA256: 84df3745d5a977c935a68d384de90ceb6937c0d450e89bee24c38432097f75cb
+Homepage: https://www.netfilter.org/projects/libnfnetlink/index.html
+Description: libnfnetlink is the low-level library for netfilter related kernel/userspace communication.
+
+Package: libnfnetlink-static
+Version: 1.0.2-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 76
+Depends: libnfnetlink (= 1.0.2-1)
+Filename: ./libnfnetlink-static_1.0.2-1_aarch64.deb
+Size: 11452
+MD5sum: 54cc4709e3247311becaadc8da86edf7
+SHA1: dc7774d9bebdcdd0df74da42d2bfd1f2e9a79cfb
+SHA256: 442074a0208f24d76d131ef1105987b3d8b75c7aaef10c137108530055946a4c
+Homepage: https://www.netfilter.org/projects/libnfnetlink/index.html
+Description: Static libraries for libnfnetlink
 
 Package: libnftnl
 Version: 1.3.1
@@ -5879,14 +5948,14 @@ Package: ndk-sysroot
 Version: 29-2
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 31268
+Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952084
-MD5sum: 22068b7787d0ced589a5be613ddfd49e
-SHA1: 2e58b5858bba5a86aabbec61a163bc3dd4b953cd
-SHA256: ae198154022ad1ba497ac4c9c2517b1d7e51117f5a5c6814c83dece0fa18abd1
+Size: 1952108
+MD5sum: ed86e7c943fb7206061488393384addf
+SHA1: 0a3509240f72821d2d47f7b29dd6f9dfdd325243
+SHA256: 90b7a3698cbd59d9a9eab8763da06ef94e516f8271bc419f201b03363d2e4fdf
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -7784,6 +7853,20 @@ SHA1: 7458b416c3b3573c292042c273d530e60f81b331
 SHA256: 16ba3afb9f0f2c11db3509040450c3ed4a8a2cc2921344a615cef050e492b342
 Homepage: https://www.vim.org
 Description: Vi IMproved - enhanced vi editor
+
+Package: vlan
+Version: 2.0.5
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 104
+Depends: iproute2
+Filename: ./vlan_2.0.5_all.deb
+Size: 6224
+MD5sum: ead9d21c9f4ce987647232f4154cd20c
+SHA1: 4a5e34c385b7de751c8d9e41a65687e20b27c5d0
+SHA256: 4809c51bffc6c2e98214ecb85a68ebcf8bd3e38d9a82906bf4cb5b9cae124a42
+Homepage: https://salsa.debian.org/debian/vlan
+Description: ifupdown integration for vlan configuration
 
 Package: vnstat
 Version: 2.13-1

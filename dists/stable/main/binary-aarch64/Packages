@@ -503,6 +503,20 @@ SHA256: fb248bd61c3920cc8f81e191b6ecfbd9e3fdd89feb1b13cfab1d562d2d4392ae
 Homepage: https://www.gnu.org/software/bison/
 Description: Static libraries for bison
 
+Package: blas-openblas
+Version: 0.3.33
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 32
+Depends: libopenblas (= 0.3.33)
+Filename: ./blas-openblas_0.3.33_aarch64.deb
+Size: 992
+MD5sum: d2740944c881a8f688f0c83e890a1fd3
+SHA1: 91c47153774a3fac8711c4ae98941eb67534246f
+SHA256: 2acf58188a36b04cccb70f4480f7aa7ebb72af09acb7493467210d432544d567
+Homepage: https://www.openblas.net
+Description: OpenBLAS symlinks for BLAS/CBLAS/LAPACK/LAPACKE
+
 Package: blk-utils
 Version: 2.41.3
 Architecture: aarch64
@@ -1489,6 +1503,36 @@ SHA256: 5ceeacae46a8ebf5f1c7d6ac074cd160cc83be81e9224fd0e77d6b9157350ab8
 Homepage: https://www.freetype.org
 Description: Static libraries for freetype
 
+Package: fribidi
+Version: 1.0.16-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 444
+Depends: glib
+Breaks: fribidi-dev
+Replaces: fribidi-dev
+Filename: ./fribidi_1.0.16-1_aarch64.deb
+Size: 64376
+MD5sum: ffb78c6eb7c0f74d41bb7dc9cc65695c
+SHA1: a6b013185d335d5db9f3c203f1dea81ed112f80f
+SHA256: 2115bf570a1102aaf36b311b43394844ecf8186ab1eee0f6d0b5bae721014385
+Homepage: https://github.com/fribidi/fribidi/
+Description: Implementation of the Unicode Bidirectional Algorithm
+
+Package: fribidi-static
+Version: 1.0.16-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 176
+Depends: fribidi (= 1.0.16-1)
+Filename: ./fribidi-static_1.0.16-1_aarch64.deb
+Size: 19920
+MD5sum: 94ef650283eb3b125e67f2ae53bd653e
+SHA1: 8524eb8a11e53346d960e71a604e1ef04c11876b
+SHA256: 7091d02cfaf0d33ea2e76092982bf1b611446fc998d727bb7dac1f67a9767fa7
+Homepage: https://github.com/fribidi/fribidi/
+Description: Static libraries for fribidi
+
 Package: fzf
 Version: 0.72.0
 Architecture: aarch64
@@ -1976,6 +2020,52 @@ SHA1: f6dee5ca20828a33bae49683f0a9f0085401ab6b
 SHA256: d89a258bbffa803c371f42fe973aebcc3d2151e24df1c9e79c8a281471f50939
 Homepage: https://www.gnu.org/software/gzip/
 Description: Standard GNU file compression utilities
+
+Package: harfbuzz
+Version: 14.2.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5096
+Depends: freetype, glib, libcairo, libgraphite
+Breaks: harfbuzz-dev
+Replaces: harfbuzz-dev
+Filename: ./harfbuzz_14.2.0_aarch64.deb
+Size: 848600
+MD5sum: bd3d69ab4f6bafe24070a7da14676c5b
+SHA1: aae476ef1843c6ff41565561f8f64860b1708a96
+SHA256: e368e13db5264bc68d7e5a54165b1a9d8e8bb86deeb8d0095fefc0a488b3d15c
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Description: OpenType text shaping engine
+
+Package: harfbuzz-icu
+Version: 14.2.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 60
+Depends: libicu, harfbuzz (= 14.2.0)
+Breaks: harfbuzz (<< 7.0.0)
+Replaces: harfbuzz (<< 7.0.0)
+Filename: ./harfbuzz-icu_14.2.0_aarch64.deb
+Size: 5264
+MD5sum: a354fe0ca380af19299acef698514751
+SHA1: 4ca864be984ab0f8dca1b779398f63b0ac841ebd
+SHA256: 470cd2767b303e9db963bcac3e5ea6b4bc15db21d740adc7927274c9af81d390
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Description: OpenType text shaping engine ICU backend
+
+Package: harfbuzz-utils
+Version: 14.2.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 424
+Depends: harfbuzz (= 14.2.0)
+Filename: ./harfbuzz-utils_14.2.0_aarch64.deb
+Size: 87748
+MD5sum: 3a4000a8a11d9c1fa3f1eb66f0db4f18
+SHA1: 7788945feddafc92146dd87fdda40720ce791c2c
+SHA256: 933908eead7107549c273a13fbe9edf0ce6a399c749c9188cd6c3eb7ad496731
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Description: Tools using the harfbuzz library
 
 Package: hashdeep
 Version: 4.4-9
@@ -3043,6 +3133,22 @@ SHA256: b715d6154288c4bd87b41506fc562fa912aa62d686fb6838009fd15378136543
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
+Package: libcairo
+Version: 1.18.4-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1632
+Depends: fontconfig, freetype, glib, libandroid-shmem, libandroid-execinfo, liblzo, libpixman, libpng, libx11, libxcb, libxext, libxrender, zlib
+Breaks: libcairo-dev, libcairo-gobject
+Replaces: libcairo-dev, libcairo-gobject
+Filename: ./libcairo_1.18.4-2_aarch64.deb
+Size: 485280
+MD5sum: e62833730d52e2c9ec8f5b652c8f63ab
+SHA1: e328614dd337e5d3b4eb58a7a32d58acf78740d3
+SHA256: fe5b71f9a32a7f86f63260588974642e644fbb3b3ff2b4c2376b5246971a4442
+Homepage: https://cairographics.org
+Description: Cairo 2D vector graphics library
+
 Package: libcap
 Version: 2.69-1
 Architecture: aarch64
@@ -3761,6 +3867,22 @@ SHA1: 002196dfab6fdf99e4a631ed3b65c6939dbf37de
 SHA256: 3002a09cfc5b4d84d73a851c8018608373c6d3c4f93e814dbf73b7d43609c116
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: Static libraries for libgpg-error
+
+Package: libgraphite
+Version: 1.3.14-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 296
+Depends: libc++
+Breaks: libgraphite-dev
+Replaces: libgraphite-dev
+Filename: ./libgraphite_1.3.14-3_aarch64.deb
+Size: 82256
+MD5sum: 79397f1213e8daaa7feb460ec1c9c60f
+SHA1: 21f6776fb8c2c0e59ec4f818ae0319b62ae827cc
+SHA256: 0653fbac38a8dcb36c413207b9e720ee84b41d443b8cf3343a6c859f92418d74
+Homepage: https://github.com/silnrsi/graphite
+Description: Font system for multiple languages
 
 Package: libheif
 Version: 1.21.2-2
@@ -4639,6 +4761,33 @@ SHA256: 961b15e2afca747f8e651d7d1919b283ceb5e0d3b63082dc925c8ba5cb793098
 Homepage: https://xiph.org/ogg/
 Description: Static libraries for libogg
 
+Package: libopenblas
+Version: 0.3.33
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 11804
+Filename: ./libopenblas_0.3.33_aarch64.deb
+Size: 2580636
+MD5sum: f79de90c763b3e41544cb61220257df5
+SHA1: 2cc566e2fdff41a8db8b80fe474ea4ee6f960004
+SHA256: dba40abff0a927abb93d1d29d9cbbf74befca9c2445e495a3d57984a30fc73c7
+Homepage: https://www.openblas.net
+Description: An optimized BLAS library based on GotoBLAS2 1.13 BSD
+
+Package: libopenblas-static
+Version: 0.3.33
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 23636
+Depends: libopenblas (= 0.3.33)
+Filename: ./libopenblas-static_0.3.33_aarch64.deb
+Size: 2599968
+MD5sum: 4bfc67bf94a2b157644692dbcbe0cac2
+SHA1: 2f272c4f501b08073d04f49a6bd1c12529866f7f
+SHA256: 022b67a099157b4bb7672533decf558a4d60c57c2d1117a9ca64461931b806ae
+Homepage: https://www.openblas.net
+Description: Static libraries for libopenblas
+
 Package: libopus
 Version: 1.6.1
 Architecture: aarch64
@@ -4696,6 +4845,21 @@ SHA1: e9ee6eb077e418ae8b35644c682ce93440900ba8
 SHA256: 2966a4fade03134b604224c9b89b5ab623ba5692e8021f1435a52f0283e8e2e1
 Homepage: https://www.tcpdump.org
 Description: Static libraries for libpcap
+
+Package: libpixman
+Version: 0.46.4-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 672
+Breaks: libpixman-dev
+Replaces: libpixman-dev
+Filename: ./libpixman_0.46.4-1_aarch64.deb
+Size: 158736
+MD5sum: 0bb1d141ecea721a7af8d8015d2b60a0
+SHA1: bcc49e90788123ffafb7f13f3c4f0eac168f58e7
+SHA256: 8c1ba35efe633617ed18e1a706887462c529f0b446dc83b52ac24b50a155e31e
+Homepage: https://www.pixman.org/
+Description: Low-level library for pixel manipulation
 
 Package: libpng
 Version: 1.6.58
@@ -4773,6 +4937,20 @@ SHA1: 9de76bc9572615a6309bc643ac44e30e67b9efd5
 SHA256: 35b9350a9cc3cb8e04d9031f4e8f839131872db1cb9bdeb8f39eadec29b31581
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library
+
+Package: libraqm
+Version: 0.10.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Depends: freetype, harfbuzz, fribidi
+Filename: ./libraqm_0.10.5_aarch64.deb
+Size: 11108
+MD5sum: 702f7d355ecc2a249c0f2f81d189cdd2
+SHA1: 76eed3b27d9c965e26cebeba43164bdd9b0241cd
+SHA256: 01f1abafbd1037b732d0b00391d88e854821e7eca311e7bdcb6d0a8597e24200
+Homepage: https://github.com/HOST-Oman/libraqm
+Description: Raqm is a small library that encapsulates the logic for complex text layout and provides a convenient API
 
 Package: librav1e
 Version: 0.8.1
@@ -6755,6 +6933,35 @@ SHA256: a6e147c277e8ca76d32a0802a5a3e78c36179c7fb0ea1ddbeaa139ff88402bd2
 Homepage: https://github.com/kkos/oniguruma
 Description: Static libraries for oniguruma
 
+Package: openjpeg
+Version: 2.5.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 516
+Breaks: openjpeg-dev
+Replaces: openjpeg-dev
+Filename: ./openjpeg_2.5.4_aarch64.deb
+Size: 150372
+MD5sum: 9333e2b8b55f86dc4ab2cf309c24d40f
+SHA1: ee15f95eb6570259c45f3af042fd4b8ba4ed9b37
+SHA256: 20908efff580491441a546dcdf0b6f42fa1abf8021a65b9f8ae97032a003d79d
+Homepage: https://www.openjpeg.org/
+Description: JPEG 2000 image compression library
+
+Package: openjpeg-tools
+Version: 2.5.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 276
+Depends: libtiff, littlecms, libpng, openjpeg (= 2.5.4)
+Filename: ./openjpeg-tools_2.5.4_aarch64.deb
+Size: 71648
+MD5sum: 39f96d485371f2d281b19c64d2bb5790
+SHA1: 1521377d6045b9fcf69a7d99338a0bf1a8bd92e3
+SHA256: 0c15d5ba0ae13bfebbb92913e00c5eb5097381a0d62fe8b8f443f6ac8f3ce4a5
+Homepage: https://www.openjpeg.org/
+Description: Command-line tools using the JPEG 2000 library
+
 Package: openssh
 Version: 10.3p1-1
 Architecture: aarch64
@@ -7166,6 +7373,20 @@ SHA256: 8bb300c869587ef9391e33876e8c42933f591e8aa129aac69d7571a8cac046c7
 Homepage: https://python.org/
 Description: Python 3 programming language intended to enable clear programs
 
+Package: python-cryptography
+Version: 48.0.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 5412
+Depends: openssl, python, python-pip
+Filename: ./python-cryptography_48.0.0_aarch64.deb
+Size: 1129464
+MD5sum: 7c15ab727bafc2949027ed0f066c7299
+SHA1: 16a2e50bd97ca10e4e1eac8fe09058b7d96dc0b4
+SHA256: 6c84c79ea53cdadc317728d28910e2ac088bf694ccb5609a91ee1a7920c70fd0
+Homepage: https://github.com/pyca/cryptography
+Description: Provides cryptographic recipes and primitives to Python developers
+
 Package: python-ensurepip-wheels
 Version: 3.13.13-1
 Architecture: all
@@ -7181,6 +7402,78 @@ SHA1: 7f39467ad9775698d44443852e2c9197074249f9
 SHA256: 3f5bda44a0b5882d71d2e56cd87510b42a59e93a16102427f036d88949356eb3
 Homepage: https://python.org/
 Description: Wheels for Python ensurepip
+
+Package: python-lxml
+Version: 6.1.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 4368
+Depends: libxml2, libxslt, python, python-pip
+Filename: ./python-lxml_6.1.0_aarch64.deb
+Size: 1005612
+MD5sum: bbf197b9e3655d9a5e3b1429dae9d4f3
+SHA1: 3d316fc103fff1d933cd37ab9c482568dd547c98
+SHA256: 9075854891025a060a18eeaa3393dfae02bc2208050d338a10004080f522d98a
+Homepage: https://github.com/lxml/lxml
+Description: Python binding for the libxml2 and libxslt libraries
+
+Package: python-numpy
+Version: 2.4.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 20296
+Depends: libc++, libopenblas, python
+Filename: ./python-numpy_2.4.4_aarch64.deb
+Size: 3469372
+MD5sum: 9871f045d6470c473a73738aa1c0f688
+SHA1: 5142f1f7fc48860b6c15f00159b3591314697b4b
+SHA256: e37c20b9cca13668eb0f9361afe3c01ef91884c9443c3e0faaffa1a3b4aee54d
+Homepage: https://numpy.org/
+Description: The fundamental package for scientific computing with Python
+
+Package: python-numpy-static
+Version: 2.4.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 208
+Depends: python-numpy (= 2.4.4)
+Filename: ./python-numpy-static_2.4.4_aarch64.deb
+Size: 46552
+MD5sum: 419eee3042c720d9ceb2f03efddce697
+SHA1: e034c310adce4a982a8cffbc33a6a5d32f2b78db
+SHA256: b4429ec737019603c1af6bd515bb0f293747199d34dac1954201af66a0366a7b
+Homepage: https://numpy.org/
+Description: Static libraries for python-numpy
+
+Package: python-pillow
+Version: 12.2.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 2028
+Depends: freetype, libavif, libimagequant, libjpeg-turbo, libraqm, libtiff, libwebp, libxcb, littlecms, openjpeg, python, python-pip, zlib
+Filename: ./python-pillow_12.2.0_aarch64.deb
+Size: 405620
+MD5sum: 240b47dc9cd5c4e025f92028cbd620fa
+SHA1: f3add59c6f4ba97fd44831af7c75bcd17c93eff7
+SHA256: b718d82c6358a5ca57a0b456ab0bea970befdd53788521fac10e2e54d9ff8045
+Homepage: https://python-pillow.org/
+Description: Python Imaging Library
+
+Package: python-pip
+Version: 26.1.1
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 7380
+Depends: python (>= 3.11.1-1)
+Recommends: clang, make, pkg-config
+Breaks: python (<< 3.11.1-1)
+Filename: ./python-pip_26.1.1_all.deb
+Size: 1190788
+MD5sum: 182b81222a4b426d4711d89f932f8ace
+SHA1: f3ef696e119d24f8f195ec354d5b6e043a5a1702
+SHA256: 652427a2efe65a59c97b1948b180f21023d2e5a7766989ac63e853e91b402a6b
+Homepage: https://pip.pypa.io/
+Description: The PyPA recommended tool for installing Python packages
 
 Package: python-static
 Version: 3.13.13-1

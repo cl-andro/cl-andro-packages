@@ -750,6 +750,19 @@ SHA256: b9fe93bcb206a1cef4dcd1b1825124063f2ce0d95a157a52c9795cc3c5c427f6
 Homepage: https://www.gnu.org/software/diffutils/
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
 
+Package: dnsmasq
+Version: 2.92
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 432
+Filename: ./dnsmasq_2.92_aarch64.deb
+Size: 188088
+MD5sum: becc889b14ac2efc182e1697e8e452c0
+SHA1: ab06a4c4b9d91bd0d985764356a6a15c659eca8a
+SHA256: c544b93bff16ec01aa8493f40289271b43de20df91f933efa51b01bf74822088
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Description: Dnsmasq provides network infrastructure for small networks
+
 Package: docbook-xml
 Version: 5.1-1
 Architecture: all
@@ -1758,6 +1771,20 @@ SHA256: fdd670206bb65717ddc445e692cf49f0b560ccd2d0db1b2fa8bf3506bf3156e3
 Homepage: https://github.com/folkertvanheusden/HTTPing
 Description: ping-like program for http-requests
 
+Package: hw-probe
+Version: 1.6.6
+Architecture: all
+Maintainer: @clandro
+Installed-Size: 588
+Depends: curl, hwinfo, net-tools, perl
+Filename: ./hw-probe_1.6.6_all.deb
+Size: 105804
+MD5sum: 274d5a5bb5c36ff1c1bb265333b321f5
+SHA1: 72d2be3090cf546c0cb7597f0b1e2df02498d468
+SHA256: 6a78fa61efa62d2a6bd3b682f652c680a543c923bf970210b5095f85c4cc19f9
+Homepage: https://github.com/linuxhw/hw-probe
+Description: Tool to probe for hardware and check its operability
+
 Package: hwdata
 Version: 0.407
 Architecture: aarch64
@@ -2619,10 +2646,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 335100
-MD5sum: 9ca3c81b6adf1e43801f7377b406dfae
-SHA1: a4e137d087ad8052d63f4e00db1bf0387ce889ee
-SHA256: 954756f5d006e407390fad6a8492c8f534ba28076fd8ac4990c29ab62a3bf8b4
+Size: 334500
+MD5sum: bafd02ecf3b4f5ff238450a67a483687
+SHA1: fb9132358dbeb4b099d0ce4b4bf96949834a9b19
+SHA256: 99adc31ccbcf49e30fe0a7ae4a93c34646247dbfd3efdc90533fd756b83faaf8
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -5728,10 +5755,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1951904
-MD5sum: 3a18f811dc2584487d3334bedb461014
-SHA1: 1c3d284c57de1b65a18d53aa9dab5e60575e2c04
-SHA256: db4f8229d803befd1eaf1faba632448b22a67ccdda22dd0daa6bd9b6ca6c8a4b
+Size: 1952288
+MD5sum: 29fd4f793914c487560f085e7796caf0
+SHA1: e90594f381fcc81fe5cba72861557c84addcff8b
+SHA256: 7cd4182a2e0651ba5caba24c5da05083b93b6c5241844985d3b06ff2945a2c54
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -5806,6 +5833,21 @@ SHA1: 1c0008ca91ed5957d04af453c8208cddddd2d2a6
 SHA256: f3759c862f147babab93941a96c37a038c84f82425b5c8b2e0218588ac696cf4
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
+
+Package: nexttrace
+Version: 1.6.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 27120
+Breaks: nexttrace-enhanced
+Replaces: nexttrace-enhanced
+Filename: ./nexttrace_1.6.4_aarch64.deb
+Size: 6080308
+MD5sum: 0b3d08320163fc15862b59f61b3e15da
+SHA1: 3701521ce493f1be8385621500e2f49699e61abc
+SHA256: d2cdb5b1fb67466f478cc33860a5b7dccd6a3ddf07445d66b0c0bf1751f5f945
+Homepage: https://github.com/nxtrace/Ntrace-V1
+Description: An open source visual routing tool that pursues light weight
 
 Package: nginx
 Version: 1.30.0

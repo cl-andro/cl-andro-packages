@@ -1048,6 +1048,19 @@ SHA256: 8dc9a14e17fc39dd7e19d715a07d0ef6fbb6ceb8a2e4d209727e465783ada7cc
 Homepage: https://github.com/eza-community/eza
 Description: A modern replacement for ls
 
+Package: faad2
+Version: 2.11.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 712
+Filename: ./faad2_2.11.2_aarch64.deb
+Size: 183256
+MD5sum: 1e8342925a3025cd6a3c8d74a706b0dd
+SHA1: dd9af73810173f8fb7745ff50cc0eeeb0227e37e
+SHA256: e514c331b505f211f87f51c89de319ad4ced4601a0d132dd19acb21548c6d631
+Homepage: https://github.com/knik0/faad2
+Description: Freeware Advanced Audio (AAC) Decoder
+
 Package: fclones
 Version: 0.35.0-1
 Architecture: aarch64
@@ -1204,6 +1217,20 @@ SHA1: 4839bb326104d9e119a64e07d7df3e0081c55036
 SHA256: e8128d9302f4f827f7ab32afdad43a7d5e9ae5a5b879ce8f290de161676832e0
 Homepage: https://fishshell.com/
 Description: The user-friendly command line shell
+
+Package: flac
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 332
+Depends: libflac (= 1.5.0-1)
+Filename: ./flac_1.5.0-1_aarch64.deb
+Size: 105724
+MD5sum: 63cc49e86a30ff4e34e3758786bfae5b
+SHA1: 26e4cdf52ae719456eae82fbb9ca06589d828230
+SHA256: e58d86a34bda8c86e3a3edb33305f0641837f768a0dca84d6576f247be9fd222
+Homepage: https://xiph.org/flac/
+Description: FLAC (Free Lossless Audio Codec) command-line tool
 
 Package: flex
 Version: 2.6.4-4
@@ -2271,6 +2298,20 @@ SHA256: 8aea35881c0d9cb61cd56f5fdcb6ce188ced49493bb8d82368fea0613fece239
 Homepage: https://web.mit.edu/kerberos
 Description: The Kerberos network authentication system
 
+Package: lame
+Version: 3.100-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 616
+Depends: ncurses, libmp3lame (= 3.100-7)
+Filename: ./lame_3.100-7_aarch64.deb
+Size: 192132
+MD5sum: 420f295f7b8c223a035369428050f61e
+SHA1: 1f09f83e707388c9bbe2c1a6be87cfb16f789ebb
+SHA256: 6105766b9cfcbe18755abdd7646249dc504a7f5ff8766f3c4a6e63aaa0f5ce54
+Homepage: https://lame.sourceforge.io/
+Description: High quality MPEG Audio Layer III (MP3) encoder - frontend
+
 Package: lazygit
 Version: 0.61.1
 Architecture: aarch64
@@ -2829,10 +2870,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334680
-MD5sum: 3537108e5c8c2a9a957c55ef725b415d
-SHA1: 11eef2cab1c8d0a014928a365249210b3f660b6b
-SHA256: 5431d7220fcfeaf153108a8027941a963938a91a0740cc28f6e6ed64276bc2f5
+Size: 335000
+MD5sum: 18f6aa59e2c375379ec8eb6191a9bb7c
+SHA1: cf7f6b6e117830d062248203774da3eca75debd0
+SHA256: 1852a2acddf4569ef6cd314336f0edc79613d286a6f48d42dd4bd139a8d5bf6b
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3302,6 +3343,36 @@ SHA1: 07c8e3bd6a06a34a4f7054508035958e24fdb807
 SHA256: 221bda68511e64cacd3deac49b61e19f0eb42a0bc48932c997463c7d484a1cd0
 Homepage: https://sourceware.org/libffi/
 Description: Static libraries for libffi
+
+Package: libflac
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1044
+Depends: libc++, libogg
+Breaks: libflac-dev
+Replaces: libflac-dev
+Filename: ./libflac_1.5.0-1_aarch64.deb
+Size: 202996
+MD5sum: 862672cec1032718310a9513fbf7eeb2
+SHA1: 00543b10f255bfcf6819fc1cc8ab4d83f8acc074
+SHA256: a68cbd0d2cace324d2f9f14b55fca37dbad1c8721fda92937f5a5b58302f4825
+Homepage: https://xiph.org/flac/
+Description: FLAC (Free Lossless Audio Codec) library
+
+Package: libflac-static
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 548
+Depends: libflac (= 1.5.0-1)
+Filename: ./libflac-static_1.5.0-1_aarch64.deb
+Size: 110268
+MD5sum: 5cc3f2d99050e5dc1faf1619597cd8b3
+SHA1: 5bd5b4cf84086a34d1ea0fe9b7da6c2786f7c3c2
+SHA256: 16ec86e32731de86e3291884ee3a6b8591fff0f72d350b569344aebcf35f7025
+Homepage: https://xiph.org/flac/
+Description: Static libraries for libflac
 
 Package: libfuse2
 Version: 2.9.9-2
@@ -3999,6 +4070,35 @@ SHA256: acfe413984c721b584ea7b0efca28082f8769468d046039641b09e2703e35de6
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for (un)mounting filesystems
 
+Package: libmp3lame
+Version: 3.100-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 348
+Breaks: libmp3lame-dev
+Replaces: libmp3lame-dev
+Filename: ./libmp3lame_3.100-7_aarch64.deb
+Size: 114724
+MD5sum: 9ab2e107337257131f61d3bdb91303c5
+SHA1: bdb6859ce11f46eb44a1fcda3c511fca7df1b098
+SHA256: 190338b23ef40d0b755f31dac7911cabca0918fee08f1d11d77c7aab38343115
+Homepage: https://lame.sourceforge.io/
+Description: High quality MPEG Audio Layer III (MP3) encoder
+
+Package: libmp3lame-static
+Version: 3.100-7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 428
+Depends: libmp3lame (= 3.100-7)
+Filename: ./libmp3lame-static_3.100-7_aarch64.deb
+Size: 121308
+MD5sum: 063c9e0a723263d0cdf238b8522ba1ec
+SHA1: d4edc3ea2eb82391fd1fc6536e8aa06201c459ea
+SHA256: c9f6c9ef20b2105791a884923dc8393bad4a874d9bfa8bcbf95a66b9f80688f4
+Homepage: https://lame.sourceforge.io/
+Description: Static libraries for libmp3lame
+
 Package: libmpfr
 Version: 4.2.1-1
 Architecture: aarch64
@@ -4343,6 +4443,35 @@ SHA1: 264a615d215d0aeafb639604f0174d68fb82b1f4
 SHA256: 38075e426f63f732773501049c8414fdb150dd1e9dc64c37f47fed5edbd880c1
 Homepage: https://www.gnupg.org/related_software/npth/
 Description: Static libraries for libnpth
+
+Package: libogg
+Version: 1.3.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 684
+Breaks: libogg-dev
+Replaces: libogg-dev
+Filename: ./libogg_1.3.6-1_aarch64.deb
+Size: 188612
+MD5sum: cd0bb7405a1fce8b21d5f0bfbd4a28d7
+SHA1: 87900e8573b09b5b2bbd36f2471654c0e6bd6b6e
+SHA256: ed049900e8085b8b9b570eacd9c0ce46563c21d5b793e8601b57edd24b2995a4
+Homepage: https://xiph.org/ogg/
+Description: Library for working with the Ogg multimedia container format
+
+Package: libogg-static
+Version: 1.3.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 64
+Depends: libogg (= 1.3.6-1)
+Filename: ./libogg-static_1.3.6-1_aarch64.deb
+Size: 16592
+MD5sum: 3e051f4fd2265dd1e84464d5383f0436
+SHA1: 00ebe3c3fda2f302b898a58a5eb2902c24c705b7
+SHA256: 961b15e2afca747f8e651d7d1919b283ceb5e0d3b63082dc925c8ba5cb793098
+Homepage: https://xiph.org/ogg/
+Description: Static libraries for libogg
 
 Package: libopus
 Version: 1.6.1
@@ -5062,6 +5191,36 @@ SHA1: 16cbdbe19a1d8642d320f12926a9400930dd7f7d
 SHA256: 80f8f983b0968b750527f265bd1b3c149cfb552be8502f13ecb1d26de80fbab0
 Homepage: https://git.linuxtv.org/v4l-utils.git
 Description: Static libraries for libv4l
+
+Package: libvorbis
+Version: 1.3.7-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1764
+Depends: libogg
+Breaks: libvorbis-dev
+Replaces: libvorbis-dev
+Filename: ./libvorbis_1.3.7-4_aarch64.deb
+Size: 262928
+MD5sum: 4961b51c3bc82cf207aed1700bc823fe
+SHA1: 06e70f5e6a132df4a781ff5ef517e615b18e5954
+SHA256: 3e0f9575133c6569c131c15d2c706391918f28a2fa50c51ea6aacaaa60ce0379
+Homepage: https://xiph.org/vorbis/
+Description: Library for using the Ogg Vorbis compressed audio format
+
+Package: libvorbis-static
+Version: 1.3.7-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1020
+Depends: libvorbis (= 1.3.7-4)
+Filename: ./libvorbis-static_1.3.7-4_aarch64.deb
+Size: 157200
+MD5sum: 93e1df2a5dfe94d19091f7cd231ab00f
+SHA1: a29cc3a0ac04ae43505d5a7c349bf00b6e79f9e4
+SHA256: abeb481e96fed58d0f8ab98b0837fa111c8f32dac465716562e4b12892c181b5
+Homepage: https://xiph.org/vorbis/
+Description: Static libraries for libvorbis
 
 Package: libvterm
 Version: 1:0.3.3-2
@@ -6136,10 +6295,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1951980
-MD5sum: 1a966c6b0cc7a7d791276b757676b762
-SHA1: fe4dd1880b020d1295b50208f57b1d9fb658cc2e
-SHA256: 2cd7b3322a68ae40487ba00a31fc3bb0de86ec9d5b507684601ac0cebd674194
+Size: 1952324
+MD5sum: b659b70e401f800dedc743b37e1c4a5c
+SHA1: f00c17a88dd4211b149dbff9f6a7c4c8a2942814
+SHA256: 1246be2885c6202aed9baf2c0281c49758f9e412a128e70552776d220cb1b3ce
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 

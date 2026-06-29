@@ -949,6 +949,20 @@ SHA256: a2097b1310818bf0e5f3e2c5c0c65b56708c47e8e2ad2c906e887c9342b7d78d
 Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 Description: Small SSH server and client
 
+Package: duckdb
+Version: 1.5.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 46988
+Depends: libduckdb (= 1.5.2)
+Filename: ./duckdb_1.5.2_aarch64.deb
+Size: 9935932
+MD5sum: 3c0080ac9102df097b3043def8f86cba
+SHA1: 857ecd0a195174bb93c2a64187024131be738e0f
+SHA256: f550b0946b7d8279b92b576c1598c1f545e90b098ada6995677a231417acaf36
+Homepage: https://duckdb.org/
+Description: DuckDB Command Line Interface (CLI) shell
+
 Package: duf
 Version: 0.9.1
 Architecture: aarch64
@@ -1430,6 +1444,36 @@ SHA1: 38f2bee41e721e7029affa1061c39c97a31d9610
 SHA256: cfca99c616907e494bb83b4497aea48be9b3635eff17eec566fe69e07767a06c
 Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
 Description: Library for image loading and manipulation
+
+Package: gflags
+Version: 2.3.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 448
+Depends: libc++
+Breaks: gflags-dev
+Replaces: gflags-dev
+Filename: ./gflags_2.3.0_aarch64.deb
+Size: 79484
+MD5sum: ba563a634a1f9d7b7f95512554e27092
+SHA1: 9100f13acc6f6f375bcf4d593aa35bafa2a9c9c8
+SHA256: 0ddba065a7bae475e4c95ace7fe8a321611ed3e96315209252942ab8885ccf64
+Homepage: https://github.com/gflags/gflags
+Description: A C++ library that implements commandline flags processing
+
+Package: gflags-static
+Version: 2.3.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 520
+Depends: gflags (= 2.3.0)
+Filename: ./gflags-static_2.3.0_aarch64.deb
+Size: 60148
+MD5sum: 23a9061a75be4e4ae3a95cb725fba683
+SHA1: 9c8a784fdef6b0d669c6842c56d5064f6356b482
+SHA256: d67e72479afb19ed4f25efa451b6107d5d675b5a71112f19788685a8358d3ab9
+Homepage: https://github.com/gflags/gflags
+Description: Static libraries for gflags
 
 Package: gh
 Version: 2.92.0
@@ -2303,6 +2347,22 @@ SHA256: 66d5f5560678dae490585c5cce870da13b52db3bbeea05cfdeed8acac10bf1e1
 Homepage: https://www.greenwoodsoftware.com/less/
 Description: Terminal pager program used to view the contents of a text file one screen at a time
 
+Package: leveldb
+Version: 1.23-4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 420
+Depends: libc++, libsnappy
+Breaks: leveldb-dev
+Replaces: leveldb-dev
+Filename: ./leveldb_1.23-4_aarch64.deb
+Size: 109604
+MD5sum: 28efd4adcce62496e5d61b373b723da0
+SHA1: b9f749b69d91b159bc07a45cfac5b5326193a875
+SHA256: cb870de09323f586a8517236ba5920cdf78b22331e5b52afb9806d8bf5c059f1
+Homepage: https://github.com/google/leveldb
+Description: Fast key-value storage library
+
 Package: libacl
 Version: 2.3.2
 Architecture: aarch64
@@ -2769,10 +2829,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334736
-MD5sum: bf3742b401773881fc0ea021511445fb
-SHA1: 7ff4deb38bf4540ce5268408d125999996a04f22
-SHA256: 6176f133621b99416f26a704195d6604c1463f184e766d205e34b5ad7682bd67
+Size: 334704
+MD5sum: ef32299601ea4d807f2b8fc8c3239ab2
+SHA1: 9977e2f6ba35b306553d3fbb70447029be5ec5ec
+SHA256: 83f2a92ea9f56cda6a01fe20f6fc82b08692c6b524c07d9800e2174d5fd52f1c
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -3039,6 +3099,34 @@ SHA1: 1b4bc6356c45dcdb909dde5352d35acdabc4d97d
 SHA256: d12494d16fafedcb3e5b0c892f9ce64658f2933eef639822f3e494b1a29e7264
 Homepage: https://sourceware.org/lvm2/
 Description: A device-mapper library
+
+Package: libduckdb
+Version: 1.5.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 65104
+Depends: libc++, openssl
+Filename: ./libduckdb_1.5.2_aarch64.deb
+Size: 11864780
+MD5sum: cb2104a0440f40fc6d6f1e0cb4bd9930
+SHA1: 8724237abe5002b3e53b39ae7ba43e3141b06b84
+SHA256: a56109c3c7a256c7e3246fb5a07b58bebe66588a6038744842a81e8a66fa6a2e
+Homepage: https://duckdb.org/
+Description: An in-process SQL OLAP database management system
+
+Package: libduckdb-static
+Version: 1.5.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 141784
+Depends: libduckdb (= 1.5.2)
+Filename: ./libduckdb-static_1.5.2_aarch64.deb
+Size: 15064672
+MD5sum: 4860ad710b1c0fa82e083f127f0bf233
+SHA1: b249ddfcb35fd4141921dd74411dd2f00a2f516e
+SHA256: c2ad53b3f849249ad3b08ff22120b3ea638bb76b7d49deda2835eb57be6187ae
+Homepage: https://duckdb.org/
+Description: Static libraries for libduckdb
 
 Package: libdw
 Version: 0.193-1
@@ -3666,6 +3754,33 @@ SHA1: 19ab8a4d6bc1690fee3abcde5f6e5fce3ebdb92b
 SHA256: 7d0fa9c0c12375b0908090261d1d732d5976c4b23903b74546d7eb500763a146
 Homepage: https://gnupg.org/related_software/libksba/
 Description: Static libraries for libksba
+
+Package: liblmdb
+Version: 0.9.35
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 548
+Filename: ./liblmdb_0.9.35_aarch64.deb
+Size: 77704
+MD5sum: ae3349f763bd68edc13b4d43edbb440c
+SHA1: 4d800d43470b7056d5e26a09faad76e381c972cf
+SHA256: fc11693bf64962fd53a20ef205f9120452ea8d3ce2bfefeaa87e92a9d9984d7c
+Homepage: https://symas.com/lmdb/
+Description: LMDB implements a simplified variant of the BerkeleyDB (BDB) API
+
+Package: liblmdb-static
+Version: 0.9.35
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 472
+Depends: liblmdb (= 0.9.35)
+Filename: ./liblmdb-static_0.9.35_aarch64.deb
+Size: 108696
+MD5sum: 2eb532d0b4f722a9fb192e6fb325131c
+SHA1: af54d436aac73eea22e0769f04b4639e50c37971
+SHA256: 8132ec6715a6dcc95d05f64eea190609cde1884f341195f7c9760026703df547
+Homepage: https://symas.com/lmdb/
+Description: Static libraries for liblmdb
 
 Package: libltdl
 Version: 2.5.4-2
@@ -4404,6 +4519,34 @@ SHA1: a2da233bf8756ecd86a6ca858535544b17f1aca1
 SHA256: d05bbc3513d57765bea7d411565070ef2442d1441ca3fb01fa37c887b9362c11
 Homepage: https://cwrap.org/resolv_wrapper.html
 Description: A wrapper for DNS name resolving or DNS faking
+
+Package: librocksdb
+Version: 8.11.3-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 13340
+Depends: gflags, libc++, libsnappy
+Filename: ./librocksdb_8.11.3-3_aarch64.deb
+Size: 2864640
+MD5sum: b303c4bb4ec027d7caa99f4e6382e038
+SHA1: 470b9d1124fbc61bd3984a81ebc50a3accf86fc0
+SHA256: 373ab0121aae1242e8c216372971d9449e5636c69d0abf7627b5321942d6ae5d
+Homepage: https://rocksdb.org/
+Description: A persistent key-value store for flash and RAM storage
+
+Package: librocksdb-static
+Version: 8.11.3-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 33360
+Depends: librocksdb (= 8.11.3-3)
+Filename: ./librocksdb-static_8.11.3-3_aarch64.deb
+Size: 3701744
+MD5sum: 9b2c6cbdc4c95f4207fa6af940cca8e9
+SHA1: 0133ef9f162c694fb62065ce18355ab93314fbd6
+SHA256: 9472fe37cb4470b2fcd35657eb93b37957e60aca5c73644a8e0354a351a67948
+Homepage: https://rocksdb.org/
+Description: Static libraries for librocksdb
 
 Package: libseccomp
 Version: 2.6.0
@@ -5993,10 +6136,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952204
-MD5sum: ad19893c330125505844149512e69de4
-SHA1: cc0844ef06ec6e140b91763433683a756848ae50
-SHA256: f6302a67146ea7df8a7f1804ff61313ec1cb85797e377f293687b8b9ed670c79
+Size: 1952004
+MD5sum: 9ed926ffc7ffb78c7de0f816b10f36e3
+SHA1: 04c86935d1ef622bebc569cb4d03f964eb8c4c53
+SHA256: e33f51c17e2c2a5d0c620c41be02322fceeb426139c7e1f28b600f46f1d4b6ba
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 

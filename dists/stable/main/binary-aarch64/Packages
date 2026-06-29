@@ -273,6 +273,19 @@ SHA256: bc6b4030fc1441e31840658ffb6076aeb2231bb34ca01b81b1a9b30e3fae282e
 Homepage: http://savannah.nongnu.org/projects/attr/
 Description: Static libraries for attr
 
+Package: authbind
+Version: 2.2.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 108
+Filename: ./authbind_2.2.0-1_aarch64.deb
+Size: 14472
+MD5sum: 7d5b0ec5c88ffbf66155acd529fb6835
+SHA1: ff42a891cb5130ffd6d5f646d0038f9b7aa188be
+SHA256: 81a70111bf6bc1ae37ddca6f66feaf27a28541dc96c6c39de60a43e3abd88a74
+Homepage: https://www.chiark.greenend.org.uk/ucgi/~ian/git/authbind.git
+Description: Bind sockets to privileged ports without root
+
 Package: autoconf
 Version: 2.73
 Architecture: all
@@ -388,6 +401,20 @@ SHA1: bc971619a709e25641a9477a983337df15f29106
 SHA256: ec22a66a1bb1503403a8524c43fba64fd2f40b452a420b1e6f9d69e29294204f
 Homepage: https://www.gnu.org/software/bc/
 Description: Arbitrary precision numeric processing language
+
+Package: below
+Version: 0.11.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 10904
+Depends: libelf, zlib
+Filename: ./below_0.11.0_aarch64.deb
+Size: 2620788
+MD5sum: db7aff53d0d6db07984056e8714afb5d
+SHA1: 2a10d6f3c68bcb15503fd4f9ac0ea606e4d92f38
+SHA256: 696410e65ee82c1f0155173b52878064ffcddc931cbdf7761547c825d33fc4b8
+Homepage: https://github.com/facebookincubator/below
+Description: An interactive tool to view and record historical system data
 
 Package: bindfs
 Version: 1.18.4
@@ -7910,6 +7937,20 @@ SHA256: 11cbee1d3fcb8996f800807eb060f64856a63059f00752b6a46a3888d00515a5
 Homepage: https://github.com/vergoh/vnstat
 Description: Image output for vnstat
 
+Package: wavemon
+Version: 0.9.7
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 184
+Depends: libcap, libnl, libnl-cli, ncurses
+Filename: ./wavemon_0.9.7_aarch64.deb
+Size: 46160
+MD5sum: 8f365cf5f411c2dde21405e59d4a8cc6
+SHA1: 407b315f7a352f0b43f18d688f7d662020629f31
+SHA256: 6ad7dccba6100cea9d7bd34ac2111309d58432556f61bcffe004cff4376a01ed
+Homepage: https://github.com/uoaerg/wavemon
+Description: Ncurses-based monitoring application for wireless network devices
+
 Package: wget
 Version: 1.25.0-1
 Architecture: aarch64
@@ -7995,6 +8036,19 @@ SHA1: 940bf7396c79555eae1ca02626a9937c1ff5e43f
 SHA256: 3eabb3c6cc79da0520cd8e7b6b93c6b4685cf912e301c6179d8f3e995e3e5f9a
 Homepage: https://hostap.epitest.fi/wpa_supplicant
 Description: Utility providing key negotiation for WPA wireless networks
+
+Package: wush
+Version: 0.4.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 48540
+Filename: ./wush_0.4.1-1_aarch64.deb
+Size: 10510072
+MD5sum: 1061652b42b0197ddbff45afbeb40b84
+SHA1: 5517d67e056b1e5b2ddd3c9fb522a56020f31954
+SHA256: cbba47ab6ecd046d89376b3c053ecd553d0ba45ba1a9547e17a22c6993730865
+Homepage: https://github.com/coder/wush/
+Description: simplest & fastest way to transfer files between computers
 
 Package: x264
 Version: 1:0.164.3191-1

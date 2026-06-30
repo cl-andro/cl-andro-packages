@@ -700,6 +700,19 @@ SHA256: cf252eb62cc35703fcfd9dd1b15ffae3a62f054b67abfb54b2036c42fe2424f3
 Homepage: https://ccache.samba.org
 Description: Compiler cache for fast recompilation of C/C++ code
 
+Package: cjson
+Version: 1.7.19
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 180
+Filename: ./cjson_1.7.19_aarch64.deb
+Size: 25372
+MD5sum: cec3d24a27bed716c644fc96ceb8c0f2
+SHA1: 6ed9957cb8d7927fa56d5ad3534b55d8f8127e85
+SHA256: b3d6ef294af8de9f886fbe14d6480c416448f3fa702afbcecbb52750d7d6f457
+Homepage: https://github.com/DaveGamble/cJSON
+Description: Ultralightweight JSON parser in ANSI C
+
 Package: cloudflared
 Version: 2026.3.0
 Architecture: aarch64
@@ -3741,6 +3754,33 @@ SHA256: b696c6f6b0b7a261ea789810e1b78d20032885b6a746424d5b044c55e041f78b
 Homepage: https://github.com/libfuse/libfuse
 Description: FUSE (Filesystem in Userspace) is an interface for userspace programs to export a filesystem to the Linux kernel
 
+Package: libfyaml
+Version: 0.9.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1264
+Filename: ./libfyaml_0.9.6-1_aarch64.deb
+Size: 371608
+MD5sum: b8963e37cc0f9400f0f8d79831de3f88
+SHA1: 22ee114978e203b7966174abd5d8343fbb86ea17
+SHA256: f6b305158e2022a7df93bdcdb7efeb8c2622b24cc476ce95e0abefea3467d61e
+Homepage: https://pantoniou.github.io/libfyaml/
+Description: Fully feature complete YAML parser and emitter
+
+Package: libfyaml-static
+Version: 0.9.6-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1100
+Depends: libfyaml (= 0.9.6-1)
+Filename: ./libfyaml-static_0.9.6-1_aarch64.deb
+Size: 240292
+MD5sum: c2baf0c678481d445d1692e6f2bc7f91
+SHA1: 9aa38ad22047e466544b3a5d80c57f8e6325e4ae
+SHA256: 50a631e785abbe936874f50c415f488ffdc6f80f0d81c70ba8df3e87fc872188
+Homepage: https://pantoniou.github.io/libfyaml/
+Description: Static libraries for libfyaml
+
 Package: libgcrypt
 Version: 1.11.2-1
 Architecture: aarch64
@@ -4992,6 +5032,20 @@ SHA256: 35b9350a9cc3cb8e04d9031f4e8f839131872db1cb9bdeb8f39eadec29b31581
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library
 
+Package: libpugixml
+Version: 1.15-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 384
+Depends: libc++
+Filename: ./libpugixml_1.15-1_aarch64.deb
+Size: 86160
+MD5sum: 53797be1ad67f06295474a84f5790c1a
+SHA1: ae93c8f3ebc8639ebba3c3ed7979c9b3da84be2d
+SHA256: 22f2019ee77a50f82e886efbd3882f50f4d1fbdb661652469cc21331effd4ad6
+Homepage: https://pugixml.org/
+Description: Light-weight, simple and fast XML parser for C++ with XPath support
+
 Package: libraqm
 Version: 0.10.5
 Architecture: aarch64
@@ -5347,10 +5401,10 @@ Maintainer: @clandro
 Installed-Size: 280
 Depends: libc++
 Filename: ./libtinyxml2_11.0.0-1_aarch64.deb
-Size: 53700
-MD5sum: c439ac0ac47a5d667151f0514bcd976e
-SHA1: eab46ba9c5f9ff46bd12c8bc584987e40cf0675a
-SHA256: 1d61ef6ddd45fc0269ed79b0a7ff19574df5b198e82bf8cffb2e2db77a7de35d
+Size: 53828
+MD5sum: 3d0ec7431519fb5dc68d59ba11865184
+SHA1: 27fdd3fa98786c4a8f412ab23b73c68a9c025b3d
+SHA256: 146426e510ff6527d7c75d9c59379baf6e5b2f6c87c624c0069b99f7020137c3
 Homepage: http://www.grinninglizard.com/tinyxml2/
 Description: A simple, small, efficient, C++ XML parser
 
@@ -7910,6 +7964,20 @@ SHA256: 49ee7ac8b1752d35fc03df0fdda5544d53dd2ed7ceacb7949040a8fc2d0f0410
 Homepage: https://freedesktop.org/Software/shared-mime-info
 Description: Freedesktop.org Shared MIME Info
 
+Package: simdjson
+Version: 4.6.4
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 7728
+Depends: libc++
+Filename: ./simdjson_4.6.4_aarch64.deb
+Size: 267996
+MD5sum: 5c813dbd96543abc3a736e271279c6cb
+SHA1: b0578947b1d2d7a6236878f66fe4c6393fa94222
+SHA256: ffa1248e408732a5f754d7d51f16d630a7eac1ea80d7be259714087cdec16588
+Homepage: https://simdjson.org/
+Description: A C++ library to see how fast we can parse JSON with complete validation
+
 Package: smartmontools
 Version: 7.5-1
 Architecture: aarch64
@@ -8574,6 +8642,19 @@ SHA1: ee071dfcd342fbc08ee7825652edf204adfa4eb7
 SHA256: 993ad642aa500a37acea24304d30a1c6e6f7a08d4d10c6b683ee2e4d9aa0ab05
 Homepage: https://tmux.github.io/
 Description: Terminal multiplexer
+
+Package: toml11
+Version: 4.4.0
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 816
+Filename: ./toml11_4.4.0_aarch64.deb
+Size: 73368
+MD5sum: 4546adde729ee7a366a8ef3bfac4fc04
+SHA1: 740eab3e36a1bb1f6b4eee2f72a0fe1e523c16a4
+SHA256: 30ea4a68c6a01c72e41ef14c2ed4141a2e1a3d9996e03cb441b44872e22fd7fd
+Homepage: https://github.com/ToruNiina/toml11
+Description: toml11 is a C++11 (or later) header-only toml parser/encoder depending only on C++ standard library
 
 Package: tor
 Version: 0.4.9.8

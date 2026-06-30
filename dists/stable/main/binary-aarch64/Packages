@@ -2007,6 +2007,20 @@ SHA256: 270c818b5a50a50754ce40bd18761292a31f66e538f8fc9b5a8a9d3cf056266b
 Homepage: https://www.gnu.org/software/grep/
 Description: Command which searches one or more input files for lines containing a match to a specified pattern
 
+Package: groff
+Version: 1.23.0-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 35532
+Depends: libc++, perl, mandoc
+Filename: ./groff_1.23.0-2_aarch64.deb
+Size: 9720168
+MD5sum: 4c2302a89494b65569798a7243b0bb40
+SHA1: 23f973525543c9ad76c4cbce55b5b41d571ecf8e
+SHA256: 414e9c6fcab49c385db97afcd3cb674f5575286dc56ba26455346b6ae7c706e7
+Homepage: https://www.gnu.org/software/groff/
+Description: typesetting system that reads plain text mixed with formatting commands and produces formatted output
+
 Package: gzip
 Version: 1.14-1
 Architecture: aarch64
@@ -3126,10 +3140,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334516
-MD5sum: b606b4c0bb49e85e8403279e9a77ffdc
-SHA1: ddaf60dd95e38a17b049f80939d4a5ddbef24457
-SHA256: b715d6154288c4bd87b41506fc562fa912aa62d686fb6838009fd15378136543
+Size: 336508
+MD5sum: 2d74b8aceba52913369fdfd48c377f09
+SHA1: cbe20f988da479df24fdeaa1558135a4f69b74cb
+SHA256: b067ef7ab4dde0837391ba58f598dee53e050290a31d54fc07624c060a704f30
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -6680,10 +6694,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1951964
-MD5sum: 399b9bd37fd534fb6af1696afd4ad44a
-SHA1: f346673eaff78da85e8cc8b527128f0b658f68ff
-SHA256: faca572acc3bbebff2e740512d29564582ad1e685ce29aa2a0f9fe6477b6fb9c
+Size: 1952288
+MD5sum: ba80d7515db43232f0319effab234401
+SHA1: 5fa498b7d74d18958b8d7a371174622a8f61e248
+SHA256: 454220eb7bc904c9f8c753bc157a8971835620eb503435633ca17cb6723eee21
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -8169,6 +8183,20 @@ SHA256: 72d97b844c2ea82ae19b7646fed23dd8216517635554c84c2c85920e6f0c36a8
 Homepage: https://github.com/bwalex/tc-play
 Description: Static libraries for tcplay-veracrypt
 
+Package: tectonic
+Version: 0.16.9
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 14832
+Depends: fontconfig, freetype, harfbuzz, libc++, libgraphite, libicu, libpng, openssl, zlib
+Filename: ./tectonic_0.16.9_aarch64.deb
+Size: 3471396
+MD5sum: c82bdb53eb4ef7f6a654b94ed41e3839
+SHA1: a343107f1dfa16cb4a75a56ec6358c36baf7e2e8
+SHA256: ccfa4a29b867546f4683305ef1fc6b1f5072bc2c3021fde8aab2582b6a3463a3
+Homepage: https://tectonic-typesetting.github.io/
+Description: A modernized, complete, self-contained TeX/LaTeX engine
+
 Package: termshark
 Version: 2.4.0-5
 Architecture: aarch64
@@ -8657,6 +8685,20 @@ SHA1: 3f6cbf1de66fecc10982f9aebefed720fa0a1dd4
 SHA256: 0cd0b0c1304e760ab4f5a95a2c5ac4926a1a14dbfa492cccbf5b564c6698e670
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: typst
+Version: 0.14.2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 40500
+Depends: openssl
+Filename: ./typst_0.14.2_aarch64.deb
+Size: 12949588
+MD5sum: 0787cea2abfbdb1d0ce8170a462620e3
+SHA1: f5353e88b61ab6750515283ce3eda18e42c2d15b
+SHA256: 444d0a018b6e95d2590114060c0472559190dace6d2d1b23db950d3f679af0e7
+Homepage: https://typst.app/
+Description: A new markup-based typesetting system that is powerful and easy to learn
 
 Package: unbound
 Version: 1.25.0

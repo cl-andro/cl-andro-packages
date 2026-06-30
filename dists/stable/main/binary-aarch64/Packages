@@ -24,6 +24,19 @@ SHA256: c00f29681fd0a33a52faa6ba326d34e6a4030f8e7555d115f1ba6b7a16b08560
 Homepage: https://github.com/mevdschee/2048.c
 Description: Console version of the game '2048' for GNU/Linux
 
+Package: 6tunnel
+Version: 0.14
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 72
+Filename: ./6tunnel_0.14_aarch64.deb
+Size: 9636
+MD5sum: e10dfe7147e964b137574a050170a96a
+SHA1: 74f4236809e8ab13a62f02dd492e075b4df5315e
+SHA256: 058337eb0215948ded2dd004834e17c1e65fbb815b7e69cb50710f1863be0fc1
+Homepage: https://github.com/wojtekka/6tunnel
+Description: Allows you to use services provided by IPv6 hosts with IPv4-only applications and vice-versa
+
 Package: abseil-cpp
 Version: 20250814.1
 Architecture: aarch64
@@ -559,6 +572,19 @@ SHA256: 71c806a61b139abb960b7297be842b69d787a1d5850bf91e19c24643a8130054
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for handling block device attributes
 
+Package: bore
+Version: 0.6.0-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 1812
+Filename: ./bore_0.6.0-1_aarch64.deb
+Size: 569796
+MD5sum: 54a07a627ed0f2cb946b71362eca19f2
+SHA1: 60782b38e6bd8a7b610f9a69005c1fad9fc6538f
+SHA256: 05ffa87c1ff0eb5c44c2f785146d74d82702b490419d79b557ec311017e93c1a
+Homepage: https://github.com/ekzhang/bore
+Description: Bore is a simple CLI tool for making tunnels to localhost
+
 Package: brotli
 Version: 1.2.0
 Architecture: aarch64
@@ -954,6 +980,19 @@ SHA1: f8b12f9cdf6c603f24385c6da9251b88d391d039
 SHA256: b9fe93bcb206a1cef4dcd1b1825124063f2ce0d95a157a52c9795cc3c5c427f6
 Homepage: https://www.gnu.org/software/diffutils/
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
+
+Package: dns2tcp
+Version: 0.5.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 144
+Filename: ./dns2tcp_0.5.2-2_aarch64.deb
+Size: 33012
+MD5sum: 8149430d9f320d4ce14a292f0e5a4ead
+SHA1: c43440e0dbf6ef65b766a2f423eb0748a0b61968
+SHA256: 76df6c2561605b8a8699eefa53e237942db912dbaeb10652ba7b06f7dac82e1d
+Homepage: https://github.com/alex-sector/dns2tcp
+Description: dns2tcp is a tool for relaying TCP connections over DNS
 
 Package: dnsmasq
 Version: 2.92
@@ -6637,6 +6676,19 @@ SHA256: 6f2332980555661181078f750fe20ba7be72cb647535641aa57d6a76337e028e
 Homepage: https://mdocml.bsd.lv/
 Description: Man page viewer from the mandoc toolset
 
+Package: microsocks
+Version: 1:1.0.5-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 60
+Filename: ./microsocks_1_1.0.5-1_aarch64.deb
+Size: 6920
+MD5sum: e80d60818926f99c5774ce3baa3d87f3
+SHA1: 0fcb6b163ca1cecdcc6abc0e2683d03602221684
+SHA256: 4e2a8e0e8e98c453fa7bad4312727a4c75edde94f2d042853247c6f6b85bca9c
+Homepage: https://github.com/rofl0r/microsocks
+Description: tiny, portable SOCKS5 server with very moderate resource usage
+
 Package: miniserve
 Version: 0.35.0
 Architecture: aarch64
@@ -7743,6 +7795,19 @@ SHA256: 3c2ae409693e50c615dfe5c90d5d57480104e68bc0685c44ad27623d89c13f90
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Static libraries for readline
 
+Package: redir
+Version: 3.3-3
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 84
+Filename: ./redir_3.3-3_aarch64.deb
+Size: 13712
+MD5sum: e2fa4f517454eed9be2f27e5c45bec90
+SHA1: c1f33c54fdb9becdc0bd61efe665f9dcfa6c68ec
+SHA256: 9848398f081b2ff9b4af5fc2bd57bbdc41454c066ebdbdb70ae2991984781de4
+Homepage: https://github.com/troglobit/redir
+Description: TCP port redirector for UNIX
+
 Package: redis
 Version: 1:8.6.1
 Architecture: aarch64
@@ -7802,6 +7867,19 @@ SHA1: 2719565eec152ad63803031a8b434032305141c5
 SHA256: b8d8a264f43dbb89b13cf57b54c2cdd91ad9389d25bbfd738c8bddf2d2882ede
 Homepage: https://github.com/rhash/RHash
 Description: Static libraries for rhash
+
+Package: rinetd
+Version: 1:0.73-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 88
+Filename: ./rinetd_1_0.73-2_aarch64.deb
+Size: 15044
+MD5sum: 701ff5c819ddcad6467c3ed7b810be29
+SHA1: 2684e38583500df9193d8bf2ab1a6d3dea1f39e1
+SHA256: fcce80113d5f10db8421a7f36be7ba04ae848c84b1c4146904ac3f226e3911ab
+Homepage: https://github.com/samhocevar/rinetd
+Description: A user-mode TCP port redirection server
 
 Package: ripgrep
 Version: 15.1.0-1

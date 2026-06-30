@@ -1,3 +1,29 @@
+Package: 0verkill
+Version: 1:0.16-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 3156
+Filename: ./0verkill_1_0.16-1_aarch64.deb
+Size: 162940
+MD5sum: 5002def3f6dea19693c97271d82f123d
+SHA1: a1e1b0e7ed9ebba9ffbf66bbbb02a07e90092004
+SHA256: aea8b097a4415c01e833dbb49cc0ccd1ba1b67d74a747a54193b498ab362def9
+Homepage: https://github.com/hackndev/0verkill
+Description: Bloody 2D action deathmatch-like game in ASCII-ART
+
+Package: 2048-c
+Version: 1:1.0.3-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 56
+Filename: ./2048-c_1_1.0.3-1_aarch64.deb
+Size: 6052
+MD5sum: 074e9439216106d2afd3daf0c5768d16
+SHA1: 7a1ca6d1e190811f253b746a3ec6a3470fa3f977
+SHA256: c00f29681fd0a33a52faa6ba326d34e6a4030f8e7555d115f1ba6b7a16b08560
+Homepage: https://github.com/mevdschee/2048.c
+Description: Console version of the game '2048' for GNU/Linux
+
 Package: abseil-cpp
 Version: 20250814.1
 Architecture: aarch64
@@ -1992,6 +2018,20 @@ SHA256: 070d68a81ab17810ddf8fe3ee12c6187405712134ff5b5c42887eb5890bd3cb5
 Homepage: https://www.rodsbooks.com/gdisk/
 Description: A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
 
+Package: greed
+Version: 4.5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 76
+Depends: ncurses
+Filename: ./greed_4.5_aarch64.deb
+Size: 10268
+MD5sum: 7de4d703d82dc935a3230218787eb109
+SHA1: 9d33ab90133a701ab2626628bd7f92f73f381ac8
+SHA256: 059fcd8b61a9bf2995a4deb8da3f2630cc6d9d6ebd0cea32f1e1e7fcee7fb634
+Homepage: http://www.catb.org/~esr/greed/
+Description: Game where you try to eat as much as possible of the board before munching yourself into a corner
+
 Package: grep
 Version: 3.12-3
 Architecture: aarch64
@@ -3140,10 +3180,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 336508
-MD5sum: 2d74b8aceba52913369fdfd48c377f09
-SHA1: cbe20f988da479df24fdeaa1558135a4f69b74cb
-SHA256: b067ef7ab4dde0837391ba58f598dee53e050290a31d54fc07624c060a704f30
+Size: 334464
+MD5sum: f50995f5c51cd8459c4c93234888c248
+SHA1: 90a41710a3d0aada6ac7fd2b50b0860d47773a70
+SHA256: f20911bd64ef1ecce643758e24dd2cd476a6c3d1538ce4d2d19a0b3f7ce531bf
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -6617,14 +6657,14 @@ Package: ncurses
 Version: 6.6.20260307+really6.5.20250830
 Architecture: aarch64
 Maintainer: @clandro
-Installed-Size: 1612
+Installed-Size: 1608
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Filename: ./ncurses_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 558080
-MD5sum: b622149e4955ff56ea23e6acb6c119ff
-SHA1: b894f7a8788fef77fec6ee9218b1ffada925849d
-SHA256: f4c50a6bb1adb7e79bccc725d32fce9fe9280c9882cf1b615db2b2ee63a9ab05
+Size: 557948
+MD5sum: e39b939afe4bba3787f5cdc770586e60
+SHA1: d76c55dacc30e2fada4f2d76c949b324367c759f
+SHA256: 42ce5b1d97054d817858c443f2615ab11181767c6240daa77282fa2ce2b21344
 Homepage: https://invisible-island.net/ncurses/
 Description: Library for text-based user interfaces in a terminal-independent manner
 
@@ -6635,10 +6675,10 @@ Maintainer: @clandro
 Installed-Size: 784
 Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-static_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 153860
-MD5sum: c5197b376c32d6b4a2de3f680c8c21b9
-SHA1: 6f01272b493c0469c63efb8e7d5fba530474e835
-SHA256: abefd6bae94163ee4e8db6524b7bc21412b34e9dbb9f76a3f6ef83adad0fed34
+Size: 154180
+MD5sum: 6a47602dfe8d231980c9b459a7e7609c
+SHA1: c537b35c100aa6c1fb8af26759bd3737184cff9c
+SHA256: 5c0f24baf5d1c21d704c0bd825df430befa9784ca252b9d97911f852e8274ab9
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for ncurses
 
@@ -6651,10 +6691,10 @@ Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
 Filename: ./ncurses-ui-libs_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 32960
-MD5sum: c4b92bb461d966e91be2844969f5311e
-SHA1: 4042b3c33d48c6dc9d82b24a4f81752891299ac5
-SHA256: a5bd6a15ac889d310f411dbc2638679b94011380ce3727dcf85e781b8eaa74f1
+Size: 32948
+MD5sum: 54aa15994394523f9792918c857fa3d3
+SHA1: b2948ef569b0940797a1add49ba0646d16a1aca0
+SHA256: 360b5d97440a462820144ef3c2007657ddfe135c781e131ec5f9079ff6824556
 Homepage: https://invisible-island.net/ncurses/
 Description: Libraries for terminal user interfaces based on ncurses
 
@@ -6665,10 +6705,10 @@ Maintainer: @clandro
 Installed-Size: 260
 Depends: ncurses-ui-libs, ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-ui-libs-static_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 39580
-MD5sum: c7b171e17f1ba3351da5073d0172bdba
-SHA1: 15c6a9462ee5c5fcb71023634fd8fa2dcb0287cd
-SHA256: 8f0887ab8746e5c5665e0d010a1fd4b1f4ad990c67706f1b02d78484fb5da416
+Size: 39592
+MD5sum: acfe3ec71c67f4becf934eb3fe48d007
+SHA1: e0a375bf5e27be4dfc53c4a6a2c32311125d19ee
+SHA256: 4795d2d22eba9a1547a7e1d90670dc15f662e5fbbd9fd240585b52a0679040c4
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for terminal user interfaces based on ncurses
 
@@ -6679,10 +6719,10 @@ Maintainer: @clandro
 Installed-Size: 272
 Depends: ncurses (= 6.6.20260307+really6.5.20250830)
 Filename: ./ncurses-utils_6.6.20260307+really6.5.20250830_aarch64.deb
-Size: 88956
-MD5sum: c72384d09325cb7ca17270a1d8d00a98
-SHA1: 47ff60a9248bc20c933921a5ab1bb37a8381d111
-SHA256: 02c914589b4c9e8c1048676de889edb11b6c9fa9efd3fb5e7d4258ccce6a2eeb
+Size: 88928
+MD5sum: ad7ccc42373ce0aac067d5b3717b18f3
+SHA1: fad9a5636907782c7140577f71d85444ab35f9f4
+SHA256: 5a379ce7dc4b4b6bbd9460896df1798bf8ea82eb43c62b0c4fb01d05abc27b17
 Homepage: https://invisible-island.net/ncurses/
 Description: Tools for working with terminals
 
@@ -6694,10 +6734,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952288
-MD5sum: ba80d7515db43232f0319effab234401
-SHA1: 5fa498b7d74d18958b8d7a371174622a8f61e248
-SHA256: 454220eb7bc904c9f8c753bc157a8971835620eb503435633ca17cb6723eee21
+Size: 1952140
+MD5sum: 09302ecfc725d97f4fa40fab6515ee3c
+SHA1: cf9f4bf6c11ffd05d01752f52015eb16b09e2dd7
+SHA256: 3feb85839e6090ebf7c5b3a5a387e48d53b540883e7e66557c03e93a016b9960
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -7094,6 +7134,20 @@ SHA1: a5bd9c50c5f10ffd8e0a7fd00c491c6de3a07775
 SHA256: 00463646d1665c49c480bfa9383acb34ec54e8037de62bdad6c2116838b945d1
 Homepage: https://github.com/p7zip-project/p7zip
 Description: Command-line version of the 7zip compressed file archiver
+
+Package: pacman4console
+Version: 1.3-5
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 140
+Depends: ncurses
+Filename: ./pacman4console_1.3-5_aarch64.deb
+Size: 12380
+MD5sum: 531a8d4a7e674010fcdd8965266f4e10
+SHA1: 417fd96bab5b48d0564d1ac7ace3ef6c3ecfdecc
+SHA256: e4a656235c75c2bee2e72d723602592cf29f363e685bc93f3ec7b4836022cd5b
+Homepage: https://sites.google.com/site/doctormike/pacman.html
+Description: A 9 level ncurses pacman game with editor
 
 Package: parted
 Version: 3.6-1
@@ -7982,6 +8036,20 @@ SHA256: 6e1307e0308dc1120fd4ca9647a6dd7b25ccaa4bc011f9befc50d76b4b6a271e
 Homepage: https://sourceforge.net/projects/sshpass/
 Description: Noninteractive ssh password provider
 
+Package: sssnake
+Version: 0.3.2-2
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 92
+Depends: ncurses
+Filename: ./sssnake_0.3.2-2_aarch64.deb
+Size: 16460
+MD5sum: ed7495daa2c733372666c180767d7c99
+SHA1: 44811e92b4e1b0239d5400483f4e0faf63160d13
+SHA256: 6f36ba8438452f6132735ab638a84ecdf7c9cfff7e138a0592ae8669eee58510
+Homepage: https://github.com/AngelJumbo/sssnake
+Description: cli snake game that plays itself
+
 Package: strace
 Version: 7.0
 Architecture: aarch64
@@ -8685,6 +8753,20 @@ SHA1: 3f6cbf1de66fecc10982f9aebefed720fa0a1dd4
 SHA256: 0cd0b0c1304e760ab4f5a95a2c5ac4926a1a14dbfa492cccbf5b564c6698e670
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: tty-solitaire
+Version: 1.4.1-1
+Architecture: aarch64
+Maintainer: @clandro
+Installed-Size: 68
+Depends: ncurses
+Filename: ./tty-solitaire_1.4.1-1_aarch64.deb
+Size: 9332
+MD5sum: 9305b9f9a83f43b9e2108e755a6c939e
+SHA1: 32251f7d4290735995a7991ab243c52375f07612
+SHA256: 409d3003026a913a8f44788d29fb5a60c713539e3872d8161a0046cea1037ce2
+Homepage: https://github.com/mpereira/tty-solitaire
+Description: Klondike solitaire game
 
 Package: typst
 Version: 0.14.2

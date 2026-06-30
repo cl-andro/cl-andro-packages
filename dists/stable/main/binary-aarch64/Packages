@@ -45,10 +45,10 @@ Installed-Size: 8776
 Depends: libc++
 Conflicts: libgrpc (<< 1.52.0-1)
 Filename: ./abseil-cpp_20250814.1_aarch64.deb
-Size: 1116616
-MD5sum: 6d84af4a7d9bfb0e9455e2fa8a4e0aa9
-SHA1: c78503ec90c24d672cb7ca09f9fd9ecf1ff63c75
-SHA256: 000763797823ba9ba65688f35d319f50e6754ba9bd24ca855b882a4485525b2d
+Size: 1116796
+MD5sum: b49dd3d740584c381aa8eb4a3e0708a0
+SHA1: 9dd16e85ac92b52a5a425758ad5ef53db07cbfbd
+SHA256: 9de0e817378a5b41756222321d9f68c01c287170dc8e1c008e5409a03f88c5f5
 Homepage: https://abseil.io/
 Description: Abseil C++ Common Libraries
 
@@ -73,10 +73,10 @@ Maintainer: @clandro
 Installed-Size: 2848
 Depends: abseil-cpp, brotli, fmt, libc++, liblz4, libprotobuf, pcre2, zlib, zstd
 Filename: ./adb_35.0.2-7_aarch64.deb
-Size: 1036664
-MD5sum: 8151553cc193319e277955141cb97d40
-SHA1: a8af03b78a95b12d25ad285c504e76eba4a79e57
-SHA256: f7d0493fa7a8d814fb25910297f453af101c112eaf387c3887f042388ef76fc8
+Size: 1036356
+MD5sum: 12c444d3659d80eb0a1638a5640ea970
+SHA1: 6ca20cc36ab69ce2fee656992c9c58cd5c13138c
+SHA256: 4bbce9d12d4cd71d1a0326a5b41286e0a3fa63d9eef7bce93e993f36d7053328
 Homepage: https://developer.android.com/
 Description: Android Debug Bridge (adb) — separate from android-tools
 
@@ -87,10 +87,10 @@ Maintainer: @clandro
 Installed-Size: 8004
 Depends: abseil-cpp, brotli, fmt, libc++, liblz4, libprotobuf, pcre2, zlib, zstd
 Filename: ./android-tools_35.0.2-7_aarch64.deb
-Size: 1158148
-MD5sum: 05911fbb4c1e718abe7b3c8612610319
-SHA1: d258a6dcf19a1f3e1b6783d87b186d8b1a14d302
-SHA256: 2d8e5b0e8a7f5f2f81cf6107528292da15551768551dab5fecc2c59eadf7fc29
+Size: 1159040
+MD5sum: 964bd1f0a4aeceefcf74712e85bd1817
+SHA1: 4678b31b3663e81d2fb5a919fb179c8b2b17addc
+SHA256: b41277cbf1ad385c7312e256e98d256108b24f6a7a24f79abb0b20022f0295fe
 Homepage: https://developer.android.com/
 Description: Android platform tools
 
@@ -607,10 +607,10 @@ Installed-Size: 1052
 Breaks: brotli-dev
 Replaces: brotli-dev
 Filename: ./brotli_1.2.0_aarch64.deb
-Size: 339976
-MD5sum: 73db52ef625248a985bb91400f6e615b
-SHA1: 5824f735ec251e0e807f9a9e694d01cdd6c4bfd2
-SHA256: 21a4fa8be14d1b26688a8bee337553a402b681e893a64b4f6c9b91bd5d2ef757
+Size: 341380
+MD5sum: da3b19376d83f2c9235ad83af97c95c1
+SHA1: 61ca985255ec9d2514c0d83e24c0ee46824419f9
+SHA256: 2419a4215edeb830ddd3c2677296998191b9c654bdfacf7354c8b4c39fe7d8b6
 Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (command line utility)
 
@@ -1299,10 +1299,10 @@ Maintainer: @clandro
 Installed-Size: 1632
 Depends: abseil-cpp, brotli, fmt, libc++, liblz4, libprotobuf, pcre2, zlib, zstd
 Filename: ./fastboot_35.0.2-7_aarch64.deb
-Size: 664976
-MD5sum: 64b65b51a5ab95aaba198e29c3bf1f37
-SHA1: 6cf745eb78e7f1168e90477cad678b87dc804ea2
-SHA256: 8b1d2e06b2d9d436b95942a9e7a2bb03e34bffbc5d09e8aa15ae2e2166eed846
+Size: 664952
+MD5sum: e7cf5fa0f90e0c34e8f30446417d03ab
+SHA1: d63714c9d1aad47b014d5259ccb361e11c1eede5
+SHA256: f748aa16958982028a84f9ccee9f0c599278fdf8ad16265c571cf145e9b17959
 Homepage: https://developer.android.com/
 Description: Fastboot flashing tool — separate from android-tools
 
@@ -1514,10 +1514,10 @@ Maintainer: @clandro
 Installed-Size: 824
 Depends: libc++
 Filename: ./fmt_1_11.2.0_aarch64.deb
-Size: 168400
-MD5sum: ecd292e4f3fb32c508e558497ecd937c
-SHA1: 1a233245e5c9d50e87b9e7e5145daf2dd51653e7
-SHA256: fca5f0c9c6acdfaf2893fd9078d7af288926370a14a244f0fa43f07f47842a7c
+Size: 168408
+MD5sum: 466d535cfb02ca9ca957c049b3a03cdd
+SHA1: fa9347f77ddc446eacf959eee921735324bdffd4
+SHA256: febe0cfb4366f1369e3e8903928fdbfcb313debb07d26bb2af6e787eb615d061
 Homepage: https://fmt.dev/latest/index.html
 Description: Open-source formatting library for C++
 
@@ -2063,10 +2063,10 @@ Depends: libc++
 Conflicts: libgtest
 Replaces: libgtest
 Filename: ./googletest_1.17.0-1_aarch64.deb
-Size: 354588
-MD5sum: d0f295216f9d41a10374fd473b26e058
-SHA1: 8f95bf069b3af9fb5358bed3bfe35c9ad189e1f6
-SHA256: b203938b8264e3eff417611c970871ab5e3590f74928c5ef42c3a203dfeb5b3d
+Size: 354672
+MD5sum: 2014f4fbbcd4c246a7489d4b55db60b0
+SHA1: ea94fa33df7636db93e642e71a1e213cfec41b8b
+SHA256: 9fcc9abbcc8d800154451e9d8da17d32b8d6c25235a14fb593130c458374e989
 Homepage: https://github.com/google/googletest
 Description: Google C++ testing framework
 
@@ -3260,10 +3260,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 334584
-MD5sum: 1f6f94cf76d83566ac5113152c751a70
-SHA1: ccd60f8e4145be4e9b9b9493dde74b3eb0734ddd
-SHA256: 34dfb38f632fb55973e4b3bb6a6da1938ca579fd1df82d9e2aa758ef1ae1fc75
+Size: 335032
+MD5sum: 76e9d303c7e6587e4d2f8321baf30725
+SHA1: b5b5c014ff8238fdc8a941e161b21cc060a67c74
+SHA256: a5931636026b7cea8b2a050362c7d741c47c46d94a17c6728b54849fb2847742
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -4325,10 +4325,10 @@ Installed-Size: 340
 Breaks: liblz4-dev
 Replaces: liblz4-dev
 Filename: ./liblz4_1.10.0-1_aarch64.deb
-Size: 86396
-MD5sum: ad7efca7b77dd5816feb410e39039124
-SHA1: ab9b44149929cf3047cea08cb6c08ce4cb2a12f0
-SHA256: 1a7bf8ab51c940a4300c9d36590b9550bc6c60d6f5ae2c38ad8b0aef3e9655b7
+Size: 86340
+MD5sum: 7889f3475e93a594ea6f467bce34c123
+SHA1: 59f3f29f4b12ade388d82341defa76bed7d41f83
+SHA256: 3769974cf2b20af0bab2e09fa8ab3ae6cb3257a901a6bb9a98686a86e331ba6d
 Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm library
 
@@ -4341,10 +4341,10 @@ Installed-Size: 864
 Breaks: liblzma-dev
 Replaces: liblzma-dev
 Filename: ./liblzma_5.8.3_aarch64.deb
-Size: 193080
-MD5sum: 8e2a76af6a0ea038b3c10798a9ba6b42
-SHA1: 81891d799b0913505b7dedb875a969388911b562
-SHA256: ec21fcec1f49065d99ab7c167a87f52bd33c3831b9148385a6eca4bb965dc999
+Size: 193008
+MD5sum: 6af958b71dc0283d6f3a9508c17fd596
+SHA1: 4812c3d8a713f85d8da41582ec9763dfb7cfed51
+SHA256: 0cdd992ab170f1645cce98d5f83dd5186fd30624f07ee645a4615638cb34369a
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression library
 
@@ -4355,10 +4355,10 @@ Maintainer: @clandro
 Installed-Size: 360
 Depends: liblzma (= 5.8.3)
 Filename: ./liblzma-static_5.8.3_aarch64.deb
-Size: 89508
-MD5sum: 49ea05cce486925b039a82afc4d275f3
-SHA1: b9c5cc134462a5fd93d91d715e8599d54120903a
-SHA256: f624ad288bd6621fe1dd8dcef113311f4a51c9f91a76654b912c59fc4ae07d69
+Size: 89612
+MD5sum: a626358519217b81c746a926ddb33be1
+SHA1: 7dc838919881bfe407281a30f8007c52e402bf42
+SHA256: 879de407f3f2a74c82c6d324f6427415f1083cc8aaa8e8eef01674e7d1da121a
 Homepage: https://tukaani.org/xz/
 Description: Static libraries for liblzma
 
@@ -5092,10 +5092,10 @@ Conflicts: protobuf-static
 Breaks: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
 Replaces: libprotobuf-dev, protobuf-dev, protobuf-static, libutf8-range
 Filename: ./libprotobuf_2_33.1-1_aarch64.deb
-Size: 1339040
-MD5sum: 79fdfe6e11fb712f4b1cbc6bf55420aa
-SHA1: e34a4369f7b63a9c901e112815bdc43b9071323e
-SHA256: 96127e969a24acf05b5bc187f00e62de6c76bc7a5804de9723fe5e374eef1c38
+Size: 1339836
+MD5sum: 178e98408f045c1f6f2892617b4dbc8f
+SHA1: 8e1cbfa8fad3c6ee194aed01d7e6c11cb2890c56
+SHA256: b1fb7d241f68b25b8c82c283db63b99a40b92422abb8a8cd5a42869b2ca23331
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library
 
@@ -6583,10 +6583,10 @@ Maintainer: @clandro
 Installed-Size: 284
 Depends: liblz4 (= 1.10.0-1)
 Filename: ./lz4_1.10.0-1_aarch64.deb
-Size: 92456
-MD5sum: 5967fee03a9a44afa6db9432bb414a86
-SHA1: 28389fdd029553ad33af493f7df24f911235da8a
-SHA256: 962c64ccb8dbb83d3cdbc43886d422d4ea35158c2dd7e7ba4c8a5a6bbd8c3ad8
+Size: 92480
+MD5sum: 49dc2d21b768105a9d70a538b5f51cdb
+SHA1: 5d783f62bf6b4e60b5c9730d305c60ac24230ef5
+SHA256: dd3a2eb588d44ef2559e5941bb682cf3d7bedf8fdb2bf8823591bf14dd789c48
 Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm tool
 
@@ -6868,10 +6868,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952124
-MD5sum: 6836f40ad63421e6923a98c7c1d40e66
-SHA1: e86d51136b18bc423aa5edbabf1b5ade33c8506f
-SHA256: 2830d96a251eaf77c4f5169fc6cbcf7eeb8570c3d03081aec4965d14a6f239a8
+Size: 1952080
+MD5sum: d5e1ac2dca64759c5470d2e7a860ca6a
+SHA1: 180272da7ceb77c734a2eafa71b6fd17b1878630
+SHA256: da66d902875839b2f1fa7bb6ebebb7d590423b37f93d0590744ad0c9088ee95e
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
@@ -7335,10 +7335,10 @@ Installed-Size: 4348
 Breaks: pcre2-dev
 Replaces: pcre2-dev
 Filename: ./pcre2_10.47_aarch64.deb
-Size: 960176
-MD5sum: 7668ff6073f138950723de08e400e149
-SHA1: aa09ecdd057160dd443182eed5b5da1ab9ff0035
-SHA256: 45e3cf748ae0f079fc5239de71240448a436f7c50a98040ef5de73b21439c383
+Size: 960504
+MD5sum: d9333d9984df381ea37a64aeb668108d
+SHA1: 9864a6a9f2c2cc51924536343bafc3047ed885f1
+SHA256: 19d6e446d6fd19474c97a9505111f774a9655daac72afccec2c9d8c58665ae48
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Perl 5 compatible regular expression library
 
@@ -7349,10 +7349,10 @@ Maintainer: @clandro
 Installed-Size: 1836
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2-static_10.47_aarch64.deb
-Size: 375916
-MD5sum: 929972909756bcf9883a7051104713a2
-SHA1: 1be4c0eedcbb7a4a1566b727abd134aaf6f279d6
-SHA256: a485fef97ad5033839750a02793cc233384badda532338fe5e45d5a024c2400d
+Size: 376056
+MD5sum: 9250556e7d653defbbc8d94cbba6f8b2
+SHA1: ee67b4681042a734d4bfeedcb762f31601a878a8
+SHA256: 7ab0f61c8aa034efd72e148922d2d0bdd34bad3a6b03bb878fd52af87eb1b57e
 Homepage: https://pcre2project.github.io/pcre2/
 Description: Static libraries for pcre2
 
@@ -7363,10 +7363,10 @@ Maintainer: @clandro
 Installed-Size: 104
 Depends: pcre2 (= 10.47)
 Filename: ./pcre2grep_10.47_aarch64.deb
-Size: 34112
-MD5sum: 8f5d9dc9e8e301a64a267472c2b53cf3
-SHA1: f666f262812367d15b1b6fef3fc926b43c184ce1
-SHA256: db9dac814be3a80775889cdc3ee134d464793940409507e228cdaeee4882b20d
+Size: 34132
+MD5sum: f948adde04664c0a37c8a1a44c757ab2
+SHA1: 8ea0435ff7f080b38521ca7ef69e49e0dea7a59e
+SHA256: c586330d25a0149b66d3ef239cdd483f32f0bf2272725d33d0eb540ba2c09f02
 Homepage: https://pcre2project.github.io/pcre2/
 Description: A grep with Perl-compatible regular expressions
 
@@ -7521,10 +7521,10 @@ Maintainer: @clandro
 Installed-Size: 5748
 Depends: libprotobuf (= 2:33.1-1)
 Filename: ./protobuf_2_33.1-1_aarch64.deb
-Size: 1154264
-MD5sum: 95758b358e224bf8cb0db53c2887b0d1
-SHA1: 585cec8e3854b38b373be58c25084dd7c077d3d2
-SHA256: d972aeae4b38de9b7901f8c6ccc0ef556d519f7143e0a58715ad5573de228dd0
+Size: 1155396
+MD5sum: c10b5e5bb7315b9d0739b9939c886530
+SHA1: c7c26582463d7f585f2e6d47670d98770d3406ff
+SHA256: 79b7e8962c0c0e20fea7607e5474d0ba7ed9273f9bb069bdfbc45102639b7d3c
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Compiler for protocol buffer definition files
 
@@ -7746,10 +7746,10 @@ Maintainer: @clandro
 Installed-Size: 152
 Depends: libc++, zstd (= 1.5.7-1)
 Filename: ./pzstd_1.5.7-1_aarch64.deb
-Size: 41776
-MD5sum: b1e412e91da7bc24eef3edf06a3c1bc0
-SHA1: 7134f2c0fe5283fcf87558f770211bea704ed1d4
-SHA256: 3ba3fa9c0676b678a86191a545b49f67679bb66e4a9cb7b431eea2e9724e2320
+Size: 41792
+MD5sum: bb9f1a952b49b84fad49e392d39f0c24
+SHA1: f73dfdee4de5ce90fd1a457cb474330f119bc591
+SHA256: e6149b7c7056354893458f9ab0b18c943caa3d08493425f95e055e63529b1243
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
 
@@ -9504,10 +9504,10 @@ Maintainer: @clandro
 Installed-Size: 228
 Depends: liblzma (= 5.8.3)
 Filename: ./xz-utils_5.8.3_aarch64.deb
-Size: 71176
-MD5sum: 31ef2c403872e9baafe0da8e4c75ab3b
-SHA1: b770bc4129eac97f27e768456dd893c6b6e1180c
-SHA256: 2a0f2b66b82490ff1000cb1c2caa32d18dc4898909e06a39cfe22c8e2e310236
+Size: 71172
+MD5sum: f64490294a17f573536846a2f35a8a2b
+SHA1: 2998cf6ad56bc427504731142d7789da138dd33e
+SHA256: a6fda0de40a527927219fd859dce2ed55b3d9f7a151efe7fa8d5ea1b3fc10993
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
 
@@ -9547,10 +9547,10 @@ Installed-Size: 264
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Filename: ./zlib_1.3.2_aarch64.deb
-Size: 62868
-MD5sum: 87de7d8550b01f4a6eb9b5afb3686011
-SHA1: ece9465fa412c02ad4afce81c09babbdc51f368b
-SHA256: 379214051de46508feb10817bae15d831ff42f6aaf0fae21c83875dc511548e3
+Size: 62880
+MD5sum: 8296947a2ca351bce55b66859edc581b
+SHA1: 5be68c9a33ada2d014e2e77ad87976a1acd69787
+SHA256: dd07e9f1070e0f22f96116088ff52fc26c3de30f106f1c388600839bbdeeaa8a
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
@@ -9561,10 +9561,10 @@ Maintainer: @clandro
 Installed-Size: 140
 Depends: zlib (= 1.3.2)
 Filename: ./zlib-static_1.3.2_aarch64.deb
-Size: 35468
-MD5sum: 776ed997051b7ee0ffc714ee8c455245
-SHA1: 20ea40320ea46dfb8662a37fc8c9b1d3825024a0
-SHA256: 4178ef68b92803982ec58d72240b2902154291133863cc66e29003956b73c122
+Size: 35532
+MD5sum: 2198d6ef3f0120c158905244b97d00e5
+SHA1: a160fef6b3f989102dde08b7a42e1929985dcec5
+SHA256: 675879bc6d4bba57e810d7e14c6f8da6d7f5856fb15321b52321696d9e64d122
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 
@@ -9634,10 +9634,10 @@ Depends: liblzma, zlib
 Breaks: zstd-dev
 Replaces: zstd-dev
 Filename: ./zstd_1.5.7-1_aarch64.deb
-Size: 359528
-MD5sum: 1d40dcc940c0ca950899a2975ccc21a7
-SHA1: 50d731c46e5e74d1cb62683670f41c091e3b6099
-SHA256: 585f6adb859be96b39b633cc2a57c382c2973c4aefb8c47b60374ebece53c5da
+Size: 359436
+MD5sum: 5a49e39edde27bf0da93b29f34d79c5e
+SHA1: f2657b8dc064206cce631fda0438ab70b8d8ca0a
+SHA256: 60512a53f299c119c6b25c55ac92be0c94442e9b005ec4de872f8fe23c7545e8
 Homepage: https://github.com/facebook/zstd
 Description: Zstandard compression
 

@@ -747,9 +747,9 @@ Maintainer: @clandro
 Installed-Size: 180
 Filename: ./cjson_1.7.19_aarch64.deb
 Size: 25372
-MD5sum: cec3d24a27bed716c644fc96ceb8c0f2
-SHA1: 6ed9957cb8d7927fa56d5ad3534b55d8f8127e85
-SHA256: b3d6ef294af8de9f886fbe14d6480c416448f3fa702afbcecbb52750d7d6f457
+MD5sum: 8fc1fbbc2b0e555f4040628e5e76460b
+SHA1: 199a608385382f024671ecbff636bcf44a384de4
+SHA256: b504de6b4973303210dfbe5e0798e7714a3e9cf3ccef5d77ff1cd756b71ccc16
 Homepage: https://github.com/DaveGamble/cJSON
 Description: Ultralightweight JSON parser in ANSI C
 
@@ -3260,10 +3260,10 @@ Essential: yes
 Maintainer: @clandro
 Installed-Size: 1384
 Filename: ./libc++_29_aarch64.deb
-Size: 335032
-MD5sum: 76e9d303c7e6587e4d2f8321baf30725
-SHA1: b5b5c014ff8238fdc8a941e161b21cc060a67c74
-SHA256: a5931636026b7cea8b2a050362c7d741c47c46d94a17c6728b54849fb2847742
+Size: 334808
+MD5sum: 09f7bd0329f57ed9509a04f4b501b870
+SHA1: cc76e433a585dae0d5c54c2f25e62eee16dbb903
+SHA256: 1b4c8d3a0b300e975134f4e4422bf1fa38c0d23a63382bdd205d895f6ebfacfb
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -6868,10 +6868,10 @@ Installed-Size: 31264
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Filename: ./ndk-sysroot_29-2_aarch64.deb
-Size: 1952080
-MD5sum: d5e1ac2dca64759c5470d2e7a860ca6a
-SHA1: 180272da7ceb77c734a2eafa71b6fd17b1878630
-SHA256: da66d902875839b2f1fa7bb6ebebb7d590423b37f93d0590744ad0c9088ee95e
+Size: 1952236
+MD5sum: 1ed364e1171f658861da27ece49d59e6
+SHA1: 63ddb822225c7751b84b1dce1b4f766d428a2618
+SHA256: b1e2eb1d10c8c153a7be217f27b42fbfb5d5ec061efc2efad97bd63e6df8140b
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 

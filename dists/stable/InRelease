@@ -8,26 +8,26 @@ Codename: stable
 Architectures: aarch64
 Components: main
 Description: Sovereign Custom Package Repository for cl-andro
-Date: Tue, 30 Jun 2026 16:06:36 +0000
+Date: Wed, 01 Jul 2026 10:14:58 +0000
 MD5Sum:
- 8aeced1ae137b438cad354ef656833e2 311890 main/binary-aarch64/Packages
- 429755fa66f77afbe188fa17c9c40540 106429 main/binary-aarch64/Packages.gz
+ 73d149badb3c855df89e0efbec9549e7 311890 main/binary-aarch64/Packages
+ e93bf129c6d423d9427f834a2c46b186 106439 main/binary-aarch64/Packages.gz
 SHA256:
- d1a0917f687ea5dec476ca5f5b4eceab06565669bbedb04c0940f0d217bef3f4 311890 main/binary-aarch64/Packages
- b2533a2589aa35b37ed2cf996c0ad34d7dd219b4d91aa677c420d8550db6def9 106429 main/binary-aarch64/Packages.gz
+ 9decfd5a717c632be083b2100554da98e9f6e520fab770fe6065261793562521 311890 main/binary-aarch64/Packages
+ d7b0db168c49a2686eaa3c1c763d0b81dd23b5574e6881c1d7e7f583e41455ab 106439 main/binary-aarch64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEgmiSQx6b7kIomsa2PoocFwhSQFkFAmpD6YwACgkQPoocFwhS
-QFnK3g//bgX8B3LV/z/MiAXtD9OI4cDFBqU+loUao58GhDO64AUp8fJCAg2VIg3x
-6EHueDrVi+jWd807D4Qic2sntrf2oakD0CIhyRrwbsNh+iC/gvF/etwdrxpTvG4Z
-MYdorzoNlgNAYH3/CKmH52+e3bOxVFk0buWAzFRYnlbKsYAbIZmuWPBf7oNK1N/b
-JfdDWemOsIa9SnZN5ZsycQk6iAPjGLjtT0fjphJU1MR1cloHy/5PpC4pO54utBZH
-SSwaY3O+jKE7zOzrLo5Vk0w8yCEXs0cPxNJHaaHoPOaiRY0irwICpjiYvDvZvuJI
-e5ShIlZn+xS8prjOpycdnygPVQ4agQKENm3/qFojuy0XvRgMwYDIKgGcnn7szSOl
-5tsIu1CoTuqJZ+Mo3v4VlrV7sSnqaaUS8UbipCSOVxe0tIVrWqqhLnZblx7Y1RYU
-JB3UKXU4FrKSQX8sUS9hiLvN1k54AiiCb+jc2uKrFJ9cYzTpSk4mqoSFPKfNBqLX
-PnifsnPtzKN9CkKkudnxaLbH+gPo/k4//261e4eEOcicjq4xEl024zbHGxHhD4Ss
-4JBG4rexWoDrqsHoFQ73XH9y1JRfOA5b4FmHmD5v+Ly8f58AViH4x46e9aki8hpO
-ZNJs46wXudaVh/rVxIr2pOPo7qd1tIx/aXy1wudVKGTWhQj8zbo=
-=Wh0P
+iQIzBAEBCAAdFiEEgmiSQx6b7kIomsa2PoocFwhSQFkFAmpE6KIACgkQPoocFwhS
+QFlbJBAApTJKIBBxU6YJgxtIPWxKjV0DQiqpywe8IunV1RDsqITyV7S9XSbMOa9C
+5QqUZkCJdjvPpptdQPXEmt3GhW3x1yWjdyLS5Fx3hlLnkbm1sxQ4OCS33IFQDOvr
+AYlTK0r2FKN6uvTnnQrIbMfC0FYyjW8W3Sp97j6ZwkT+gSQY5ekLksmUV27HQcPP
+ZIgS6/NKkpBMThdIyEk+ptk/WrFkJFIRm0m+dF0bC5EupP4e3DKzfqBl/rnL7D1y
+w1CExuPzpKCQu46SHYHgfMIHJKmpRD4ng38ucy4vOlpYi/mVm0/5c1CIrDPj6gSX
+hxj0pxEH4NwuMHaY1o6QUsFVg9QWU3toc10u1r94wF329A4hirRLQVZ+7ezwPBwt
+yHlyi5g6RorZl3hmV8xpPLl8NS2L2mj7qxFxa1o0HTI+h27FLi8U7Z9Tj8z/pWCl
+6kE3eaH8tlOcxb6z30iqF5Tvj/BzTCr60qkI+71xcj1MC/wfnp8gQOob2oVjRal7
+ZXaec31b3T9q+Bxjns7DOR/3RitsTePtGHjw/G8FDH/eDly3sWkQuKkR2zVkpaav
++hmc1prnsAZsa3eKJ7icVUWLVVYOHJ1kyyy2ml9giyoZWDg9660MaxRvzoGKTnci
+5yCpD8nxYG36t26YRXO6YzAxnuRJXSGrLS/sIKMWFqd8ynyFIM8=
+=9I82
 -----END PGP SIGNATURE-----

@@ -84,12 +84,12 @@ Package: alpine-xfce-proot
 Version: 1.0.0-1
 Architecture: all
 Maintainer: @clandro
-Depends: proot, proot-distro, bash, coreutils, clandro-tools
+Depends: proot, proot-distro, bash, coreutils
 Filename: ./alpine-xfce-proot_1.0.0-1_all.deb
-Size: 2406
-MD5sum: c66fa748db4af473170d0b3782861e29
-SHA1: 46e367a1bd079156256dc9ee5770842d394b94ab
-SHA256: 8900f64cd10c4be8d86a110e392952d29a818b3949c13b3925556633cfdbb18b
+Size: 2404
+MD5sum: cd86524900ac0f276e60ab3b4e6f907f
+SHA1: ff4d2cf9a3a1e9c55e67acf9b5882356c3cf4460
+SHA256: cc958718c8a66f6ea1cc8ba03aba38ed835293bd51a6cea9a88d2a663a0b5472
 Description: Alpine Linux XFCE Mobile Desktop
 
 Package: android-tools

@@ -80,6 +80,18 @@ SHA256: 4bbce9d12d4cd71d1a0326a5b41286e0a3fa63d9eef7bce93e993f36d7053328
 Homepage: https://developer.android.com/
 Description: Android Debug Bridge (adb) — separate from android-tools
 
+Package: alpine-xfce-proot
+Version: 1.0.0-1
+Architecture: all
+Maintainer: @clandro
+Depends: proot, proot-distro, bash, coreutils, clandro-tools
+Filename: ./alpine-xfce-proot_1.0.0-1_all.deb
+Size: 2412
+MD5sum: f84dc719bc2bb0ce2d3772535bb4df4f
+SHA1: c469b4c765cff7b4c8d4d929dc9280bd1ffe7d24
+SHA256: ca4f327ea4311ee55de3c1f8873e81e89266ea8755b76a34be2bc663dfc34293
+Description: Alpine Linux XFCE Mobile Desktop
+
 Package: android-tools
 Version: 35.0.2-7
 Architecture: aarch64
